@@ -1,0 +1,21 @@
+[0.828s] Invoking command in '/home/yicheng/me326_ws/build/locobot_yicheng': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yicheng/interbotix_ws/install/interbotix_xs_modules:/home/yicheng/interbotix_ws/install/interbotix_perception_modules:/home/yicheng/interbotix_ws/install/interbotix_common_modules:/opt/ros/galactic /usr/bin/cmake --build /home/yicheng/me326_ws/build/locobot_yicheng -- -j8 -l8
+[0.964s] Invoked command in '/home/yicheng/me326_ws/build/locobot_yicheng' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yicheng/interbotix_ws/install/interbotix_xs_modules:/home/yicheng/interbotix_ws/install/interbotix_perception_modules:/home/yicheng/interbotix_ws/install/interbotix_common_modules:/opt/ros/galactic /usr/bin/cmake --build /home/yicheng/me326_ws/build/locobot_yicheng -- -j8 -l8
+[1.100s] Invoking command in '/home/yicheng/me326_ws/build/locobot_yicheng': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yicheng/interbotix_ws/install/interbotix_xs_modules:/home/yicheng/interbotix_ws/install/interbotix_perception_modules:/home/yicheng/interbotix_ws/install/interbotix_common_modules:/opt/ros/galactic /usr/bin/cmake --install /home/yicheng/me326_ws/build/locobot_yicheng
+[1.129s] -- Install configuration: ""
+[1.130s] -- Installing: /home/yicheng/me326_ws/install/locobot_yicheng/lib/locobot_yicheng/locobot_control.py
+[1.130s] -- Up-to-date: /home/yicheng/me326_ws/install/locobot_yicheng/share/ament_index/resource_index/package_run_dependencies/locobot_yicheng
+[1.131s] -- Up-to-date: /home/yicheng/me326_ws/install/locobot_yicheng/share/ament_index/resource_index/parent_prefix_path/locobot_yicheng
+[1.131s] -- Up-to-date: /home/yicheng/me326_ws/install/locobot_yicheng/share/locobot_yicheng/environment/ament_prefix_path.sh
+[1.131s] -- Up-to-date: /home/yicheng/me326_ws/install/locobot_yicheng/share/locobot_yicheng/environment/ament_prefix_path.dsv
+[1.132s] -- Up-to-date: /home/yicheng/me326_ws/install/locobot_yicheng/share/locobot_yicheng/environment/path.sh
+[1.132s] -- Up-to-date: /home/yicheng/me326_ws/install/locobot_yicheng/share/locobot_yicheng/environment/path.dsv
+[1.133s] -- Up-to-date: /home/yicheng/me326_ws/install/locobot_yicheng/share/locobot_yicheng/local_setup.bash
+[1.133s] -- Up-to-date: /home/yicheng/me326_ws/install/locobot_yicheng/share/locobot_yicheng/local_setup.sh
+[1.134s] -- Up-to-date: /home/yicheng/me326_ws/install/locobot_yicheng/share/locobot_yicheng/local_setup.zsh
+[1.134s] -- Up-to-date: /home/yicheng/me326_ws/install/locobot_yicheng/share/locobot_yicheng/local_setup.dsv
+[1.134s] -- Installing: /home/yicheng/me326_ws/install/locobot_yicheng/share/locobot_yicheng/package.dsv
+[1.134s] -- Up-to-date: /home/yicheng/me326_ws/install/locobot_yicheng/share/ament_index/resource_index/packages/locobot_yicheng
+[1.135s] -- Up-to-date: /home/yicheng/me326_ws/install/locobot_yicheng/share/locobot_yicheng/cmake/locobot_yichengConfig.cmake
+[1.135s] -- Up-to-date: /home/yicheng/me326_ws/install/locobot_yicheng/share/locobot_yicheng/cmake/locobot_yichengConfig-version.cmake
+[1.135s] -- Up-to-date: /home/yicheng/me326_ws/install/locobot_yicheng/share/locobot_yicheng/package.xml
+[1.140s] Invoked command in '/home/yicheng/me326_ws/build/locobot_yicheng' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yicheng/interbotix_ws/install/interbotix_xs_modules:/home/yicheng/interbotix_ws/install/interbotix_perception_modules:/home/yicheng/interbotix_ws/install/interbotix_common_modules:/opt/ros/galactic /usr/bin/cmake --install /home/yicheng/me326_ws/build/locobot_yicheng

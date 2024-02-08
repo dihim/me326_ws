@@ -1,0 +1,8 @@
+source;share/locobot_yicheng/hook/cmake_prefix_path.ps1
+source;share/locobot_yicheng/hook/cmake_prefix_path.dsv
+source;share/locobot_yicheng/hook/cmake_prefix_path.sh
+source;share/locobot_yicheng/local_setup.bash
+source;share/locobot_yicheng/local_setup.dsv
+source;share/locobot_yicheng/local_setup.ps1
+source;share/locobot_yicheng/local_setup.sh
+source;share/locobot_yicheng/local_setup.zsh

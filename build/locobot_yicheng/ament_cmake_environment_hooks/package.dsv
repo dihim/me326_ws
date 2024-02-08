@@ -1,0 +1,4 @@
+source;share/locobot_yicheng/local_setup.bash
+source;share/locobot_yicheng/local_setup.dsv
+source;share/locobot_yicheng/local_setup.sh
+source;share/locobot_yicheng/local_setup.zsh
