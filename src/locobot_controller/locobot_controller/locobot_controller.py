@@ -11,8 +11,8 @@ import tf_transformations
 class LocobotController(Node):
     def __init__(self):
         super().__init__('locobot_controller')
-        self.image_subscriber = self.create_subscription(Image, '/camera/image_raw', self.image_callback, 10)
-        self.vel_publisher = self.create_publisher(Twist, '/cmd_vel', 10)
+        self.image_subscriber = self.create_subscription(Image, '/locobot/camera_frame_sensor/image_raw', self.image_callback, 10)
+        self.vel_publisher = self.create_publisher(Twist, '/locobot/diff_drive_controller/cmd_vel_unstamped', 10)
         self.bridge = CvBridge()
         self.target_block_pose = None
 
