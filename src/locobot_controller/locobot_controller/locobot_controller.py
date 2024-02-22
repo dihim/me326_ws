@@ -13,8 +13,10 @@ class LocobotController(Node):
         super().__init__('locobot_controller')
         self.image_subscriber = self.create_subscription(Image, '/locobot/camera_frame_sensor/image_raw', self.image_callback, 10)
         self.vel_publisher = self.create_publisher(Twist, '/locobot/diff_drive_controller/cmd_vel_unstamped', 10)
+        self.target_pose_publisher = self.create_publisher(PointStamped, '/locobot_controller/block_pose', 10)
+        self.image_subscriber = self.create_subscription(PointStamped '/locobot_controller/block_pose', self.navigate_to_block, 10)
         self.bridge = CvBridge()
-        self.target_block_pose = None
+        self.target_pose = None
 
     def image_callback(self, data):
         try:
@@ -23,14 +25,41 @@ class LocobotController(Node):
             self.get_logger().error("CvBridge Error: {0}".format(e))
             return
 
-        # Use the provided perception code for color detection
-        # Assuming you want to detect a specific color, say 'red'
-        color_mask = 'r' # Change this to 'g', 'b', or 'y' for green, blue, or yellow respectively
+        color_mask = 'b' # Change this to 'g', 'b', or 'y' for green, blue, or yellow respectively
         mask_img = self.student_function_1(cv_image, color_mask=color_mask)
 
-        # Assuming mask_img contains the desired blocks highlighted
-        # You can then use the mask_img to find the block's position, navigate and manipulate the arm accordingly
-        # For example, finding contours in the mask_img and then navigating to the centroid of the detected block
+        contours, = cv2.findContours(mask_img, cv2.RETR_EXTERNAL, cv2.CHAIN_APPROX_SIMPLE)
+        if contours:
+            largest_contour = max(contours, key=cv2.contourArea)
+            M = cv2.moments(largest_contour) 
+            if M["mOO"] != 0: 
+                cx = int(M["m10"]/M["mOO"])
+                cy = int(M["m01"]/M["mOO"}) 
+                pose = convert_to_robot_frame(cx, cy) 
+                self.target_pose = pose
+        self.target_pose_publisher.publish(self.target_pose)
+
+    def convert_to_robot_frame(cx, cy):        
+        # Create a PointStamped message
+        target_frame = "locobot/base_link"
+        frame_id = "locobot/camera_link"
+        point = PointStamped()
+        point.header.stamp = self.get_clock().now().to_msg()
+        point.header.frame_id = frame_id
+        point.point.x = cx
+        point.point.y = cy
+        point.point.z = 0.0 
+        try:
+            # Ensure the transform is available
+            if self.tf_buffer.can_transform(target_frame, point.header.frame_id, point.header.stamp, timeout=rclpy.duration.Duration(seconds=1.0)):
+                transformed_point = self.tf_buffer.transform(point, target_frame)
+                self.get_logger().info(f"Transformed Point: {transformed_point.point}")
+                self.transformed_points_publisher.publish(transformed_point)
+                return transformed_point
+            else:
+                self.get_logger().error(f"No transform from {frame_id} to {target_frame}")
+        except Exception as e:
+            self.get_logger().error(f"Failed to transform point: {str(e)}")
 
     def student_function_1(self, color_img, color_mask='r'):
         hsv_img = cv2.cvtColor(color_img, cv2.COLOR_BGR2HSV)
@@ -65,7 +94,8 @@ class LocobotController(Node):
 
 
     def navigate_to_block(self):
-        """
+        """/locobot/diffdrive_controller/cmd_vel_unstamped
+
         This function calculates the control action required to navigate the robot towards the target pose.
         It uses a simple proportional controller to generate velocity commands based on the error between the current pose and the target pose.
         """
