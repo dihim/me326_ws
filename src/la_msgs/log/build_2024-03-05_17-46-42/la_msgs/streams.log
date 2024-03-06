@@ -1,0 +1,11 @@
+[0.245s] Invoking command in '/home/ian339/me326_ws/src/la_msgs/build/la_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ian339/me326_ws/src/locobot_controller/install/locobot_controller:/home/ian339/interbotix_ws/install/interbotix_xs_modules:/home/ian339/interbotix_ws/install/interbotix_perception_modules:/home/ian339/interbotix_ws/install/interbotix_common_modules:/opt/ros/galactic /usr/bin/cmake --build /home/ian339/me326_ws/src/la_msgs/build/la_msgs -- -j6 -l6
+[0.259s] CMake Error: The current CMakeCache.txt directory /home/ian339/me326_ws/src/la_msgs/build/la_msgs/CMakeCache.txt is different than the directory /home/ian339/me326_ws/la_msgs/build/la_msgs where CMakeCache.txt was created. This may result in binaries being created in the wrong place. If you are not sure, reedit the CMakeCache.txt
+[0.289s] /bin/sh: 1: cd: can't cd to /home/ian339/me326_ws/la_msgs/build/la_msgs
+[0.289s] make[2]: *** [CMakeFiles/la_msgs__cpp.dir/build.make:196: CMakeFiles/la_msgs__cpp.dir/depend] Error 2
+[0.289s] make[1]: *** [CMakeFiles/Makefile2:385: CMakeFiles/la_msgs__cpp.dir/all] Error 2
+[0.289s] make[1]: *** Waiting for unfinished jobs....
+[0.290s] /bin/sh: 1: cd: can't cd to /home/ian339/me326_ws/la_msgs/build/la_msgs
+[0.290s] make[2]: *** [CMakeFiles/la_msgs__rosidl_generator_c.dir/build.make:263: CMakeFiles/la_msgs__rosidl_generator_c.dir/depend] Error 2
+[0.290s] make[1]: *** [CMakeFiles/Makefile2:469: CMakeFiles/la_msgs__rosidl_generator_c.dir/all] Error 2
+[0.290s] make: *** [Makefile:141: all] Error 2
+[0.293s] Invoked command in '/home/ian339/me326_ws/src/la_msgs/build/la_msgs' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ian339/me326_ws/src/locobot_controller/install/locobot_controller:/home/ian339/interbotix_ws/install/interbotix_xs_modules:/home/ian339/interbotix_ws/install/interbotix_perception_modules:/home/ian339/interbotix_ws/install/interbotix_common_modules:/opt/ros/galactic /usr/bin/cmake --build /home/ian339/me326_ws/src/la_msgs/build/la_msgs -- -j6 -l6

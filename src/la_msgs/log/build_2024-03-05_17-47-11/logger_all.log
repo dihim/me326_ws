@@ -1,0 +1,126 @@
+[2.229s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[2.229s] DEBUG:colcon:Parsed command line arguments: Namespace(allow_overriding=[], ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f25e9b3ea30>>, merge_install=False, metas=['./colcon.meta'], packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=None, packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=6, paths=None, symlink_install=False, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f25e9b3ea30>, verb_name='build', verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f25e9b3e250>)
+[2.321s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[2.321s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[2.321s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[2.321s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[2.321s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[2.321s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[2.321s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/ian339/me326_ws/src/la_msgs'
+[2.321s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[2.321s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[2.321s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[2.321s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[2.321s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[2.321s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[2.321s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[2.321s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[2.321s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[2.347s] DEBUG:colcon.colcon_core.package_identification:Package '.' with type 'ros.ament_cmake' and name 'la_msgs'
+[2.347s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[2.347s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[2.347s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[2.347s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[2.347s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[2.546s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[2.546s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[2.585s] WARNING:colcon.colcon_core.prefix_path.colcon:The path '/home/ian339/me326_ws/la_msgs/install' in the environment variable COLCON_PREFIX_PATH doesn't exist
+[2.586s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/ian339/me326_ws/la_msgs/install/la_msgs' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[2.587s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/ian339/me326_ws/la_msgs/install/la_msgs' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[2.643s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/ian339/me326_ws/src/locobot_controller/install
+[2.686s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 20 installed packages in /home/ian339/interbotix_ws/install
+[2.726s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 348 installed packages in /opt/ros/galactic
+[2.727s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[2.898s] Level 5:colcon.colcon_core.verb:set package 'la_msgs' build argument 'cmake_args' from command line to 'None'
+[2.898s] Level 5:colcon.colcon_core.verb:set package 'la_msgs' build argument 'cmake_target' from command line to 'None'
+[2.898s] Level 5:colcon.colcon_core.verb:set package 'la_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.898s] Level 5:colcon.colcon_core.verb:set package 'la_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[2.898s] Level 5:colcon.colcon_core.verb:set package 'la_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[2.898s] Level 5:colcon.colcon_core.verb:set package 'la_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[2.898s] Level 5:colcon.colcon_core.verb:set package 'la_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[2.898s] Level 5:colcon.colcon_core.verb:set package 'la_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[2.898s] Level 5:colcon.colcon_core.verb:set package 'la_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.898s] DEBUG:colcon.colcon_core.verb:Building package 'la_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ian339/me326_ws/src/la_msgs/build/la_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ian339/me326_ws/src/la_msgs/install/la_msgs', 'merge_install': False, 'path': '/home/ian339/me326_ws/src/la_msgs', 'symlink_install': False, 'test_result_base': None}
+[2.939s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[2.976s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[2.977s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/ian339/me326_ws/src/la_msgs' with build type 'ament_cmake'
+[2.977s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ian339/me326_ws/src/la_msgs'
+[3.024s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[3.025s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.025s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.219s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ian339/me326_ws/src/la_msgs/build/la_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ian339/me326_ws/src/locobot_controller/install/locobot_controller:/home/ian339/interbotix_ws/install/interbotix_xs_modules:/home/ian339/interbotix_ws/install/interbotix_perception_modules:/home/ian339/interbotix_ws/install/interbotix_common_modules:/opt/ros/galactic /usr/bin/cmake /home/ian339/me326_ws/src/la_msgs -DCMAKE_INSTALL_PREFIX=/home/ian339/me326_ws/src/la_msgs/install/la_msgs
+[5.742s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ian339/me326_ws/src/la_msgs/build/la_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ian339/me326_ws/src/locobot_controller/install/locobot_controller:/home/ian339/interbotix_ws/install/interbotix_xs_modules:/home/ian339/interbotix_ws/install/interbotix_perception_modules:/home/ian339/interbotix_ws/install/interbotix_common_modules:/opt/ros/galactic /usr/bin/cmake /home/ian339/me326_ws/src/la_msgs -DCMAKE_INSTALL_PREFIX=/home/ian339/me326_ws/src/la_msgs/install/la_msgs
+[5.746s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ian339/me326_ws/src/la_msgs/build/la_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ian339/me326_ws/src/locobot_controller/install/locobot_controller:/home/ian339/interbotix_ws/install/interbotix_xs_modules:/home/ian339/interbotix_ws/install/interbotix_perception_modules:/home/ian339/interbotix_ws/install/interbotix_common_modules:/opt/ros/galactic /usr/bin/cmake --build /home/ian339/me326_ws/src/la_msgs/build/la_msgs -- -j6 -l6
+[10.145s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ian339/me326_ws/src/la_msgs/build/la_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ian339/me326_ws/src/locobot_controller/install/locobot_controller:/home/ian339/interbotix_ws/install/interbotix_xs_modules:/home/ian339/interbotix_ws/install/interbotix_perception_modules:/home/ian339/interbotix_ws/install/interbotix_common_modules:/opt/ros/galactic /usr/bin/cmake --build /home/ian339/me326_ws/src/la_msgs/build/la_msgs -- -j6 -l6
+[10.253s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ian339/me326_ws/src/la_msgs/build/la_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ian339/me326_ws/src/locobot_controller/install/locobot_controller:/home/ian339/interbotix_ws/install/interbotix_xs_modules:/home/ian339/interbotix_ws/install/interbotix_perception_modules:/home/ian339/interbotix_ws/install/interbotix_common_modules:/opt/ros/galactic /usr/bin/cmake --install /home/ian339/me326_ws/src/la_msgs/build/la_msgs
+[10.318s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(la_msgs)
+[10.318s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ian339/me326_ws/src/la_msgs/build/la_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ian339/me326_ws/src/locobot_controller/install/locobot_controller:/home/ian339/interbotix_ws/install/interbotix_xs_modules:/home/ian339/interbotix_ws/install/interbotix_perception_modules:/home/ian339/interbotix_ws/install/interbotix_common_modules:/opt/ros/galactic /usr/bin/cmake --install /home/ian339/me326_ws/src/la_msgs/build/la_msgs
+[10.365s] Level 1:colcon.colcon_core.environment:checking '/home/ian339/me326_ws/src/la_msgs/install/la_msgs' for CMake module files
+[10.365s] Level 1:colcon.colcon_core.environment:checking '/home/ian339/me326_ws/src/la_msgs/install/la_msgs' for CMake config files
+[10.366s] Level 1:colcon.colcon_core.shell:create_environment_hook('la_msgs', 'cmake_prefix_path')
+[10.403s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ian339/me326_ws/src/la_msgs/install/la_msgs/share/la_msgs/hook/cmake_prefix_path.ps1'
+[10.404s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ian339/me326_ws/src/la_msgs/install/la_msgs/share/la_msgs/hook/cmake_prefix_path.dsv'
+[10.404s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ian339/me326_ws/src/la_msgs/install/la_msgs/share/la_msgs/hook/cmake_prefix_path.sh'
+[10.405s] Level 1:colcon.colcon_core.environment:checking '/home/ian339/me326_ws/src/la_msgs/install/la_msgs/lib'
+[10.405s] Level 1:colcon.colcon_core.shell:create_environment_hook('la_msgs', 'ld_library_path_lib')
+[10.443s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ian339/me326_ws/src/la_msgs/install/la_msgs/share/la_msgs/hook/ld_library_path_lib.ps1'
+[10.443s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ian339/me326_ws/src/la_msgs/install/la_msgs/share/la_msgs/hook/ld_library_path_lib.dsv'
+[10.443s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ian339/me326_ws/src/la_msgs/install/la_msgs/share/la_msgs/hook/ld_library_path_lib.sh'
+[10.444s] Level 1:colcon.colcon_core.environment:checking '/home/ian339/me326_ws/src/la_msgs/install/la_msgs/bin'
+[10.444s] Level 1:colcon.colcon_core.environment:checking '/home/ian339/me326_ws/src/la_msgs/install/la_msgs/lib/pkgconfig/la_msgs.pc'
+[10.444s] Level 1:colcon.colcon_core.environment:checking '/home/ian339/me326_ws/src/la_msgs/install/la_msgs/lib/python3.8/site-packages'
+[10.444s] Level 1:colcon.colcon_core.shell:create_environment_hook('la_msgs', 'pythonpath')
+[10.486s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ian339/me326_ws/src/la_msgs/install/la_msgs/share/la_msgs/hook/pythonpath.ps1'
+[10.486s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ian339/me326_ws/src/la_msgs/install/la_msgs/share/la_msgs/hook/pythonpath.dsv'
+[10.486s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ian339/me326_ws/src/la_msgs/install/la_msgs/share/la_msgs/hook/pythonpath.sh'
+[10.487s] Level 1:colcon.colcon_core.environment:checking '/home/ian339/me326_ws/src/la_msgs/install/la_msgs/bin'
+[10.526s] INFO:colcon.colcon_core.shell:Creating package script '/home/ian339/me326_ws/src/la_msgs/install/la_msgs/share/la_msgs/package.ps1'
+[10.527s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ian339/me326_ws/src/la_msgs/install/la_msgs/share/la_msgs/package.dsv'
+[10.527s] INFO:colcon.colcon_core.shell:Creating package script '/home/ian339/me326_ws/src/la_msgs/install/la_msgs/share/la_msgs/package.sh'
+[10.528s] INFO:colcon.colcon_core.shell:Creating package script '/home/ian339/me326_ws/src/la_msgs/install/la_msgs/share/la_msgs/package.bash'
+[10.529s] INFO:colcon.colcon_core.shell:Creating package script '/home/ian339/me326_ws/src/la_msgs/install/la_msgs/share/la_msgs/package.zsh'
+[10.529s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ian339/me326_ws/src/la_msgs/install/la_msgs/share/colcon-core/packages/la_msgs)
+[10.654s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(la_msgs)
+[10.693s] Level 1:colcon.colcon_core.environment:checking '/home/ian339/me326_ws/src/la_msgs/install/la_msgs' for CMake module files
+[10.693s] Level 1:colcon.colcon_core.environment:checking '/home/ian339/me326_ws/src/la_msgs/install/la_msgs' for CMake config files
+[10.694s] Level 1:colcon.colcon_core.shell:create_environment_hook('la_msgs', 'cmake_prefix_path')
+[10.732s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ian339/me326_ws/src/la_msgs/install/la_msgs/share/la_msgs/hook/cmake_prefix_path.ps1'
+[10.733s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ian339/me326_ws/src/la_msgs/install/la_msgs/share/la_msgs/hook/cmake_prefix_path.dsv'
+[10.733s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ian339/me326_ws/src/la_msgs/install/la_msgs/share/la_msgs/hook/cmake_prefix_path.sh'
+[10.734s] Level 1:colcon.colcon_core.environment:checking '/home/ian339/me326_ws/src/la_msgs/install/la_msgs/lib'
+[10.734s] Level 1:colcon.colcon_core.shell:create_environment_hook('la_msgs', 'ld_library_path_lib')
+[10.776s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ian339/me326_ws/src/la_msgs/install/la_msgs/share/la_msgs/hook/ld_library_path_lib.ps1'
+[10.776s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ian339/me326_ws/src/la_msgs/install/la_msgs/share/la_msgs/hook/ld_library_path_lib.dsv'
+[10.777s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ian339/me326_ws/src/la_msgs/install/la_msgs/share/la_msgs/hook/ld_library_path_lib.sh'
+[10.777s] Level 1:colcon.colcon_core.environment:checking '/home/ian339/me326_ws/src/la_msgs/install/la_msgs/bin'
+[10.777s] Level 1:colcon.colcon_core.environment:checking '/home/ian339/me326_ws/src/la_msgs/install/la_msgs/lib/pkgconfig/la_msgs.pc'
+[10.777s] Level 1:colcon.colcon_core.environment:checking '/home/ian339/me326_ws/src/la_msgs/install/la_msgs/lib/python3.8/site-packages'
+[10.778s] Level 1:colcon.colcon_core.shell:create_environment_hook('la_msgs', 'pythonpath')
+[10.815s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ian339/me326_ws/src/la_msgs/install/la_msgs/share/la_msgs/hook/pythonpath.ps1'
+[10.816s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ian339/me326_ws/src/la_msgs/install/la_msgs/share/la_msgs/hook/pythonpath.dsv'
+[10.816s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ian339/me326_ws/src/la_msgs/install/la_msgs/share/la_msgs/hook/pythonpath.sh'
+[10.817s] Level 1:colcon.colcon_core.environment:checking '/home/ian339/me326_ws/src/la_msgs/install/la_msgs/bin'
+[10.859s] INFO:colcon.colcon_core.shell:Creating package script '/home/ian339/me326_ws/src/la_msgs/install/la_msgs/share/la_msgs/package.ps1'
+[10.860s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ian339/me326_ws/src/la_msgs/install/la_msgs/share/la_msgs/package.dsv'
+[10.860s] INFO:colcon.colcon_core.shell:Creating package script '/home/ian339/me326_ws/src/la_msgs/install/la_msgs/share/la_msgs/package.sh'
+[10.861s] INFO:colcon.colcon_core.shell:Creating package script '/home/ian339/me326_ws/src/la_msgs/install/la_msgs/share/la_msgs/package.bash'
+[10.861s] INFO:colcon.colcon_core.shell:Creating package script '/home/ian339/me326_ws/src/la_msgs/install/la_msgs/share/la_msgs/package.zsh'
+[10.861s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ian339/me326_ws/src/la_msgs/install/la_msgs/share/colcon-core/packages/la_msgs)
+[10.862s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[10.862s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[10.862s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[10.862s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[10.911s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[10.912s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[10.912s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[10.930s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[11.057s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ian339/me326_ws/src/la_msgs/install/local_setup.ps1'
+[11.061s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/ian339/me326_ws/src/la_msgs/install/_local_setup_util_ps1.py'
+[11.063s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ian339/me326_ws/src/la_msgs/install/setup.ps1'
+[11.124s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ian339/me326_ws/src/la_msgs/install/local_setup.sh'
+[11.124s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/ian339/me326_ws/src/la_msgs/install/_local_setup_util_sh.py'
+[11.125s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ian339/me326_ws/src/la_msgs/install/setup.sh'
+[11.169s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ian339/me326_ws/src/la_msgs/install/local_setup.bash'
+[11.169s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ian339/me326_ws/src/la_msgs/install/setup.bash'
+[11.211s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ian339/me326_ws/src/la_msgs/install/local_setup.zsh'
+[11.211s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ian339/me326_ws/src/la_msgs/install/setup.zsh'

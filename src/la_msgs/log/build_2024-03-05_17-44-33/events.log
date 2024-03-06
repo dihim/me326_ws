@@ -1,0 +1,361 @@
+[0.000000] (-) TimerEvent: {}
+[0.000123] (la_msgs) JobQueued: {'identifier': 'la_msgs', 'dependencies': OrderedDict()}
+[0.000152] (la_msgs) JobStarted: {'identifier': 'la_msgs'}
+[0.101596] (-) TimerEvent: {}
+[0.203410] (-) TimerEvent: {}
+[0.227654] (la_msgs) JobProgress: {'identifier': 'la_msgs', 'progress': 'cmake'}
+[0.228382] (la_msgs) Command: {'cmd': ['/usr/bin/cmake', '/home/ian339/me326_ws/la_msgs', '-DCMAKE_INSTALL_PREFIX=/home/ian339/me326_ws/la_msgs/install/la_msgs'], 'cwd': '/home/ian339/me326_ws/la_msgs/build/la_msgs', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ian339'), ('SSH_AGENT_PID', '1483'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/ian339/interbotix_ws/install/moveit_visual_tools/lib:/home/ian339/interbotix_ws/install/interbotix_xs_rviz/lib:/home/ian339/interbotix_ws/install/interbotix_xs_ros_control/lib:/home/ian339/interbotix_ws/install/interbotix_xs_msgs/lib:/home/ian339/interbotix_ws/install/interbotix_tf_tools/lib:/home/ian339/interbotix_ws/install/interbotix_perception_msgs/lib:/home/ian339/interbotix_ws/install/interbotix_moveit_interface_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins::/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins::/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('HOME', '/home/ian339'), ('OLDPWD', '/home/ian339/me326_ws'), ('DESKTOP_SESSION', 'ubuntu'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1308'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/ian339/me326_ws/src/locobot_controller/install:/home/ian339/interbotix_ws/install'), ('ROS_DISTRO', 'galactic'), ('LOGNAME', 'ian339'), ('JOURNAL_STREAM', '8:38223'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ian339'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo-11/models:/usr/share/gazebo-11/models:/usr/share/gazebo-11/models:'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/opt/ros/galactic/bin:/home/ian339/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/ian339-VirtualBox:@/tmp/.ICE-unix/1545,unix/ian339-VirtualBox:/tmp/.ICE-unix/1545'), ('INVOCATION_ID', '777c06a7870a4a78b6d164e44d876bd5'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/60c44d54_56b5_4299_a88c_0b1e771e6f12'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('INTERBOTIX_XSLOCOBOT_BASE_TYPE', 'create3'), ('GNOME_TERMINAL_SERVICE', ':1.77'), ('INTERBOTIX_WS', '/home/ian339/interbotix_ws'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/ian339/me326_ws/src/locobot_controller/install/locobot_controller:/home/ian339/interbotix_ws/install/interbotix_moveit_interface:/home/ian339/interbotix_ws/install/moveit_visual_tools:/home/ian339/interbotix_ws/install/interbotix_xslocobot_moveit:/home/ian339/interbotix_ws/install/interbotix_xslocobot_ros_control:/home/ian339/interbotix_ws/install/interbotix_xslocobot_sim:/home/ian339/interbotix_ws/install/interbotix_xslocobot_descriptions:/home/ian339/interbotix_ws/install/interbotix_xs_toolbox:/home/ian339/interbotix_ws/install/interbotix_xs_rviz:/home/ian339/interbotix_ws/install/interbotix_xs_ros_control:/home/ian339/interbotix_ws/install/interbotix_xs_modules:/home/ian339/interbotix_ws/install/interbotix_perception_toolbox:/home/ian339/interbotix_ws/install/interbotix_perception_modules:/home/ian339/interbotix_ws/install/interbotix_perception_pipelines:/home/ian339/interbotix_ws/install/interbotix_xs_msgs:/home/ian339/interbotix_ws/install/interbotix_tf_tools:/home/ian339/interbotix_ws/install/interbotix_perception_msgs:/home/ian339/interbotix_ws/install/interbotix_moveit_interface_msgs:/home/ian339/interbotix_ws/install/interbotix_common_toolbox:/home/ian339/interbotix_ws/install/interbotix_common_sim:/home/ian339/interbotix_ws/install/interbotix_common_modules:/opt/ros/galactic'), ('SHELL', '/bin/bash'), ('ROS_DISCOVERY_SERVER', '192.169.0.11:11811'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11:/usr/share/gazebo-11:/usr/share/gazebo-11:'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ian339/me326_ws/la_msgs/build/la_msgs'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('GAZEBO_PLUGIN_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ian339/me326_ws/src/locobot_controller/install/locobot_controller/lib/python3.8/site-packages:/home/ian339/interbotix_ws/install/interbotix_xs_modules/lib/python3.8/site-packages:/home/ian339/interbotix_ws/install/interbotix_perception_modules/lib/python3.8/site-packages:/home/ian339/interbotix_ws/install/interbotix_xs_msgs/lib/python3.8/site-packages:/home/ian339/interbotix_ws/install/interbotix_perception_msgs/lib/python3.8/site-packages:/home/ian339/interbotix_ws/install/interbotix_moveit_interface_msgs/lib/python3.8/site-packages:/home/ian339/interbotix_ws/install/interbotix_common_modules/lib/python3.8/site-packages:/opt/ros/galactic/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/ian339/interbotix_ws/install/interbotix_moveit_interface:/home/ian339/interbotix_ws/install/moveit_visual_tools:/home/ian339/interbotix_ws/install/interbotix_xslocobot_moveit:/home/ian339/interbotix_ws/install/interbotix_xslocobot_ros_control:/home/ian339/interbotix_ws/install/interbotix_xslocobot_sim:/home/ian339/interbotix_ws/install/interbotix_xslocobot_descriptions:/home/ian339/interbotix_ws/install/interbotix_xs_toolbox:/home/ian339/interbotix_ws/install/interbotix_xs_rviz:/home/ian339/interbotix_ws/install/interbotix_xs_ros_control:/home/ian339/interbotix_ws/install/interbotix_perception_toolbox:/home/ian339/interbotix_ws/install/interbotix_perception_pipelines:/home/ian339/interbotix_ws/install/interbotix_xs_msgs:/home/ian339/interbotix_ws/install/interbotix_tf_tools:/home/ian339/interbotix_ws/install/interbotix_perception_msgs:/home/ian339/interbotix_ws/install/interbotix_moveit_interface_msgs:/home/ian339/interbotix_ws/install/interbotix_common_toolbox:/home/ian339/interbotix_ws/install/interbotix_common_sim:/home/ian339/me326_ws/src/locobot_controller/install/locobot_controller:/home/ian339/interbotix_ws/install/interbotix_xs_modules:/home/ian339/interbotix_ws/install/interbotix_perception_modules:/home/ian339/interbotix_ws/install/interbotix_common_modules:/opt/ros/galactic')]), 'shell': False}
+[0.290558] (la_msgs) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.4.0\n'}
+[0.303558] (-) TimerEvent: {}
+[0.349694] (la_msgs) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.4.0\n'}
+[0.355231] (la_msgs) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[0.403919] (-) TimerEvent: {}
+[0.429784] (la_msgs) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[0.430647] (la_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.504163] (-) TimerEvent: {}
+[0.517668] (la_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.529866] (la_msgs) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.530380] (la_msgs) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.533094] (la_msgs) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[0.604239] (-) TimerEvent: {}
+[0.624312] (la_msgs) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[0.625425] (la_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.704465] (-) TimerEvent: {}
+[0.719498] (la_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.731612] (la_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.732077] (la_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.735275] (la_msgs) StdoutLine: {'line': b'-- Found ament_cmake: 1.1.6 (/opt/ros/galactic/share/ament_cmake/cmake)\n'}
+[0.765406] (la_msgs) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[0.765664] (la_msgs) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.804656] (-) TimerEvent: {}
+[0.860036] (la_msgs) StdoutLine: {'line': b'-- Found rclcpp: 9.2.2 (/opt/ros/galactic/share/rclcpp/cmake)\n'}
+[0.904866] (-) TimerEvent: {}
+[0.922154] (la_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.932520] (la_msgs) StdoutLine: {'line': b'-- Found rosidl_adapter: 2.2.3 (/opt/ros/galactic/share/rosidl_adapter/cmake)\n'}
+[1.005012] (-) TimerEvent: {}
+[1.018826] (la_msgs) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  \n'}
+[1.052612] (la_msgs) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/galactic/include  \n'}
+[1.105177] (-) TimerEvent: {}
+[1.149949] (la_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.205405] (-) TimerEvent: {}
+[1.220086] (la_msgs) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 3.3.1 (/opt/ros/galactic/share/rmw_implementation_cmake/cmake)\n'}
+[1.224973] (la_msgs) StdoutLine: {'line': b'-- Found rmw_cyclonedds_cpp: 0.22.6 (/opt/ros/galactic/share/rmw_cyclonedds_cpp/cmake)\n'}
+[1.250402] (la_msgs) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_cyclonedds_cpp' as default\n"}
+[1.251169] (la_msgs) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[1.306839] (-) TimerEvent: {}
+[1.325773] (la_msgs) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[1.326310] (la_msgs) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[1.406147] (la_msgs) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed\n'}
+[1.406499] (la_msgs) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads\n'}
+[1.406937] (-) TimerEvent: {}
+[1.479545] (la_msgs) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads - not found\n'}
+[1.480021] (la_msgs) StdoutLine: {'line': b'-- Looking for pthread_create in pthread\n'}
+[1.507178] (-) TimerEvent: {}
+[1.566575] (la_msgs) StdoutLine: {'line': b'-- Looking for pthread_create in pthread - found\n'}
+[1.567557] (la_msgs) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[1.607353] (-) TimerEvent: {}
+[1.708008] (-) TimerEvent: {}
+[1.736646] (la_msgs) StdoutLine: {'line': b'-- Found geometry_msgs: 2.2.4 (/opt/ros/galactic/share/geometry_msgs/cmake)\n'}
+[1.775759] (la_msgs) StdoutLine: {'line': b'-- Found sensor_msgs: 2.2.4 (/opt/ros/galactic/share/sensor_msgs/cmake)\n'}
+[1.808119] (-) TimerEvent: {}
+[1.867473] (la_msgs) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.1.1 (/opt/ros/galactic/share/rosidl_default_generators/cmake)\n'}
+[1.907060] (la_msgs) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") \n'}
+[1.908254] (-) TimerEvent: {}
+[2.008534] (-) TimerEvent: {}
+[2.108900] (-) TimerEvent: {}
+[2.154238] (la_msgs) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.9.2 (/opt/ros/galactic/share/ament_cmake_ros/cmake)\n'}
+[2.209783] (-) TimerEvent: {}
+[2.311429] (-) TimerEvent: {}
+[2.412253] (-) TimerEvent: {}
+[2.440169] (la_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.512412] (-) TimerEvent: {}
+[2.570655] (la_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.604142] (la_msgs) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.5") \n'}
+[2.607108] (la_msgs) StdoutLine: {'line': b'-- Found python_cmake_module: 0.8.1 (/opt/ros/galactic/share/python_cmake_module/cmake)\n'}
+[2.612516] (-) TimerEvent: {}
+[2.633807] (la_msgs) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.8.so (found suitable version "3.8.10", minimum required is "3.5") \n'}
+[2.633974] (la_msgs) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[2.634039] (la_msgs) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8\n'}
+[2.634097] (la_msgs) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.8.so\n'}
+[2.659159] (la_msgs) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[2.712756] (-) TimerEvent: {}
+[2.766869] (la_msgs) StdoutLine: {'line': b'-- Configuring done\n'}
+[2.812900] (-) TimerEvent: {}
+[2.827960] (la_msgs) StdoutLine: {'line': b'-- Generating done\n'}
+[2.830883] (la_msgs) StdoutLine: {'line': b'-- Build files have been written to: /home/ian339/me326_ws/la_msgs/build/la_msgs\n'}
+[2.838767] (la_msgs) CommandEnded: {'returncode': 0}
+[2.839937] (la_msgs) JobProgress: {'identifier': 'la_msgs', 'progress': 'build'}
+[2.844123] (la_msgs) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ian339/me326_ws/la_msgs/build/la_msgs', '--', '-j6', '-l6'], 'cwd': '/home/ian339/me326_ws/la_msgs/build/la_msgs', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ian339'), ('SSH_AGENT_PID', '1483'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/ian339/interbotix_ws/install/moveit_visual_tools/lib:/home/ian339/interbotix_ws/install/interbotix_xs_rviz/lib:/home/ian339/interbotix_ws/install/interbotix_xs_ros_control/lib:/home/ian339/interbotix_ws/install/interbotix_xs_msgs/lib:/home/ian339/interbotix_ws/install/interbotix_tf_tools/lib:/home/ian339/interbotix_ws/install/interbotix_perception_msgs/lib:/home/ian339/interbotix_ws/install/interbotix_moveit_interface_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins::/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins::/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('HOME', '/home/ian339'), ('OLDPWD', '/home/ian339/me326_ws'), ('DESKTOP_SESSION', 'ubuntu'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1308'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/ian339/me326_ws/src/locobot_controller/install:/home/ian339/interbotix_ws/install'), ('ROS_DISTRO', 'galactic'), ('LOGNAME', 'ian339'), ('JOURNAL_STREAM', '8:38223'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ian339'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo-11/models:/usr/share/gazebo-11/models:/usr/share/gazebo-11/models:'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/opt/ros/galactic/bin:/home/ian339/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/ian339-VirtualBox:@/tmp/.ICE-unix/1545,unix/ian339-VirtualBox:/tmp/.ICE-unix/1545'), ('INVOCATION_ID', '777c06a7870a4a78b6d164e44d876bd5'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/60c44d54_56b5_4299_a88c_0b1e771e6f12'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('INTERBOTIX_XSLOCOBOT_BASE_TYPE', 'create3'), ('GNOME_TERMINAL_SERVICE', ':1.77'), ('INTERBOTIX_WS', '/home/ian339/interbotix_ws'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/ian339/me326_ws/src/locobot_controller/install/locobot_controller:/home/ian339/interbotix_ws/install/interbotix_moveit_interface:/home/ian339/interbotix_ws/install/moveit_visual_tools:/home/ian339/interbotix_ws/install/interbotix_xslocobot_moveit:/home/ian339/interbotix_ws/install/interbotix_xslocobot_ros_control:/home/ian339/interbotix_ws/install/interbotix_xslocobot_sim:/home/ian339/interbotix_ws/install/interbotix_xslocobot_descriptions:/home/ian339/interbotix_ws/install/interbotix_xs_toolbox:/home/ian339/interbotix_ws/install/interbotix_xs_rviz:/home/ian339/interbotix_ws/install/interbotix_xs_ros_control:/home/ian339/interbotix_ws/install/interbotix_xs_modules:/home/ian339/interbotix_ws/install/interbotix_perception_toolbox:/home/ian339/interbotix_ws/install/interbotix_perception_modules:/home/ian339/interbotix_ws/install/interbotix_perception_pipelines:/home/ian339/interbotix_ws/install/interbotix_xs_msgs:/home/ian339/interbotix_ws/install/interbotix_tf_tools:/home/ian339/interbotix_ws/install/interbotix_perception_msgs:/home/ian339/interbotix_ws/install/interbotix_moveit_interface_msgs:/home/ian339/interbotix_ws/install/interbotix_common_toolbox:/home/ian339/interbotix_ws/install/interbotix_common_sim:/home/ian339/interbotix_ws/install/interbotix_common_modules:/opt/ros/galactic'), ('SHELL', '/bin/bash'), ('ROS_DISCOVERY_SERVER', '192.169.0.11:11811'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11:/usr/share/gazebo-11:/usr/share/gazebo-11:'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ian339/me326_ws/la_msgs/build/la_msgs'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('GAZEBO_PLUGIN_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ian339/me326_ws/src/locobot_controller/install/locobot_controller/lib/python3.8/site-packages:/home/ian339/interbotix_ws/install/interbotix_xs_modules/lib/python3.8/site-packages:/home/ian339/interbotix_ws/install/interbotix_perception_modules/lib/python3.8/site-packages:/home/ian339/interbotix_ws/install/interbotix_xs_msgs/lib/python3.8/site-packages:/home/ian339/interbotix_ws/install/interbotix_perception_msgs/lib/python3.8/site-packages:/home/ian339/interbotix_ws/install/interbotix_moveit_interface_msgs/lib/python3.8/site-packages:/home/ian339/interbotix_ws/install/interbotix_common_modules/lib/python3.8/site-packages:/opt/ros/galactic/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/ian339/interbotix_ws/install/interbotix_moveit_interface:/home/ian339/interbotix_ws/install/moveit_visual_tools:/home/ian339/interbotix_ws/install/interbotix_xslocobot_moveit:/home/ian339/interbotix_ws/install/interbotix_xslocobot_ros_control:/home/ian339/interbotix_ws/install/interbotix_xslocobot_sim:/home/ian339/interbotix_ws/install/interbotix_xslocobot_descriptions:/home/ian339/interbotix_ws/install/interbotix_xs_toolbox:/home/ian339/interbotix_ws/install/interbotix_xs_rviz:/home/ian339/interbotix_ws/install/interbotix_xs_ros_control:/home/ian339/interbotix_ws/install/interbotix_perception_toolbox:/home/ian339/interbotix_ws/install/interbotix_perception_pipelines:/home/ian339/interbotix_ws/install/interbotix_xs_msgs:/home/ian339/interbotix_ws/install/interbotix_tf_tools:/home/ian339/interbotix_ws/install/interbotix_perception_msgs:/home/ian339/interbotix_ws/install/interbotix_moveit_interface_msgs:/home/ian339/interbotix_ws/install/interbotix_common_toolbox:/home/ian339/interbotix_ws/install/interbotix_common_sim:/home/ian339/me326_ws/src/locobot_controller/install/locobot_controller:/home/ian339/interbotix_ws/install/interbotix_xs_modules:/home/ian339/interbotix_ws/install/interbotix_perception_modules:/home/ian339/interbotix_ws/install/interbotix_common_modules:/opt/ros/galactic')]), 'shell': False}
+[2.900680] (la_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target la_msgs__cpp\x1b[0m\n'}
+[2.901059] (la_msgs) StdoutLine: {'line': b'[  2%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[2.913034] (-) TimerEvent: {}
+[2.918591] (la_msgs) StdoutLine: {'line': b'[  5%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[3.013161] (-) TimerEvent: {}
+[3.113439] (-) TimerEvent: {}
+[3.213743] (-) TimerEvent: {}
+[3.313986] (-) TimerEvent: {}
+[3.409412] (la_msgs) StdoutLine: {'line': b'[  5%] Built target la_msgs__cpp\n'}
+[3.414221] (-) TimerEvent: {}
+[3.427633] (la_msgs) StdoutLine: {'line': b'[  7%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[3.428047] (la_msgs) StdoutLine: {'line': b'[ 10%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[3.428558] (la_msgs) StdoutLine: {'line': b'[ 12%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[3.435802] (la_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target la_msgs__rosidl_generator_c\x1b[0m\n'}
+[3.465534] (la_msgs) StdoutLine: {'line': b'[ 17%] \x1b[32mBuilding C object CMakeFiles/la_msgs__rosidl_generator_c.dir/rosidl_generator_c/la_msgs/action/detail/move_base__functions.c.o\x1b[0m\n'}
+[3.465818] (la_msgs) StdoutLine: {'line': b'[ 17%] \x1b[32mBuilding C object CMakeFiles/la_msgs__rosidl_generator_c.dir/rosidl_generator_c/la_msgs/srv/detail/ptps__functions.c.o\x1b[0m\n'}
+[3.514431] (-) TimerEvent: {}
+[3.615523] (-) TimerEvent: {}
+[3.623900] (la_msgs) StdoutLine: {'line': b'[ 20%] \x1b[32m\x1b[1mLinking C shared library libla_msgs__rosidl_generator_c.so\x1b[0m\n'}
+[3.679038] (la_msgs) StdoutLine: {'line': b'[ 20%] Built target la_msgs__rosidl_generator_c\n'}
+[3.694467] (la_msgs) StdoutLine: {'line': b'[ 23%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[3.694892] (la_msgs) StdoutLine: {'line': b'[ 25%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[3.715714] (-) TimerEvent: {}
+[3.801060] (la_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target la_msgs__rosidl_typesupport_cpp\x1b[0m\n'}
+[3.815925] (-) TimerEvent: {}
+[3.822959] (la_msgs) StdoutLine: {'line': b'[ 28%] \x1b[32mBuilding CXX object CMakeFiles/la_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/la_msgs/srv/ptps__type_support.cpp.o\x1b[0m\n'}
+[3.824994] (la_msgs) StdoutLine: {'line': b'[ 30%] \x1b[32mBuilding CXX object CMakeFiles/la_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/la_msgs/action/move_base__type_support.cpp.o\x1b[0m\n'}
+[3.916108] (-) TimerEvent: {}
+[3.964950] (la_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target la_msgs__rosidl_typesupport_fastrtps_cpp\x1b[0m\n'}
+[3.991383] (la_msgs) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/la_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/la_msgs/action/detail/dds_fastrtps/move_base__type_support.cpp.o\x1b[0m\n'}
+[4.016245] (-) TimerEvent: {}
+[4.018119] (la_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target la_msgs__rosidl_typesupport_introspection_cpp\x1b[0m\n'}
+[4.038887] (la_msgs) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding CXX object CMakeFiles/la_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/la_msgs/action/detail/move_base__type_support.cpp.o\x1b[0m\n'}
+[4.116983] (-) TimerEvent: {}
+[4.144276] (la_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target la_msgs__rosidl_typesupport_c\x1b[0m\n'}
+[4.180444] (la_msgs) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/la_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/la_msgs/action/move_base__type_support.cpp.o\x1b[0m\n'}
+[4.217139] (-) TimerEvent: {}
+[4.243321] (la_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target la_msgs__rosidl_typesupport_introspection_c\x1b[0m\n'}
+[4.248760] (la_msgs) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding CXX object CMakeFiles/la_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/la_msgs/srv/detail/ptps__type_support.cpp.o\x1b[0m\n'}
+[4.270269] (la_msgs) StdoutLine: {'line': b'[ 43%] \x1b[32mBuilding C object CMakeFiles/la_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/la_msgs/action/detail/move_base__type_support.c.o\x1b[0m\n'}
+[4.271726] (la_msgs) StdoutLine: {'line': b'[ 46%] \x1b[32mBuilding CXX object CMakeFiles/la_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/la_msgs/srv/ptps__type_support.cpp.o\x1b[0m\n'}
+[4.317302] (-) TimerEvent: {}
+[4.327638] (la_msgs) StdoutLine: {'line': b'[ 48%] \x1b[32m\x1b[1mLinking CXX shared library libla_msgs__rosidl_typesupport_c.so\x1b[0m\n'}
+[4.332068] (la_msgs) StdoutLine: {'line': b'[ 51%] \x1b[32mBuilding C object CMakeFiles/la_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/la_msgs/srv/detail/ptps__type_support.c.o\x1b[0m\n'}
+[4.400342] (la_msgs) StdoutLine: {'line': b'[ 51%] Built target la_msgs__rosidl_typesupport_c\n'}
+[4.406443] (la_msgs) StdoutLine: {'line': b'[ 53%] \x1b[32m\x1b[1mLinking C shared library libla_msgs__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[4.413868] (la_msgs) StdoutLine: {'line': b'[ 56%] \x1b[32mBuilding CXX object CMakeFiles/la_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/la_msgs/srv/detail/dds_fastrtps/ptps__type_support.cpp.o\x1b[0m\n'}
+[4.417442] (-) TimerEvent: {}
+[4.478151] (la_msgs) StdoutLine: {'line': b'[ 58%] \x1b[32m\x1b[1mLinking CXX shared library libla_msgs__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[4.487566] (la_msgs) StdoutLine: {'line': b'[ 58%] Built target la_msgs__rosidl_typesupport_introspection_c\n'}
+[4.517681] (-) TimerEvent: {}
+[4.548180] (la_msgs) StdoutLine: {'line': b'[ 58%] Built target la_msgs__rosidl_typesupport_cpp\n'}
+[4.617864] (-) TimerEvent: {}
+[4.642829] (la_msgs) StdoutLine: {'line': b'[ 61%] \x1b[32m\x1b[1mLinking CXX shared library libla_msgs__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[4.720024] (-) TimerEvent: {}
+[4.743776] (la_msgs) StdoutLine: {'line': b'[ 61%] Built target la_msgs__rosidl_typesupport_introspection_cpp\n'}
+[4.820195] (-) TimerEvent: {}
+[4.920694] (-) TimerEvent: {}
+[4.946277] (la_msgs) StdoutLine: {'line': b'[ 64%] \x1b[32m\x1b[1mLinking CXX shared library libla_msgs__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[5.020920] (-) TimerEvent: {}
+[5.041103] (la_msgs) StdoutLine: {'line': b'[ 64%] Built target la_msgs__rosidl_typesupport_fastrtps_cpp\n'}
+[5.053073] (la_msgs) StdoutLine: {'line': b'[ 66%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[5.121028] (-) TimerEvent: {}
+[5.221381] (-) TimerEvent: {}
+[5.321644] (-) TimerEvent: {}
+[5.422036] (-) TimerEvent: {}
+[5.457773] (la_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target la_msgs__rosidl_typesupport_fastrtps_c\x1b[0m\n'}
+[5.484926] (la_msgs) StdoutLine: {'line': b'[ 69%] \x1b[32mBuilding CXX object CMakeFiles/la_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/la_msgs/action/detail/move_base__type_support_c.cpp.o\x1b[0m\n'}
+[5.486945] (la_msgs) StdoutLine: {'line': b'[ 71%] \x1b[32mBuilding CXX object CMakeFiles/la_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/la_msgs/srv/detail/ptps__type_support_c.cpp.o\x1b[0m\n'}
+[5.522211] (-) TimerEvent: {}
+[5.622661] (-) TimerEvent: {}
+[5.723087] (-) TimerEvent: {}
+[5.823486] (-) TimerEvent: {}
+[5.877654] (la_msgs) StdoutLine: {'line': b'[ 74%] \x1b[32m\x1b[1mLinking CXX shared library libla_msgs__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[5.923694] (-) TimerEvent: {}
+[5.975351] (la_msgs) StdoutLine: {'line': b'[ 74%] Built target la_msgs__rosidl_typesupport_fastrtps_c\n'}
+[5.986733] (la_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target la_msgs\x1b[0m\n'}
+[5.998924] (la_msgs) StdoutLine: {'line': b'[ 74%] Built target la_msgs\n'}
+[6.009610] (la_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target la_msgs__py\x1b[0m\n'}
+[6.021315] (la_msgs) StdoutLine: {'line': b'[ 76%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[6.023921] (-) TimerEvent: {}
+[6.124220] (-) TimerEvent: {}
+[6.224644] (-) TimerEvent: {}
+[6.324916] (-) TimerEvent: {}
+[6.425131] (-) TimerEvent: {}
+[6.526748] (-) TimerEvent: {}
+[6.627053] (-) TimerEvent: {}
+[6.728910] (-) TimerEvent: {}
+[6.829337] (-) TimerEvent: {}
+[6.932069] (-) TimerEvent: {}
+[6.978203] (la_msgs) StdoutLine: {'line': b'[ 76%] Built target la_msgs__py\n'}
+[6.992109] (la_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target la_msgs__python\x1b[0m\n'}
+[7.016726] (la_msgs) StdoutLine: {'line': b'[ 82%] \x1b[32mBuilding C object CMakeFiles/la_msgs__python.dir/rosidl_generator_py/la_msgs/action/_move_base_s.c.o\x1b[0m\n'}
+[7.017050] (la_msgs) StdoutLine: {'line': b'[ 82%] \x1b[32mBuilding C object CMakeFiles/la_msgs__python.dir/rosidl_generator_py/la_msgs/srv/_ptps_s.c.o\x1b[0m\n'}
+[7.032328] (-) TimerEvent: {}
+[7.132715] (-) TimerEvent: {}
+[7.151692] (la_msgs) StdoutLine: {'line': b'[ 84%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/la_msgs/libla_msgs__python.so\x1b[0m\n'}
+[7.206562] (la_msgs) StdoutLine: {'line': b'[ 84%] Built target la_msgs__python\n'}
+[7.219019] (la_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target la_msgs__rosidl_typesupport_introspection_c__pyext\x1b[0m\n'}
+[7.219265] (la_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target la_msgs__rosidl_typesupport_c__pyext\x1b[0m\n'}
+[7.219363] (la_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target la_msgs__rosidl_typesupport_fastrtps_c__pyext\x1b[0m\n'}
+[7.232817] (-) TimerEvent: {}
+[7.241925] (la_msgs) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/la_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/la_msgs/_la_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[7.243095] (la_msgs) StdoutLine: {'line': b'[ 92%] \x1b[32mBuilding C object CMakeFiles/la_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/la_msgs/_la_msgs_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[7.243194] (la_msgs) StdoutLine: {'line': b'[ 92%] \x1b[32mBuilding C object CMakeFiles/la_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/la_msgs/_la_msgs_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[7.333025] (-) TimerEvent: {}
+[7.378435] (la_msgs) StdoutLine: {'line': b'[ 94%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/la_msgs/la_msgs_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so\x1b[0m\n'}
+[7.406438] (la_msgs) StdoutLine: {'line': b'[ 97%] \x1b[32m\x1b[1mLinking CXX shared library rosidl_generator_py/la_msgs/la_msgs_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so\x1b[0m\n'}
+[7.408252] (la_msgs) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/la_msgs/la_msgs_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so\x1b[0m\n'}
+[7.428869] (la_msgs) StdoutLine: {'line': b'[100%] Built target la_msgs__rosidl_typesupport_c__pyext\n'}
+[7.436276] (-) TimerEvent: {}
+[7.455627] (la_msgs) StdoutLine: {'line': b'[100%] Built target la_msgs__rosidl_typesupport_introspection_c__pyext\n'}
+[7.489450] (la_msgs) StdoutLine: {'line': b'[100%] Built target la_msgs__rosidl_typesupport_fastrtps_c__pyext\n'}
+[7.503324] (la_msgs) CommandEnded: {'returncode': 0}
+[7.536452] (-) TimerEvent: {}
+[7.587786] (la_msgs) JobProgress: {'identifier': 'la_msgs', 'progress': 'install'}
+[7.602601] (la_msgs) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/ian339/me326_ws/la_msgs/build/la_msgs'], 'cwd': '/home/ian339/me326_ws/la_msgs/build/la_msgs', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ian339'), ('SSH_AGENT_PID', '1483'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/ian339/interbotix_ws/install/moveit_visual_tools/lib:/home/ian339/interbotix_ws/install/interbotix_xs_rviz/lib:/home/ian339/interbotix_ws/install/interbotix_xs_ros_control/lib:/home/ian339/interbotix_ws/install/interbotix_xs_msgs/lib:/home/ian339/interbotix_ws/install/interbotix_tf_tools/lib:/home/ian339/interbotix_ws/install/interbotix_perception_msgs/lib:/home/ian339/interbotix_ws/install/interbotix_moveit_interface_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins::/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins::/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('HOME', '/home/ian339'), ('OLDPWD', '/home/ian339/me326_ws'), ('DESKTOP_SESSION', 'ubuntu'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1308'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/ian339/me326_ws/src/locobot_controller/install:/home/ian339/interbotix_ws/install'), ('ROS_DISTRO', 'galactic'), ('LOGNAME', 'ian339'), ('JOURNAL_STREAM', '8:38223'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ian339'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo-11/models:/usr/share/gazebo-11/models:/usr/share/gazebo-11/models:'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/opt/ros/galactic/bin:/home/ian339/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/ian339-VirtualBox:@/tmp/.ICE-unix/1545,unix/ian339-VirtualBox:/tmp/.ICE-unix/1545'), ('INVOCATION_ID', '777c06a7870a4a78b6d164e44d876bd5'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/60c44d54_56b5_4299_a88c_0b1e771e6f12'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('INTERBOTIX_XSLOCOBOT_BASE_TYPE', 'create3'), ('GNOME_TERMINAL_SERVICE', ':1.77'), ('INTERBOTIX_WS', '/home/ian339/interbotix_ws'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/ian339/me326_ws/src/locobot_controller/install/locobot_controller:/home/ian339/interbotix_ws/install/interbotix_moveit_interface:/home/ian339/interbotix_ws/install/moveit_visual_tools:/home/ian339/interbotix_ws/install/interbotix_xslocobot_moveit:/home/ian339/interbotix_ws/install/interbotix_xslocobot_ros_control:/home/ian339/interbotix_ws/install/interbotix_xslocobot_sim:/home/ian339/interbotix_ws/install/interbotix_xslocobot_descriptions:/home/ian339/interbotix_ws/install/interbotix_xs_toolbox:/home/ian339/interbotix_ws/install/interbotix_xs_rviz:/home/ian339/interbotix_ws/install/interbotix_xs_ros_control:/home/ian339/interbotix_ws/install/interbotix_xs_modules:/home/ian339/interbotix_ws/install/interbotix_perception_toolbox:/home/ian339/interbotix_ws/install/interbotix_perception_modules:/home/ian339/interbotix_ws/install/interbotix_perception_pipelines:/home/ian339/interbotix_ws/install/interbotix_xs_msgs:/home/ian339/interbotix_ws/install/interbotix_tf_tools:/home/ian339/interbotix_ws/install/interbotix_perception_msgs:/home/ian339/interbotix_ws/install/interbotix_moveit_interface_msgs:/home/ian339/interbotix_ws/install/interbotix_common_toolbox:/home/ian339/interbotix_ws/install/interbotix_common_sim:/home/ian339/interbotix_ws/install/interbotix_common_modules:/opt/ros/galactic'), ('SHELL', '/bin/bash'), ('ROS_DISCOVERY_SERVER', '192.169.0.11:11811'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11:/usr/share/gazebo-11:/usr/share/gazebo-11:'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ian339/me326_ws/la_msgs/build/la_msgs'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('GAZEBO_PLUGIN_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ian339/me326_ws/src/locobot_controller/install/locobot_controller/lib/python3.8/site-packages:/home/ian339/interbotix_ws/install/interbotix_xs_modules/lib/python3.8/site-packages:/home/ian339/interbotix_ws/install/interbotix_perception_modules/lib/python3.8/site-packages:/home/ian339/interbotix_ws/install/interbotix_xs_msgs/lib/python3.8/site-packages:/home/ian339/interbotix_ws/install/interbotix_perception_msgs/lib/python3.8/site-packages:/home/ian339/interbotix_ws/install/interbotix_moveit_interface_msgs/lib/python3.8/site-packages:/home/ian339/interbotix_ws/install/interbotix_common_modules/lib/python3.8/site-packages:/opt/ros/galactic/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/ian339/interbotix_ws/install/interbotix_moveit_interface:/home/ian339/interbotix_ws/install/moveit_visual_tools:/home/ian339/interbotix_ws/install/interbotix_xslocobot_moveit:/home/ian339/interbotix_ws/install/interbotix_xslocobot_ros_control:/home/ian339/interbotix_ws/install/interbotix_xslocobot_sim:/home/ian339/interbotix_ws/install/interbotix_xslocobot_descriptions:/home/ian339/interbotix_ws/install/interbotix_xs_toolbox:/home/ian339/interbotix_ws/install/interbotix_xs_rviz:/home/ian339/interbotix_ws/install/interbotix_xs_ros_control:/home/ian339/interbotix_ws/install/interbotix_perception_toolbox:/home/ian339/interbotix_ws/install/interbotix_perception_pipelines:/home/ian339/interbotix_ws/install/interbotix_xs_msgs:/home/ian339/interbotix_ws/install/interbotix_tf_tools:/home/ian339/interbotix_ws/install/interbotix_perception_msgs:/home/ian339/interbotix_ws/install/interbotix_moveit_interface_msgs:/home/ian339/interbotix_ws/install/interbotix_common_toolbox:/home/ian339/interbotix_ws/install/interbotix_common_sim:/home/ian339/me326_ws/src/locobot_controller/install/locobot_controller:/home/ian339/interbotix_ws/install/interbotix_xs_modules:/home/ian339/interbotix_ws/install/interbotix_perception_modules:/home/ian339/interbotix_ws/install/interbotix_common_modules:/opt/ros/galactic')]), 'shell': False}
+[7.615441] (la_msgs) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[7.615782] (la_msgs) StdoutLine: {'line': b'-- Installing: /home/ian339/me326_ws/la_msgs/install/la_msgs/share/ament_index/resource_index/rosidl_interfaces/la_msgs\n'}
+[7.615869] (la_msgs) StdoutLine: {'line': b'-- Installing: /home/ian339/me326_ws/la_msgs/install/la_msgs/include/la_msgs\n'}
+[7.615929] (la_msgs) StdoutLine: {'line': b'-- Installing: /home/ian339/me326_ws/la_msgs/install/la_msgs/include/la_msgs/msg\n'}
+[7.616019] (la_msgs) StdoutLine: {'line': b'-- Installing: /home/ian339/me326_ws/la_msgs/install/la_msgs/include/la_msgs/msg/rosidl_generator_c__visibility_control.h\n'}
+[7.616082] (la_msgs) StdoutLine: {'line': b'-- Installing: /home/ian339/me326_ws/la_msgs/install/la_msgs/include/la_msgs/action\n'}
+[7.616147] (la_msgs) StdoutLine: {'line': b'-- Installing: /home/ian339/me326_ws/la_msgs/install/la_msgs/include/la_msgs/action/move_base.h\n'}
+[7.616230] (la_msgs) StdoutLine: {'line': b'-- Installing: /home/ian339/me326_ws/la_msgs/install/la_msgs/include/la_msgs/action/detail\n'}
+[7.616290] (la_msgs) StdoutLine: {'line': b'-- Installing: /home/ian339/me326_ws/la_msgs/install/la_msgs/include/la_msgs/action/detail/move_base__functions.h\n'}
+[7.616377] (la_msgs) StdoutLine: {'line': b'-- Installing: /home/ian339/me326_ws/la_msgs/install/la_msgs/include/la_msgs/action/detail/move_base__functions.c\n'}
+[7.616509] (la_msgs) StdoutLine: {'line': b'-- Installing: /home/ian339/me326_ws/la_msgs/install/la_msgs/include/la_msgs/action/detail/move_base__struct.h\n'}
+[7.616611] (la_msgs) StdoutLine: {'line': b'-- Installing: /home/ian339/me326_ws/la_msgs/install/la_msgs/include/la_msgs/action/detail/move_base__type_support.h\n'}
+[7.616701] (la_msgs) StdoutLine: {'line': b'-- Installing: /home/ian339/me326_ws/la_msgs/install/la_msgs/include/la_msgs/srv\n'}
+[7.616792] (la_msgs) StdoutLine: {'line': b'-- Installing: /home/ian339/me326_ws/la_msgs/install/la_msgs/include/la_msgs/srv/ptps.h\n'}
+[7.616987] (la_msgs) StdoutLine: {'line': b'-- Installing: /home/ian339/me326_ws/la_msgs/install/la_msgs/include/la_msgs/srv/detail\n'}
+[7.617376] (la_msgs) StdoutLine: {'line': b'-- Installing: /home/ian339/me326_ws/la_msgs/install/la_msgs/include/la_msgs/srv/detail/ptps__struct.h\n'}
+[7.617510] (la_msgs) StdoutLine: {'line': b'-- Installing: /home/ian339/me326_ws/la_msgs/install/la_msgs/include/la_msgs/srv/detail/ptps__functions.c\n'}
+[7.617601] (la_msgs) StdoutLine: {'line': b'-- Installing: /home/ian339/me326_ws/la_msgs/install/la_msgs/include/la_msgs/srv/detail/ptps__functions.h\n'}
+[7.617696] (la_msgs) StdoutLine: {'line': b'-- Installing: /home/ian339/me326_ws/la_msgs/install/la_msgs/include/la_msgs/srv/detail/ptps__type_support.h\n'}
+[7.617894] (la_msgs) StdoutLine: {'line': b'-- Installing: /home/ian339/me326_ws/la_msgs/install/la_msgs/share/la_msgs/environment/library_path.sh\n'}
+[7.618084] (la_msgs) StdoutLine: {'line': b'-- Installing: /home/ian339/me326_ws/la_msgs/install/la_msgs/share/la_msgs/environment/library_path.dsv\n'}
+[7.618319] (la_msgs) StdoutLine: {'line': b'-- Installing: /home/ian339/me326_ws/la_msgs/install/la_msgs/lib/libla_msgs__rosidl_generator_c.so\n'}
+[7.618695] (la_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/ian339/me326_ws/la_msgs/install/la_msgs/lib/libla_msgs__rosidl_generator_c.so" to ""\n'}
+[7.618794] (la_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ian339/me326_ws/la_msgs/install/la_msgs/include/la_msgs\n'}
+[7.618896] (la_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ian339/me326_ws/la_msgs/install/la_msgs/include/la_msgs/msg\n'}
+[7.618970] (la_msgs) StdoutLine: {'line': b'-- Installing: /home/ian339/me326_ws/la_msgs/install/la_msgs/include/la_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[7.619033] (la_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ian339/me326_ws/la_msgs/install/la_msgs/include/la_msgs/action\n'}
+[7.619136] (la_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ian339/me326_ws/la_msgs/install/la_msgs/include/la_msgs/action/detail\n'}
+[7.619213] (la_msgs) StdoutLine: {'line': b'-- Installing: /home/ian339/me326_ws/la_msgs/install/la_msgs/include/la_msgs/action/detail/move_base__rosidl_typesupport_fastrtps_c.h\n'}
+[7.619270] (la_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ian339/me326_ws/la_msgs/install/la_msgs/include/la_msgs/srv\n'}
+[7.619328] (la_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ian339/me326_ws/la_msgs/install/la_msgs/include/la_msgs/srv/detail\n'}
+[7.619411] (la_msgs) StdoutLine: {'line': b'-- Installing: /home/ian339/me326_ws/la_msgs/install/la_msgs/include/la_msgs/srv/detail/ptps__rosidl_typesupport_fastrtps_c.h\n'}
+[7.619471] (la_msgs) StdoutLine: {'line': b'-- Installing: /home/ian339/me326_ws/la_msgs/install/la_msgs/lib/libla_msgs__rosidl_typesupport_fastrtps_c.so\n'}
+[7.619801] (la_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/ian339/me326_ws/la_msgs/install/la_msgs/lib/libla_msgs__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[7.619901] (la_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ian339/me326_ws/la_msgs/install/la_msgs/include/la_msgs\n'}
+[7.620011] (la_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ian339/me326_ws/la_msgs/install/la_msgs/include/la_msgs/msg\n'}
+[7.620087] (la_msgs) StdoutLine: {'line': b'-- Installing: /home/ian339/me326_ws/la_msgs/install/la_msgs/include/la_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[7.620146] (la_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ian339/me326_ws/la_msgs/install/la_msgs/include/la_msgs/action\n'}
+[7.620201] (la_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ian339/me326_ws/la_msgs/install/la_msgs/include/la_msgs/action/detail\n'}
+[7.620289] (la_msgs) StdoutLine: {'line': b'-- Installing: /home/ian339/me326_ws/la_msgs/install/la_msgs/include/la_msgs/action/detail/move_base__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[7.620361] (la_msgs) StdoutLine: {'line': b'-- Installing: /home/ian339/me326_ws/la_msgs/install/la_msgs/include/la_msgs/action/detail/dds_fastrtps\n'}
+[7.620458] (la_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ian339/me326_ws/la_msgs/install/la_msgs/include/la_msgs/srv\n'}
+[7.620513] (la_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ian339/me326_ws/la_msgs/install/la_msgs/include/la_msgs/srv/detail\n'}
+[7.620601] (la_msgs) StdoutLine: {'line': b'-- Installing: /home/ian339/me326_ws/la_msgs/install/la_msgs/include/la_msgs/srv/detail/ptps__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[7.620664] (la_msgs) StdoutLine: {'line': b'-- Installing: /home/ian339/me326_ws/la_msgs/install/la_msgs/include/la_msgs/srv/detail/dds_fastrtps\n'}
+[7.620741] (la_msgs) StdoutLine: {'line': b'-- Installing: /home/ian339/me326_ws/la_msgs/install/la_msgs/lib/libla_msgs__rosidl_typesupport_fastrtps_cpp.so\n'}
+[7.621208] (la_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/ian339/me326_ws/la_msgs/install/la_msgs/lib/libla_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[7.621445] (la_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ian339/me326_ws/la_msgs/install/la_msgs/include/la_msgs\n'}
+[7.621576] (la_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ian339/me326_ws/la_msgs/install/la_msgs/include/la_msgs/msg\n'}
+[7.621658] (la_msgs) StdoutLine: {'line': b'-- Installing: /home/ian339/me326_ws/la_msgs/install/la_msgs/include/la_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[7.621751] (la_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ian339/me326_ws/la_msgs/install/la_msgs/include/la_msgs/action\n'}
+[7.621821] (la_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ian339/me326_ws/la_msgs/install/la_msgs/include/la_msgs/action/detail\n'}
+[7.621927] (la_msgs) StdoutLine: {'line': b'-- Installing: /home/ian339/me326_ws/la_msgs/install/la_msgs/include/la_msgs/action/detail/move_base__rosidl_typesupport_introspection_c.h\n'}
+[7.621985] (la_msgs) StdoutLine: {'line': b'-- Installing: /home/ian339/me326_ws/la_msgs/install/la_msgs/include/la_msgs/action/detail/move_base__type_support.c\n'}
+[7.622077] (la_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ian339/me326_ws/la_msgs/install/la_msgs/include/la_msgs/srv\n'}
+[7.622313] (la_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ian339/me326_ws/la_msgs/install/la_msgs/include/la_msgs/srv/detail\n'}
+[7.622375] (la_msgs) StdoutLine: {'line': b'-- Installing: /home/ian339/me326_ws/la_msgs/install/la_msgs/include/la_msgs/srv/detail/ptps__type_support.c\n'}
+[7.622431] (la_msgs) StdoutLine: {'line': b'-- Installing: /home/ian339/me326_ws/la_msgs/install/la_msgs/include/la_msgs/srv/detail/ptps__rosidl_typesupport_introspection_c.h\n'}
+[7.622485] (la_msgs) StdoutLine: {'line': b'-- Installing: /home/ian339/me326_ws/la_msgs/install/la_msgs/lib/libla_msgs__rosidl_typesupport_introspection_c.so\n'}
+[7.622566] (la_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/ian339/me326_ws/la_msgs/install/la_msgs/lib/libla_msgs__rosidl_typesupport_introspection_c.so" to ""\n'}
+[7.622671] (la_msgs) StdoutLine: {'line': b'-- Installing: /home/ian339/me326_ws/la_msgs/install/la_msgs/lib/libla_msgs__rosidl_typesupport_c.so\n'}
+[7.623053] (la_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/ian339/me326_ws/la_msgs/install/la_msgs/lib/libla_msgs__rosidl_typesupport_c.so" to ""\n'}
+[7.623196] (la_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ian339/me326_ws/la_msgs/install/la_msgs/include/la_msgs\n'}
+[7.623323] (la_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ian339/me326_ws/la_msgs/install/la_msgs/include/la_msgs/action\n'}
+[7.623396] (la_msgs) StdoutLine: {'line': b'-- Installing: /home/ian339/me326_ws/la_msgs/install/la_msgs/include/la_msgs/action/move_base.hpp\n'}
+[7.623476] (la_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ian339/me326_ws/la_msgs/install/la_msgs/include/la_msgs/action/detail\n'}
+[7.623581] (la_msgs) StdoutLine: {'line': b'-- Installing: /home/ian339/me326_ws/la_msgs/install/la_msgs/include/la_msgs/action/detail/move_base__builder.hpp\n'}
+[7.623701] (la_msgs) StdoutLine: {'line': b'-- Installing: /home/ian339/me326_ws/la_msgs/install/la_msgs/include/la_msgs/action/detail/move_base__struct.hpp\n'}
+[7.623802] (la_msgs) StdoutLine: {'line': b'-- Installing: /home/ian339/me326_ws/la_msgs/install/la_msgs/include/la_msgs/action/detail/move_base__traits.hpp\n'}
+[7.623879] (la_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ian339/me326_ws/la_msgs/install/la_msgs/include/la_msgs/srv\n'}
+[7.623962] (la_msgs) StdoutLine: {'line': b'-- Installing: /home/ian339/me326_ws/la_msgs/install/la_msgs/include/la_msgs/srv/ptps.hpp\n'}
+[7.624029] (la_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ian339/me326_ws/la_msgs/install/la_msgs/include/la_msgs/srv/detail\n'}
+[7.624105] (la_msgs) StdoutLine: {'line': b'-- Installing: /home/ian339/me326_ws/la_msgs/install/la_msgs/include/la_msgs/srv/detail/ptps__builder.hpp\n'}
+[7.624173] (la_msgs) StdoutLine: {'line': b'-- Installing: /home/ian339/me326_ws/la_msgs/install/la_msgs/include/la_msgs/srv/detail/ptps__struct.hpp\n'}
+[7.624295] (la_msgs) StdoutLine: {'line': b'-- Installing: /home/ian339/me326_ws/la_msgs/install/la_msgs/include/la_msgs/srv/detail/ptps__traits.hpp\n'}
+[7.624371] (la_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ian339/me326_ws/la_msgs/install/la_msgs/include/la_msgs\n'}
+[7.624439] (la_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ian339/me326_ws/la_msgs/install/la_msgs/include/la_msgs/action\n'}
+[7.624515] (la_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ian339/me326_ws/la_msgs/install/la_msgs/include/la_msgs/action/detail\n'}
+[7.624656] (la_msgs) StdoutLine: {'line': b'-- Installing: /home/ian339/me326_ws/la_msgs/install/la_msgs/include/la_msgs/action/detail/move_base__type_support.cpp\n'}
+[7.624726] (la_msgs) StdoutLine: {'line': b'-- Installing: /home/ian339/me326_ws/la_msgs/install/la_msgs/include/la_msgs/action/detail/move_base__rosidl_typesupport_introspection_cpp.hpp\n'}
+[7.624802] (la_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ian339/me326_ws/la_msgs/install/la_msgs/include/la_msgs/srv\n'}
+[7.624955] (la_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ian339/me326_ws/la_msgs/install/la_msgs/include/la_msgs/srv/detail\n'}
+[7.625057] (la_msgs) StdoutLine: {'line': b'-- Installing: /home/ian339/me326_ws/la_msgs/install/la_msgs/include/la_msgs/srv/detail/ptps__rosidl_typesupport_introspection_cpp.hpp\n'}
+[7.625190] (la_msgs) StdoutLine: {'line': b'-- Installing: /home/ian339/me326_ws/la_msgs/install/la_msgs/include/la_msgs/srv/detail/ptps__type_support.cpp\n'}
+[7.625282] (la_msgs) StdoutLine: {'line': b'-- Installing: /home/ian339/me326_ws/la_msgs/install/la_msgs/lib/libla_msgs__rosidl_typesupport_introspection_cpp.so\n'}
+[7.625681] (la_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/ian339/me326_ws/la_msgs/install/la_msgs/lib/libla_msgs__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[7.625802] (la_msgs) StdoutLine: {'line': b'-- Installing: /home/ian339/me326_ws/la_msgs/install/la_msgs/lib/libla_msgs__rosidl_typesupport_cpp.so\n'}
+[7.626097] (la_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/ian339/me326_ws/la_msgs/install/la_msgs/lib/libla_msgs__rosidl_typesupport_cpp.so" to ""\n'}
+[7.626252] (la_msgs) StdoutLine: {'line': b'-- Installing: /home/ian339/me326_ws/la_msgs/install/la_msgs/share/la_msgs/environment/pythonpath.sh\n'}
+[7.626378] (la_msgs) StdoutLine: {'line': b'-- Installing: /home/ian339/me326_ws/la_msgs/install/la_msgs/share/la_msgs/environment/pythonpath.dsv\n'}
+[7.626527] (la_msgs) StdoutLine: {'line': b'-- Installing: /home/ian339/me326_ws/la_msgs/install/la_msgs/lib/python3.8/site-packages/la_msgs/__init__.py\n'}
+[7.636561] (-) TimerEvent: {}
+[7.655682] (la_msgs) StdoutLine: {'line': b"Compiling '/home/ian339/me326_ws/la_msgs/install/la_msgs/lib/python3.8/site-packages/la_msgs/__init__.py'...\n"}
+[7.658778] (la_msgs) StdoutLine: {'line': b'-- Installing: /home/ian339/me326_ws/la_msgs/install/la_msgs/lib/python3.8/site-packages/la_msgs/action\n'}
+[7.658928] (la_msgs) StdoutLine: {'line': b'-- Installing: /home/ian339/me326_ws/la_msgs/install/la_msgs/lib/python3.8/site-packages/la_msgs/action/__init__.py\n'}
+[7.659029] (la_msgs) StdoutLine: {'line': b'-- Installing: /home/ian339/me326_ws/la_msgs/install/la_msgs/lib/python3.8/site-packages/la_msgs/action/_move_base_s.c\n'}
+[7.659089] (la_msgs) StdoutLine: {'line': b'-- Installing: /home/ian339/me326_ws/la_msgs/install/la_msgs/lib/python3.8/site-packages/la_msgs/action/_move_base.py\n'}
+[7.659186] (la_msgs) StdoutLine: {'line': b'-- Installing: /home/ian339/me326_ws/la_msgs/install/la_msgs/lib/python3.8/site-packages/la_msgs/srv\n'}
+[7.659243] (la_msgs) StdoutLine: {'line': b'-- Installing: /home/ian339/me326_ws/la_msgs/install/la_msgs/lib/python3.8/site-packages/la_msgs/srv/__init__.py\n'}
+[7.659323] (la_msgs) StdoutLine: {'line': b'-- Installing: /home/ian339/me326_ws/la_msgs/install/la_msgs/lib/python3.8/site-packages/la_msgs/srv/_ptps_s.c\n'}
+[7.659411] (la_msgs) StdoutLine: {'line': b'-- Installing: /home/ian339/me326_ws/la_msgs/install/la_msgs/lib/python3.8/site-packages/la_msgs/srv/_ptps.py\n'}
+[7.659755] (la_msgs) StdoutLine: {'line': b'-- Installing: /home/ian339/me326_ws/la_msgs/install/la_msgs/lib/python3.8/site-packages/la_msgs/la_msgs_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so\n'}
+[7.660169] (la_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/ian339/me326_ws/la_msgs/install/la_msgs/lib/python3.8/site-packages/la_msgs/la_msgs_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so" to ""\n'}
+[7.660284] (la_msgs) StdoutLine: {'line': b'-- Installing: /home/ian339/me326_ws/la_msgs/install/la_msgs/lib/python3.8/site-packages/la_msgs/la_msgs_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so\n'}
+[7.660826] (la_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/ian339/me326_ws/la_msgs/install/la_msgs/lib/python3.8/site-packages/la_msgs/la_msgs_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so" to ""\n'}
+[7.661051] (la_msgs) StdoutLine: {'line': b'-- Installing: /home/ian339/me326_ws/la_msgs/install/la_msgs/lib/python3.8/site-packages/la_msgs/la_msgs_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so\n'}
+[7.661565] (la_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/ian339/me326_ws/la_msgs/install/la_msgs/lib/python3.8/site-packages/la_msgs/la_msgs_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so" to ""\n'}
+[7.661690] (la_msgs) StdoutLine: {'line': b'-- Installing: /home/ian339/me326_ws/la_msgs/install/la_msgs/lib/libla_msgs__python.so\n'}
+[7.661992] (la_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/ian339/me326_ws/la_msgs/install/la_msgs/lib/libla_msgs__python.so" to ""\n'}
+[7.662105] (la_msgs) StdoutLine: {'line': b'-- Installing: /home/ian339/me326_ws/la_msgs/install/la_msgs/share/la_msgs/action/MoveBase.idl\n'}
+[7.662204] (la_msgs) StdoutLine: {'line': b'-- Installing: /home/ian339/me326_ws/la_msgs/install/la_msgs/share/la_msgs/srv/Ptps.idl\n'}
+[7.662300] (la_msgs) StdoutLine: {'line': b'-- Installing: /home/ian339/me326_ws/la_msgs/install/la_msgs/share/la_msgs/action/MoveBase.action\n'}
+[7.662401] (la_msgs) StdoutLine: {'line': b'-- Installing: /home/ian339/me326_ws/la_msgs/install/la_msgs/share/la_msgs/srv/Ptps.srv\n'}
+[7.662492] (la_msgs) StdoutLine: {'line': b'-- Installing: /home/ian339/me326_ws/la_msgs/install/la_msgs/share/la_msgs/srv/Ptps_Request.msg\n'}
+[7.662585] (la_msgs) StdoutLine: {'line': b'-- Installing: /home/ian339/me326_ws/la_msgs/install/la_msgs/share/la_msgs/srv/Ptps_Response.msg\n'}
+[7.662791] (la_msgs) StdoutLine: {'line': b'-- Installing: /home/ian339/me326_ws/la_msgs/install/la_msgs/share/ament_index/resource_index/package_run_dependencies/la_msgs\n'}
+[7.662918] (la_msgs) StdoutLine: {'line': b'-- Installing: /home/ian339/me326_ws/la_msgs/install/la_msgs/share/ament_index/resource_index/parent_prefix_path/la_msgs\n'}
+[7.663021] (la_msgs) StdoutLine: {'line': b'-- Installing: /home/ian339/me326_ws/la_msgs/install/la_msgs/share/la_msgs/environment/ament_prefix_path.sh\n'}
+[7.663115] (la_msgs) StdoutLine: {'line': b'-- Installing: /home/ian339/me326_ws/la_msgs/install/la_msgs/share/la_msgs/environment/ament_prefix_path.dsv\n'}
+[7.663324] (la_msgs) StdoutLine: {'line': b'-- Installing: /home/ian339/me326_ws/la_msgs/install/la_msgs/share/la_msgs/environment/path.sh\n'}
+[7.663483] (la_msgs) StdoutLine: {'line': b'-- Installing: /home/ian339/me326_ws/la_msgs/install/la_msgs/share/la_msgs/environment/path.dsv\n'}
+[7.663580] (la_msgs) StdoutLine: {'line': b'-- Installing: /home/ian339/me326_ws/la_msgs/install/la_msgs/share/la_msgs/local_setup.bash\n'}
+[7.663654] (la_msgs) StdoutLine: {'line': b'-- Installing: /home/ian339/me326_ws/la_msgs/install/la_msgs/share/la_msgs/local_setup.sh\n'}
+[7.663733] (la_msgs) StdoutLine: {'line': b'-- Installing: /home/ian339/me326_ws/la_msgs/install/la_msgs/share/la_msgs/local_setup.zsh\n'}
+[7.663824] (la_msgs) StdoutLine: {'line': b'-- Installing: /home/ian339/me326_ws/la_msgs/install/la_msgs/share/la_msgs/local_setup.dsv\n'}
+[7.663914] (la_msgs) StdoutLine: {'line': b'-- Installing: /home/ian339/me326_ws/la_msgs/install/la_msgs/share/la_msgs/package.dsv\n'}
+[7.664027] (la_msgs) StdoutLine: {'line': b'-- Installing: /home/ian339/me326_ws/la_msgs/install/la_msgs/share/ament_index/resource_index/packages/la_msgs\n'}
+[7.664246] (la_msgs) StdoutLine: {'line': b'-- Installing: /home/ian339/me326_ws/la_msgs/install/la_msgs/share/la_msgs/cmake/la_msgs__rosidl_generator_cExport.cmake\n'}
+[7.664374] (la_msgs) StdoutLine: {'line': b'-- Installing: /home/ian339/me326_ws/la_msgs/install/la_msgs/share/la_msgs/cmake/la_msgs__rosidl_generator_cExport-noconfig.cmake\n'}
+[7.664582] (la_msgs) StdoutLine: {'line': b'-- Installing: /home/ian339/me326_ws/la_msgs/install/la_msgs/share/la_msgs/cmake/la_msgs__rosidl_typesupport_introspection_cExport.cmake\n'}
+[7.664799] (la_msgs) StdoutLine: {'line': b'-- Installing: /home/ian339/me326_ws/la_msgs/install/la_msgs/share/la_msgs/cmake/la_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[7.665112] (la_msgs) StdoutLine: {'line': b'-- Installing: /home/ian339/me326_ws/la_msgs/install/la_msgs/share/la_msgs/cmake/la_msgs__rosidl_typesupport_cExport.cmake\n'}
+[7.665289] (la_msgs) StdoutLine: {'line': b'-- Installing: /home/ian339/me326_ws/la_msgs/install/la_msgs/share/la_msgs/cmake/la_msgs__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[7.665426] (la_msgs) StdoutLine: {'line': b'-- Installing: /home/ian339/me326_ws/la_msgs/install/la_msgs/share/la_msgs/cmake/la_msgs__rosidl_generator_cppExport.cmake\n'}
+[7.665606] (la_msgs) StdoutLine: {'line': b'-- Installing: /home/ian339/me326_ws/la_msgs/install/la_msgs/share/la_msgs/cmake/la_msgs__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[7.665745] (la_msgs) StdoutLine: {'line': b'-- Installing: /home/ian339/me326_ws/la_msgs/install/la_msgs/share/la_msgs/cmake/la_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[7.666000] (la_msgs) StdoutLine: {'line': b'-- Installing: /home/ian339/me326_ws/la_msgs/install/la_msgs/share/la_msgs/cmake/la_msgs__rosidl_typesupport_cppExport.cmake\n'}
+[7.666274] (la_msgs) StdoutLine: {'line': b'-- Installing: /home/ian339/me326_ws/la_msgs/install/la_msgs/share/la_msgs/cmake/la_msgs__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[7.666441] (la_msgs) StdoutLine: {'line': b'-- Installing: /home/ian339/me326_ws/la_msgs/install/la_msgs/share/la_msgs/cmake/rosidl_cmake-extras.cmake\n'}
+[7.666552] (la_msgs) StdoutLine: {'line': b'-- Installing: /home/ian339/me326_ws/la_msgs/install/la_msgs/share/la_msgs/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[7.666682] (la_msgs) StdoutLine: {'line': b'-- Installing: /home/ian339/me326_ws/la_msgs/install/la_msgs/share/la_msgs/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[7.666808] (la_msgs) StdoutLine: {'line': b'-- Installing: /home/ian339/me326_ws/la_msgs/install/la_msgs/share/la_msgs/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[7.666907] (la_msgs) StdoutLine: {'line': b'-- Installing: /home/ian339/me326_ws/la_msgs/install/la_msgs/share/la_msgs/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[7.667001] (la_msgs) StdoutLine: {'line': b'-- Installing: /home/ian339/me326_ws/la_msgs/install/la_msgs/share/la_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[7.667130] (la_msgs) StdoutLine: {'line': b'-- Installing: /home/ian339/me326_ws/la_msgs/install/la_msgs/share/la_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[7.667241] (la_msgs) StdoutLine: {'line': b'-- Installing: /home/ian339/me326_ws/la_msgs/install/la_msgs/share/la_msgs/cmake/la_msgsConfig.cmake\n'}
+[7.667341] (la_msgs) StdoutLine: {'line': b'-- Installing: /home/ian339/me326_ws/la_msgs/install/la_msgs/share/la_msgs/cmake/la_msgsConfig-version.cmake\n'}
+[7.667435] (la_msgs) StdoutLine: {'line': b'-- Installing: /home/ian339/me326_ws/la_msgs/install/la_msgs/share/la_msgs/package.xml\n'}
+[7.670341] (la_msgs) CommandEnded: {'returncode': 0}
+[7.738448] (-) TimerEvent: {}
+[7.840576] (-) TimerEvent: {}
+[7.941069] (-) TimerEvent: {}
+[8.041492] (-) TimerEvent: {}
+[8.142420] (-) TimerEvent: {}
+[8.233069] (la_msgs) JobEnded: {'identifier': 'la_msgs', 'rc': 0}
+[8.233541] (-) EventReactorShutdown: {}
