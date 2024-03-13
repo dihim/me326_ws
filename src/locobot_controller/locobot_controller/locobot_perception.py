@@ -16,7 +16,7 @@ class PerceptionClient(Node):
             self.get_logger().info('service not available, waiting again...') 
         self.req = Ptps.Request()
         self.subscription = self.create_subscription(String, 'desired_color', self.listener_callback, 10) 
-        self.publisher = self.create_publisher(String, 'block_location', 10) 
+        self.publisher = self.create_publisher(PointStamped, 'block_location', 10) 
         self.get_logger().info("Service found, setting up")
         self.desired_frame = 'locobot/odom'
         self.client_futures = []
