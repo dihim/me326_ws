@@ -1,0 +1,589 @@
+[0.000000] (-) TimerEvent: {}
+[0.000169] (locobot_autonomy) JobQueued: {'identifier': 'locobot_autonomy', 'dependencies': OrderedDict()}
+[0.000213] (locobot_autonomy) JobStarted: {'identifier': 'locobot_autonomy'}
+[0.102246] (-) TimerEvent: {}
+[0.203867] (-) TimerEvent: {}
+[0.305048] (-) TimerEvent: {}
+[0.320601] (locobot_autonomy) JobProgress: {'identifier': 'locobot_autonomy', 'progress': 'cmake'}
+[0.321015] (locobot_autonomy) Command: {'cmd': ['/usr/bin/cmake', '/home/ian339/collaborative_robotics_course/locobot_autonomy', '-DCMAKE_INSTALL_PREFIX=/home/ian339/collaborative_robotics_course/locobot_autonomy/install/locobot_autonomy'], 'cwd': '/home/ian339/collaborative_robotics_course/locobot_autonomy/build/locobot_autonomy', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ian339'), ('SSH_AGENT_PID', '1483'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/ian339/collaborative_robotics_course/install/locobot_autonomy/lib:/home/ian339/collaborative_robotics_course/install/la_msgs/lib:/home/ian339/me326_ws/src/la_msgs/install/la_msgs/lib:/home/ian339/me326_ws/la_msgs/install/la_msgs/lib:/home/ian339/interbotix_ws/install/moveit_visual_tools/lib:/home/ian339/interbotix_ws/install/interbotix_xs_rviz/lib:/home/ian339/interbotix_ws/install/interbotix_xs_ros_control/lib:/home/ian339/interbotix_ws/install/interbotix_xs_msgs/lib:/home/ian339/interbotix_ws/install/interbotix_tf_tools/lib:/home/ian339/interbotix_ws/install/interbotix_perception_msgs/lib:/home/ian339/interbotix_ws/install/interbotix_moveit_interface_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins::/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins::/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('HOME', '/home/ian339'), ('OLDPWD', '/home/ian339/collaborative_robotics_course'), ('DESKTOP_SESSION', 'ubuntu'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1308'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/ian339/collaborative_robotics_course/install:/home/ian339/me326_ws/src/locobot_controller/install:/home/ian339/interbotix_ws/install:/home/ian339/me326_ws/src/la_msgs/install:/home/ian339/me326_ws/la_msgs/install'), ('ROS_DISTRO', 'galactic'), ('LOGNAME', 'ian339'), ('JOURNAL_STREAM', '8:38223'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ian339'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo-11/models:/usr/share/gazebo-11/models:/usr/share/gazebo-11/models:'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/opt/ros/galactic/bin:/home/ian339/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/ian339-VirtualBox:@/tmp/.ICE-unix/1545,unix/ian339-VirtualBox:/tmp/.ICE-unix/1545'), ('INVOCATION_ID', '777c06a7870a4a78b6d164e44d876bd5'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/60c44d54_56b5_4299_a88c_0b1e771e6f12'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('INTERBOTIX_XSLOCOBOT_BASE_TYPE', 'create3'), ('GNOME_TERMINAL_SERVICE', ':1.77'), ('INTERBOTIX_WS', '/home/ian339/interbotix_ws'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/ian339/collaborative_robotics_course/install/locobot_autonomy:/home/ian339/collaborative_robotics_course/install/la_msgs:/home/ian339/me326_ws/src/la_msgs/install/la_msgs:/home/ian339/me326_ws/la_msgs/install/la_msgs:/home/ian339/me326_ws/src/locobot_controller/install/locobot_controller:/home/ian339/interbotix_ws/install/interbotix_moveit_interface:/home/ian339/interbotix_ws/install/moveit_visual_tools:/home/ian339/interbotix_ws/install/interbotix_xslocobot_moveit:/home/ian339/interbotix_ws/install/interbotix_xslocobot_ros_control:/home/ian339/interbotix_ws/install/interbotix_xslocobot_sim:/home/ian339/interbotix_ws/install/interbotix_xslocobot_descriptions:/home/ian339/interbotix_ws/install/interbotix_xs_toolbox:/home/ian339/interbotix_ws/install/interbotix_xs_rviz:/home/ian339/interbotix_ws/install/interbotix_xs_ros_control:/home/ian339/interbotix_ws/install/interbotix_xs_modules:/home/ian339/interbotix_ws/install/interbotix_perception_toolbox:/home/ian339/interbotix_ws/install/interbotix_perception_modules:/home/ian339/interbotix_ws/install/interbotix_perception_pipelines:/home/ian339/interbotix_ws/install/interbotix_xs_msgs:/home/ian339/interbotix_ws/install/interbotix_tf_tools:/home/ian339/interbotix_ws/install/interbotix_perception_msgs:/home/ian339/interbotix_ws/install/interbotix_moveit_interface_msgs:/home/ian339/interbotix_ws/install/interbotix_common_toolbox:/home/ian339/interbotix_ws/install/interbotix_common_sim:/home/ian339/interbotix_ws/install/interbotix_common_modules:/opt/ros/galactic'), ('SHELL', '/bin/bash'), ('ROS_DISCOVERY_SERVER', '192.169.0.11:11811'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11:/usr/share/gazebo-11:/usr/share/gazebo-11:'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ian339/collaborative_robotics_course/locobot_autonomy/build/locobot_autonomy'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('GAZEBO_PLUGIN_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ian339/collaborative_robotics_course/install/locobot_autonomy/lib/python3.8/site-packages:/home/ian339/collaborative_robotics_course/install/la_msgs/lib/python3.8/site-packages:/home/ian339/me326_ws/src/la_msgs/install/la_msgs/lib/python3.8/site-packages:/home/ian339/me326_ws/la_msgs/install/la_msgs/lib/python3.8/site-packages:/home/ian339/me326_ws/src/locobot_controller/install/locobot_controller/lib/python3.8/site-packages:/home/ian339/interbotix_ws/install/interbotix_xs_modules/lib/python3.8/site-packages:/home/ian339/interbotix_ws/install/interbotix_perception_modules/lib/python3.8/site-packages:/home/ian339/interbotix_ws/install/interbotix_xs_msgs/lib/python3.8/site-packages:/home/ian339/interbotix_ws/install/interbotix_perception_msgs/lib/python3.8/site-packages:/home/ian339/interbotix_ws/install/interbotix_moveit_interface_msgs/lib/python3.8/site-packages:/home/ian339/interbotix_ws/install/interbotix_common_modules/lib/python3.8/site-packages:/opt/ros/galactic/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/ian339/collaborative_robotics_course/install/locobot_autonomy:/home/ian339/collaborative_robotics_course/install/la_msgs:/home/ian339/me326_ws/src/la_msgs/install/la_msgs:/home/ian339/me326_ws/la_msgs/install/la_msgs:/home/ian339/interbotix_ws/install/interbotix_moveit_interface:/home/ian339/interbotix_ws/install/moveit_visual_tools:/home/ian339/interbotix_ws/install/interbotix_xslocobot_moveit:/home/ian339/interbotix_ws/install/interbotix_xslocobot_ros_control:/home/ian339/interbotix_ws/install/interbotix_xslocobot_sim:/home/ian339/interbotix_ws/install/interbotix_xslocobot_descriptions:/home/ian339/interbotix_ws/install/interbotix_xs_toolbox:/home/ian339/interbotix_ws/install/interbotix_xs_rviz:/home/ian339/interbotix_ws/install/interbotix_xs_ros_control:/home/ian339/interbotix_ws/install/interbotix_perception_toolbox:/home/ian339/interbotix_ws/install/interbotix_perception_pipelines:/home/ian339/interbotix_ws/install/interbotix_xs_msgs:/home/ian339/interbotix_ws/install/interbotix_tf_tools:/home/ian339/interbotix_ws/install/interbotix_perception_msgs:/home/ian339/interbotix_ws/install/interbotix_moveit_interface_msgs:/home/ian339/interbotix_ws/install/interbotix_common_toolbox:/home/ian339/interbotix_ws/install/interbotix_common_sim:/home/ian339/me326_ws/src/locobot_controller/install/locobot_controller:/home/ian339/interbotix_ws/install/interbotix_xs_modules:/home/ian339/interbotix_ws/install/interbotix_perception_modules:/home/ian339/interbotix_ws/install/interbotix_common_modules:/opt/ros/galactic')]), 'shell': False}
+[0.385801] (locobot_autonomy) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.4.0\n'}
+[0.405230] (-) TimerEvent: {}
+[0.440288] (locobot_autonomy) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.4.0\n'}
+[0.446160] (locobot_autonomy) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[0.505449] (-) TimerEvent: {}
+[0.526289] (locobot_autonomy) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[0.527026] (locobot_autonomy) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.605630] (-) TimerEvent: {}
+[0.609205] (locobot_autonomy) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.619712] (locobot_autonomy) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.620012] (locobot_autonomy) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.622214] (locobot_autonomy) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[0.705808] (-) TimerEvent: {}
+[0.714337] (locobot_autonomy) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[0.715382] (locobot_autonomy) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.806025] (-) TimerEvent: {}
+[0.811540] (locobot_autonomy) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.823175] (locobot_autonomy) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.823658] (locobot_autonomy) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.827206] (locobot_autonomy) StdoutLine: {'line': b'-- Found ament_cmake: 1.1.6 (/opt/ros/galactic/share/ament_cmake/cmake)\n'}
+[0.859254] (locobot_autonomy) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[0.859474] (locobot_autonomy) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.906162] (-) TimerEvent: {}
+[0.962471] (locobot_autonomy) StdoutLine: {'line': b'-- Found rclcpp: 9.2.2 (/opt/ros/galactic/share/rclcpp/cmake)\n'}
+[1.006408] (-) TimerEvent: {}
+[1.026696] (locobot_autonomy) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.038010] (locobot_autonomy) StdoutLine: {'line': b'-- Found rosidl_adapter: 2.2.3 (/opt/ros/galactic/share/rosidl_adapter/cmake)\n'}
+[1.106554] (-) TimerEvent: {}
+[1.134427] (locobot_autonomy) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  \n'}
+[1.173052] (locobot_autonomy) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/galactic/include  \n'}
+[1.208280] (-) TimerEvent: {}
+[1.263629] (locobot_autonomy) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.308421] (-) TimerEvent: {}
+[1.332268] (locobot_autonomy) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 3.3.1 (/opt/ros/galactic/share/rmw_implementation_cmake/cmake)\n'}
+[1.337801] (locobot_autonomy) StdoutLine: {'line': b'-- Found rmw_cyclonedds_cpp: 0.22.6 (/opt/ros/galactic/share/rmw_cyclonedds_cpp/cmake)\n'}
+[1.363905] (locobot_autonomy) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_cyclonedds_cpp' as default\n"}
+[1.364906] (locobot_autonomy) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[1.408641] (-) TimerEvent: {}
+[1.439412] (locobot_autonomy) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[1.439615] (locobot_autonomy) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[1.508818] (-) TimerEvent: {}
+[1.553797] (locobot_autonomy) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed\n'}
+[1.554093] (locobot_autonomy) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads\n'}
+[1.610734] (-) TimerEvent: {}
+[1.642557] (locobot_autonomy) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads - not found\n'}
+[1.642824] (locobot_autonomy) StdoutLine: {'line': b'-- Looking for pthread_create in pthread\n'}
+[1.710972] (-) TimerEvent: {}
+[1.751575] (locobot_autonomy) StdoutLine: {'line': b'-- Looking for pthread_create in pthread - found\n'}
+[1.751831] (locobot_autonomy) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[1.811171] (-) TimerEvent: {}
+[1.911607] (-) TimerEvent: {}
+[1.914703] (locobot_autonomy) StdoutLine: {'line': b'-- Found rclpy: 1.9.3 (/opt/ros/galactic/share/rclpy/cmake)\n'}
+[1.917871] (locobot_autonomy) StdoutLine: {'line': b'-- Found geometry_msgs: 2.2.4 (/opt/ros/galactic/share/geometry_msgs/cmake)\n'}
+[1.955246] (locobot_autonomy) StdoutLine: {'line': b'-- Found nav_msgs: 2.2.4 (/opt/ros/galactic/share/nav_msgs/cmake)\n'}
+[2.012237] (-) TimerEvent: {}
+[2.023110] (locobot_autonomy) StdoutLine: {'line': b'-- Found visualization_msgs: 2.2.4 (/opt/ros/galactic/share/visualization_msgs/cmake)\n'}
+[2.100456] (locobot_autonomy) StdoutLine: {'line': b'-- Found sensor_msgs: 2.2.4 (/opt/ros/galactic/share/sensor_msgs/cmake)\n'}
+[2.112473] (-) TimerEvent: {}
+[2.173559] (locobot_autonomy) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.1.1 (/opt/ros/galactic/share/rosidl_default_generators/cmake)\n'}
+[2.190646] (locobot_autonomy) StdoutLine: {'line': b'-- Found action_msgs: 1.0.3 (/opt/ros/galactic/share/action_msgs/cmake)\n'}
+[2.212726] (-) TimerEvent: {}
+[2.231626] (locobot_autonomy) StdoutLine: {'line': b'-- Found tf2: 0.17.5 (/opt/ros/galactic/share/tf2/cmake)\n'}
+[2.245671] (locobot_autonomy) StdoutLine: {'line': b'-- Found tf2_ros: 0.17.5 (/opt/ros/galactic/share/tf2_ros/cmake)\n'}
+[2.315459] (-) TimerEvent: {}
+[2.420307] (-) TimerEvent: {}
+[2.524779] (-) TimerEvent: {}
+[2.547997] (locobot_autonomy) StdoutLine: {'line': b'-- Found tf2_eigen: 0.17.5 (/opt/ros/galactic/share/tf2_eigen/cmake)\n'}
+[2.561534] (locobot_autonomy) StdoutLine: {'line': b'-- Found tf2_geometry_msgs: 0.17.5 (/opt/ros/galactic/share/tf2_geometry_msgs/cmake)\n'}
+[2.575471] (locobot_autonomy) StdoutLine: {'line': b'-- Found Eigen3: TRUE (found version "3.3.7") \n'}
+[2.611094] (locobot_autonomy) StdoutLine: {'line': b'-- Found OpenCV: /usr (found version "4.2.0") \n'}
+[2.613895] (locobot_autonomy) StdoutLine: {'line': b'-- Found pcl_ros: 2.3.2 (/opt/ros/galactic/share/pcl_ros/cmake)\n'}
+[2.624995] (-) TimerEvent: {}
+[2.728305] (-) TimerEvent: {}
+[2.828803] (-) TimerEvent: {}
+[2.908268] (locobot_autonomy) StdoutLine: {'line': b"-- Checking for module 'eigen3'\n"}
+[2.924030] (locobot_autonomy) StdoutLine: {'line': b'--   Found eigen3, version 3.3.7\n'}
+[2.928927] (-) TimerEvent: {}
+[2.974333] (locobot_autonomy) StdoutLine: {'line': b'-- Found Eigen: /usr/include/eigen3 (Required is at least version "3.1") \n'}
+[2.974628] (locobot_autonomy) StdoutLine: {'line': b'-- Eigen found (include: /usr/include/eigen3, version: 3.3.7)\n'}
+[3.029198] (-) TimerEvent: {}
+[3.075617] (locobot_autonomy) StdoutLine: {'line': b"-- Checking for module 'flann'\n"}
+[3.092819] (locobot_autonomy) StdoutLine: {'line': b'--   Found flann, version 1.9.1\n'}
+[3.129415] (-) TimerEvent: {}
+[3.135405] (locobot_autonomy) StdoutLine: {'line': b'-- Found FLANN: /usr/lib/x86_64-linux-gnu/libflann_cpp.so  \n'}
+[3.190657] (locobot_autonomy) StdoutLine: {'line': b'-- The imported target "vtkParseOGLExt" references the file\n'}
+[3.190841] (locobot_autonomy) StdoutLine: {'line': b'   "/usr/bin/vtkParseOGLExt-7.1"\n'}
+[3.190902] (locobot_autonomy) StdoutLine: {'line': b'but this file does not exist.  Possible reasons include:\n'}
+[3.190958] (locobot_autonomy) StdoutLine: {'line': b'* The file was deleted, renamed, or moved to another location.\n'}
+[3.191012] (locobot_autonomy) StdoutLine: {'line': b'* An install or uninstall procedure did not complete successfully.\n'}
+[3.191065] (locobot_autonomy) StdoutLine: {'line': b'* The installation package was faulty and contained\n'}
+[3.191116] (locobot_autonomy) StdoutLine: {'line': b'   "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"\n'}
+[3.191167] (locobot_autonomy) StdoutLine: {'line': b'but not all the files it references.\n'}
+[3.191217] (locobot_autonomy) StdoutLine: {'line': b'\n'}
+[3.191653] (locobot_autonomy) StdoutLine: {'line': b'-- The imported target "vtkRenderingPythonTkWidgets" references the file\n'}
+[3.191740] (locobot_autonomy) StdoutLine: {'line': b'   "/usr/lib/x86_64-linux-gnu/libvtkRenderingPythonTkWidgets.so"\n'}
+[3.191801] (locobot_autonomy) StdoutLine: {'line': b'but this file does not exist.  Possible reasons include:\n'}
+[3.191856] (locobot_autonomy) StdoutLine: {'line': b'* The file was deleted, renamed, or moved to another location.\n'}
+[3.191913] (locobot_autonomy) StdoutLine: {'line': b'* An install or uninstall procedure did not complete successfully.\n'}
+[3.191966] (locobot_autonomy) StdoutLine: {'line': b'* The installation package was faulty and contained\n'}
+[3.192075] (locobot_autonomy) StdoutLine: {'line': b'   "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"\n'}
+[3.192187] (locobot_autonomy) StdoutLine: {'line': b'but not all the files it references.\n'}
+[3.192286] (locobot_autonomy) StdoutLine: {'line': b'\n'}
+[3.192390] (locobot_autonomy) StdoutLine: {'line': b'-- The imported target "vtk" references the file\n'}
+[3.192499] (locobot_autonomy) StdoutLine: {'line': b'   "/usr/bin/vtk"\n'}
+[3.192572] (locobot_autonomy) StdoutLine: {'line': b'but this file does not exist.  Possible reasons include:\n'}
+[3.192625] (locobot_autonomy) StdoutLine: {'line': b'* The file was deleted, renamed, or moved to another location.\n'}
+[3.192682] (locobot_autonomy) StdoutLine: {'line': b'* An install or uninstall procedure did not complete successfully.\n'}
+[3.192734] (locobot_autonomy) StdoutLine: {'line': b'* The installation package was faulty and contained\n'}
+[3.192785] (locobot_autonomy) StdoutLine: {'line': b'   "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"\n'}
+[3.192843] (locobot_autonomy) StdoutLine: {'line': b'but not all the files it references.\n'}
+[3.192895] (locobot_autonomy) StdoutLine: {'line': b'\n'}
+[3.192986] (locobot_autonomy) StdoutLine: {'line': b'-- The imported target "pvtk" references the file\n'}
+[3.193045] (locobot_autonomy) StdoutLine: {'line': b'   "/usr/bin/pvtk"\n'}
+[3.193100] (locobot_autonomy) StdoutLine: {'line': b'but this file does not exist.  Possible reasons include:\n'}
+[3.193151] (locobot_autonomy) StdoutLine: {'line': b'* The file was deleted, renamed, or moved to another location.\n'}
+[3.193202] (locobot_autonomy) StdoutLine: {'line': b'* An install or uninstall procedure did not complete successfully.\n'}
+[3.193253] (locobot_autonomy) StdoutLine: {'line': b'* The installation package was faulty and contained\n'}
+[3.193304] (locobot_autonomy) StdoutLine: {'line': b'   "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"\n'}
+[3.193356] (locobot_autonomy) StdoutLine: {'line': b'but not all the files it references.\n'}
+[3.193408] (locobot_autonomy) StdoutLine: {'line': b'\n'}
+[3.211951] (locobot_autonomy) StdoutLine: {'line': b"-- Checking for module 'libusb-1.0'\n"}
+[3.228590] (locobot_autonomy) StdoutLine: {'line': b'--   Found libusb-1.0, version 1.0.23\n'}
+[3.229623] (-) TimerEvent: {}
+[3.274887] (locobot_autonomy) StdoutLine: {'line': b'-- Found USB_10: /usr/lib/x86_64-linux-gnu/libusb-1.0.so  \n'}
+[3.329744] (-) TimerEvent: {}
+[3.340977] (locobot_autonomy) StdoutLine: {'line': b'-- OpenNI found (include: /usr/include/ni, lib: /usr/lib/libOpenNI.so)\n'}
+[3.417984] (locobot_autonomy) StdoutLine: {'line': b'-- OpenNI2 found (include: /usr/include/openni2, lib: /usr/lib/libOpenNI2.so)\n'}
+[3.429959] (-) TimerEvent: {}
+[3.431766] (locobot_autonomy) StdoutLine: {'line': b'-- Found libusb-1.0: /usr/include  \n'}
+[3.438711] (locobot_autonomy) StdoutLine: {'line': b'-- OpenNI found (include: /usr/include/ni, lib: /usr/lib/libOpenNI.so)\n'}
+[3.445397] (locobot_autonomy) StdoutLine: {'line': b'-- OpenNI2 found (include: /usr/include/openni2, lib: /usr/lib/libOpenNI2.so)\n'}
+[3.478309] (locobot_autonomy) StdoutLine: {'line': b'-- Found Qhull: optimized;/usr/lib/x86_64-linux-gnu/libqhull.so;debug;/usr/lib/x86_64-linux-gnu/libqhull.so  \n'}
+[3.478477] (locobot_autonomy) StdoutLine: {'line': b'-- QHULL found (include: /usr/include, lib: optimized;/usr/lib/x86_64-linux-gnu/libqhull.so;debug;/usr/lib/x86_64-linux-gnu/libqhull.so)\n'}
+[3.485246] (locobot_autonomy) StdoutLine: {'line': b'-- OpenNI found (include: /usr/include/ni, lib: /usr/lib/libOpenNI.so)\n'}
+[3.497112] (locobot_autonomy) StdoutLine: {'line': b'-- Found PCL_COMMON: /usr/lib/x86_64-linux-gnu/libpcl_common.so  \n'}
+[3.498420] (locobot_autonomy) StdoutLine: {'line': b'-- Found PCL_KDTREE: /usr/lib/x86_64-linux-gnu/libpcl_kdtree.so  \n'}
+[3.499670] (locobot_autonomy) StdoutLine: {'line': b'-- Found PCL_OCTREE: /usr/lib/x86_64-linux-gnu/libpcl_octree.so  \n'}
+[3.500860] (locobot_autonomy) StdoutLine: {'line': b'-- Found PCL_SEARCH: /usr/lib/x86_64-linux-gnu/libpcl_search.so  \n'}
+[3.502018] (locobot_autonomy) StdoutLine: {'line': b'-- Found PCL_SAMPLE_CONSENSUS: /usr/lib/x86_64-linux-gnu/libpcl_sample_consensus.so  \n'}
+[3.503060] (locobot_autonomy) StdoutLine: {'line': b'-- Found PCL_FILTERS: /usr/lib/x86_64-linux-gnu/libpcl_filters.so  \n'}
+[3.503580] (locobot_autonomy) StdoutLine: {'line': b'-- Found PCL_2D: /usr/include/pcl-1.10  \n'}
+[3.504212] (locobot_autonomy) StdoutLine: {'line': b'-- Found PCL_GEOMETRY: /usr/include/pcl-1.10  \n'}
+[3.505194] (locobot_autonomy) StdoutLine: {'line': b'-- Found PCL_IO: /usr/lib/x86_64-linux-gnu/libpcl_io.so  \n'}
+[3.506346] (locobot_autonomy) StdoutLine: {'line': b'-- Found PCL_FEATURES: /usr/lib/x86_64-linux-gnu/libpcl_features.so  \n'}
+[3.507430] (locobot_autonomy) StdoutLine: {'line': b'-- Found PCL_ML: /usr/lib/x86_64-linux-gnu/libpcl_ml.so  \n'}
+[3.508471] (locobot_autonomy) StdoutLine: {'line': b'-- Found PCL_SEGMENTATION: /usr/lib/x86_64-linux-gnu/libpcl_segmentation.so  \n'}
+[3.509829] (locobot_autonomy) StdoutLine: {'line': b'-- Found PCL_VISUALIZATION: /usr/lib/x86_64-linux-gnu/libpcl_visualization.so  \n'}
+[3.510967] (locobot_autonomy) StdoutLine: {'line': b'-- Found PCL_SURFACE: /usr/lib/x86_64-linux-gnu/libpcl_surface.so  \n'}
+[3.512215] (locobot_autonomy) StdoutLine: {'line': b'-- Found PCL_REGISTRATION: /usr/lib/x86_64-linux-gnu/libpcl_registration.so  \n'}
+[3.513414] (locobot_autonomy) StdoutLine: {'line': b'-- Found PCL_KEYPOINTS: /usr/lib/x86_64-linux-gnu/libpcl_keypoints.so  \n'}
+[3.514768] (locobot_autonomy) StdoutLine: {'line': b'-- Found PCL_TRACKING: /usr/lib/x86_64-linux-gnu/libpcl_tracking.so  \n'}
+[3.515870] (locobot_autonomy) StdoutLine: {'line': b'-- Found PCL_RECOGNITION: /usr/lib/x86_64-linux-gnu/libpcl_recognition.so  \n'}
+[3.517199] (locobot_autonomy) StdoutLine: {'line': b'-- Found PCL_STEREO: /usr/lib/x86_64-linux-gnu/libpcl_stereo.so  \n'}
+[3.518367] (locobot_autonomy) StdoutLine: {'line': b'-- Found PCL_APPS: /usr/lib/x86_64-linux-gnu/libpcl_apps.so  \n'}
+[3.519532] (locobot_autonomy) StdoutLine: {'line': b'-- Found PCL_IN_HAND_SCANNER: /usr/include/pcl-1.10  \n'}
+[3.520126] (locobot_autonomy) StdoutLine: {'line': b'-- Found PCL_POINT_CLOUD_EDITOR: /usr/include/pcl-1.10  \n'}
+[3.521388] (locobot_autonomy) StdoutLine: {'line': b'-- Found PCL_OUTOFCORE: /usr/lib/x86_64-linux-gnu/libpcl_outofcore.so  \n'}
+[3.522547] (locobot_autonomy) StdoutLine: {'line': b'-- Found PCL_PEOPLE: /usr/lib/x86_64-linux-gnu/libpcl_people.so  \n'}
+[3.530874] (-) TimerEvent: {}
+[3.631114] (-) TimerEvent: {}
+[3.709909] (locobot_autonomy) StdoutLine: {'line': b'-- Found image_geometry: 3.1.3 (/opt/ros/galactic/share/image_geometry/cmake)\n'}
+[3.715620] (locobot_autonomy) StdoutLine: {'line': b'-- Found image_transport: 2.5.1 (/opt/ros/galactic/share/image_transport/cmake)\n'}
+[3.731176] (-) TimerEvent: {}
+[3.755270] (locobot_autonomy) StdoutLine: {'line': b'-- Found cv_bridge: 3.1.3 (/opt/ros/galactic/share/cv_bridge/cmake)\n'}
+[3.774745] (locobot_autonomy) StdoutLine: {'line': b'-- Found la_msgs: 0.0.0 (/home/ian339/collaborative_robotics_course/install/la_msgs/share/la_msgs/cmake)\n'}
+[3.831596] (-) TimerEvent: {}
+[3.932179] (-) TimerEvent: {}
+[4.032656] (-) TimerEvent: {}
+[4.042738] (locobot_autonomy) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") \n'}
+[4.137286] (-) TimerEvent: {}
+[4.237617] (-) TimerEvent: {}
+[4.244081] (locobot_autonomy) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.9.2 (/opt/ros/galactic/share/ament_cmake_ros/cmake)\n'}
+[4.338065] (-) TimerEvent: {}
+[4.438447] (-) TimerEvent: {}
+[4.528057] (locobot_autonomy) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[4.538712] (-) TimerEvent: {}
+[4.639124] (-) TimerEvent: {}
+[4.650476] (locobot_autonomy) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[4.686048] (locobot_autonomy) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.5") \n'}
+[4.688967] (locobot_autonomy) StdoutLine: {'line': b'-- Found python_cmake_module: 0.8.1 (/opt/ros/galactic/share/python_cmake_module/cmake)\n'}
+[4.718737] (locobot_autonomy) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.8.so (found suitable version "3.8.10", minimum required is "3.5") \n'}
+[4.718969] (locobot_autonomy) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[4.719030] (locobot_autonomy) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8\n'}
+[4.719085] (locobot_autonomy) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.8.so\n'}
+[4.739280] (-) TimerEvent: {}
+[4.740754] (locobot_autonomy) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[4.820564] (locobot_autonomy) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.10.7 (/opt/ros/galactic/share/ament_lint_auto/cmake)\n'}
+[4.839747] (-) TimerEvent: {}
+[4.855362] (locobot_autonomy) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[4.861648] (locobot_autonomy) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[4.865238] (locobot_autonomy) StdoutLine: {'line': b'-- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/ian339/collaborative_robotics_course/locobot_autonomy/build/locobot_autonomy/rosidl_generator_c>;/home/ian339/collaborative_robotics_course/locobot_autonomy/build/locobot_autonomy/rosidl_generator_c;/home/ian339/collaborative_robotics_course/locobot_autonomy/build/locobot_autonomy/rosidl_generator_cpp;/home/ian339/collaborative_robotics_course/locobot_autonomy/build/locobot_autonomy/rosidl_typesupport_fastrtps_c;/home/ian339/collaborative_robotics_course/locobot_autonomy/build/locobot_autonomy/rosidl_typesupport_fastrtps_cpp;$<BUILD_INTERFACE:/home/ian339/collaborative_robotics_course/locobot_autonomy/build/locobot_autonomy/rosidl_typesupport_introspection_c>;$<BUILD_INTERFACE:/home/ian339/collaborative_robotics_course/locobot_autonomy/build/locobot_autonomy/rosidl_typesupport_c>;$<BUILD_INTERFACE:/home/ian339/collaborative_robotics_course/locobot_autonomy/build/locobot_autonomy/rosidl_generator_cpp>;/home/ian339/collaborative_robotics_course/locobot_autonomy/build/locobot_autonomy/rosidl_generator_py\n'}
+[4.865581] (locobot_autonomy) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[4.871634] (locobot_autonomy) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[4.871742] (locobot_autonomy) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[4.873008] (locobot_autonomy) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[4.875096] (locobot_autonomy) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[4.876604] (locobot_autonomy) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the style conventions in PEP 257\n"}
+[4.886612] (locobot_autonomy) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[4.886784] (locobot_autonomy) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[4.888182] (locobot_autonomy) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[4.894715] (locobot_autonomy) StdoutLine: {'line': b'-- Configuring done\n'}
+[4.939853] (-) TimerEvent: {}
+[4.989854] (locobot_autonomy) StdoutLine: {'line': b'-- Generating done\n'}
+[4.994122] (locobot_autonomy) StdoutLine: {'line': b'-- Build files have been written to: /home/ian339/collaborative_robotics_course/locobot_autonomy/build/locobot_autonomy\n'}
+[5.009698] (locobot_autonomy) CommandEnded: {'returncode': 0}
+[5.014008] (locobot_autonomy) JobProgress: {'identifier': 'locobot_autonomy', 'progress': 'build'}
+[5.014067] (locobot_autonomy) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ian339/collaborative_robotics_course/locobot_autonomy/build/locobot_autonomy', '--', '-j6', '-l6'], 'cwd': '/home/ian339/collaborative_robotics_course/locobot_autonomy/build/locobot_autonomy', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ian339'), ('SSH_AGENT_PID', '1483'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/ian339/collaborative_robotics_course/install/locobot_autonomy/lib:/home/ian339/collaborative_robotics_course/install/la_msgs/lib:/home/ian339/me326_ws/src/la_msgs/install/la_msgs/lib:/home/ian339/me326_ws/la_msgs/install/la_msgs/lib:/home/ian339/interbotix_ws/install/moveit_visual_tools/lib:/home/ian339/interbotix_ws/install/interbotix_xs_rviz/lib:/home/ian339/interbotix_ws/install/interbotix_xs_ros_control/lib:/home/ian339/interbotix_ws/install/interbotix_xs_msgs/lib:/home/ian339/interbotix_ws/install/interbotix_tf_tools/lib:/home/ian339/interbotix_ws/install/interbotix_perception_msgs/lib:/home/ian339/interbotix_ws/install/interbotix_moveit_interface_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins::/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins::/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('HOME', '/home/ian339'), ('OLDPWD', '/home/ian339/collaborative_robotics_course'), ('DESKTOP_SESSION', 'ubuntu'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1308'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/ian339/collaborative_robotics_course/install:/home/ian339/me326_ws/src/locobot_controller/install:/home/ian339/interbotix_ws/install:/home/ian339/me326_ws/src/la_msgs/install:/home/ian339/me326_ws/la_msgs/install'), ('ROS_DISTRO', 'galactic'), ('LOGNAME', 'ian339'), ('JOURNAL_STREAM', '8:38223'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ian339'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo-11/models:/usr/share/gazebo-11/models:/usr/share/gazebo-11/models:'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/opt/ros/galactic/bin:/home/ian339/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/ian339-VirtualBox:@/tmp/.ICE-unix/1545,unix/ian339-VirtualBox:/tmp/.ICE-unix/1545'), ('INVOCATION_ID', '777c06a7870a4a78b6d164e44d876bd5'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/60c44d54_56b5_4299_a88c_0b1e771e6f12'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('INTERBOTIX_XSLOCOBOT_BASE_TYPE', 'create3'), ('GNOME_TERMINAL_SERVICE', ':1.77'), ('INTERBOTIX_WS', '/home/ian339/interbotix_ws'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/ian339/collaborative_robotics_course/install/locobot_autonomy:/home/ian339/collaborative_robotics_course/install/la_msgs:/home/ian339/me326_ws/src/la_msgs/install/la_msgs:/home/ian339/me326_ws/la_msgs/install/la_msgs:/home/ian339/me326_ws/src/locobot_controller/install/locobot_controller:/home/ian339/interbotix_ws/install/interbotix_moveit_interface:/home/ian339/interbotix_ws/install/moveit_visual_tools:/home/ian339/interbotix_ws/install/interbotix_xslocobot_moveit:/home/ian339/interbotix_ws/install/interbotix_xslocobot_ros_control:/home/ian339/interbotix_ws/install/interbotix_xslocobot_sim:/home/ian339/interbotix_ws/install/interbotix_xslocobot_descriptions:/home/ian339/interbotix_ws/install/interbotix_xs_toolbox:/home/ian339/interbotix_ws/install/interbotix_xs_rviz:/home/ian339/interbotix_ws/install/interbotix_xs_ros_control:/home/ian339/interbotix_ws/install/interbotix_xs_modules:/home/ian339/interbotix_ws/install/interbotix_perception_toolbox:/home/ian339/interbotix_ws/install/interbotix_perception_modules:/home/ian339/interbotix_ws/install/interbotix_perception_pipelines:/home/ian339/interbotix_ws/install/interbotix_xs_msgs:/home/ian339/interbotix_ws/install/interbotix_tf_tools:/home/ian339/interbotix_ws/install/interbotix_perception_msgs:/home/ian339/interbotix_ws/install/interbotix_moveit_interface_msgs:/home/ian339/interbotix_ws/install/interbotix_common_toolbox:/home/ian339/interbotix_ws/install/interbotix_common_sim:/home/ian339/interbotix_ws/install/interbotix_common_modules:/opt/ros/galactic'), ('SHELL', '/bin/bash'), ('ROS_DISCOVERY_SERVER', '192.169.0.11:11811'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11:/usr/share/gazebo-11:/usr/share/gazebo-11:'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ian339/collaborative_robotics_course/locobot_autonomy/build/locobot_autonomy'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('GAZEBO_PLUGIN_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ian339/collaborative_robotics_course/install/locobot_autonomy/lib/python3.8/site-packages:/home/ian339/collaborative_robotics_course/install/la_msgs/lib/python3.8/site-packages:/home/ian339/me326_ws/src/la_msgs/install/la_msgs/lib/python3.8/site-packages:/home/ian339/me326_ws/la_msgs/install/la_msgs/lib/python3.8/site-packages:/home/ian339/me326_ws/src/locobot_controller/install/locobot_controller/lib/python3.8/site-packages:/home/ian339/interbotix_ws/install/interbotix_xs_modules/lib/python3.8/site-packages:/home/ian339/interbotix_ws/install/interbotix_perception_modules/lib/python3.8/site-packages:/home/ian339/interbotix_ws/install/interbotix_xs_msgs/lib/python3.8/site-packages:/home/ian339/interbotix_ws/install/interbotix_perception_msgs/lib/python3.8/site-packages:/home/ian339/interbotix_ws/install/interbotix_moveit_interface_msgs/lib/python3.8/site-packages:/home/ian339/interbotix_ws/install/interbotix_common_modules/lib/python3.8/site-packages:/opt/ros/galactic/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/ian339/collaborative_robotics_course/install/locobot_autonomy:/home/ian339/collaborative_robotics_course/install/la_msgs:/home/ian339/me326_ws/src/la_msgs/install/la_msgs:/home/ian339/me326_ws/la_msgs/install/la_msgs:/home/ian339/interbotix_ws/install/interbotix_moveit_interface:/home/ian339/interbotix_ws/install/moveit_visual_tools:/home/ian339/interbotix_ws/install/interbotix_xslocobot_moveit:/home/ian339/interbotix_ws/install/interbotix_xslocobot_ros_control:/home/ian339/interbotix_ws/install/interbotix_xslocobot_sim:/home/ian339/interbotix_ws/install/interbotix_xslocobot_descriptions:/home/ian339/interbotix_ws/install/interbotix_xs_toolbox:/home/ian339/interbotix_ws/install/interbotix_xs_rviz:/home/ian339/interbotix_ws/install/interbotix_xs_ros_control:/home/ian339/interbotix_ws/install/interbotix_perception_toolbox:/home/ian339/interbotix_ws/install/interbotix_perception_pipelines:/home/ian339/interbotix_ws/install/interbotix_xs_msgs:/home/ian339/interbotix_ws/install/interbotix_tf_tools:/home/ian339/interbotix_ws/install/interbotix_perception_msgs:/home/ian339/interbotix_ws/install/interbotix_moveit_interface_msgs:/home/ian339/interbotix_ws/install/interbotix_common_toolbox:/home/ian339/interbotix_ws/install/interbotix_common_sim:/home/ian339/me326_ws/src/locobot_controller/install/locobot_controller:/home/ian339/interbotix_ws/install/interbotix_xs_modules:/home/ian339/interbotix_ws/install/interbotix_perception_modules:/home/ian339/interbotix_ws/install/interbotix_common_modules:/opt/ros/galactic')]), 'shell': False}
+[5.040274] (-) TimerEvent: {}
+[5.072640] (locobot_autonomy) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target locobot_autonomy__cpp\x1b[0m\n'}
+[5.074089] (locobot_autonomy) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target visual_block_perception_srv\x1b[0m\n'}
+[5.079810] (locobot_autonomy) StdoutLine: {'line': b'[  3%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[5.085405] (locobot_autonomy) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target ament_cmake_python_copy_locobot_autonomy\x1b[0m\n'}
+[5.095666] (locobot_autonomy) StdoutLine: {'line': b'[  6%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[5.119891] (locobot_autonomy) StdoutLine: {'line': b'[  6%] Built target ament_cmake_python_copy_locobot_autonomy\n'}
+[5.135085] (locobot_autonomy) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target ament_cmake_python_build_locobot_autonomy_egg\x1b[0m\n'}
+[5.141803] (-) TimerEvent: {}
+[5.184582] (locobot_autonomy) StdoutLine: {'line': b'[  9%] \x1b[32mBuilding CXX object CMakeFiles/visual_block_perception_srv.dir/src/visual_block_perception_srv.cpp.o\x1b[0m\n'}
+[5.241985] (-) TimerEvent: {}
+[5.342346] (-) TimerEvent: {}
+[5.398023] (locobot_autonomy) StdoutLine: {'line': b'running egg_info\n'}
+[5.399156] (locobot_autonomy) StdoutLine: {'line': b'creating locobot_autonomy.egg-info\n'}
+[5.399495] (locobot_autonomy) StdoutLine: {'line': b'writing locobot_autonomy.egg-info/PKG-INFO\n'}
+[5.399890] (locobot_autonomy) StdoutLine: {'line': b'writing dependency_links to locobot_autonomy.egg-info/dependency_links.txt\n'}
+[5.400382] (locobot_autonomy) StdoutLine: {'line': b'writing top-level names to locobot_autonomy.egg-info/top_level.txt\n'}
+[5.402136] (locobot_autonomy) StdoutLine: {'line': b"writing manifest file 'locobot_autonomy.egg-info/SOURCES.txt'\n"}
+[5.437131] (locobot_autonomy) StdoutLine: {'line': b"reading manifest file 'locobot_autonomy.egg-info/SOURCES.txt'\n"}
+[5.438045] (locobot_autonomy) StdoutLine: {'line': b"writing manifest file 'locobot_autonomy.egg-info/SOURCES.txt'\n"}
+[5.445633] (-) TimerEvent: {}
+[5.468243] (locobot_autonomy) StdoutLine: {'line': b'[  9%] Built target ament_cmake_python_build_locobot_autonomy_egg\n'}
+[5.530392] (locobot_autonomy) StdoutLine: {'line': b'[  9%] Built target locobot_autonomy__cpp\n'}
+[5.537309] (locobot_autonomy) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target locobot_autonomy__rosidl_generator_c\x1b[0m\n'}
+[5.545867] (-) TimerEvent: {}
+[5.546696] (locobot_autonomy) StdoutLine: {'line': b'[ 12%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[5.549386] (locobot_autonomy) StdoutLine: {'line': b'[ 15%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[5.549686] (locobot_autonomy) StdoutLine: {'line': b'[ 18%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[5.555899] (locobot_autonomy) StdoutLine: {'line': b'[ 21%] \x1b[32mBuilding C object CMakeFiles/locobot_autonomy__rosidl_generator_c.dir/rosidl_generator_c/locobot_autonomy/action/detail/move_base__functions.c.o\x1b[0m\n'}
+[5.646200] (-) TimerEvent: {}
+[5.720060] (locobot_autonomy) StdoutLine: {'line': b'[ 24%] \x1b[32m\x1b[1mLinking C shared library liblocobot_autonomy__rosidl_generator_c.so\x1b[0m\n'}
+[5.746462] (-) TimerEvent: {}
+[5.786256] (locobot_autonomy) StdoutLine: {'line': b'[ 24%] Built target locobot_autonomy__rosidl_generator_c\n'}
+[5.801646] (locobot_autonomy) StdoutLine: {'line': b'[ 27%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[5.808640] (locobot_autonomy) StdoutLine: {'line': b'[ 30%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[5.835095] (locobot_autonomy) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target locobot_autonomy__rosidl_typesupport_cpp\x1b[0m\n'}
+[5.846605] (-) TimerEvent: {}
+[5.856402] (locobot_autonomy) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/locobot_autonomy__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/locobot_autonomy/action/move_base__type_support.cpp.o\x1b[0m\n'}
+[5.941043] (locobot_autonomy) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target locobot_autonomy__rosidl_typesupport_introspection_cpp\x1b[0m\n'}
+[5.946774] (-) TimerEvent: {}
+[5.964734] (locobot_autonomy) StdoutLine: {'line': b'[ 36%] \x1b[32mBuilding CXX object CMakeFiles/locobot_autonomy__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/locobot_autonomy/action/detail/move_base__type_support.cpp.o\x1b[0m\n'}
+[6.033020] (locobot_autonomy) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target locobot_autonomy__rosidl_typesupport_fastrtps_cpp\x1b[0m\n'}
+[6.046933] (-) TimerEvent: {}
+[6.066771] (locobot_autonomy) StdoutLine: {'line': b'[ 39%] \x1b[32mBuilding CXX object CMakeFiles/locobot_autonomy__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/locobot_autonomy/action/detail/dds_fastrtps/move_base__type_support.cpp.o\x1b[0m\n'}
+[6.140396] (locobot_autonomy) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target locobot_autonomy__rosidl_typesupport_c\x1b[0m\n'}
+[6.147151] (-) TimerEvent: {}
+[6.160650] (locobot_autonomy) StdoutLine: {'line': b'[ 42%] \x1b[32mBuilding CXX object CMakeFiles/locobot_autonomy__rosidl_typesupport_c.dir/rosidl_typesupport_c/locobot_autonomy/action/move_base__type_support.cpp.o\x1b[0m\n'}
+[6.231137] (locobot_autonomy) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target locobot_autonomy__rosidl_typesupport_introspection_c\x1b[0m\n'}
+[6.237337] (locobot_autonomy) StdoutLine: {'line': b'[ 45%] \x1b[32m\x1b[1mLinking CXX shared library liblocobot_autonomy__rosidl_typesupport_c.so\x1b[0m\n'}
+[6.247368] (-) TimerEvent: {}
+[6.251199] (locobot_autonomy) StdoutLine: {'line': b'[ 48%] \x1b[32mBuilding C object CMakeFiles/locobot_autonomy__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/locobot_autonomy/action/detail/move_base__type_support.c.o\x1b[0m\n'}
+[6.302013] (locobot_autonomy) StdoutLine: {'line': b'[ 48%] Built target locobot_autonomy__rosidl_typesupport_c\n'}
+[6.315713] (locobot_autonomy) StdoutLine: {'line': b'[ 51%] \x1b[32m\x1b[1mLinking C shared library liblocobot_autonomy__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[6.347574] (-) TimerEvent: {}
+[6.361683] (locobot_autonomy) StdoutLine: {'line': b'[ 51%] Built target locobot_autonomy__rosidl_typesupport_introspection_c\n'}
+[6.447845] (-) TimerEvent: {}
+[6.514891] (locobot_autonomy) StdoutLine: {'line': b'[ 54%] \x1b[32m\x1b[1mLinking CXX shared library liblocobot_autonomy__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[6.548049] (-) TimerEvent: {}
+[6.562558] (locobot_autonomy) StdoutLine: {'line': b'[ 57%] \x1b[32m\x1b[1mLinking CXX shared library liblocobot_autonomy__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[6.575348] (locobot_autonomy) StdoutLine: {'line': b'[ 57%] Built target locobot_autonomy__rosidl_typesupport_cpp\n'}
+[6.648226] (-) TimerEvent: {}
+[6.651492] (locobot_autonomy) StdoutLine: {'line': b'[ 57%] Built target locobot_autonomy__rosidl_typesupport_introspection_cpp\n'}
+[6.742361] (locobot_autonomy) StdoutLine: {'line': b'[ 60%] \x1b[32m\x1b[1mLinking CXX shared library liblocobot_autonomy__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[6.748417] (-) TimerEvent: {}
+[6.843764] (locobot_autonomy) StdoutLine: {'line': b'[ 60%] Built target locobot_autonomy__rosidl_typesupport_fastrtps_cpp\n'}
+[6.848592] (-) TimerEvent: {}
+[6.858556] (locobot_autonomy) StdoutLine: {'line': b'[ 63%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[6.948816] (-) TimerEvent: {}
+[7.049205] (-) TimerEvent: {}
+[7.150753] (-) TimerEvent: {}
+[7.203833] (locobot_autonomy) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target locobot_autonomy__rosidl_typesupport_fastrtps_c\x1b[0m\n'}
+[7.227829] (locobot_autonomy) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding CXX object CMakeFiles/locobot_autonomy__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/locobot_autonomy/action/detail/move_base__type_support_c.cpp.o\x1b[0m\n'}
+[7.250896] (-) TimerEvent: {}
+[7.351312] (-) TimerEvent: {}
+[7.451759] (-) TimerEvent: {}
+[7.552269] (-) TimerEvent: {}
+[7.623861] (locobot_autonomy) StdoutLine: {'line': b'[ 69%] \x1b[32m\x1b[1mLinking CXX shared library liblocobot_autonomy__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[7.652492] (-) TimerEvent: {}
+[7.724757] (locobot_autonomy) StdoutLine: {'line': b'[ 69%] Built target locobot_autonomy__rosidl_typesupport_fastrtps_c\n'}
+[7.737699] (locobot_autonomy) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target locobot_autonomy\x1b[0m\n'}
+[7.751504] (locobot_autonomy) StdoutLine: {'line': b'[ 69%] Built target locobot_autonomy\n'}
+[7.752686] (-) TimerEvent: {}
+[7.764658] (locobot_autonomy) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target locobot_autonomy__py\x1b[0m\n'}
+[7.784564] (locobot_autonomy) StdoutLine: {'line': b'[ 72%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[7.852835] (-) TimerEvent: {}
+[7.953383] (-) TimerEvent: {}
+[8.053795] (-) TimerEvent: {}
+[8.154168] (-) TimerEvent: {}
+[8.254534] (-) TimerEvent: {}
+[8.354747] (-) TimerEvent: {}
+[8.455035] (-) TimerEvent: {}
+[8.555489] (-) TimerEvent: {}
+[8.569594] (locobot_autonomy) StdoutLine: {'line': b'[ 72%] Built target locobot_autonomy__py\n'}
+[8.583227] (locobot_autonomy) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target locobot_autonomy__python\x1b[0m\n'}
+[8.615134] (locobot_autonomy) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding C object CMakeFiles/locobot_autonomy__python.dir/rosidl_generator_py/locobot_autonomy/action/_move_base_s.c.o\x1b[0m\n'}
+[8.655848] (-) TimerEvent: {}
+[8.741076] (locobot_autonomy) StdoutLine: {'line': b'[ 78%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/locobot_autonomy/liblocobot_autonomy__python.so\x1b[0m\n'}
+[8.758146] (-) TimerEvent: {}
+[8.807412] (locobot_autonomy) StdoutLine: {'line': b'[ 78%] Built target locobot_autonomy__python\n'}
+[8.821728] (locobot_autonomy) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target locobot_autonomy__rosidl_typesupport_c__pyext\x1b[0m\n'}
+[8.821946] (locobot_autonomy) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target locobot_autonomy__rosidl_typesupport_introspection_c__pyext\x1b[0m\n'}
+[8.826949] (locobot_autonomy) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target locobot_autonomy__rosidl_typesupport_fastrtps_c__pyext\x1b[0m\n'}
+[8.844659] (locobot_autonomy) StdoutLine: {'line': b'[ 84%] \x1b[32mBuilding C object CMakeFiles/locobot_autonomy__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/locobot_autonomy/_locobot_autonomy_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[8.844888] (locobot_autonomy) StdoutLine: {'line': b'[ 84%] \x1b[32mBuilding C object CMakeFiles/locobot_autonomy__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/locobot_autonomy/_locobot_autonomy_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[8.858387] (-) TimerEvent: {}
+[8.859653] (locobot_autonomy) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/locobot_autonomy__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/locobot_autonomy/_locobot_autonomy_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[8.958544] (-) TimerEvent: {}
+[8.961795] (locobot_autonomy) StdoutLine: {'line': b'[ 90%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/locobot_autonomy/locobot_autonomy_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so\x1b[0m\n'}
+[8.973692] (locobot_autonomy) StdoutLine: {'line': b'[ 93%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/locobot_autonomy/locobot_autonomy_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so\x1b[0m\n'}
+[8.979498] (locobot_autonomy) StdoutLine: {'line': b'[ 96%] \x1b[32m\x1b[1mLinking CXX shared library rosidl_generator_py/locobot_autonomy/locobot_autonomy_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so\x1b[0m\n'}
+[9.021652] (locobot_autonomy) StdoutLine: {'line': b'[ 96%] Built target locobot_autonomy__rosidl_typesupport_introspection_c__pyext\n'}
+[9.035916] (locobot_autonomy) StdoutLine: {'line': b'[ 96%] Built target locobot_autonomy__rosidl_typesupport_c__pyext\n'}
+[9.058927] (-) TimerEvent: {}
+[9.077174] (locobot_autonomy) StdoutLine: {'line': b'[ 96%] Built target locobot_autonomy__rosidl_typesupport_fastrtps_c__pyext\n'}
+[9.159310] (-) TimerEvent: {}
+[9.260159] (-) TimerEvent: {}
+[9.360664] (-) TimerEvent: {}
+[9.462483] (-) TimerEvent: {}
+[9.563020] (-) TimerEvent: {}
+[9.663422] (-) TimerEvent: {}
+[9.763780] (-) TimerEvent: {}
+[9.864290] (-) TimerEvent: {}
+[9.964774] (-) TimerEvent: {}
+[10.065185] (-) TimerEvent: {}
+[10.165654] (-) TimerEvent: {}
+[10.266110] (-) TimerEvent: {}
+[10.366640] (-) TimerEvent: {}
+[10.467111] (-) TimerEvent: {}
+[10.567504] (-) TimerEvent: {}
+[10.667899] (-) TimerEvent: {}
+[10.768302] (-) TimerEvent: {}
+[10.868716] (-) TimerEvent: {}
+[10.969580] (-) TimerEvent: {}
+[11.070020] (-) TimerEvent: {}
+[11.170410] (-) TimerEvent: {}
+[11.270844] (-) TimerEvent: {}
+[11.371220] (-) TimerEvent: {}
+[11.471602] (-) TimerEvent: {}
+[11.572079] (-) TimerEvent: {}
+[11.672601] (-) TimerEvent: {}
+[11.772891] (-) TimerEvent: {}
+[11.873274] (-) TimerEvent: {}
+[11.973805] (-) TimerEvent: {}
+[12.074197] (-) TimerEvent: {}
+[12.174433] (-) TimerEvent: {}
+[12.274752] (-) TimerEvent: {}
+[12.375075] (-) TimerEvent: {}
+[12.475595] (-) TimerEvent: {}
+[12.576071] (-) TimerEvent: {}
+[12.676396] (-) TimerEvent: {}
+[12.776943] (-) TimerEvent: {}
+[12.880169] (-) TimerEvent: {}
+[12.980507] (-) TimerEvent: {}
+[13.080903] (-) TimerEvent: {}
+[13.181400] (-) TimerEvent: {}
+[13.284271] (-) TimerEvent: {}
+[13.384593] (-) TimerEvent: {}
+[13.484997] (-) TimerEvent: {}
+[13.585339] (-) TimerEvent: {}
+[13.685685] (-) TimerEvent: {}
+[13.786056] (-) TimerEvent: {}
+[13.887768] (-) TimerEvent: {}
+[13.988270] (-) TimerEvent: {}
+[14.088630] (-) TimerEvent: {}
+[14.189064] (-) TimerEvent: {}
+[14.289364] (-) TimerEvent: {}
+[14.389877] (-) TimerEvent: {}
+[14.490313] (-) TimerEvent: {}
+[14.590629] (-) TimerEvent: {}
+[14.691065] (-) TimerEvent: {}
+[14.791472] (-) TimerEvent: {}
+[14.892108] (-) TimerEvent: {}
+[14.992438] (-) TimerEvent: {}
+[15.094543] (-) TimerEvent: {}
+[15.194864] (-) TimerEvent: {}
+[15.295207] (-) TimerEvent: {}
+[15.395551] (-) TimerEvent: {}
+[15.495874] (-) TimerEvent: {}
+[15.596151] (-) TimerEvent: {}
+[15.696452] (-) TimerEvent: {}
+[15.796774] (-) TimerEvent: {}
+[15.897113] (-) TimerEvent: {}
+[15.997516] (-) TimerEvent: {}
+[16.098450] (-) TimerEvent: {}
+[16.200228] (-) TimerEvent: {}
+[16.300571] (-) TimerEvent: {}
+[16.400874] (-) TimerEvent: {}
+[16.501304] (-) TimerEvent: {}
+[16.601604] (-) TimerEvent: {}
+[16.701969] (-) TimerEvent: {}
+[16.802342] (-) TimerEvent: {}
+[16.902572] (-) TimerEvent: {}
+[17.003016] (-) TimerEvent: {}
+[17.103359] (-) TimerEvent: {}
+[17.203906] (-) TimerEvent: {}
+[17.304343] (-) TimerEvent: {}
+[17.404615] (-) TimerEvent: {}
+[17.505004] (-) TimerEvent: {}
+[17.605374] (-) TimerEvent: {}
+[17.705832] (-) TimerEvent: {}
+[17.806228] (-) TimerEvent: {}
+[17.906642] (-) TimerEvent: {}
+[18.007020] (-) TimerEvent: {}
+[18.108223] (-) TimerEvent: {}
+[18.208632] (-) TimerEvent: {}
+[18.309558] (-) TimerEvent: {}
+[18.409995] (-) TimerEvent: {}
+[18.510483] (-) TimerEvent: {}
+[18.612269] (-) TimerEvent: {}
+[18.712986] (-) TimerEvent: {}
+[18.815000] (-) TimerEvent: {}
+[18.916001] (-) TimerEvent: {}
+[19.016606] (-) TimerEvent: {}
+[19.116970] (-) TimerEvent: {}
+[19.218558] (-) TimerEvent: {}
+[19.231512] (locobot_autonomy) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable visual_block_perception_srv\x1b[0m\n'}
+[19.318790] (-) TimerEvent: {}
+[19.419234] (-) TimerEvent: {}
+[19.519718] (-) TimerEvent: {}
+[19.620123] (-) TimerEvent: {}
+[19.720550] (-) TimerEvent: {}
+[19.821613] (-) TimerEvent: {}
+[19.921932] (-) TimerEvent: {}
+[20.022615] (-) TimerEvent: {}
+[20.068989] (locobot_autonomy) StdoutLine: {'line': b'[100%] Built target visual_block_perception_srv\n'}
+[20.082715] (locobot_autonomy) CommandEnded: {'returncode': 0}
+[20.122821] (-) TimerEvent: {}
+[20.154538] (locobot_autonomy) JobProgress: {'identifier': 'locobot_autonomy', 'progress': 'install'}
+[20.172099] (locobot_autonomy) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/ian339/collaborative_robotics_course/locobot_autonomy/build/locobot_autonomy'], 'cwd': '/home/ian339/collaborative_robotics_course/locobot_autonomy/build/locobot_autonomy', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ian339'), ('SSH_AGENT_PID', '1483'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/ian339/collaborative_robotics_course/install/locobot_autonomy/lib:/home/ian339/collaborative_robotics_course/install/la_msgs/lib:/home/ian339/me326_ws/src/la_msgs/install/la_msgs/lib:/home/ian339/me326_ws/la_msgs/install/la_msgs/lib:/home/ian339/interbotix_ws/install/moveit_visual_tools/lib:/home/ian339/interbotix_ws/install/interbotix_xs_rviz/lib:/home/ian339/interbotix_ws/install/interbotix_xs_ros_control/lib:/home/ian339/interbotix_ws/install/interbotix_xs_msgs/lib:/home/ian339/interbotix_ws/install/interbotix_tf_tools/lib:/home/ian339/interbotix_ws/install/interbotix_perception_msgs/lib:/home/ian339/interbotix_ws/install/interbotix_moveit_interface_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins::/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins::/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('HOME', '/home/ian339'), ('OLDPWD', '/home/ian339/collaborative_robotics_course'), ('DESKTOP_SESSION', 'ubuntu'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1308'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/ian339/collaborative_robotics_course/install:/home/ian339/me326_ws/src/locobot_controller/install:/home/ian339/interbotix_ws/install:/home/ian339/me326_ws/src/la_msgs/install:/home/ian339/me326_ws/la_msgs/install'), ('ROS_DISTRO', 'galactic'), ('LOGNAME', 'ian339'), ('JOURNAL_STREAM', '8:38223'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ian339'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo-11/models:/usr/share/gazebo-11/models:/usr/share/gazebo-11/models:'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/opt/ros/galactic/bin:/home/ian339/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/ian339-VirtualBox:@/tmp/.ICE-unix/1545,unix/ian339-VirtualBox:/tmp/.ICE-unix/1545'), ('INVOCATION_ID', '777c06a7870a4a78b6d164e44d876bd5'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/60c44d54_56b5_4299_a88c_0b1e771e6f12'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('INTERBOTIX_XSLOCOBOT_BASE_TYPE', 'create3'), ('GNOME_TERMINAL_SERVICE', ':1.77'), ('INTERBOTIX_WS', '/home/ian339/interbotix_ws'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/ian339/collaborative_robotics_course/install/locobot_autonomy:/home/ian339/collaborative_robotics_course/install/la_msgs:/home/ian339/me326_ws/src/la_msgs/install/la_msgs:/home/ian339/me326_ws/la_msgs/install/la_msgs:/home/ian339/me326_ws/src/locobot_controller/install/locobot_controller:/home/ian339/interbotix_ws/install/interbotix_moveit_interface:/home/ian339/interbotix_ws/install/moveit_visual_tools:/home/ian339/interbotix_ws/install/interbotix_xslocobot_moveit:/home/ian339/interbotix_ws/install/interbotix_xslocobot_ros_control:/home/ian339/interbotix_ws/install/interbotix_xslocobot_sim:/home/ian339/interbotix_ws/install/interbotix_xslocobot_descriptions:/home/ian339/interbotix_ws/install/interbotix_xs_toolbox:/home/ian339/interbotix_ws/install/interbotix_xs_rviz:/home/ian339/interbotix_ws/install/interbotix_xs_ros_control:/home/ian339/interbotix_ws/install/interbotix_xs_modules:/home/ian339/interbotix_ws/install/interbotix_perception_toolbox:/home/ian339/interbotix_ws/install/interbotix_perception_modules:/home/ian339/interbotix_ws/install/interbotix_perception_pipelines:/home/ian339/interbotix_ws/install/interbotix_xs_msgs:/home/ian339/interbotix_ws/install/interbotix_tf_tools:/home/ian339/interbotix_ws/install/interbotix_perception_msgs:/home/ian339/interbotix_ws/install/interbotix_moveit_interface_msgs:/home/ian339/interbotix_ws/install/interbotix_common_toolbox:/home/ian339/interbotix_ws/install/interbotix_common_sim:/home/ian339/interbotix_ws/install/interbotix_common_modules:/opt/ros/galactic'), ('SHELL', '/bin/bash'), ('ROS_DISCOVERY_SERVER', '192.169.0.11:11811'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11:/usr/share/gazebo-11:/usr/share/gazebo-11:'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ian339/collaborative_robotics_course/locobot_autonomy/build/locobot_autonomy'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('GAZEBO_PLUGIN_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ian339/collaborative_robotics_course/install/locobot_autonomy/lib/python3.8/site-packages:/home/ian339/collaborative_robotics_course/install/la_msgs/lib/python3.8/site-packages:/home/ian339/me326_ws/src/la_msgs/install/la_msgs/lib/python3.8/site-packages:/home/ian339/me326_ws/la_msgs/install/la_msgs/lib/python3.8/site-packages:/home/ian339/me326_ws/src/locobot_controller/install/locobot_controller/lib/python3.8/site-packages:/home/ian339/interbotix_ws/install/interbotix_xs_modules/lib/python3.8/site-packages:/home/ian339/interbotix_ws/install/interbotix_perception_modules/lib/python3.8/site-packages:/home/ian339/interbotix_ws/install/interbotix_xs_msgs/lib/python3.8/site-packages:/home/ian339/interbotix_ws/install/interbotix_perception_msgs/lib/python3.8/site-packages:/home/ian339/interbotix_ws/install/interbotix_moveit_interface_msgs/lib/python3.8/site-packages:/home/ian339/interbotix_ws/install/interbotix_common_modules/lib/python3.8/site-packages:/opt/ros/galactic/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/ian339/collaborative_robotics_course/install/locobot_autonomy:/home/ian339/collaborative_robotics_course/install/la_msgs:/home/ian339/me326_ws/src/la_msgs/install/la_msgs:/home/ian339/me326_ws/la_msgs/install/la_msgs:/home/ian339/interbotix_ws/install/interbotix_moveit_interface:/home/ian339/interbotix_ws/install/moveit_visual_tools:/home/ian339/interbotix_ws/install/interbotix_xslocobot_moveit:/home/ian339/interbotix_ws/install/interbotix_xslocobot_ros_control:/home/ian339/interbotix_ws/install/interbotix_xslocobot_sim:/home/ian339/interbotix_ws/install/interbotix_xslocobot_descriptions:/home/ian339/interbotix_ws/install/interbotix_xs_toolbox:/home/ian339/interbotix_ws/install/interbotix_xs_rviz:/home/ian339/interbotix_ws/install/interbotix_xs_ros_control:/home/ian339/interbotix_ws/install/interbotix_perception_toolbox:/home/ian339/interbotix_ws/install/interbotix_perception_pipelines:/home/ian339/interbotix_ws/install/interbotix_xs_msgs:/home/ian339/interbotix_ws/install/interbotix_tf_tools:/home/ian339/interbotix_ws/install/interbotix_perception_msgs:/home/ian339/interbotix_ws/install/interbotix_moveit_interface_msgs:/home/ian339/interbotix_ws/install/interbotix_common_toolbox:/home/ian339/interbotix_ws/install/interbotix_common_sim:/home/ian339/me326_ws/src/locobot_controller/install/locobot_controller:/home/ian339/interbotix_ws/install/interbotix_xs_modules:/home/ian339/interbotix_ws/install/interbotix_perception_modules:/home/ian339/interbotix_ws/install/interbotix_common_modules:/opt/ros/galactic')]), 'shell': False}
+[20.183871] (locobot_autonomy) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[20.184296] (locobot_autonomy) StdoutLine: {'line': b'-- Installing: /home/ian339/collaborative_robotics_course/locobot_autonomy/install/locobot_autonomy/lib/locobot_autonomy/visual_block_perception_srv\n'}
+[20.189156] (locobot_autonomy) StdoutLine: {'line': b'-- Set runtime path of "/home/ian339/collaborative_robotics_course/locobot_autonomy/install/locobot_autonomy/lib/locobot_autonomy/visual_block_perception_srv" to ""\n'}
+[20.189401] (locobot_autonomy) StdoutLine: {'line': b'-- Installing: /home/ian339/collaborative_robotics_course/locobot_autonomy/install/locobot_autonomy/share/locobot_autonomy/environment/pythonpath.sh\n'}
+[20.189483] (locobot_autonomy) StdoutLine: {'line': b'-- Installing: /home/ian339/collaborative_robotics_course/locobot_autonomy/install/locobot_autonomy/share/locobot_autonomy/environment/pythonpath.dsv\n'}
+[20.189701] (locobot_autonomy) StdoutLine: {'line': b'-- Installing: /home/ian339/collaborative_robotics_course/locobot_autonomy/install/locobot_autonomy/lib/python3.8/site-packages//locobot_autonomy.egg-info\n'}
+[20.189814] (locobot_autonomy) StdoutLine: {'line': b'-- Installing: /home/ian339/collaborative_robotics_course/locobot_autonomy/install/locobot_autonomy/lib/python3.8/site-packages//locobot_autonomy.egg-info/SOURCES.txt\n'}
+[20.189925] (locobot_autonomy) StdoutLine: {'line': b'-- Installing: /home/ian339/collaborative_robotics_course/locobot_autonomy/install/locobot_autonomy/lib/python3.8/site-packages//locobot_autonomy.egg-info/PKG-INFO\n'}
+[20.190153] (locobot_autonomy) StdoutLine: {'line': b'-- Installing: /home/ian339/collaborative_robotics_course/locobot_autonomy/install/locobot_autonomy/lib/python3.8/site-packages//locobot_autonomy.egg-info/top_level.txt\n'}
+[20.190291] (locobot_autonomy) StdoutLine: {'line': b'-- Installing: /home/ian339/collaborative_robotics_course/locobot_autonomy/install/locobot_autonomy/lib/python3.8/site-packages//locobot_autonomy.egg-info/dependency_links.txt\n'}
+[20.190413] (locobot_autonomy) StdoutLine: {'line': b'-- Installing: /home/ian339/collaborative_robotics_course/locobot_autonomy/install/locobot_autonomy/lib/python3.8/site-packages/locobot_autonomy\n'}
+[20.190486] (locobot_autonomy) StdoutLine: {'line': b'-- Installing: /home/ian339/collaborative_robotics_course/locobot_autonomy/install/locobot_autonomy/lib/python3.8/site-packages/locobot_autonomy/move_A_to_B_py.py\n'}
+[20.190554] (locobot_autonomy) StdoutLine: {'line': b'-- Installing: /home/ian339/collaborative_robotics_course/locobot_autonomy/install/locobot_autonomy/lib/python3.8/site-packages/locobot_autonomy/__init__.py\n'}
+[20.190621] (locobot_autonomy) StdoutLine: {'line': b'-- Installing: /home/ian339/collaborative_robotics_course/locobot_autonomy/install/locobot_autonomy/lib/python3.8/site-packages/locobot_autonomy/move_locobot_base_action_server.py\n'}
+[20.223020] (-) TimerEvent: {}
+[20.227417] (locobot_autonomy) StdoutLine: {'line': b"Listing '/home/ian339/collaborative_robotics_course/locobot_autonomy/install/locobot_autonomy/lib/python3.8/site-packages/locobot_autonomy'...\n"}
+[20.227554] (locobot_autonomy) StdoutLine: {'line': b"Compiling '/home/ian339/collaborative_robotics_course/locobot_autonomy/install/locobot_autonomy/lib/python3.8/site-packages/locobot_autonomy/__init__.py'...\n"}
+[20.227616] (locobot_autonomy) StdoutLine: {'line': b"Compiling '/home/ian339/collaborative_robotics_course/locobot_autonomy/install/locobot_autonomy/lib/python3.8/site-packages/locobot_autonomy/move_A_to_B_py.py'...\n"}
+[20.227672] (locobot_autonomy) StdoutLine: {'line': b"Compiling '/home/ian339/collaborative_robotics_course/locobot_autonomy/install/locobot_autonomy/lib/python3.8/site-packages/locobot_autonomy/move_locobot_base_action_server.py'...\n"}
+[20.230448] (locobot_autonomy) StdoutLine: {'line': b'-- Installing: /home/ian339/collaborative_robotics_course/locobot_autonomy/install/locobot_autonomy/lib/locobot_autonomy/move_A_to_B_py.py\n'}
+[20.230547] (locobot_autonomy) StdoutLine: {'line': b'-- Installing: /home/ian339/collaborative_robotics_course/locobot_autonomy/install/locobot_autonomy/lib/locobot_autonomy/move_locobot_base_action_server.py\n'}
+[20.230683] (locobot_autonomy) StdoutLine: {'line': b'-- Installing: /home/ian339/collaborative_robotics_course/locobot_autonomy/install/locobot_autonomy/share/locobot_autonomy//launch\n'}
+[20.230745] (locobot_autonomy) StdoutLine: {'line': b'-- Installing: /home/ian339/collaborative_robotics_course/locobot_autonomy/install/locobot_autonomy/share/locobot_autonomy//launch/simple_move_a_to_b_launch.py\n'}
+[20.230929] (locobot_autonomy) StdoutLine: {'line': b'-- Installing: /home/ian339/collaborative_robotics_course/locobot_autonomy/install/locobot_autonomy/share/locobot_autonomy//launch/spawn_cube_launch.py\n'}
+[20.231018] (locobot_autonomy) StdoutLine: {'line': b'-- Installing: /home/ian339/collaborative_robotics_course/locobot_autonomy/install/locobot_autonomy/share/ament_index/resource_index/rosidl_interfaces/locobot_autonomy\n'}
+[20.231297] (locobot_autonomy) StdoutLine: {'line': b'-- Installing: /home/ian339/collaborative_robotics_course/locobot_autonomy/install/locobot_autonomy/include/locobot_autonomy\n'}
+[20.231386] (locobot_autonomy) StdoutLine: {'line': b'-- Installing: /home/ian339/collaborative_robotics_course/locobot_autonomy/install/locobot_autonomy/include/locobot_autonomy/msg\n'}
+[20.231595] (locobot_autonomy) StdoutLine: {'line': b'-- Installing: /home/ian339/collaborative_robotics_course/locobot_autonomy/install/locobot_autonomy/include/locobot_autonomy/msg/rosidl_generator_c__visibility_control.h\n'}
+[20.231683] (locobot_autonomy) StdoutLine: {'line': b'-- Installing: /home/ian339/collaborative_robotics_course/locobot_autonomy/install/locobot_autonomy/include/locobot_autonomy/action\n'}
+[20.231751] (locobot_autonomy) StdoutLine: {'line': b'-- Installing: /home/ian339/collaborative_robotics_course/locobot_autonomy/install/locobot_autonomy/include/locobot_autonomy/action/move_base.h\n'}
+[20.231855] (locobot_autonomy) StdoutLine: {'line': b'-- Installing: /home/ian339/collaborative_robotics_course/locobot_autonomy/install/locobot_autonomy/include/locobot_autonomy/action/detail\n'}
+[20.231949] (locobot_autonomy) StdoutLine: {'line': b'-- Installing: /home/ian339/collaborative_robotics_course/locobot_autonomy/install/locobot_autonomy/include/locobot_autonomy/action/detail/move_base__functions.h\n'}
+[20.232203] (locobot_autonomy) StdoutLine: {'line': b'-- Installing: /home/ian339/collaborative_robotics_course/locobot_autonomy/install/locobot_autonomy/include/locobot_autonomy/action/detail/move_base__functions.c\n'}
+[20.232332] (locobot_autonomy) StdoutLine: {'line': b'-- Installing: /home/ian339/collaborative_robotics_course/locobot_autonomy/install/locobot_autonomy/include/locobot_autonomy/action/detail/move_base__struct.h\n'}
+[20.232451] (locobot_autonomy) StdoutLine: {'line': b'-- Installing: /home/ian339/collaborative_robotics_course/locobot_autonomy/install/locobot_autonomy/include/locobot_autonomy/action/detail/move_base__type_support.h\n'}
+[20.232508] (locobot_autonomy) StdoutLine: {'line': b'-- Installing: /home/ian339/collaborative_robotics_course/locobot_autonomy/install/locobot_autonomy/share/locobot_autonomy/environment/library_path.sh\n'}
+[20.232561] (locobot_autonomy) StdoutLine: {'line': b'-- Installing: /home/ian339/collaborative_robotics_course/locobot_autonomy/install/locobot_autonomy/share/locobot_autonomy/environment/library_path.dsv\n'}
+[20.232614] (locobot_autonomy) StdoutLine: {'line': b'-- Installing: /home/ian339/collaborative_robotics_course/locobot_autonomy/install/locobot_autonomy/lib/liblocobot_autonomy__rosidl_generator_c.so\n'}
+[20.232720] (locobot_autonomy) StdoutLine: {'line': b'-- Set runtime path of "/home/ian339/collaborative_robotics_course/locobot_autonomy/install/locobot_autonomy/lib/liblocobot_autonomy__rosidl_generator_c.so" to ""\n'}
+[20.232908] (locobot_autonomy) StdoutLine: {'line': b'-- Up-to-date: /home/ian339/collaborative_robotics_course/locobot_autonomy/install/locobot_autonomy/include/locobot_autonomy\n'}
+[20.233015] (locobot_autonomy) StdoutLine: {'line': b'-- Up-to-date: /home/ian339/collaborative_robotics_course/locobot_autonomy/install/locobot_autonomy/include/locobot_autonomy/msg\n'}
+[20.233087] (locobot_autonomy) StdoutLine: {'line': b'-- Installing: /home/ian339/collaborative_robotics_course/locobot_autonomy/install/locobot_autonomy/include/locobot_autonomy/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[20.233157] (locobot_autonomy) StdoutLine: {'line': b'-- Up-to-date: /home/ian339/collaborative_robotics_course/locobot_autonomy/install/locobot_autonomy/include/locobot_autonomy/action\n'}
+[20.233272] (locobot_autonomy) StdoutLine: {'line': b'-- Up-to-date: /home/ian339/collaborative_robotics_course/locobot_autonomy/install/locobot_autonomy/include/locobot_autonomy/action/detail\n'}
+[20.234072] (locobot_autonomy) StdoutLine: {'line': b'-- Installing: /home/ian339/collaborative_robotics_course/locobot_autonomy/install/locobot_autonomy/include/locobot_autonomy/action/detail/move_base__rosidl_typesupport_fastrtps_c.h\n'}
+[20.234214] (locobot_autonomy) StdoutLine: {'line': b'-- Installing: /home/ian339/collaborative_robotics_course/locobot_autonomy/install/locobot_autonomy/lib/liblocobot_autonomy__rosidl_typesupport_fastrtps_c.so\n'}
+[20.234279] (locobot_autonomy) StdoutLine: {'line': b'-- Set runtime path of "/home/ian339/collaborative_robotics_course/locobot_autonomy/install/locobot_autonomy/lib/liblocobot_autonomy__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[20.234349] (locobot_autonomy) StdoutLine: {'line': b'-- Up-to-date: /home/ian339/collaborative_robotics_course/locobot_autonomy/install/locobot_autonomy/include/locobot_autonomy\n'}
+[20.234461] (locobot_autonomy) StdoutLine: {'line': b'-- Up-to-date: /home/ian339/collaborative_robotics_course/locobot_autonomy/install/locobot_autonomy/include/locobot_autonomy/msg\n'}
+[20.234601] (locobot_autonomy) StdoutLine: {'line': b'-- Installing: /home/ian339/collaborative_robotics_course/locobot_autonomy/install/locobot_autonomy/include/locobot_autonomy/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[20.234671] (locobot_autonomy) StdoutLine: {'line': b'-- Up-to-date: /home/ian339/collaborative_robotics_course/locobot_autonomy/install/locobot_autonomy/include/locobot_autonomy/action\n'}
+[20.234766] (locobot_autonomy) StdoutLine: {'line': b'-- Up-to-date: /home/ian339/collaborative_robotics_course/locobot_autonomy/install/locobot_autonomy/include/locobot_autonomy/action/detail\n'}
+[20.234820] (locobot_autonomy) StdoutLine: {'line': b'-- Installing: /home/ian339/collaborative_robotics_course/locobot_autonomy/install/locobot_autonomy/include/locobot_autonomy/action/detail/move_base__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[20.234906] (locobot_autonomy) StdoutLine: {'line': b'-- Installing: /home/ian339/collaborative_robotics_course/locobot_autonomy/install/locobot_autonomy/include/locobot_autonomy/action/detail/dds_fastrtps\n'}
+[20.234961] (locobot_autonomy) StdoutLine: {'line': b'-- Installing: /home/ian339/collaborative_robotics_course/locobot_autonomy/install/locobot_autonomy/lib/liblocobot_autonomy__rosidl_typesupport_fastrtps_cpp.so\n'}
+[20.235013] (locobot_autonomy) StdoutLine: {'line': b'-- Set runtime path of "/home/ian339/collaborative_robotics_course/locobot_autonomy/install/locobot_autonomy/lib/liblocobot_autonomy__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[20.235066] (locobot_autonomy) StdoutLine: {'line': b'-- Up-to-date: /home/ian339/collaborative_robotics_course/locobot_autonomy/install/locobot_autonomy/include/locobot_autonomy\n'}
+[20.235118] (locobot_autonomy) StdoutLine: {'line': b'-- Up-to-date: /home/ian339/collaborative_robotics_course/locobot_autonomy/install/locobot_autonomy/include/locobot_autonomy/msg\n'}
+[20.235171] (locobot_autonomy) StdoutLine: {'line': b'-- Installing: /home/ian339/collaborative_robotics_course/locobot_autonomy/install/locobot_autonomy/include/locobot_autonomy/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[20.235266] (locobot_autonomy) StdoutLine: {'line': b'-- Up-to-date: /home/ian339/collaborative_robotics_course/locobot_autonomy/install/locobot_autonomy/include/locobot_autonomy/action\n'}
+[20.235333] (locobot_autonomy) StdoutLine: {'line': b'-- Up-to-date: /home/ian339/collaborative_robotics_course/locobot_autonomy/install/locobot_autonomy/include/locobot_autonomy/action/detail\n'}
+[20.235427] (locobot_autonomy) StdoutLine: {'line': b'-- Installing: /home/ian339/collaborative_robotics_course/locobot_autonomy/install/locobot_autonomy/include/locobot_autonomy/action/detail/move_base__rosidl_typesupport_introspection_c.h\n'}
+[20.235482] (locobot_autonomy) StdoutLine: {'line': b'-- Installing: /home/ian339/collaborative_robotics_course/locobot_autonomy/install/locobot_autonomy/include/locobot_autonomy/action/detail/move_base__type_support.c\n'}
+[20.235534] (locobot_autonomy) StdoutLine: {'line': b'-- Installing: /home/ian339/collaborative_robotics_course/locobot_autonomy/install/locobot_autonomy/lib/liblocobot_autonomy__rosidl_typesupport_introspection_c.so\n'}
+[20.235586] (locobot_autonomy) StdoutLine: {'line': b'-- Set runtime path of "/home/ian339/collaborative_robotics_course/locobot_autonomy/install/locobot_autonomy/lib/liblocobot_autonomy__rosidl_typesupport_introspection_c.so" to ""\n'}
+[20.235656] (locobot_autonomy) StdoutLine: {'line': b'-- Installing: /home/ian339/collaborative_robotics_course/locobot_autonomy/install/locobot_autonomy/lib/liblocobot_autonomy__rosidl_typesupport_c.so\n'}
+[20.235804] (locobot_autonomy) StdoutLine: {'line': b'-- Set runtime path of "/home/ian339/collaborative_robotics_course/locobot_autonomy/install/locobot_autonomy/lib/liblocobot_autonomy__rosidl_typesupport_c.so" to ""\n'}
+[20.235860] (locobot_autonomy) StdoutLine: {'line': b'-- Up-to-date: /home/ian339/collaborative_robotics_course/locobot_autonomy/install/locobot_autonomy/include/locobot_autonomy\n'}
+[20.235912] (locobot_autonomy) StdoutLine: {'line': b'-- Up-to-date: /home/ian339/collaborative_robotics_course/locobot_autonomy/install/locobot_autonomy/include/locobot_autonomy/action\n'}
+[20.236019] (locobot_autonomy) StdoutLine: {'line': b'-- Installing: /home/ian339/collaborative_robotics_course/locobot_autonomy/install/locobot_autonomy/include/locobot_autonomy/action/move_base.hpp\n'}
+[20.236074] (locobot_autonomy) StdoutLine: {'line': b'-- Up-to-date: /home/ian339/collaborative_robotics_course/locobot_autonomy/install/locobot_autonomy/include/locobot_autonomy/action/detail\n'}
+[20.236290] (locobot_autonomy) StdoutLine: {'line': b'-- Installing: /home/ian339/collaborative_robotics_course/locobot_autonomy/install/locobot_autonomy/include/locobot_autonomy/action/detail/move_base__builder.hpp\n'}
+[20.236367] (locobot_autonomy) StdoutLine: {'line': b'-- Installing: /home/ian339/collaborative_robotics_course/locobot_autonomy/install/locobot_autonomy/include/locobot_autonomy/action/detail/move_base__struct.hpp\n'}
+[20.236428] (locobot_autonomy) StdoutLine: {'line': b'-- Installing: /home/ian339/collaborative_robotics_course/locobot_autonomy/install/locobot_autonomy/include/locobot_autonomy/action/detail/move_base__traits.hpp\n'}
+[20.236540] (locobot_autonomy) StdoutLine: {'line': b'-- Up-to-date: /home/ian339/collaborative_robotics_course/locobot_autonomy/install/locobot_autonomy/include/locobot_autonomy\n'}
+[20.236621] (locobot_autonomy) StdoutLine: {'line': b'-- Up-to-date: /home/ian339/collaborative_robotics_course/locobot_autonomy/install/locobot_autonomy/include/locobot_autonomy/action\n'}
+[20.236690] (locobot_autonomy) StdoutLine: {'line': b'-- Up-to-date: /home/ian339/collaborative_robotics_course/locobot_autonomy/install/locobot_autonomy/include/locobot_autonomy/action/detail\n'}
+[20.236758] (locobot_autonomy) StdoutLine: {'line': b'-- Installing: /home/ian339/collaborative_robotics_course/locobot_autonomy/install/locobot_autonomy/include/locobot_autonomy/action/detail/move_base__type_support.cpp\n'}
+[20.236867] (locobot_autonomy) StdoutLine: {'line': b'-- Installing: /home/ian339/collaborative_robotics_course/locobot_autonomy/install/locobot_autonomy/include/locobot_autonomy/action/detail/move_base__rosidl_typesupport_introspection_cpp.hpp\n'}
+[20.236925] (locobot_autonomy) StdoutLine: {'line': b'-- Installing: /home/ian339/collaborative_robotics_course/locobot_autonomy/install/locobot_autonomy/lib/liblocobot_autonomy__rosidl_typesupport_introspection_cpp.so\n'}
+[20.237157] (locobot_autonomy) StdoutLine: {'line': b'-- Set runtime path of "/home/ian339/collaborative_robotics_course/locobot_autonomy/install/locobot_autonomy/lib/liblocobot_autonomy__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[20.237494] (locobot_autonomy) StdoutLine: {'line': b'-- Installing: /home/ian339/collaborative_robotics_course/locobot_autonomy/install/locobot_autonomy/lib/liblocobot_autonomy__rosidl_typesupport_cpp.so\n'}
+[20.237623] (locobot_autonomy) StdoutLine: {'line': b'-- Set runtime path of "/home/ian339/collaborative_robotics_course/locobot_autonomy/install/locobot_autonomy/lib/liblocobot_autonomy__rosidl_typesupport_cpp.so" to ""\n'}
+[20.237686] (locobot_autonomy) StdoutLine: {'line': b'-- Installing: /home/ian339/collaborative_robotics_course/locobot_autonomy/install/locobot_autonomy/lib/python3.8/site-packages/locobot_autonomy/__init__.py\n'}
+[20.272604] (locobot_autonomy) StdoutLine: {'line': b"Compiling '/home/ian339/collaborative_robotics_course/locobot_autonomy/install/locobot_autonomy/lib/python3.8/site-packages/locobot_autonomy/__init__.py'...\n"}
+[20.275904] (locobot_autonomy) StdoutLine: {'line': b'-- Installing: /home/ian339/collaborative_robotics_course/locobot_autonomy/install/locobot_autonomy/lib/python3.8/site-packages/locobot_autonomy/action\n'}
+[20.276092] (locobot_autonomy) StdoutLine: {'line': b'-- Installing: /home/ian339/collaborative_robotics_course/locobot_autonomy/install/locobot_autonomy/lib/python3.8/site-packages/locobot_autonomy/action/__init__.py\n'}
+[20.276434] (locobot_autonomy) StdoutLine: {'line': b'-- Installing: /home/ian339/collaborative_robotics_course/locobot_autonomy/install/locobot_autonomy/lib/python3.8/site-packages/locobot_autonomy/action/_move_base_s.c\n'}
+[20.276549] (locobot_autonomy) StdoutLine: {'line': b'-- Installing: /home/ian339/collaborative_robotics_course/locobot_autonomy/install/locobot_autonomy/lib/python3.8/site-packages/locobot_autonomy/action/_move_base.py\n'}
+[20.276745] (locobot_autonomy) StdoutLine: {'line': b'-- Installing: /home/ian339/collaborative_robotics_course/locobot_autonomy/install/locobot_autonomy/lib/python3.8/site-packages/locobot_autonomy/locobot_autonomy_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so\n'}
+[20.277079] (locobot_autonomy) StdoutLine: {'line': b'-- Set runtime path of "/home/ian339/collaborative_robotics_course/locobot_autonomy/install/locobot_autonomy/lib/python3.8/site-packages/locobot_autonomy/locobot_autonomy_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so" to ""\n'}
+[20.277240] (locobot_autonomy) StdoutLine: {'line': b'-- Installing: /home/ian339/collaborative_robotics_course/locobot_autonomy/install/locobot_autonomy/lib/python3.8/site-packages/locobot_autonomy/locobot_autonomy_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so\n'}
+[20.277740] (locobot_autonomy) StdoutLine: {'line': b'-- Set runtime path of "/home/ian339/collaborative_robotics_course/locobot_autonomy/install/locobot_autonomy/lib/python3.8/site-packages/locobot_autonomy/locobot_autonomy_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so" to ""\n'}
+[20.277904] (locobot_autonomy) StdoutLine: {'line': b'-- Installing: /home/ian339/collaborative_robotics_course/locobot_autonomy/install/locobot_autonomy/lib/python3.8/site-packages/locobot_autonomy/locobot_autonomy_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so\n'}
+[20.278319] (locobot_autonomy) StdoutLine: {'line': b'-- Set runtime path of "/home/ian339/collaborative_robotics_course/locobot_autonomy/install/locobot_autonomy/lib/python3.8/site-packages/locobot_autonomy/locobot_autonomy_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so" to ""\n'}
+[20.278445] (locobot_autonomy) StdoutLine: {'line': b'-- Installing: /home/ian339/collaborative_robotics_course/locobot_autonomy/install/locobot_autonomy/lib/liblocobot_autonomy__python.so\n'}
+[20.278781] (locobot_autonomy) StdoutLine: {'line': b'-- Set runtime path of "/home/ian339/collaborative_robotics_course/locobot_autonomy/install/locobot_autonomy/lib/liblocobot_autonomy__python.so" to ""\n'}
+[20.278940] (locobot_autonomy) StdoutLine: {'line': b'-- Installing: /home/ian339/collaborative_robotics_course/locobot_autonomy/install/locobot_autonomy/share/locobot_autonomy/action/MoveBase.idl\n'}
+[20.279090] (locobot_autonomy) StdoutLine: {'line': b'-- Installing: /home/ian339/collaborative_robotics_course/locobot_autonomy/install/locobot_autonomy/share/locobot_autonomy/action/MoveBase.action\n'}
+[20.279195] (locobot_autonomy) StdoutLine: {'line': b'-- Installing: /home/ian339/collaborative_robotics_course/locobot_autonomy/install/locobot_autonomy/share/locobot_autonomy/model\n'}
+[20.279343] (locobot_autonomy) StdoutLine: {'line': b'-- Installing: /home/ian339/collaborative_robotics_course/locobot_autonomy/install/locobot_autonomy/share/locobot_autonomy/model/red_cube.urdf\n'}
+[20.279421] (locobot_autonomy) StdoutLine: {'line': b'-- Installing: /home/ian339/collaborative_robotics_course/locobot_autonomy/install/locobot_autonomy/share/locobot_autonomy/model/green_cube.urdf\n'}
+[20.279534] (locobot_autonomy) StdoutLine: {'line': b'-- Installing: /home/ian339/collaborative_robotics_course/locobot_autonomy/install/locobot_autonomy/share/locobot_autonomy/model/blue_cube.urdf\n'}
+[20.279604] (locobot_autonomy) StdoutLine: {'line': b'-- Installing: /home/ian339/collaborative_robotics_course/locobot_autonomy/install/locobot_autonomy/share/locobot_autonomy/model/yellow_cube.urdf\n'}
+[20.279687] (locobot_autonomy) StdoutLine: {'line': b'-- Installing: /home/ian339/collaborative_robotics_course/locobot_autonomy/install/locobot_autonomy/share/ament_index/resource_index/package_run_dependencies/locobot_autonomy\n'}
+[20.279768] (locobot_autonomy) StdoutLine: {'line': b'-- Installing: /home/ian339/collaborative_robotics_course/locobot_autonomy/install/locobot_autonomy/share/ament_index/resource_index/parent_prefix_path/locobot_autonomy\n'}
+[20.279867] (locobot_autonomy) StdoutLine: {'line': b'-- Installing: /home/ian339/collaborative_robotics_course/locobot_autonomy/install/locobot_autonomy/share/locobot_autonomy/environment/ament_prefix_path.sh\n'}
+[20.279937] (locobot_autonomy) StdoutLine: {'line': b'-- Installing: /home/ian339/collaborative_robotics_course/locobot_autonomy/install/locobot_autonomy/share/locobot_autonomy/environment/ament_prefix_path.dsv\n'}
+[20.280034] (locobot_autonomy) StdoutLine: {'line': b'-- Installing: /home/ian339/collaborative_robotics_course/locobot_autonomy/install/locobot_autonomy/share/locobot_autonomy/environment/path.sh\n'}
+[20.280257] (locobot_autonomy) StdoutLine: {'line': b'-- Installing: /home/ian339/collaborative_robotics_course/locobot_autonomy/install/locobot_autonomy/share/locobot_autonomy/environment/path.dsv\n'}
+[20.280400] (locobot_autonomy) StdoutLine: {'line': b'-- Installing: /home/ian339/collaborative_robotics_course/locobot_autonomy/install/locobot_autonomy/share/locobot_autonomy/local_setup.bash\n'}
+[20.280473] (locobot_autonomy) StdoutLine: {'line': b'-- Installing: /home/ian339/collaborative_robotics_course/locobot_autonomy/install/locobot_autonomy/share/locobot_autonomy/local_setup.sh\n'}
+[20.280581] (locobot_autonomy) StdoutLine: {'line': b'-- Installing: /home/ian339/collaborative_robotics_course/locobot_autonomy/install/locobot_autonomy/share/locobot_autonomy/local_setup.zsh\n'}
+[20.280690] (locobot_autonomy) StdoutLine: {'line': b'-- Installing: /home/ian339/collaborative_robotics_course/locobot_autonomy/install/locobot_autonomy/share/locobot_autonomy/local_setup.dsv\n'}
+[20.280799] (locobot_autonomy) StdoutLine: {'line': b'-- Installing: /home/ian339/collaborative_robotics_course/locobot_autonomy/install/locobot_autonomy/share/locobot_autonomy/package.dsv\n'}
+[20.280899] (locobot_autonomy) StdoutLine: {'line': b'-- Installing: /home/ian339/collaborative_robotics_course/locobot_autonomy/install/locobot_autonomy/share/ament_index/resource_index/packages/locobot_autonomy\n'}
+[20.281035] (locobot_autonomy) StdoutLine: {'line': b'-- Installing: /home/ian339/collaborative_robotics_course/locobot_autonomy/install/locobot_autonomy/share/locobot_autonomy/cmake/locobot_autonomy__rosidl_generator_cExport.cmake\n'}
+[20.281753] (locobot_autonomy) StdoutLine: {'line': b'-- Installing: /home/ian339/collaborative_robotics_course/locobot_autonomy/install/locobot_autonomy/share/locobot_autonomy/cmake/locobot_autonomy__rosidl_generator_cExport-noconfig.cmake\n'}
+[20.282187] (locobot_autonomy) StdoutLine: {'line': b'-- Installing: /home/ian339/collaborative_robotics_course/locobot_autonomy/install/locobot_autonomy/share/locobot_autonomy/cmake/locobot_autonomy__rosidl_typesupport_introspection_cExport.cmake\n'}
+[20.282321] (locobot_autonomy) StdoutLine: {'line': b'-- Installing: /home/ian339/collaborative_robotics_course/locobot_autonomy/install/locobot_autonomy/share/locobot_autonomy/cmake/locobot_autonomy__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[20.282516] (locobot_autonomy) StdoutLine: {'line': b'-- Installing: /home/ian339/collaborative_robotics_course/locobot_autonomy/install/locobot_autonomy/share/locobot_autonomy/cmake/locobot_autonomy__rosidl_typesupport_cExport.cmake\n'}
+[20.282634] (locobot_autonomy) StdoutLine: {'line': b'-- Installing: /home/ian339/collaborative_robotics_course/locobot_autonomy/install/locobot_autonomy/share/locobot_autonomy/cmake/locobot_autonomy__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[20.282702] (locobot_autonomy) StdoutLine: {'line': b'-- Installing: /home/ian339/collaborative_robotics_course/locobot_autonomy/install/locobot_autonomy/share/locobot_autonomy/cmake/locobot_autonomy__rosidl_generator_cppExport.cmake\n'}
+[20.282844] (locobot_autonomy) StdoutLine: {'line': b'-- Installing: /home/ian339/collaborative_robotics_course/locobot_autonomy/install/locobot_autonomy/share/locobot_autonomy/cmake/locobot_autonomy__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[20.282933] (locobot_autonomy) StdoutLine: {'line': b'-- Installing: /home/ian339/collaborative_robotics_course/locobot_autonomy/install/locobot_autonomy/share/locobot_autonomy/cmake/locobot_autonomy__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[20.283067] (locobot_autonomy) StdoutLine: {'line': b'-- Installing: /home/ian339/collaborative_robotics_course/locobot_autonomy/install/locobot_autonomy/share/locobot_autonomy/cmake/locobot_autonomy__rosidl_typesupport_cppExport.cmake\n'}
+[20.283193] (locobot_autonomy) StdoutLine: {'line': b'-- Installing: /home/ian339/collaborative_robotics_course/locobot_autonomy/install/locobot_autonomy/share/locobot_autonomy/cmake/locobot_autonomy__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[20.283327] (locobot_autonomy) StdoutLine: {'line': b'-- Installing: /home/ian339/collaborative_robotics_course/locobot_autonomy/install/locobot_autonomy/share/locobot_autonomy/cmake/rosidl_cmake-extras.cmake\n'}
+[20.283437] (locobot_autonomy) StdoutLine: {'line': b'-- Installing: /home/ian339/collaborative_robotics_course/locobot_autonomy/install/locobot_autonomy/share/locobot_autonomy/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[20.283581] (locobot_autonomy) StdoutLine: {'line': b'-- Installing: /home/ian339/collaborative_robotics_course/locobot_autonomy/install/locobot_autonomy/share/locobot_autonomy/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[20.283641] (locobot_autonomy) StdoutLine: {'line': b'-- Installing: /home/ian339/collaborative_robotics_course/locobot_autonomy/install/locobot_autonomy/share/locobot_autonomy/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[20.283715] (locobot_autonomy) StdoutLine: {'line': b'-- Installing: /home/ian339/collaborative_robotics_course/locobot_autonomy/install/locobot_autonomy/share/locobot_autonomy/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[20.283867] (locobot_autonomy) StdoutLine: {'line': b'-- Installing: /home/ian339/collaborative_robotics_course/locobot_autonomy/install/locobot_autonomy/share/locobot_autonomy/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[20.283958] (locobot_autonomy) StdoutLine: {'line': b'-- Installing: /home/ian339/collaborative_robotics_course/locobot_autonomy/install/locobot_autonomy/share/locobot_autonomy/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[20.284049] (locobot_autonomy) StdoutLine: {'line': b'-- Installing: /home/ian339/collaborative_robotics_course/locobot_autonomy/install/locobot_autonomy/share/locobot_autonomy/cmake/locobot_autonomyConfig.cmake\n'}
+[20.284240] (locobot_autonomy) StdoutLine: {'line': b'-- Installing: /home/ian339/collaborative_robotics_course/locobot_autonomy/install/locobot_autonomy/share/locobot_autonomy/cmake/locobot_autonomyConfig-version.cmake\n'}
+[20.284319] (locobot_autonomy) StdoutLine: {'line': b'-- Installing: /home/ian339/collaborative_robotics_course/locobot_autonomy/install/locobot_autonomy/share/locobot_autonomy/package.xml\n'}
+[20.286726] (locobot_autonomy) CommandEnded: {'returncode': 0}
+[20.324945] (-) TimerEvent: {}
+[20.427808] (-) TimerEvent: {}
+[20.528788] (-) TimerEvent: {}
+[20.630561] (-) TimerEvent: {}
+[20.730995] (-) TimerEvent: {}
+[20.810980] (locobot_autonomy) JobEnded: {'identifier': 'locobot_autonomy', 'rc': 0}
+[20.811582] (-) EventReactorShutdown: {}

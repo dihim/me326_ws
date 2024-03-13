@@ -1,0 +1,6 @@
+{
+  "package_name": "locobot_autonomy",
+  "non_idl_tuples": [
+    "/home/ian339/collaborative_robotics_course/locobot_autonomy:action/MoveBase.action"
+  ]
+}
