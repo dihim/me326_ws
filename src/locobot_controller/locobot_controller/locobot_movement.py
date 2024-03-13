@@ -59,7 +59,7 @@ class MoveBaseClient(Node):
 
             PointStamped,
 
-            'block_location', ################# CHANGE THIS TO THE CORRECT TOPIC 
+            'target_pose', ################# CHANGE THIS TO THE CORRECT TOPIC 
 
             self.block_pose_callback,
 
