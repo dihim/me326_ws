@@ -20,7 +20,10 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-            'locobot_controller = locobot_controller.locobot_controller:main'
+            'locobot_controller = locobot_controller.locobot_controller:main',
+            'locobot_perception = locobot_perception.locobot_perception:main',
+            'locobot_movement = locobot_movement.locobot_movement:main',
+            'locobot_strategy = locobot_strategy.locobot_strategy:main'
         ],
     },
 )
