@@ -1,0 +1,35 @@
+-- Found ament_cmake: 1.1.6 (/opt/ros/galactic/share/ament_cmake/cmake)
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Found rclcpp: 9.2.2 (/opt/ros/galactic/share/rclcpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Found rosidl_adapter: 2.2.3 (/opt/ros/galactic/share/rosidl_adapter/cmake)
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 3.3.1 (/opt/ros/galactic/share/rmw_implementation_cmake/cmake)
+-- Found rmw_cyclonedds_cpp: 0.22.6 (/opt/ros/galactic/share/rmw_cyclonedds_cpp/cmake)
+-- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+-- Found ament_lint_auto: 0.10.7 (/opt/ros/galactic/share/ament_lint_auto/cmake)
+-- Added test 'copyright' to check source files copyright and LICENSE
+-- Added test 'flake8' to check Python code syntax and style conventions
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/yicheng/me326_ws/build/locobot_yicheng
+-- Install configuration: ""
+-- Up-to-date: /home/yicheng/me326_ws/install/locobot_yicheng/lib/locobot_yicheng/locobot_control.py
+-- Up-to-date: /home/yicheng/me326_ws/install/locobot_yicheng/share/ament_index/resource_index/package_run_dependencies/locobot_yicheng
+-- Installing: /home/yicheng/me326_ws/install/locobot_yicheng/share/ament_index/resource_index/parent_prefix_path/locobot_yicheng
+-- Installing: /home/yicheng/me326_ws/install/locobot_yicheng/share/locobot_yicheng/environment/ament_prefix_path.sh
+-- Installing: /home/yicheng/me326_ws/install/locobot_yicheng/share/locobot_yicheng/environment/ament_prefix_path.dsv
+-- Installing: /home/yicheng/me326_ws/install/locobot_yicheng/share/locobot_yicheng/environment/path.sh
+-- Installing: /home/yicheng/me326_ws/install/locobot_yicheng/share/locobot_yicheng/environment/path.dsv
+-- Up-to-date: /home/yicheng/me326_ws/install/locobot_yicheng/share/locobot_yicheng/local_setup.bash
+-- Up-to-date: /home/yicheng/me326_ws/install/locobot_yicheng/share/locobot_yicheng/local_setup.sh
+-- Up-to-date: /home/yicheng/me326_ws/install/locobot_yicheng/share/locobot_yicheng/local_setup.zsh
+-- Installing: /home/yicheng/me326_ws/install/locobot_yicheng/share/locobot_yicheng/local_setup.dsv
+-- Installing: /home/yicheng/me326_ws/install/locobot_yicheng/share/locobot_yicheng/package.dsv
+-- Up-to-date: /home/yicheng/me326_ws/install/locobot_yicheng/share/ament_index/resource_index/packages/locobot_yicheng
+-- Up-to-date: /home/yicheng/me326_ws/install/locobot_yicheng/share/locobot_yicheng/cmake/locobot_yichengConfig.cmake
+-- Up-to-date: /home/yicheng/me326_ws/install/locobot_yicheng/share/locobot_yicheng/cmake/locobot_yichengConfig-version.cmake
+-- Up-to-date: /home/yicheng/me326_ws/install/locobot_yicheng/share/locobot_yicheng/package.xml

@@ -1,0 +1,31 @@
+running egg_info
+writing ../../build/locobot_controller/locobot_controller.egg-info/PKG-INFO
+writing dependency_links to ../../build/locobot_controller/locobot_controller.egg-info/dependency_links.txt
+writing entry points to ../../build/locobot_controller/locobot_controller.egg-info/entry_points.txt
+writing requirements to ../../build/locobot_controller/locobot_controller.egg-info/requires.txt
+writing top-level names to ../../build/locobot_controller/locobot_controller.egg-info/top_level.txt
+reading manifest file '../../build/locobot_controller/locobot_controller.egg-info/SOURCES.txt'
+writing manifest file '../../build/locobot_controller/locobot_controller.egg-info/SOURCES.txt'
+running build
+running build_py
+running install
+running install_lib
+byte-compiling /home/yicheng/me326_ws/install/locobot_controller/lib/python3.8/site-packages/locobot_controller/locobot_controller.py to locobot_controller.cpython-38.pyc
+  File "/home/yicheng/me326_ws/install/locobot_controller/lib/python3.8/site-packages/locobot_controller/locobot_controller.py", line 37
+    cy = int(M["m01"]/M["mOO"})
+                             ^
+SyntaxError: closing parenthesis '}' does not match opening parenthesis '['
+
+byte-compiling /home/yicheng/me326_ws/install/locobot_controller/lib/python3.8/site-packages/locobot_controller/locobot_strategy.py to locobot_strategy.cpython-38.pyc
+running install_data
+  File "/home/yicheng/me326_ws/install/locobot_controller/lib/python3.8/site-packages/locobot_controller/locobot_strategy.py", line 53
+    if (msg.data = True):
+                 ^
+SyntaxError: invalid syntax
+
+running install_egg_info
+removing '/home/yicheng/me326_ws/install/locobot_controller/lib/python3.8/site-packages/locobot_controller-0.0.0-py3.8.egg-info' (and everything under it)
+Copying ../../build/locobot_controller/locobot_controller.egg-info to /home/yicheng/me326_ws/install/locobot_controller/lib/python3.8/site-packages/locobot_controller-0.0.0-py3.8.egg-info
+running install_scripts
+Installing locobot_controller script to /home/yicheng/me326_ws/install/locobot_controller/lib/locobot_controller
+writing list of installed files to '/home/yicheng/me326_ws/build/locobot_controller/install.log'

@@ -1,0 +1,17 @@
+CMake Error at CMakeLists.txt:33 (find_package):
+  By not providing "Findtf_transformation.cmake" in CMAKE_MODULE_PATH this
+  project has asked CMake to find a package configuration file provided by
+  "tf_transformation", but CMake did not find one.
+
+  Could not find a package configuration file provided by "tf_transformation"
+  with any of the following names:
+
+    tf_transformationConfig.cmake
+    tf_transformation-config.cmake
+
+  Add the installation prefix of "tf_transformation" to CMAKE_PREFIX_PATH or
+  set "tf_transformation_DIR" to a directory containing one of the above
+  files.  If "tf_transformation" provides a separate development package or
+  SDK, be sure it has been installed.
+
+

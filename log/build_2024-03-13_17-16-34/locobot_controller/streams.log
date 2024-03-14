@@ -1,0 +1,33 @@
+[0.981s] Invoking command in '/home/yicheng/me326_ws/src/locobot_controller': PYTHONPATH=/home/yicheng/me326_ws/build/locobot_controller/prefix_override:/home/yicheng/me326_ws/install/locobot_controller/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/locobot_controller build --build-base /home/yicheng/me326_ws/build/locobot_controller/build install --record /home/yicheng/me326_ws/build/locobot_controller/install.log --single-version-externally-managed
+[1.133s] running egg_info
+[1.133s] writing ../../build/locobot_controller/locobot_controller.egg-info/PKG-INFO
+[1.133s] writing dependency_links to ../../build/locobot_controller/locobot_controller.egg-info/dependency_links.txt
+[1.133s] writing entry points to ../../build/locobot_controller/locobot_controller.egg-info/entry_points.txt
+[1.134s] writing requirements to ../../build/locobot_controller/locobot_controller.egg-info/requires.txt
+[1.134s] writing top-level names to ../../build/locobot_controller/locobot_controller.egg-info/top_level.txt
+[1.157s] reading manifest file '../../build/locobot_controller/locobot_controller.egg-info/SOURCES.txt'
+[1.158s] writing manifest file '../../build/locobot_controller/locobot_controller.egg-info/SOURCES.txt'
+[1.158s] running build
+[1.158s] running build_py
+[1.158s] running install
+[1.158s] running install_lib
+[1.159s] byte-compiling /home/yicheng/me326_ws/install/locobot_controller/lib/python3.8/site-packages/locobot_controller/locobot_controller.py to locobot_controller.cpython-38.pyc
+[1.160s]   File "/home/yicheng/me326_ws/install/locobot_controller/lib/python3.8/site-packages/locobot_controller/locobot_controller.py", line 37
+[1.160s]     cy = int(M["m01"]/M["mOO"})
+[1.160s]                              ^
+[1.160s] SyntaxError: closing parenthesis '}' does not match opening parenthesis '['
+[1.160s] 
+[1.160s] byte-compiling /home/yicheng/me326_ws/install/locobot_controller/lib/python3.8/site-packages/locobot_controller/locobot_strategy.py to locobot_strategy.cpython-38.pyc
+[1.160s]   File "/home/yicheng/me326_ws/install/locobot_controller/lib/python3.8/site-packages/locobot_controller/locobot_strategy.py", line 53
+[1.160s]     if (msg.data = True):
+[1.160s]                  ^
+[1.160s] SyntaxError: invalid syntax
+[1.160s] 
+[1.160s] running install_data
+[1.160s] running install_egg_info
+[1.161s] removing '/home/yicheng/me326_ws/install/locobot_controller/lib/python3.8/site-packages/locobot_controller-0.0.0-py3.8.egg-info' (and everything under it)
+[1.161s] Copying ../../build/locobot_controller/locobot_controller.egg-info to /home/yicheng/me326_ws/install/locobot_controller/lib/python3.8/site-packages/locobot_controller-0.0.0-py3.8.egg-info
+[1.162s] running install_scripts
+[1.174s] Installing locobot_controller script to /home/yicheng/me326_ws/install/locobot_controller/lib/locobot_controller
+[1.174s] writing list of installed files to '/home/yicheng/me326_ws/build/locobot_controller/install.log'
+[1.191s] Invoked command in '/home/yicheng/me326_ws/src/locobot_controller' returned '0': PYTHONPATH=/home/yicheng/me326_ws/build/locobot_controller/prefix_override:/home/yicheng/me326_ws/install/locobot_controller/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/locobot_controller build --build-base /home/yicheng/me326_ws/build/locobot_controller/build install --record /home/yicheng/me326_ws/build/locobot_controller/install.log --single-version-externally-managed

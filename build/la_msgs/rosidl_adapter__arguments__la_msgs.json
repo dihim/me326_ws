@@ -1,0 +1,7 @@
+{
+  "package_name": "la_msgs",
+  "non_idl_tuples": [
+    "/home/yicheng/me326_ws/src/la_msgs:action/MoveBase.action",
+    "/home/yicheng/me326_ws/src/la_msgs:srv/Ptps.srv"
+  ]
+}

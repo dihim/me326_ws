@@ -1,0 +1,56 @@
+[0.799s] Invoking command in '/home/yicheng/me326_ws/src/locobot_controller': PYTHONPATH=/home/yicheng/me326_ws/build/locobot_controller/prefix_override:/home/yicheng/me326_ws/install/locobot_controller/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/locobot_controller build --build-base /home/yicheng/me326_ws/build/locobot_controller/build install --record /home/yicheng/me326_ws/build/locobot_controller/install.log --single-version-externally-managed
+[0.961s] running egg_info
+[0.961s] creating ../../build/locobot_controller/locobot_controller.egg-info
+[0.961s] writing ../../build/locobot_controller/locobot_controller.egg-info/PKG-INFO
+[0.961s] writing dependency_links to ../../build/locobot_controller/locobot_controller.egg-info/dependency_links.txt
+[0.961s] writing entry points to ../../build/locobot_controller/locobot_controller.egg-info/entry_points.txt
+[0.961s] writing requirements to ../../build/locobot_controller/locobot_controller.egg-info/requires.txt
+[0.961s] writing top-level names to ../../build/locobot_controller/locobot_controller.egg-info/top_level.txt
+[0.962s] writing manifest file '../../build/locobot_controller/locobot_controller.egg-info/SOURCES.txt'
+[0.985s] reading manifest file '../../build/locobot_controller/locobot_controller.egg-info/SOURCES.txt'
+[0.986s] writing manifest file '../../build/locobot_controller/locobot_controller.egg-info/SOURCES.txt'
+[0.986s] running build
+[0.986s] running build_py
+[0.986s] creating /home/yicheng/me326_ws/build/locobot_controller/build
+[0.986s] creating /home/yicheng/me326_ws/build/locobot_controller/build/lib
+[0.986s] creating /home/yicheng/me326_ws/build/locobot_controller/build/lib/locobot_controller
+[0.986s] copying locobot_controller/__init__.py -> /home/yicheng/me326_ws/build/locobot_controller/build/lib/locobot_controller
+[0.986s] copying locobot_controller/locobot_movement.py -> /home/yicheng/me326_ws/build/locobot_controller/build/lib/locobot_controller
+[0.986s] copying locobot_controller/locobot_perception.py -> /home/yicheng/me326_ws/build/locobot_controller/build/lib/locobot_controller
+[0.986s] copying locobot_controller/locobot_controller.py -> /home/yicheng/me326_ws/build/locobot_controller/build/lib/locobot_controller
+[0.987s] copying locobot_controller/locobot_strategy.py -> /home/yicheng/me326_ws/build/locobot_controller/build/lib/locobot_controller
+[0.987s] running install
+[0.987s] running install_lib
+[0.987s] creating /home/yicheng/me326_ws/install/locobot_controller/lib/python3.8/site-packages/locobot_controller
+[0.987s] copying /home/yicheng/me326_ws/build/locobot_controller/build/lib/locobot_controller/__init__.py -> /home/yicheng/me326_ws/install/locobot_controller/lib/python3.8/site-packages/locobot_controller
+[0.988s] copying /home/yicheng/me326_ws/build/locobot_controller/build/lib/locobot_controller/locobot_movement.py -> /home/yicheng/me326_ws/install/locobot_controller/lib/python3.8/site-packages/locobot_controller
+[0.988s] copying /home/yicheng/me326_ws/build/locobot_controller/build/lib/locobot_controller/locobot_perception.py -> /home/yicheng/me326_ws/install/locobot_controller/lib/python3.8/site-packages/locobot_controller
+[0.988s] copying /home/yicheng/me326_ws/build/locobot_controller/build/lib/locobot_controller/locobot_controller.py -> /home/yicheng/me326_ws/install/locobot_controller/lib/python3.8/site-packages/locobot_controller
+[0.988s] copying /home/yicheng/me326_ws/build/locobot_controller/build/lib/locobot_controller/locobot_strategy.py -> /home/yicheng/me326_ws/install/locobot_controller/lib/python3.8/site-packages/locobot_controller
+[0.988s] byte-compiling /home/yicheng/me326_ws/install/locobot_controller/lib/python3.8/site-packages/locobot_controller/__init__.py to __init__.cpython-38.pyc
+[0.989s] byte-compiling /home/yicheng/me326_ws/install/locobot_controller/lib/python3.8/site-packages/locobot_controller/locobot_movement.py to locobot_movement.cpython-38.pyc
+[0.992s] byte-compiling /home/yicheng/me326_ws/install/locobot_controller/lib/python3.8/site-packages/locobot_controller/locobot_perception.py to locobot_perception.cpython-38.pyc
+[0.992s] byte-compiling /home/yicheng/me326_ws/install/locobot_controller/lib/python3.8/site-packages/locobot_controller/locobot_controller.py to locobot_controller.cpython-38.pyc
+[0.992s] byte-compiling /home/yicheng/me326_ws/install/locobot_controller/lib/python3.8/site-packages/locobot_controller/locobot_strategy.py to locobot_strategy.cpython-38.pyc
+[0.992s] running install_data
+[0.992s] creating /home/yicheng/me326_ws/install/locobot_controller/share/ament_index
+[0.992s] creating /home/yicheng/me326_ws/install/locobot_controller/share/ament_index/resource_index
+[0.992s] creating /home/yicheng/me326_ws/install/locobot_controller/share/ament_index/resource_index/packages
+[0.992s] copying resource/locobot_controller -> /home/yicheng/me326_ws/install/locobot_controller/share/ament_index/resource_index/packages
+[0.993s]   File "/home/yicheng/me326_ws/install/locobot_controller/lib/python3.8/site-packages/locobot_controller/locobot_controller.py", line 37
+[0.993s]     cy = int(M["m01"]/M["mOO"})
+[0.993s]                              ^
+[0.993s] SyntaxError: closing parenthesis '}' does not match opening parenthesis '['
+[0.993s] 
+[0.993s]   File "/home/yicheng/me326_ws/install/locobot_controller/lib/python3.8/site-packages/locobot_controller/locobot_strategy.py", line 53
+[0.993s]     if (msg.data = True):
+[0.993s]                  ^
+[0.993s] SyntaxError: invalid syntax
+[0.993s] 
+[0.993s] copying package.xml -> /home/yicheng/me326_ws/install/locobot_controller/share/locobot_controller
+[0.993s] running install_egg_info
+[0.993s] Copying ../../build/locobot_controller/locobot_controller.egg-info to /home/yicheng/me326_ws/install/locobot_controller/lib/python3.8/site-packages/locobot_controller-0.0.0-py3.8.egg-info
+[0.994s] running install_scripts
+[1.013s] Installing locobot_controller script to /home/yicheng/me326_ws/install/locobot_controller/lib/locobot_controller
+[1.013s] writing list of installed files to '/home/yicheng/me326_ws/build/locobot_controller/install.log'
+[1.094s] Invoked command in '/home/yicheng/me326_ws/src/locobot_controller' returned '0': PYTHONPATH=/home/yicheng/me326_ws/build/locobot_controller/prefix_override:/home/yicheng/me326_ws/install/locobot_controller/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/locobot_controller build --build-base /home/yicheng/me326_ws/build/locobot_controller/build install --record /home/yicheng/me326_ws/build/locobot_controller/install.log --single-version-externally-managed

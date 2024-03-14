@@ -1,0 +1,69 @@
+[0.115s] Invoking command in '/home/yicheng/me326_ws/build/locobot_autonomy': AMENT_PREFIX_PATH=/home/yicheng/me326_ws/install/la_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/yicheng/me326_ws/install/la_msgs:/home/yicheng/interbotix_ws/install/interbotix_moveit_interface:/home/yicheng/interbotix_ws/install/moveit_visual_tools:/home/yicheng/interbotix_ws/install/interbotix_xslocobot_moveit:/home/yicheng/interbotix_ws/install/interbotix_xslocobot_ros_control:/home/yicheng/interbotix_ws/install/interbotix_xslocobot_sim:/home/yicheng/interbotix_ws/install/interbotix_xslocobot_descriptions:/home/yicheng/interbotix_ws/install/interbotix_xs_toolbox:/home/yicheng/interbotix_ws/install/interbotix_xs_rviz:/home/yicheng/interbotix_ws/install/interbotix_xs_ros_control:/home/yicheng/interbotix_ws/install/interbotix_perception_toolbox:/home/yicheng/interbotix_ws/install/interbotix_perception_pipelines:/home/yicheng/interbotix_ws/install/interbotix_xs_msgs:/home/yicheng/interbotix_ws/install/interbotix_tf_tools:/home/yicheng/interbotix_ws/install/interbotix_perception_msgs:/home/yicheng/interbotix_ws/install/interbotix_moveit_interface_msgs:/home/yicheng/interbotix_ws/install/interbotix_common_toolbox:/home/yicheng/interbotix_ws/install/interbotix_common_sim:/home/yicheng/interbotix_ws/install/interbotix_xs_modules:/home/yicheng/interbotix_ws/install/interbotix_perception_modules:/home/yicheng/interbotix_ws/install/interbotix_common_modules:/opt/ros/galactic LD_LIBRARY_PATH=/home/yicheng/me326_ws/install/la_msgs/lib:/home/yicheng/interbotix_ws/install/moveit_visual_tools/lib:/home/yicheng/interbotix_ws/install/interbotix_xs_rviz/lib:/home/yicheng/interbotix_ws/install/interbotix_xs_ros_control/lib:/home/yicheng/interbotix_ws/install/interbotix_xs_msgs/lib:/home/yicheng/interbotix_ws/install/interbotix_tf_tools/lib:/home/yicheng/interbotix_ws/install/interbotix_perception_msgs/lib:/home/yicheng/interbotix_ws/install/interbotix_moveit_interface_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/yicheng/me326_ws/install/la_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/yicheng/me326_ws/locobot_autonomy -DCMAKE_INSTALL_PREFIX=/home/yicheng/me326_ws/install/locobot_autonomy
+[0.153s] -- The C compiler identification is GNU 9.4.0
+[0.190s] -- The CXX compiler identification is GNU 9.4.0
+[0.193s] -- Check for working C compiler: /usr/bin/cc
+[0.250s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.250s] -- Detecting C compiler ABI info
+[0.304s] -- Detecting C compiler ABI info - done
+[0.311s] -- Detecting C compile features
+[0.311s] -- Detecting C compile features - done
+[0.313s] -- Check for working CXX compiler: /usr/bin/c++
+[0.367s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.367s] -- Detecting CXX compiler ABI info
+[0.429s] -- Detecting CXX compiler ABI info - done
+[0.436s] -- Detecting CXX compile features
+[0.436s] -- Detecting CXX compile features - done
+[0.439s] -- Found ament_cmake: 1.1.6 (/opt/ros/galactic/share/ament_cmake/cmake)
+[0.456s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.456s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.518s] -- Found rclcpp: 9.2.2 (/opt/ros/galactic/share/rclcpp/cmake)
+[0.558s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.564s] -- Found rosidl_adapter: 2.2.3 (/opt/ros/galactic/share/rosidl_adapter/cmake)
+[0.626s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[0.648s] -- Found FastRTPS: /opt/ros/galactic/include  
+[0.701s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.743s] -- Found rmw_implementation_cmake: 3.3.1 (/opt/ros/galactic/share/rmw_implementation_cmake/cmake)
+[0.745s] -- Found rmw_cyclonedds_cpp: 0.22.6 (/opt/ros/galactic/share/rmw_cyclonedds_cpp/cmake)
+[0.758s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[0.759s] -- Looking for pthread.h
+[0.813s] -- Looking for pthread.h - found
+[0.813s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.871s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[0.871s] -- Looking for pthread_create in pthreads
+[0.927s] -- Looking for pthread_create in pthreads - not found
+[0.927s] -- Looking for pthread_create in pthread
+[1.004s] -- Looking for pthread_create in pthread - found
+[1.005s] -- Found Threads: TRUE  
+[1.101s] -- Found rclpy: 1.9.3 (/opt/ros/galactic/share/rclpy/cmake)
+[1.103s] -- Found geometry_msgs: 2.2.4 (/opt/ros/galactic/share/geometry_msgs/cmake)
+[1.131s] -- Found nav_msgs: 2.2.4 (/opt/ros/galactic/share/nav_msgs/cmake)
+[1.175s] -- Found visualization_msgs: 2.2.4 (/opt/ros/galactic/share/visualization_msgs/cmake)
+[1.219s] -- Found sensor_msgs: 2.2.4 (/opt/ros/galactic/share/sensor_msgs/cmake)
+[1.263s] -- Found rosidl_default_generators: 1.1.1 (/opt/ros/galactic/share/rosidl_default_generators/cmake)
+[1.273s] -- Found action_msgs: 1.0.3 (/opt/ros/galactic/share/action_msgs/cmake)
+[1.302s] -- Found tf2: 0.17.5 (/opt/ros/galactic/share/tf2/cmake)
+[1.310s] -- Found tf2_ros: 0.17.5 (/opt/ros/galactic/share/tf2_ros/cmake)
+[1.491s] -- Found tf2_eigen: 0.17.5 (/opt/ros/galactic/share/tf2_eigen/cmake)
+[1.498s] -- Found tf2_geometry_msgs: 0.17.5 (/opt/ros/galactic/share/tf2_geometry_msgs/cmake)
+[1.504s] -- Found Eigen3: TRUE (found version "3.3.7") 
+[1.526s] CMake Error at CMakeLists.txt:33 (find_package):
+[1.526s]   By not providing "Findtf_transformations.cmake" in CMAKE_MODULE_PATH this
+[1.526s]   project has asked CMake to find a package configuration file provided by
+[1.526s]   "tf_transformations", but CMake did not find one.
+[1.526s] 
+[1.526s]   Could not find a package configuration file provided by
+[1.526s]   "tf_transformations" with any of the following names:
+[1.526s] 
+[1.526s]     tf_transformationsConfig.cmake
+[1.526s]     tf_transformations-config.cmake
+[1.526s] 
+[1.526s]   Add the installation prefix of "tf_transformations" to CMAKE_PREFIX_PATH or
+[1.526s]   set "tf_transformations_DIR" to a directory containing one of the above
+[1.526s]   files.  If "tf_transformations" provides a separate development package or
+[1.526s]   SDK, be sure it has been installed.
+[1.526s] 
+[1.527s] 
+[1.527s] -- Configuring incomplete, errors occurred!
+[1.527s] See also "/home/yicheng/me326_ws/build/locobot_autonomy/CMakeFiles/CMakeOutput.log".
+[1.527s] See also "/home/yicheng/me326_ws/build/locobot_autonomy/CMakeFiles/CMakeError.log".
+[1.534s] Invoked command in '/home/yicheng/me326_ws/build/locobot_autonomy' returned '1': AMENT_PREFIX_PATH=/home/yicheng/me326_ws/install/la_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/yicheng/me326_ws/install/la_msgs:/home/yicheng/interbotix_ws/install/interbotix_moveit_interface:/home/yicheng/interbotix_ws/install/moveit_visual_tools:/home/yicheng/interbotix_ws/install/interbotix_xslocobot_moveit:/home/yicheng/interbotix_ws/install/interbotix_xslocobot_ros_control:/home/yicheng/interbotix_ws/install/interbotix_xslocobot_sim:/home/yicheng/interbotix_ws/install/interbotix_xslocobot_descriptions:/home/yicheng/interbotix_ws/install/interbotix_xs_toolbox:/home/yicheng/interbotix_ws/install/interbotix_xs_rviz:/home/yicheng/interbotix_ws/install/interbotix_xs_ros_control:/home/yicheng/interbotix_ws/install/interbotix_perception_toolbox:/home/yicheng/interbotix_ws/install/interbotix_perception_pipelines:/home/yicheng/interbotix_ws/install/interbotix_xs_msgs:/home/yicheng/interbotix_ws/install/interbotix_tf_tools:/home/yicheng/interbotix_ws/install/interbotix_perception_msgs:/home/yicheng/interbotix_ws/install/interbotix_moveit_interface_msgs:/home/yicheng/interbotix_ws/install/interbotix_common_toolbox:/home/yicheng/interbotix_ws/install/interbotix_common_sim:/home/yicheng/interbotix_ws/install/interbotix_xs_modules:/home/yicheng/interbotix_ws/install/interbotix_perception_modules:/home/yicheng/interbotix_ws/install/interbotix_common_modules:/opt/ros/galactic LD_LIBRARY_PATH=/home/yicheng/me326_ws/install/la_msgs/lib:/home/yicheng/interbotix_ws/install/moveit_visual_tools/lib:/home/yicheng/interbotix_ws/install/interbotix_xs_rviz/lib:/home/yicheng/interbotix_ws/install/interbotix_xs_ros_control/lib:/home/yicheng/interbotix_ws/install/interbotix_xs_msgs/lib:/home/yicheng/interbotix_ws/install/interbotix_tf_tools/lib:/home/yicheng/interbotix_ws/install/interbotix_perception_msgs/lib:/home/yicheng/interbotix_ws/install/interbotix_moveit_interface_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/yicheng/me326_ws/install/la_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/yicheng/me326_ws/locobot_autonomy -DCMAKE_INSTALL_PREFIX=/home/yicheng/me326_ws/install/locobot_autonomy
