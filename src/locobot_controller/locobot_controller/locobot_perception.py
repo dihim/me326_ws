@@ -52,6 +52,7 @@ class PerceptionClient(Node):
                     if self.point != None:
                         self.get_logger().info("Publishing block location") 
                         self.publisher.publish(self.point)
+                        self.point = None
                 else:
                     incomplete_futures.append(f) 
             self.client_futures = incomplete_futures 
