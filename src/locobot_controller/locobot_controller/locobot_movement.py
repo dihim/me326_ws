@@ -16,11 +16,10 @@ from locobot_autonomy.action import MoveBase
 
 from geometry_msgs.msg import Pose
 
-from tf_transformations import quaternion_from_euler
-
 import math
 
-from std_msgs.msg import Bool
+# import time
+
 
 
 class MoveBaseClient(Node):
@@ -33,9 +32,12 @@ class MoveBaseClient(Node):
 
         self._action_client = ActionClient(self, MoveBase, 'movebase')
 
+        self.arm_working_range = 0.3
+
+        # self.start_time = time.time()
+
     ######################NEW CODE START#########################################
-        
-        self.arm_working_range = 0.5
+
         self.robot_position = None
 
         self.robot_orientation = None
@@ -60,7 +62,7 @@ class MoveBaseClient(Node):
 
             PointStamped,
 
-            'target_pose', ################# CHANGE THIS TO THE CORRECT TOPIC 
+            'block_location', ################# CHANGE THIS TO THE CORRECT TOPIC 
 
             self.block_pose_callback,
 
@@ -70,7 +72,7 @@ class MoveBaseClient(Node):
 
         self.get_logger().info('MoveBaseClient has been initialized.')
 
-        self.reach_location_publisher = self.create_publisher(PoseStamped, 'reached_block', 10); 
+
 
     def robot_pose_callback(self, msg: Odometry):
 
@@ -90,7 +92,7 @@ class MoveBaseClient(Node):
 
             return
 
-        self.get_logger().info(f'Block position received: {msg.point}')
+        # self.get_logger().info(f'Block position received: {msg.point}')
 
         
 
@@ -114,7 +116,7 @@ class MoveBaseClient(Node):
 
         target_pose.pose.position.y = self.robot_position.y + ratio * dy
 
-        target_pose.pose.position.z = 0
+        target_pose.pose.position.z = 0.0
 
         
 
@@ -130,9 +132,17 @@ class MoveBaseClient(Node):
 
         target_pose.pose.orientation.w = quaternion[3]
 
+        
+
+        # if (self._send_goal_future == None or (time.time() - self.start_time) * 1e-6 > 5):
+
+        if (self._send_goal_future == None):
+
+            self.send_goal(target_pose.pose, True)
+
+            # self.start_time = time.time()
 
 
-        self.send_goal(target_pose.pose, True)
 
     #####################NEW CODE END############################################
 
@@ -213,11 +223,10 @@ class MoveBaseClient(Node):
         result = future.result()._result
 
         if result.done:
-            msg = PoseStamped() 
-            msg.Pose.Point = self.robot_position
-            msg.Pose.Orientation = self.robot_orientation 
+
             self.get_logger().info('Goal reached successfully.')
-            reach_location_publisher.publish(msg)
+
+            # rclpy.shutdown()
 
         else:
 
@@ -239,6 +248,58 @@ def degrees_to_quaternion(degrees):
 
 
 
+def quaternion_from_euler(roll, pitch, yaw):
+
+    """
+
+    Calculate the quaternion from Euler angles (roll, pitch, yaw).
+
+
+
+    Parameters:
+
+        roll (float): Roll angle in radians.
+
+        pitch (float): Pitch angle in radians.
+
+        yaw (float): Yaw angle in radians.
+
+
+
+    Returns:
+
+        list: Quaternion [x, y, z, w].
+
+    """
+
+    cy = math.cos(yaw * 0.5)
+
+    sy = math.sin(yaw * 0.5)
+
+    cp = math.cos(pitch * 0.5)
+
+    sp = math.sin(pitch * 0.5)
+
+    cr = math.cos(roll * 0.5)
+
+    sr = math.sin(roll * 0.5)
+
+
+
+    w = cy * cp * cr + sy * sp * sr
+
+    x = cy * cp * sr - sy * sp * cr
+
+    y = sy * cp * sr + cy * sp * cr
+
+    z = sy * cp * cr - cy * sp * sr
+
+
+
+    return [x, y, z, w]
+
+
+
 
 
 
@@ -251,7 +312,7 @@ def degrees_to_quaternion(degrees):
 
 #     try:
 
-#         movebase_client = MovssseBaseClient()
+#         movebase_client = MoveBaseClient()
 
 
 
@@ -335,4 +396,5 @@ if __name__ == '__main__':
 
 #####################NEW CODE END############################################
 
+11:05
 
