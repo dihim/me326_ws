@@ -1,0 +1,98 @@
+[0.733s] Invoking command in '/home/dihim/me326_ws/build/arm_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dihim/interbotix_ws/install/interbotix_xs_modules:/home/dihim/interbotix_ws/install/interbotix_perception_modules:/home/dihim/interbotix_ws/install/interbotix_common_modules:/opt/ros/galactic /usr/bin/cmake --build /home/dihim/me326_ws/build/arm_controller -- -j4 -l4
+[1.050s] [ 33%] [32mBuilding CXX object CMakeFiles/arm_controller.dir/src/moveit_interface.cpp.o[0m
+[4.190s] [01m[K/home/dihim/me326_ws/src/arm_controller/src/moveit_interface.cpp:85:8:[m[K [01;31m[Kerror: [m[K‘[01m[Kvoid MyNode::pick_callback(geometry_msgs::msg::PoseStamped&) const[m[K’ cannot be overloaded with ‘[01m[Kvoid MyNode::pick_callback(geometry_msgs::msg::PoseStamped&) const[m[K’
+[4.190s]    85 |   void [01;31m[Kpick_callback[m[K(geometry_msgs::msg::PoseStamped & target_pose) const
+[4.190s]       |        [01;31m[K^~~~~~~~~~~~~[m[K
+[4.190s] [01m[K/home/dihim/me326_ws/src/arm_controller/src/moveit_interface.cpp:61:8:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[Kvoid MyNode::pick_callback(geometry_msgs::msg::PoseStamped&) const[m[K’
+[4.190s]    61 |   void [01;36m[Kpick_callback[m[K(geometry_msgs::msg::PoseStamped & target_pose) const
+[4.190s]       |        [01;36m[K^~~~~~~~~~~~~[m[K
+[4.217s] [01m[K/home/dihim/me326_ws/src/arm_controller/src/moveit_interface.cpp:[m[K In constructor ‘[01m[KMyNode::MyNode()[m[K’:
+[4.217s] [01m[K/home/dihim/me326_ws/src/arm_controller/src/moveit_interface.cpp:55:63:[m[K [01;31m[Kerror: [m[Kreference to ‘[01m[K_1[m[K’ is ambiguous
+[4.217s]    55 |     "pick_block", 10, std::bind(&MyNode::pick_callback, this, [01;31m[K_1[m[K));
+[4.217s]       |                                                               [01;31m[K^~[m[K
+[4.217s] In file included from [01m[K/usr/include/boost/bind/bind.hpp:2356[m[K,
+[4.217s]                  from [01m[K/usr/include/boost/bind.hpp:22[m[K,
+[4.217s]                  from [01m[K/usr/include/boost/thread/pthread/shared_mutex.hpp:12[m[K,
+[4.217s]                  from [01m[K/usr/include/boost/thread/shared_mutex.hpp:28[m[K,
+[4.217s]                  from [01m[K/opt/ros/galactic/include/moveit/collision_detection/occupancy_map.h:42[m[K,
+[4.217s]                  from [01m[K/opt/ros/galactic/include/moveit/occupancy_map_monitor/occupancy_map_monitor.h:39[m[K,
+[4.217s]                  from [01m[K/opt/ros/galactic/include/moveit/planning_scene_monitor/planning_scene_monitor.h:45[m[K,
+[4.217s]                  from [01m[K/home/dihim/interbotix_ws/install/moveit_visual_tools/include/moveit_visual_tools/moveit_visual_tools.h:41[m[K,
+[4.217s]                  from [01m[K/home/dihim/me326_ws/src/arm_controller/include/interbotix_moveit_interface/moveit_interface_obj.hpp:44[m[K,
+[4.217s]                  from [01m[K/home/dihim/me326_ws/src/arm_controller/src/moveit_interface.cpp:29[m[K:
+[4.217s] [01m[K/usr/include/boost/bind/placeholders.hpp:46:38:[m[K [01;36m[Knote: [m[Kcandidates are: ‘[01m[Kconstexpr const boost::arg<1> boost::placeholders::_1[m[K’
+[4.217s]    46 | BOOST_STATIC_CONSTEXPR boost::arg<1> [01;36m[K_1[m[K;
+[4.217s]       |                                      [01;36m[K^~[m[K
+[4.217s] In file included from [01m[K/usr/include/c++/9/pstl/glue_algorithm_defs.h:13[m[K,
+[4.217s]                  from [01m[K/usr/include/c++/9/algorithm:71[m[K,
+[4.217s]                  from [01m[K/opt/ros/galactic/include/rclcpp/executor.hpp:18[m[K,
+[4.217s]                  from [01m[K/opt/ros/galactic/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+[4.217s]                  from [01m[K/opt/ros/galactic/include/rclcpp/executors.hpp:21[m[K,
+[4.217s]                  from [01m[K/opt/ros/galactic/include/rclcpp/rclcpp.hpp:156[m[K,
+[4.218s]                  from [01m[K/home/dihim/me326_ws/src/arm_controller/include/interbotix_moveit_interface/moveit_interface_obj.hpp:36[m[K,
+[4.218s]                  from [01m[K/home/dihim/me326_ws/src/arm_controller/src/moveit_interface.cpp:29[m[K:
+[4.218s] [01m[K/usr/include/c++/9/functional:211:34:[m[K [01;36m[Knote: [m[K                ‘[01m[Kconst std::_Placeholder<1> std::placeholders::_1[m[K’
+[4.218s]   211 |     extern const _Placeholder<1> [01;36m[K_1[m[K;
+[4.218s]       |                                  [01;36m[K^~[m[K
+[4.218s] [01m[K/home/dihim/me326_ws/src/arm_controller/src/moveit_interface.cpp:58:42:[m[K [01;31m[Kerror: [m[K‘[01m[Kdrop_callback[m[K’ is not a member of ‘[01m[KMyNode[m[K’
+[4.218s]    58 |     "drop_block", 10, std::bind(&MyNode::[01;31m[Kdrop_callback[m[K, this, _1));
+[4.218s]       |                                          [01;31m[K^~~~~~~~~~~~~[m[K
+[4.218s] [01m[K/home/dihim/me326_ws/src/arm_controller/src/moveit_interface.cpp:58:63:[m[K [01;31m[Kerror: [m[Kreference to ‘[01m[K_1[m[K’ is ambiguous
+[4.218s]    58 |     "drop_block", 10, std::bind(&MyNode::drop_callback, this, [01;31m[K_1[m[K));
+[4.218s]       |                                                               [01;31m[K^~[m[K
+[4.218s] In file included from [01m[K/usr/include/boost/bind/bind.hpp:2356[m[K,
+[4.218s]                  from [01m[K/usr/include/boost/bind.hpp:22[m[K,
+[4.218s]                  from [01m[K/usr/include/boost/thread/pthread/shared_mutex.hpp:12[m[K,
+[4.218s]                  from [01m[K/usr/include/boost/thread/shared_mutex.hpp:28[m[K,
+[4.218s]                  from [01m[K/opt/ros/galactic/include/moveit/collision_detection/occupancy_map.h:42[m[K,
+[4.218s]                  from [01m[K/opt/ros/galactic/include/moveit/occupancy_map_monitor/occupancy_map_monitor.h:39[m[K,
+[4.218s]                  from [01m[K/opt/ros/galactic/include/moveit/planning_scene_monitor/planning_scene_monitor.h:45[m[K,
+[4.218s]                  from [01m[K/home/dihim/interbotix_ws/install/moveit_visual_tools/include/moveit_visual_tools/moveit_visual_tools.h:41[m[K,
+[4.218s]                  from [01m[K/home/dihim/me326_ws/src/arm_controller/include/interbotix_moveit_interface/moveit_interface_obj.hpp:44[m[K,
+[4.218s]                  from [01m[K/home/dihim/me326_ws/src/arm_controller/src/moveit_interface.cpp:29[m[K:
+[4.218s] [01m[K/usr/include/boost/bind/placeholders.hpp:46:38:[m[K [01;36m[Knote: [m[Kcandidates are: ‘[01m[Kconstexpr const boost::arg<1> boost::placeholders::_1[m[K’
+[4.218s]    46 | BOOST_STATIC_CONSTEXPR boost::arg<1> [01;36m[K_1[m[K;
+[4.218s]       |                                      [01;36m[K^~[m[K
+[4.218s] In file included from [01m[K/usr/include/c++/9/pstl/glue_algorithm_defs.h:13[m[K,
+[4.218s]                  from [01m[K/usr/include/c++/9/algorithm:71[m[K,
+[4.218s]                  from [01m[K/opt/ros/galactic/include/rclcpp/executor.hpp:18[m[K,
+[4.218s]                  from [01m[K/opt/ros/galactic/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+[4.218s]                  from [01m[K/opt/ros/galactic/include/rclcpp/executors.hpp:21[m[K,
+[4.218s]                  from [01m[K/opt/ros/galactic/include/rclcpp/rclcpp.hpp:156[m[K,
+[4.218s]                  from [01m[K/home/dihim/me326_ws/src/arm_controller/include/interbotix_moveit_interface/moveit_interface_obj.hpp:36[m[K,
+[4.218s]                  from [01m[K/home/dihim/me326_ws/src/arm_controller/src/moveit_interface.cpp:29[m[K:
+[4.218s] [01m[K/usr/include/c++/9/functional:211:34:[m[K [01;36m[Knote: [m[K                ‘[01m[Kconst std::_Placeholder<1> std::placeholders::_1[m[K’
+[4.218s]   211 |     extern const _Placeholder<1> [01;36m[K_1[m[K;
+[4.218s]       |                                  [01;36m[K^~[m[K
+[5.365s] In file included from [01m[K/usr/include/aarch64-linux-gnu/c++/9/bits/c++allocator.h:33[m[K,
+[5.365s]                  from [01m[K/usr/include/c++/9/bits/allocator.h:46[m[K,
+[5.365s]                  from [01m[K/usr/include/c++/9/memory:63[m[K,
+[5.365s]                  from [01m[K/home/dihim/me326_ws/src/arm_controller/include/interbotix_moveit_interface/moveit_interface_obj.hpp:32[m[K,
+[5.365s]                  from [01m[K/home/dihim/me326_ws/src/arm_controller/src/moveit_interface.cpp:29[m[K:
+[5.365s] /usr/include/c++/9/ext/new_allocator.h: In instantiation of ‘[01m[Kvoid __gnu_cxx::new_allocator<_Tp>::construct(_Up*, _Args&& ...) [with _Up = interbotix::InterbotixMoveItInterface; _Args = {const MyNode*}; _Tp = interbotix::InterbotixMoveItInterface][m[K’:
+[5.365s] [01m[K/usr/include/c++/9/bits/alloc_traits.h:483:4:[m[K   required from ‘[01m[Kstatic void std::allocator_traits<std::allocator<_Tp1> >::construct(std::allocator_traits<std::allocator<_Tp1> >::allocator_type&, _Up*, _Args&& ...) [with _Up = interbotix::InterbotixMoveItInterface; _Args = {const MyNode*}; _Tp = interbotix::InterbotixMoveItInterface; std::allocator_traits<std::allocator<_Tp1> >::allocator_type = std::allocator<interbotix::InterbotixMoveItInterface>][m[K’
+[5.365s] [01m[K/usr/include/c++/9/bits/shared_ptr_base.h:548:39:[m[K   required from ‘[01m[Kstd::_Sp_counted_ptr_inplace<_Tp, _Alloc, _Lp>::_Sp_counted_ptr_inplace(_Alloc, _Args&& ...) [with _Args = {const MyNode*}; _Tp = interbotix::InterbotixMoveItInterface; _Alloc = std::allocator<interbotix::InterbotixMoveItInterface>; __gnu_cxx::_Lock_policy _Lp = __gnu_cxx::_S_atomic][m[K’
+[5.365s] [01m[K/usr/include/c++/9/bits/shared_ptr_base.h:679:16:[m[K   required from ‘[01m[Kstd::__shared_count<_Lp>::__shared_count(_Tp*&, std::_Sp_alloc_shared_tag<_Alloc>, _Args&& ...) [with _Tp = interbotix::InterbotixMoveItInterface; _Alloc = std::allocator<interbotix::InterbotixMoveItInterface>; _Args = {const MyNode*}; __gnu_cxx::_Lock_policy _Lp = __gnu_cxx::_S_atomic][m[K’
+[5.365s] [01m[K/usr/include/c++/9/bits/shared_ptr_base.h:1344:71:[m[K   required from ‘[01m[Kstd::__shared_ptr<_Tp, _Lp>::__shared_ptr(std::_Sp_alloc_shared_tag<_Tp>, _Args&& ...) [with _Alloc = std::allocator<interbotix::InterbotixMoveItInterface>; _Args = {const MyNode*}; _Tp = interbotix::InterbotixMoveItInterface; __gnu_cxx::_Lock_policy _Lp = __gnu_cxx::_S_atomic][m[K’
+[5.365s] [01m[K/usr/include/c++/9/bits/shared_ptr.h:359:59:[m[K   required from ‘[01m[Kstd::shared_ptr<_Tp>::shared_ptr(std::_Sp_alloc_shared_tag<_Tp>, _Args&& ...) [with _Alloc = std::allocator<interbotix::InterbotixMoveItInterface>; _Args = {const MyNode*}; _Tp = interbotix::InterbotixMoveItInterface][m[K’
+[5.365s] [01m[K/usr/include/c++/9/bits/shared_ptr.h:701:14:[m[K   required from ‘[01m[Kstd::shared_ptr<_Tp> std::allocate_shared(const _Alloc&, _Args&& ...) [with _Tp = interbotix::InterbotixMoveItInterface; _Alloc = std::allocator<interbotix::InterbotixMoveItInterface>; _Args = {const MyNode*}][m[K’
+[5.365s] [01m[K/usr/include/c++/9/bits/shared_ptr.h:717:39:[m[K   required from ‘[01m[Kstd::shared_ptr<_Tp> std::make_shared(_Args&& ...) [with _Tp = interbotix::InterbotixMoveItInterface; _Args = {const MyNode*}][m[K’
+[5.365s] [01m[K/home/dihim/me326_ws/src/arm_controller/src/moveit_interface.cpp:87:89:[m[K   required from here
+[5.365s] [01m[K/usr/include/c++/9/ext/new_allocator.h:146:4:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kinterbotix::InterbotixMoveItInterface::InterbotixMoveItInterface(const MyNode*)[m[K’
+[5.365s]   146 |  { [01;31m[K::new((void *)__p) _Up(std::forward<_Args>(__args)...)[m[K; }
+[5.365s]       |    [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[5.365s] In file included from [01m[K/home/dihim/me326_ws/src/arm_controller/src/moveit_interface.cpp:29[m[K:
+[5.365s] [01m[K/home/dihim/me326_ws/src/arm_controller/include/interbotix_moveit_interface/moveit_interface_obj.hpp:70:12:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kinterbotix::InterbotixMoveItInterface::InterbotixMoveItInterface(rclcpp::Node::SharedPtr&)[m[K’
+[5.365s]    70 |   explicit [01;36m[KInterbotixMoveItInterface[m[K(rclcpp::Node::SharedPtr & node);
+[5.365s]       |            [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[5.365s] [01m[K/home/dihim/me326_ws/src/arm_controller/include/interbotix_moveit_interface/moveit_interface_obj.hpp:70:64:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kconst MyNode*[m[K’ to ‘[01m[Krclcpp::Node::SharedPtr&[m[K’ {aka ‘[01m[Kstd::shared_ptr<rclcpp::Node>&[m[K’}
+[5.365s]    70 |   explicit InterbotixMoveItInterface([01;36m[Krclcpp::Node::SharedPtr & node[m[K);
+[5.365s]       |                                      [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~[m[K
+[5.365s] [01m[K/home/dihim/me326_ws/src/arm_controller/include/interbotix_moveit_interface/moveit_interface_obj.hpp:65:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kinterbotix::InterbotixMoveItInterface::InterbotixMoveItInterface(const interbotix::InterbotixMoveItInterface&)[m[K’
+[5.366s]    65 | class [01;36m[KInterbotixMoveItInterface[m[K
+[5.366s]       |       [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[5.366s] [01m[K/home/dihim/me326_ws/src/arm_controller/include/interbotix_moveit_interface/moveit_interface_obj.hpp:65:7:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kconst MyNode*[m[K’ to ‘[01m[Kconst interbotix::InterbotixMoveItInterface&[m[K’
+[5.786s] make[2]: *** [CMakeFiles/arm_controller.dir/build.make:63: CMakeFiles/arm_controller.dir/src/moveit_interface.cpp.o] Error 1
+[5.787s] make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/arm_controller.dir/all] Error 2
+[5.787s] make: *** [Makefile:141: all] Error 2
+[5.788s] Invoked command in '/home/dihim/me326_ws/build/arm_controller' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dihim/interbotix_ws/install/interbotix_xs_modules:/home/dihim/interbotix_ws/install/interbotix_perception_modules:/home/dihim/interbotix_ws/install/interbotix_common_modules:/opt/ros/galactic /usr/bin/cmake --build /home/dihim/me326_ws/build/arm_controller -- -j4 -l4

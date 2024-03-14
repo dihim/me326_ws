@@ -1,0 +1,17 @@
+[4.003s] Invoking command in '/home/dihim/me326_ws/build/arm_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dihim/me326_ws/install/locobot_controller:/home/dihim/interbotix_ws/install/interbotix_xs_modules:/home/dihim/interbotix_ws/install/interbotix_perception_modules:/home/dihim/interbotix_ws/install/interbotix_common_modules:/opt/ros/galactic /usr/bin/cmake --build /home/dihim/me326_ws/build/arm_controller -- -j4 -l4
+[5.415s] [35m[1mScanning dependencies of target arm_controller[0m
+[5.415s] [ 33%] [32mBuilding CXX object CMakeFiles/arm_controller.dir/src/moveit_interface.cpp.o[0m
+[16.864s] [01m[K/home/dihim/me326_ws/src/arm_controller/src/moveit_interface.cpp:[m[K In member function ‘[01m[Kvoid MyNode::pick_callback(geometry_msgs::msg::PoseStamped_<std::allocator<void> >::SharedPtr) const[m[K’:
+[16.864s] [01m[K/home/dihim/me326_ws/src/arm_controller/src/moveit_interface.cpp:51:15:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K([m[K’ before ‘[01m[K{[m[K’ token
+[16.864s]    51 |       } catch [01;31m[K{[m[K
+[16.864s]       |               [01;31m[K^[m[K
+[16.864s]       |               [32m[K([m[K
+[16.864s] [01m[K/home/dihim/me326_ws/src/arm_controller/src/moveit_interface.cpp:51:15:[m[K [01;31m[Kerror: [m[Kexpected type-specifier before ‘[01m[K{[m[K’ token
+[16.864s] [01m[K/home/dihim/me326_ws/src/arm_controller/src/moveit_interface.cpp:51:14:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[K{[m[K’ token
+[16.864s]    51 |       } catch[01;31m[K [m[K[32m[K{[m[K
+[16.864s]       |              [01;31m[K^[m[K[32m[K~[m[K
+[16.864s]       |              [32m[K)[m[K
+[23.975s] make[2]: *** [CMakeFiles/arm_controller.dir/build.make:63: CMakeFiles/arm_controller.dir/src/moveit_interface.cpp.o] Error 1
+[23.976s] make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/arm_controller.dir/all] Error 2
+[23.976s] make: *** [Makefile:141: all] Error 2
+[23.990s] Invoked command in '/home/dihim/me326_ws/build/arm_controller' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dihim/me326_ws/install/locobot_controller:/home/dihim/interbotix_ws/install/interbotix_xs_modules:/home/dihim/interbotix_ws/install/interbotix_perception_modules:/home/dihim/interbotix_ws/install/interbotix_common_modules:/opt/ros/galactic /usr/bin/cmake --build /home/dihim/me326_ws/build/arm_controller -- -j4 -l4

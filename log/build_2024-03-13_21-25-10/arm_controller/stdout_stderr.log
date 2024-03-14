@@ -1,0 +1,33 @@
+[35m[1mScanning dependencies of target arm_controller[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/arm_controller.dir/src/moveit_interface.cpp.o[0m
+[01m[K/home/dihim/me326_ws/src/arm_controller/src/moveit_interface.cpp:[m[K In member function ‘[01m[Kvoid MyNode::pick_callback(geometry_msgs::msg::PoseStamped_<std::allocator<void> >::SharedPtr) const[m[K’:
+[01m[K/home/dihim/me326_ws/src/arm_controller/src/moveit_interface.cpp:32:9:[m[K [01;31m[Kerror: [m[Kexpected initializer before ‘[01m[Ktarget_pose[m[K’
+   32 |         [01;31m[Ktarget_pose[m[K.pose = pose.pose;
+      |         [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/dihim/me326_ws/src/arm_controller/src/moveit_interface.cpp:34:9:[m[K [01;31m[Kerror: [m[K‘[01m[Ktarget_pose[m[K’ was not declared in this scope
+   34 |         [01;31m[Ktarget_pose[m[K->pose.position.z = 0.02;
+      |         [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/dihim/me326_ws/src/arm_controller/src/moveit_interface.cpp:30:73:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kpose[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+   30 | id pick_callback([01;35m[Kconst geometry_msgs::msg::PoseStamped::SharedPtr pose[m[K) const {
+      |                  [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~[m[K
+
+[01m[K/home/dihim/me326_ws/src/arm_controller/src/moveit_interface.cpp:[m[K In member function ‘[01m[Kvoid MyNode::drop_callback(geometry_msgs::msg::PoseStamped_<std::allocator<void> >::SharedPtr) const[m[K’:
+[01m[K/home/dihim/me326_ws/src/arm_controller/src/moveit_interface.cpp:55:41:[m[K [01;31m[Kerror: [m[Kdeclaration of ‘[01m[Kgeometry_msgs::msg::PoseStamped target_pose[m[K’ shadows a parameter
+   55 |         geometry_msgs::msg::PoseStamped [01;31m[Ktarget_pose[m[K = pose;
+      |                                         [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/dihim/me326_ws/src/arm_controller/src/moveit_interface.cpp:55:55:[m[K [01;31m[Kerror: [m[K‘[01m[Kpose[m[K’ was not declared in this scope
+   55 |         geometry_msgs::msg::PoseStamped target_pose = [01;31m[Kpose[m[K;
+      |                                                       [01;31m[K^~~~[m[K
+[01m[K/home/dihim/me326_ws/src/arm_controller/src/moveit_interface.cpp:61:20:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ has non-pointer type ‘[01m[Kgeometry_msgs::msg::PoseStamped[m[K’ {aka ‘[01m[Kgeometry_msgs::msg::PoseStamped_<std::allocator<void> >[m[K’}
+   61 |         target_pose[01;31m[K->[m[Kpose.position.z = 0.02; // Adjust the drop height as necessary.
+      |                    [01;31m[K^~[m[K
+[01m[K/home/dihim/me326_ws/src/arm_controller/src/moveit_interface.cpp:65:59:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ has non-pointer type ‘[01m[Kgeometry_msgs::msg::PoseStamped[m[K’ {aka ‘[01m[Kgeometry_msgs::msg::PoseStamped_<std::allocator<void> >[m[K’}
+   65 |         moveit_interface_->moveit_plan_ee_pose(target_pose[01;31m[K->[m[Kpose);
+      |                                                           [01;31m[K^~[m[K
+[01m[K/home/dihim/me326_ws/src/arm_controller/src/moveit_interface.cpp:54:73:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ktarget_pose[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+   54 | op_callback([01;35m[Kconst geometry_msgs::msg::PoseStamped::SharedPtr target_pose[m[K) const {
+      |             [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~[m[K
+
+make[2]: *** [CMakeFiles/arm_controller.dir/build.make:63: CMakeFiles/arm_controller.dir/src/moveit_interface.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/arm_controller.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

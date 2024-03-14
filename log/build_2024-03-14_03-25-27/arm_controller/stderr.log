@@ -1,0 +1,6 @@
+[01m[K/home/dihim/me326_ws/src/arm_controller/src/moveit_interface.cpp:11:16:[m[K [01;31m[Kerror: [m[K‘[01m[Kgazebo_ros_link_attacher[m[K’ does not name a type
+   11 | using Attach = [01;31m[Kgazebo_ros_link_attacher[m[K::srv::Attach;
+      |                [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/arm_controller.dir/build.make:63: CMakeFiles/arm_controller.dir/src/moveit_interface.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/arm_controller.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

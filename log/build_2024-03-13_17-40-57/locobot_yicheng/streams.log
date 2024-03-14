@@ -1,0 +1,6 @@
+[0.495s] Invoking command in '/home/dihim/me326_ws/build/locobot_yicheng': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dihim/interbotix_ws/install/interbotix_xs_modules:/home/dihim/interbotix_ws/install/interbotix_perception_modules:/home/dihim/interbotix_ws/install/interbotix_common_modules:/opt/ros/galactic /usr/bin/cmake --build /home/dihim/me326_ws/build/locobot_yicheng -- -j4 -l4
+[0.499s] CMake Error: The current CMakeCache.txt directory /home/dihim/me326_ws/build/locobot_yicheng/CMakeCache.txt is different than the directory /home/yicheng/me326_ws/build/locobot_yicheng where CMakeCache.txt was created. This may result in binaries being created in the wrong place. If you are not sure, reedit the CMakeCache.txt
+[0.520s] CMake Error: The source directory "/home/yicheng/me326_ws/src/locobot_yicheng" does not exist.
+[0.520s] Specify --help for usage, or press the help button on the CMake GUI.
+[0.520s] make: *** [Makefile:222: cmake_check_build_system] Error 1
+[0.521s] Invoked command in '/home/dihim/me326_ws/build/locobot_yicheng' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dihim/interbotix_ws/install/interbotix_xs_modules:/home/dihim/interbotix_ws/install/interbotix_perception_modules:/home/dihim/interbotix_ws/install/interbotix_common_modules:/opt/ros/galactic /usr/bin/cmake --build /home/dihim/me326_ws/build/locobot_yicheng -- -j4 -l4

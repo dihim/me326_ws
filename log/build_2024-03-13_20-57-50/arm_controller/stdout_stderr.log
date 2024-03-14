@@ -1,0 +1,59 @@
+[ 33%] [32mBuilding CXX object CMakeFiles/arm_controller.dir/src/moveit_interface.cpp.o[0m
+[01m[K/home/dihim/me326_ws/src/arm_controller/src/moveit_interface.cpp:[m[K In constructor ‘[01m[KMyNode::MyNode()[m[K’:
+[01m[K/home/dihim/me326_ws/src/arm_controller/src/moveit_interface.cpp:26:71:[m[K [01;31m[Kerror: [m[Kreference to ‘[01m[K_1[m[K’ is ambiguous
+   26 |             "pick_block", 10, std::bind(&MyNode::pick_callback, this, [01;31m[K_1[m[K));
+      |                                                                       [01;31m[K^~[m[K
+In file included from [01m[K/usr/include/boost/bind/bind.hpp:2356[m[K,
+                 from [01m[K/usr/include/boost/bind.hpp:22[m[K,
+                 from [01m[K/usr/include/boost/thread/pthread/shared_mutex.hpp:12[m[K,
+                 from [01m[K/usr/include/boost/thread/shared_mutex.hpp:28[m[K,
+                 from [01m[K/opt/ros/galactic/include/moveit/collision_detection/occupancy_map.h:42[m[K,
+                 from [01m[K/opt/ros/galactic/include/moveit/occupancy_map_monitor/occupancy_map_monitor.h:39[m[K,
+                 from [01m[K/opt/ros/galactic/include/moveit/planning_scene_monitor/planning_scene_monitor.h:45[m[K,
+                 from [01m[K/home/dihim/interbotix_ws/install/moveit_visual_tools/include/moveit_visual_tools/moveit_visual_tools.h:41[m[K,
+                 from [01m[K/home/dihim/me326_ws/src/arm_controller/include/interbotix_moveit_interface/moveit_interface_obj.hpp:44[m[K,
+                 from [01m[K/home/dihim/me326_ws/src/arm_controller/src/moveit_interface.cpp:1[m[K:
+[01m[K/usr/include/boost/bind/placeholders.hpp:46:38:[m[K [01;36m[Knote: [m[Kcandidates are: ‘[01m[Kconstexpr const boost::arg<1> boost::placeholders::_1[m[K’
+   46 | BOOST_STATIC_CONSTEXPR boost::arg<1> [01;36m[K_1[m[K;
+      |                                      [01;36m[K^~[m[K
+In file included from [01m[K/usr/include/c++/9/pstl/glue_algorithm_defs.h:13[m[K,
+                 from [01m[K/usr/include/c++/9/algorithm:71[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/executor.hpp:18[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/rclcpp.hpp:156[m[K,
+                 from [01m[K/home/dihim/me326_ws/src/arm_controller/include/interbotix_moveit_interface/moveit_interface_obj.hpp:36[m[K,
+                 from [01m[K/home/dihim/me326_ws/src/arm_controller/src/moveit_interface.cpp:1[m[K:
+[01m[K/usr/include/c++/9/functional:211:34:[m[K [01;36m[Knote: [m[K                ‘[01m[Kconst std::_Placeholder<1> std::placeholders::_1[m[K’
+  211 |     extern const _Placeholder<1> [01;36m[K_1[m[K;
+      |                                  [01;36m[K^~[m[K
+[01m[K/home/dihim/me326_ws/src/arm_controller/src/moveit_interface.cpp:29:71:[m[K [01;31m[Kerror: [m[Kreference to ‘[01m[K_1[m[K’ is ambiguous
+   29 |             "drop_block", 10, std::bind(&MyNode::drop_callback, this, [01;31m[K_1[m[K));
+      |                                                                       [01;31m[K^~[m[K
+In file included from [01m[K/usr/include/boost/bind/bind.hpp:2356[m[K,
+                 from [01m[K/usr/include/boost/bind.hpp:22[m[K,
+                 from [01m[K/usr/include/boost/thread/pthread/shared_mutex.hpp:12[m[K,
+                 from [01m[K/usr/include/boost/thread/shared_mutex.hpp:28[m[K,
+                 from [01m[K/opt/ros/galactic/include/moveit/collision_detection/occupancy_map.h:42[m[K,
+                 from [01m[K/opt/ros/galactic/include/moveit/occupancy_map_monitor/occupancy_map_monitor.h:39[m[K,
+                 from [01m[K/opt/ros/galactic/include/moveit/planning_scene_monitor/planning_scene_monitor.h:45[m[K,
+                 from [01m[K/home/dihim/interbotix_ws/install/moveit_visual_tools/include/moveit_visual_tools/moveit_visual_tools.h:41[m[K,
+                 from [01m[K/home/dihim/me326_ws/src/arm_controller/include/interbotix_moveit_interface/moveit_interface_obj.hpp:44[m[K,
+                 from [01m[K/home/dihim/me326_ws/src/arm_controller/src/moveit_interface.cpp:1[m[K:
+[01m[K/usr/include/boost/bind/placeholders.hpp:46:38:[m[K [01;36m[Knote: [m[Kcandidates are: ‘[01m[Kconstexpr const boost::arg<1> boost::placeholders::_1[m[K’
+   46 | BOOST_STATIC_CONSTEXPR boost::arg<1> [01;36m[K_1[m[K;
+      |                                      [01;36m[K^~[m[K
+In file included from [01m[K/usr/include/c++/9/pstl/glue_algorithm_defs.h:13[m[K,
+                 from [01m[K/usr/include/c++/9/algorithm:71[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/executor.hpp:18[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/rclcpp.hpp:156[m[K,
+                 from [01m[K/home/dihim/me326_ws/src/arm_controller/include/interbotix_moveit_interface/moveit_interface_obj.hpp:36[m[K,
+                 from [01m[K/home/dihim/me326_ws/src/arm_controller/src/moveit_interface.cpp:1[m[K:
+[01m[K/usr/include/c++/9/functional:211:34:[m[K [01;36m[Knote: [m[K                ‘[01m[Kconst std::_Placeholder<1> std::placeholders::_1[m[K’
+  211 |     extern const _Placeholder<1> [01;36m[K_1[m[K;
+      |                                  [01;36m[K^~[m[K
+make[2]: *** [CMakeFiles/arm_controller.dir/build.make:63: CMakeFiles/arm_controller.dir/src/moveit_interface.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/arm_controller.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

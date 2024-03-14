@@ -1,0 +1,478 @@
+[0.000000] (-) TimerEvent: {}
+[0.000182] (arm_controller) JobQueued: {'identifier': 'arm_controller', 'dependencies': OrderedDict()}
+[0.000243] (la_msgs) JobQueued: {'identifier': 'la_msgs', 'dependencies': OrderedDict()}
+[0.000291] (locobot_controller) JobQueued: {'identifier': 'locobot_controller', 'dependencies': OrderedDict()}
+[0.000337] (locobot_yicheng) JobQueued: {'identifier': 'locobot_yicheng', 'dependencies': OrderedDict()}
+[0.000382] (arm_controller) JobStarted: {'identifier': 'arm_controller'}
+[0.087247] (-) TimerEvent: {}
+[0.187522] (-) TimerEvent: {}
+[0.288283] (-) TimerEvent: {}
+[0.389435] (-) TimerEvent: {}
+[0.491417] (-) TimerEvent: {}
+[0.537698] (la_msgs) JobStarted: {'identifier': 'la_msgs'}
+[0.591524] (-) TimerEvent: {}
+[0.691834] (-) TimerEvent: {}
+[0.793250] (-) TimerEvent: {}
+[0.893448] (-) TimerEvent: {}
+[0.995038] (-) TimerEvent: {}
+[1.095763] (-) TimerEvent: {}
+[1.196078] (-) TimerEvent: {}
+[1.296614] (-) TimerEvent: {}
+[1.397194] (-) TimerEvent: {}
+[1.418895] (locobot_controller) JobStarted: {'identifier': 'locobot_controller'}
+[1.497166] (-) TimerEvent: {}
+[1.610112] (-) TimerEvent: {}
+[1.710705] (-) TimerEvent: {}
+[1.825391] (-) TimerEvent: {}
+[1.925856] (-) TimerEvent: {}
+[2.031246] (-) TimerEvent: {}
+[2.131579] (-) TimerEvent: {}
+[2.232192] (-) TimerEvent: {}
+[2.265468] (locobot_yicheng) JobStarted: {'identifier': 'locobot_yicheng'}
+[2.333566] (-) TimerEvent: {}
+[2.434520] (-) TimerEvent: {}
+[2.535249] (-) TimerEvent: {}
+[2.635615] (-) TimerEvent: {}
+[2.736324] (-) TimerEvent: {}
+[2.837704] (-) TimerEvent: {}
+[2.939633] (-) TimerEvent: {}
+[2.988251] (arm_controller) JobProgress: {'identifier': 'arm_controller', 'progress': 'cmake'}
+[2.988313] (arm_controller) JobProgress: {'identifier': 'arm_controller', 'progress': 'build'}
+[2.988327] (arm_controller) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/dihim/me326_ws/build/arm_controller', '--', '-j4', '-l4'], 'cwd': '/home/dihim/me326_ws/build/arm_controller', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'dihim'), ('SSH_AGENT_PID', '1601'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/dihim/interbotix_ws/install/gazebo_ros_link_attacher/lib:/home/dihim/me326_ws/install/la_msgs/lib:/home/dihim/me326_ws/install/gazebo_ros_link_attacher/lib:/home/dihim/interbotix_ws/install/moveit_visual_tools/lib:/home/dihim/interbotix_ws/install/interbotix_xs_rviz/lib:/home/dihim/interbotix_ws/install/interbotix_xs_ros_control/lib:/home/dihim/interbotix_ws/install/interbotix_xs_msgs/lib:/home/dihim/interbotix_ws/install/interbotix_tf_tools/lib:/home/dihim/interbotix_ws/install/interbotix_perception_msgs/lib:/home/dihim/interbotix_ws/install/interbotix_moveit_interface_msgs/lib:/usr/lib/aarch64-linux-gnu/gazebo-11/plugins:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/aarch64-linux-gnu:/opt/ros/galactic/lib:/usr/share/gazebo/../../lib/aarch64-linux-gnu/gazebo-11/plugins:'), ('HOME', '/home/dihim'), ('OLDPWD', '/home/dihim'), ('DESKTOP_SESSION', 'ubuntu'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1411'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/dihim/me326_ws/install:/home/dihim/interbotix_ws/install'), ('ROS_DISTRO', 'galactic'), ('LOGNAME', 'dihim'), ('JOURNAL_STREAM', '9:39998'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'dihim'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo/../../share/gazebo-11/models:'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('OGRE_RESOURCE_PATH', '/usr/lib/aarch64-linux-gnu/OGRE-1.9.0'), ('PATH', '/opt/ros/galactic/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/dihim:@/tmp/.ICE-unix/1655,unix/dihim:/tmp/.ICE-unix/1655'), ('INVOCATION_ID', 'eac6b79f266640b5872e88290b956019'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/351f287d_7844_4946_a453_5c7daca0b37c'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('INTERBOTIX_XSLOCOBOT_BASE_TYPE', 'create3'), ('GNOME_TERMINAL_SERVICE', ':1.77'), ('INTERBOTIX_WS', '/home/dihim/interbotix_ws'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/dihim/interbotix_ws/install/gazebo_ros_link_attacher:/home/dihim/me326_ws/install/locobot_yicheng:/home/dihim/me326_ws/install/locobot_controller:/home/dihim/me326_ws/install/la_msgs:/home/dihim/me326_ws/install/arm_controller:/home/dihim/me326_ws/install/gazebo_ros_link_attacher:/home/dihim/interbotix_ws/install/interbotix_moveit_interface:/home/dihim/interbotix_ws/install/arm_controller:/home/dihim/interbotix_ws/install/moveit_visual_tools:/home/dihim/interbotix_ws/install/interbotix_xslocobot_sim:/home/dihim/interbotix_ws/install/interbotix_xslocobot_moveit:/home/dihim/interbotix_ws/install/interbotix_xslocobot_descriptions:/home/dihim/interbotix_ws/install/interbotix_xs_toolbox:/home/dihim/interbotix_ws/install/interbotix_xs_rviz:/home/dihim/interbotix_ws/install/interbotix_xs_ros_control:/home/dihim/interbotix_ws/install/interbotix_xs_modules:/home/dihim/interbotix_ws/install/interbotix_perception_toolbox:/home/dihim/interbotix_ws/install/interbotix_perception_modules:/home/dihim/interbotix_ws/install/interbotix_perception_pipelines:/home/dihim/interbotix_ws/install/interbotix_xs_msgs:/home/dihim/interbotix_ws/install/interbotix_tf_tools:/home/dihim/interbotix_ws/install/interbotix_perception_msgs:/home/dihim/interbotix_ws/install/interbotix_moveit_interface_msgs:/home/dihim/interbotix_ws/install/interbotix_common_toolbox:/home/dihim/interbotix_ws/install/interbotix_common_sim:/home/dihim/interbotix_ws/install/interbotix_common_modules:/opt/ros/galactic'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo/../../share/gazebo-11:'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/dihim/me326_ws/build/arm_controller'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('GAZEBO_PLUGIN_PATH', '/usr/share/gazebo/../../lib/aarch64-linux-gnu/gazebo-11/plugins:'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/dihim/interbotix_ws/install/gazebo_ros_link_attacher/lib/python3.8/site-packages:/home/dihim/me326_ws/install/locobot_controller/lib/python3.8/site-packages:/home/dihim/me326_ws/install/la_msgs/lib/python3.8/site-packages:/home/dihim/me326_ws/install/gazebo_ros_link_attacher/lib/python3.8/site-packages:/home/dihim/interbotix_ws/install/interbotix_xs_modules/lib/python3.8/site-packages:/home/dihim/interbotix_ws/install/interbotix_perception_modules/lib/python3.8/site-packages:/home/dihim/interbotix_ws/install/interbotix_xs_msgs/lib/python3.8/site-packages:/home/dihim/interbotix_ws/install/interbotix_perception_msgs/lib/python3.8/site-packages:/home/dihim/interbotix_ws/install/interbotix_moveit_interface_msgs/lib/python3.8/site-packages:/home/dihim/interbotix_ws/install/interbotix_common_modules/lib/python3.8/site-packages:/opt/ros/galactic/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/dihim/interbotix_ws/install/gazebo_ros_link_attacher:/home/dihim/me326_ws/install/locobot_yicheng:/home/dihim/me326_ws/install/la_msgs:/home/dihim/me326_ws/install/arm_controller:/home/dihim/me326_ws/install/locobot_controller:/home/dihim/interbotix_ws/install/interbotix_xs_modules:/home/dihim/interbotix_ws/install/interbotix_perception_modules:/home/dihim/interbotix_ws/install/interbotix_common_modules:/opt/ros/galactic:/home/dihim/me326_ws/install/gazebo_ros_link_attacher:/home/dihim/interbotix_ws/install/interbotix_moveit_interface:/home/dihim/interbotix_ws/install/arm_controller:/home/dihim/interbotix_ws/install/moveit_visual_tools:/home/dihim/interbotix_ws/install/interbotix_xslocobot_sim:/home/dihim/interbotix_ws/install/interbotix_xslocobot_moveit:/home/dihim/interbotix_ws/install/interbotix_xslocobot_descriptions:/home/dihim/interbotix_ws/install/interbotix_xs_toolbox:/home/dihim/interbotix_ws/install/interbotix_xs_rviz:/home/dihim/interbotix_ws/install/interbotix_xs_ros_control:/home/dihim/interbotix_ws/install/interbotix_perception_toolbox:/home/dihim/interbotix_ws/install/interbotix_perception_pipelines:/home/dihim/interbotix_ws/install/interbotix_xs_msgs:/home/dihim/interbotix_ws/install/interbotix_tf_tools:/home/dihim/interbotix_ws/install/interbotix_perception_msgs:/home/dihim/interbotix_ws/install/interbotix_moveit_interface_msgs:/home/dihim/interbotix_ws/install/interbotix_common_toolbox:/home/dihim/interbotix_ws/install/interbotix_common_sim')]), 'shell': False}
+[3.004380] (la_msgs) JobProgress: {'identifier': 'la_msgs', 'progress': 'cmake'}
+[3.005670] (la_msgs) JobProgress: {'identifier': 'la_msgs', 'progress': 'build'}
+[3.006509] (la_msgs) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/dihim/me326_ws/build/la_msgs', '--', '-j4', '-l4'], 'cwd': '/home/dihim/me326_ws/build/la_msgs', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'dihim'), ('SSH_AGENT_PID', '1601'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/dihim/interbotix_ws/install/gazebo_ros_link_attacher/lib:/home/dihim/me326_ws/install/la_msgs/lib:/home/dihim/me326_ws/install/gazebo_ros_link_attacher/lib:/home/dihim/interbotix_ws/install/moveit_visual_tools/lib:/home/dihim/interbotix_ws/install/interbotix_xs_rviz/lib:/home/dihim/interbotix_ws/install/interbotix_xs_ros_control/lib:/home/dihim/interbotix_ws/install/interbotix_xs_msgs/lib:/home/dihim/interbotix_ws/install/interbotix_tf_tools/lib:/home/dihim/interbotix_ws/install/interbotix_perception_msgs/lib:/home/dihim/interbotix_ws/install/interbotix_moveit_interface_msgs/lib:/usr/lib/aarch64-linux-gnu/gazebo-11/plugins:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/aarch64-linux-gnu:/opt/ros/galactic/lib:/usr/share/gazebo/../../lib/aarch64-linux-gnu/gazebo-11/plugins:'), ('HOME', '/home/dihim'), ('OLDPWD', '/home/dihim'), ('DESKTOP_SESSION', 'ubuntu'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1411'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/dihim/me326_ws/install:/home/dihim/interbotix_ws/install'), ('ROS_DISTRO', 'galactic'), ('LOGNAME', 'dihim'), ('JOURNAL_STREAM', '9:39998'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'dihim'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo/../../share/gazebo-11/models:'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('OGRE_RESOURCE_PATH', '/usr/lib/aarch64-linux-gnu/OGRE-1.9.0'), ('PATH', '/opt/ros/galactic/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/dihim:@/tmp/.ICE-unix/1655,unix/dihim:/tmp/.ICE-unix/1655'), ('INVOCATION_ID', 'eac6b79f266640b5872e88290b956019'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/351f287d_7844_4946_a453_5c7daca0b37c'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('INTERBOTIX_XSLOCOBOT_BASE_TYPE', 'create3'), ('GNOME_TERMINAL_SERVICE', ':1.77'), ('INTERBOTIX_WS', '/home/dihim/interbotix_ws'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/dihim/interbotix_ws/install/gazebo_ros_link_attacher:/home/dihim/me326_ws/install/locobot_yicheng:/home/dihim/me326_ws/install/locobot_controller:/home/dihim/me326_ws/install/la_msgs:/home/dihim/me326_ws/install/arm_controller:/home/dihim/me326_ws/install/gazebo_ros_link_attacher:/home/dihim/interbotix_ws/install/interbotix_moveit_interface:/home/dihim/interbotix_ws/install/arm_controller:/home/dihim/interbotix_ws/install/moveit_visual_tools:/home/dihim/interbotix_ws/install/interbotix_xslocobot_sim:/home/dihim/interbotix_ws/install/interbotix_xslocobot_moveit:/home/dihim/interbotix_ws/install/interbotix_xslocobot_descriptions:/home/dihim/interbotix_ws/install/interbotix_xs_toolbox:/home/dihim/interbotix_ws/install/interbotix_xs_rviz:/home/dihim/interbotix_ws/install/interbotix_xs_ros_control:/home/dihim/interbotix_ws/install/interbotix_xs_modules:/home/dihim/interbotix_ws/install/interbotix_perception_toolbox:/home/dihim/interbotix_ws/install/interbotix_perception_modules:/home/dihim/interbotix_ws/install/interbotix_perception_pipelines:/home/dihim/interbotix_ws/install/interbotix_xs_msgs:/home/dihim/interbotix_ws/install/interbotix_tf_tools:/home/dihim/interbotix_ws/install/interbotix_perception_msgs:/home/dihim/interbotix_ws/install/interbotix_moveit_interface_msgs:/home/dihim/interbotix_ws/install/interbotix_common_toolbox:/home/dihim/interbotix_ws/install/interbotix_common_sim:/home/dihim/interbotix_ws/install/interbotix_common_modules:/opt/ros/galactic'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo/../../share/gazebo-11:'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/dihim/me326_ws/build/la_msgs'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('GAZEBO_PLUGIN_PATH', '/usr/share/gazebo/../../lib/aarch64-linux-gnu/gazebo-11/plugins:'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/dihim/interbotix_ws/install/gazebo_ros_link_attacher/lib/python3.8/site-packages:/home/dihim/me326_ws/install/locobot_controller/lib/python3.8/site-packages:/home/dihim/me326_ws/install/la_msgs/lib/python3.8/site-packages:/home/dihim/me326_ws/install/gazebo_ros_link_attacher/lib/python3.8/site-packages:/home/dihim/interbotix_ws/install/interbotix_xs_modules/lib/python3.8/site-packages:/home/dihim/interbotix_ws/install/interbotix_perception_modules/lib/python3.8/site-packages:/home/dihim/interbotix_ws/install/interbotix_xs_msgs/lib/python3.8/site-packages:/home/dihim/interbotix_ws/install/interbotix_perception_msgs/lib/python3.8/site-packages:/home/dihim/interbotix_ws/install/interbotix_moveit_interface_msgs/lib/python3.8/site-packages:/home/dihim/interbotix_ws/install/interbotix_common_modules/lib/python3.8/site-packages:/opt/ros/galactic/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/dihim/interbotix_ws/install/gazebo_ros_link_attacher:/home/dihim/me326_ws/install/locobot_yicheng:/home/dihim/me326_ws/install/la_msgs:/home/dihim/me326_ws/install/arm_controller:/home/dihim/me326_ws/install/locobot_controller:/home/dihim/interbotix_ws/install/interbotix_xs_modules:/home/dihim/interbotix_ws/install/interbotix_perception_modules:/home/dihim/interbotix_ws/install/interbotix_common_modules:/opt/ros/galactic:/home/dihim/me326_ws/install/gazebo_ros_link_attacher:/home/dihim/interbotix_ws/install/interbotix_moveit_interface:/home/dihim/interbotix_ws/install/arm_controller:/home/dihim/interbotix_ws/install/moveit_visual_tools:/home/dihim/interbotix_ws/install/interbotix_xslocobot_sim:/home/dihim/interbotix_ws/install/interbotix_xslocobot_moveit:/home/dihim/interbotix_ws/install/interbotix_xslocobot_descriptions:/home/dihim/interbotix_ws/install/interbotix_xs_toolbox:/home/dihim/interbotix_ws/install/interbotix_xs_rviz:/home/dihim/interbotix_ws/install/interbotix_xs_ros_control:/home/dihim/interbotix_ws/install/interbotix_perception_toolbox:/home/dihim/interbotix_ws/install/interbotix_perception_pipelines:/home/dihim/interbotix_ws/install/interbotix_xs_msgs:/home/dihim/interbotix_ws/install/interbotix_tf_tools:/home/dihim/interbotix_ws/install/interbotix_perception_msgs:/home/dihim/interbotix_ws/install/interbotix_moveit_interface_msgs:/home/dihim/interbotix_ws/install/interbotix_common_toolbox:/home/dihim/interbotix_ws/install/interbotix_common_sim')]), 'shell': False}
+[3.039838] (-) TimerEvent: {}
+[3.149255] (-) TimerEvent: {}
+[3.249500] (-) TimerEvent: {}
+[3.349731] (-) TimerEvent: {}
+[3.450570] (-) TimerEvent: {}
+[3.550814] (-) TimerEvent: {}
+[3.651302] (-) TimerEvent: {}
+[3.762273] (-) TimerEvent: {}
+[3.897313] (-) TimerEvent: {}
+[4.019660] (-) TimerEvent: {}
+[4.121647] (-) TimerEvent: {}
+[4.221904] (-) TimerEvent: {}
+[4.324250] (-) TimerEvent: {}
+[4.429616] (-) TimerEvent: {}
+[4.567368] (-) TimerEvent: {}
+[4.720824] (-) TimerEvent: {}
+[4.841181] (-) TimerEvent: {}
+[4.938327] (arm_controller) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target arm_controller\x1b[0m\n'}
+[4.938533] (arm_controller) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/arm_controller.dir/src/moveit_interface.cpp.o\x1b[0m\n'}
+[4.941258] (-) TimerEvent: {}
+[4.949677] (la_msgs) StdoutLine: {'line': b'[  2%] Built target la_msgs__cpp\n'}
+[4.949787] (la_msgs) StdoutLine: {'line': b'[ 12%] Built target la_msgs__rosidl_generator_c\n'}
+[4.949820] (la_msgs) StdoutLine: {'line': b'[ 23%] Built target la_msgs__rosidl_typesupport_fastrtps_cpp\n'}
+[4.949848] (la_msgs) StdoutLine: {'line': b'[ 33%] Built target la_msgs__rosidl_typesupport_c\n'}
+[4.949874] (la_msgs) StdoutLine: {'line': b'[ 43%] Built target la_msgs__rosidl_typesupport_introspection_c\n'}
+[4.949899] (la_msgs) StdoutLine: {'line': b'[ 53%] Built target la_msgs__rosidl_typesupport_fastrtps_c\n'}
+[4.949924] (la_msgs) StdoutLine: {'line': b'[ 64%] Built target la_msgs__rosidl_typesupport_introspection_cpp\n'}
+[4.949948] (la_msgs) StdoutLine: {'line': b'[ 74%] Built target la_msgs__rosidl_typesupport_cpp\n'}
+[4.961442] (locobot_yicheng) JobProgress: {'identifier': 'locobot_yicheng', 'progress': 'cmake'}
+[4.963087] (locobot_yicheng) JobProgress: {'identifier': 'locobot_yicheng', 'progress': 'build'}
+[4.963223] (locobot_yicheng) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/dihim/me326_ws/build/locobot_yicheng', '--', '-j4', '-l4'], 'cwd': '/home/dihim/me326_ws/build/locobot_yicheng', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'dihim'), ('SSH_AGENT_PID', '1601'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/dihim/interbotix_ws/install/gazebo_ros_link_attacher/lib:/home/dihim/me326_ws/install/la_msgs/lib:/home/dihim/me326_ws/install/gazebo_ros_link_attacher/lib:/home/dihim/interbotix_ws/install/moveit_visual_tools/lib:/home/dihim/interbotix_ws/install/interbotix_xs_rviz/lib:/home/dihim/interbotix_ws/install/interbotix_xs_ros_control/lib:/home/dihim/interbotix_ws/install/interbotix_xs_msgs/lib:/home/dihim/interbotix_ws/install/interbotix_tf_tools/lib:/home/dihim/interbotix_ws/install/interbotix_perception_msgs/lib:/home/dihim/interbotix_ws/install/interbotix_moveit_interface_msgs/lib:/usr/lib/aarch64-linux-gnu/gazebo-11/plugins:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/aarch64-linux-gnu:/opt/ros/galactic/lib:/usr/share/gazebo/../../lib/aarch64-linux-gnu/gazebo-11/plugins:'), ('HOME', '/home/dihim'), ('OLDPWD', '/home/dihim'), ('DESKTOP_SESSION', 'ubuntu'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1411'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/dihim/me326_ws/install:/home/dihim/interbotix_ws/install'), ('ROS_DISTRO', 'galactic'), ('LOGNAME', 'dihim'), ('JOURNAL_STREAM', '9:39998'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'dihim'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo/../../share/gazebo-11/models:'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('OGRE_RESOURCE_PATH', '/usr/lib/aarch64-linux-gnu/OGRE-1.9.0'), ('PATH', '/opt/ros/galactic/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/dihim:@/tmp/.ICE-unix/1655,unix/dihim:/tmp/.ICE-unix/1655'), ('INVOCATION_ID', 'eac6b79f266640b5872e88290b956019'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/351f287d_7844_4946_a453_5c7daca0b37c'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('INTERBOTIX_XSLOCOBOT_BASE_TYPE', 'create3'), ('GNOME_TERMINAL_SERVICE', ':1.77'), ('INTERBOTIX_WS', '/home/dihim/interbotix_ws'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/dihim/interbotix_ws/install/gazebo_ros_link_attacher:/home/dihim/me326_ws/install/locobot_yicheng:/home/dihim/me326_ws/install/locobot_controller:/home/dihim/me326_ws/install/la_msgs:/home/dihim/me326_ws/install/arm_controller:/home/dihim/me326_ws/install/gazebo_ros_link_attacher:/home/dihim/interbotix_ws/install/interbotix_moveit_interface:/home/dihim/interbotix_ws/install/arm_controller:/home/dihim/interbotix_ws/install/moveit_visual_tools:/home/dihim/interbotix_ws/install/interbotix_xslocobot_sim:/home/dihim/interbotix_ws/install/interbotix_xslocobot_moveit:/home/dihim/interbotix_ws/install/interbotix_xslocobot_descriptions:/home/dihim/interbotix_ws/install/interbotix_xs_toolbox:/home/dihim/interbotix_ws/install/interbotix_xs_rviz:/home/dihim/interbotix_ws/install/interbotix_xs_ros_control:/home/dihim/interbotix_ws/install/interbotix_xs_modules:/home/dihim/interbotix_ws/install/interbotix_perception_toolbox:/home/dihim/interbotix_ws/install/interbotix_perception_modules:/home/dihim/interbotix_ws/install/interbotix_perception_pipelines:/home/dihim/interbotix_ws/install/interbotix_xs_msgs:/home/dihim/interbotix_ws/install/interbotix_tf_tools:/home/dihim/interbotix_ws/install/interbotix_perception_msgs:/home/dihim/interbotix_ws/install/interbotix_moveit_interface_msgs:/home/dihim/interbotix_ws/install/interbotix_common_toolbox:/home/dihim/interbotix_ws/install/interbotix_common_sim:/home/dihim/interbotix_ws/install/interbotix_common_modules:/opt/ros/galactic'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo/../../share/gazebo-11:'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/dihim/me326_ws/build/locobot_yicheng'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('GAZEBO_PLUGIN_PATH', '/usr/share/gazebo/../../lib/aarch64-linux-gnu/gazebo-11/plugins:'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/dihim/interbotix_ws/install/gazebo_ros_link_attacher/lib/python3.8/site-packages:/home/dihim/me326_ws/install/locobot_controller/lib/python3.8/site-packages:/home/dihim/me326_ws/install/la_msgs/lib/python3.8/site-packages:/home/dihim/me326_ws/install/gazebo_ros_link_attacher/lib/python3.8/site-packages:/home/dihim/interbotix_ws/install/interbotix_xs_modules/lib/python3.8/site-packages:/home/dihim/interbotix_ws/install/interbotix_perception_modules/lib/python3.8/site-packages:/home/dihim/interbotix_ws/install/interbotix_xs_msgs/lib/python3.8/site-packages:/home/dihim/interbotix_ws/install/interbotix_perception_msgs/lib/python3.8/site-packages:/home/dihim/interbotix_ws/install/interbotix_moveit_interface_msgs/lib/python3.8/site-packages:/home/dihim/interbotix_ws/install/interbotix_common_modules/lib/python3.8/site-packages:/opt/ros/galactic/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/dihim/interbotix_ws/install/gazebo_ros_link_attacher:/home/dihim/me326_ws/install/locobot_yicheng:/home/dihim/me326_ws/install/la_msgs:/home/dihim/me326_ws/install/arm_controller:/home/dihim/me326_ws/install/locobot_controller:/home/dihim/interbotix_ws/install/interbotix_xs_modules:/home/dihim/interbotix_ws/install/interbotix_perception_modules:/home/dihim/interbotix_ws/install/interbotix_common_modules:/opt/ros/galactic:/home/dihim/me326_ws/install/gazebo_ros_link_attacher:/home/dihim/interbotix_ws/install/interbotix_moveit_interface:/home/dihim/interbotix_ws/install/arm_controller:/home/dihim/interbotix_ws/install/moveit_visual_tools:/home/dihim/interbotix_ws/install/interbotix_xslocobot_sim:/home/dihim/interbotix_ws/install/interbotix_xslocobot_moveit:/home/dihim/interbotix_ws/install/interbotix_xslocobot_descriptions:/home/dihim/interbotix_ws/install/interbotix_xs_toolbox:/home/dihim/interbotix_ws/install/interbotix_xs_rviz:/home/dihim/interbotix_ws/install/interbotix_xs_ros_control:/home/dihim/interbotix_ws/install/interbotix_perception_toolbox:/home/dihim/interbotix_ws/install/interbotix_perception_pipelines:/home/dihim/interbotix_ws/install/interbotix_xs_msgs:/home/dihim/interbotix_ws/install/interbotix_tf_tools:/home/dihim/interbotix_ws/install/interbotix_perception_msgs:/home/dihim/interbotix_ws/install/interbotix_moveit_interface_msgs:/home/dihim/interbotix_ws/install/interbotix_common_toolbox:/home/dihim/interbotix_ws/install/interbotix_common_sim')]), 'shell': False}
+[5.041419] (-) TimerEvent: {}
+[5.143451] (la_msgs) StdoutLine: {'line': b'[ 74%] Built target la_msgs\n'}
+[5.143669] (-) TimerEvent: {}
+[5.243908] (-) TimerEvent: {}
+[5.310184] (locobot_yicheng) CommandEnded: {'returncode': 0}
+[5.344018] (-) TimerEvent: {}
+[5.425909] (la_msgs) StdoutLine: {'line': b'[ 76%] Built target la_msgs__py\n'}
+[5.444102] (-) TimerEvent: {}
+[5.544319] (-) TimerEvent: {}
+[5.561814] (locobot_yicheng) JobProgress: {'identifier': 'locobot_yicheng', 'progress': 'install'}
+[5.615890] (locobot_yicheng) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/dihim/me326_ws/build/locobot_yicheng'], 'cwd': '/home/dihim/me326_ws/build/locobot_yicheng', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'dihim'), ('SSH_AGENT_PID', '1601'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/dihim/interbotix_ws/install/gazebo_ros_link_attacher/lib:/home/dihim/me326_ws/install/la_msgs/lib:/home/dihim/me326_ws/install/gazebo_ros_link_attacher/lib:/home/dihim/interbotix_ws/install/moveit_visual_tools/lib:/home/dihim/interbotix_ws/install/interbotix_xs_rviz/lib:/home/dihim/interbotix_ws/install/interbotix_xs_ros_control/lib:/home/dihim/interbotix_ws/install/interbotix_xs_msgs/lib:/home/dihim/interbotix_ws/install/interbotix_tf_tools/lib:/home/dihim/interbotix_ws/install/interbotix_perception_msgs/lib:/home/dihim/interbotix_ws/install/interbotix_moveit_interface_msgs/lib:/usr/lib/aarch64-linux-gnu/gazebo-11/plugins:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/aarch64-linux-gnu:/opt/ros/galactic/lib:/usr/share/gazebo/../../lib/aarch64-linux-gnu/gazebo-11/plugins:'), ('HOME', '/home/dihim'), ('OLDPWD', '/home/dihim'), ('DESKTOP_SESSION', 'ubuntu'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1411'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/dihim/me326_ws/install:/home/dihim/interbotix_ws/install'), ('ROS_DISTRO', 'galactic'), ('LOGNAME', 'dihim'), ('JOURNAL_STREAM', '9:39998'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'dihim'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo/../../share/gazebo-11/models:'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('OGRE_RESOURCE_PATH', '/usr/lib/aarch64-linux-gnu/OGRE-1.9.0'), ('PATH', '/opt/ros/galactic/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/dihim:@/tmp/.ICE-unix/1655,unix/dihim:/tmp/.ICE-unix/1655'), ('INVOCATION_ID', 'eac6b79f266640b5872e88290b956019'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/351f287d_7844_4946_a453_5c7daca0b37c'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('INTERBOTIX_XSLOCOBOT_BASE_TYPE', 'create3'), ('GNOME_TERMINAL_SERVICE', ':1.77'), ('INTERBOTIX_WS', '/home/dihim/interbotix_ws'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/dihim/interbotix_ws/install/gazebo_ros_link_attacher:/home/dihim/me326_ws/install/locobot_yicheng:/home/dihim/me326_ws/install/locobot_controller:/home/dihim/me326_ws/install/la_msgs:/home/dihim/me326_ws/install/arm_controller:/home/dihim/me326_ws/install/gazebo_ros_link_attacher:/home/dihim/interbotix_ws/install/interbotix_moveit_interface:/home/dihim/interbotix_ws/install/arm_controller:/home/dihim/interbotix_ws/install/moveit_visual_tools:/home/dihim/interbotix_ws/install/interbotix_xslocobot_sim:/home/dihim/interbotix_ws/install/interbotix_xslocobot_moveit:/home/dihim/interbotix_ws/install/interbotix_xslocobot_descriptions:/home/dihim/interbotix_ws/install/interbotix_xs_toolbox:/home/dihim/interbotix_ws/install/interbotix_xs_rviz:/home/dihim/interbotix_ws/install/interbotix_xs_ros_control:/home/dihim/interbotix_ws/install/interbotix_xs_modules:/home/dihim/interbotix_ws/install/interbotix_perception_toolbox:/home/dihim/interbotix_ws/install/interbotix_perception_modules:/home/dihim/interbotix_ws/install/interbotix_perception_pipelines:/home/dihim/interbotix_ws/install/interbotix_xs_msgs:/home/dihim/interbotix_ws/install/interbotix_tf_tools:/home/dihim/interbotix_ws/install/interbotix_perception_msgs:/home/dihim/interbotix_ws/install/interbotix_moveit_interface_msgs:/home/dihim/interbotix_ws/install/interbotix_common_toolbox:/home/dihim/interbotix_ws/install/interbotix_common_sim:/home/dihim/interbotix_ws/install/interbotix_common_modules:/opt/ros/galactic'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo/../../share/gazebo-11:'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/dihim/me326_ws/build/locobot_yicheng'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('GAZEBO_PLUGIN_PATH', '/usr/share/gazebo/../../lib/aarch64-linux-gnu/gazebo-11/plugins:'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/dihim/interbotix_ws/install/gazebo_ros_link_attacher/lib/python3.8/site-packages:/home/dihim/me326_ws/install/locobot_controller/lib/python3.8/site-packages:/home/dihim/me326_ws/install/la_msgs/lib/python3.8/site-packages:/home/dihim/me326_ws/install/gazebo_ros_link_attacher/lib/python3.8/site-packages:/home/dihim/interbotix_ws/install/interbotix_xs_modules/lib/python3.8/site-packages:/home/dihim/interbotix_ws/install/interbotix_perception_modules/lib/python3.8/site-packages:/home/dihim/interbotix_ws/install/interbotix_xs_msgs/lib/python3.8/site-packages:/home/dihim/interbotix_ws/install/interbotix_perception_msgs/lib/python3.8/site-packages:/home/dihim/interbotix_ws/install/interbotix_moveit_interface_msgs/lib/python3.8/site-packages:/home/dihim/interbotix_ws/install/interbotix_common_modules/lib/python3.8/site-packages:/opt/ros/galactic/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/dihim/interbotix_ws/install/gazebo_ros_link_attacher:/home/dihim/me326_ws/install/locobot_yicheng:/home/dihim/me326_ws/install/la_msgs:/home/dihim/me326_ws/install/arm_controller:/home/dihim/me326_ws/install/locobot_controller:/home/dihim/interbotix_ws/install/interbotix_xs_modules:/home/dihim/interbotix_ws/install/interbotix_perception_modules:/home/dihim/interbotix_ws/install/interbotix_common_modules:/opt/ros/galactic:/home/dihim/me326_ws/install/gazebo_ros_link_attacher:/home/dihim/interbotix_ws/install/interbotix_moveit_interface:/home/dihim/interbotix_ws/install/arm_controller:/home/dihim/interbotix_ws/install/moveit_visual_tools:/home/dihim/interbotix_ws/install/interbotix_xslocobot_sim:/home/dihim/interbotix_ws/install/interbotix_xslocobot_moveit:/home/dihim/interbotix_ws/install/interbotix_xslocobot_descriptions:/home/dihim/interbotix_ws/install/interbotix_xs_toolbox:/home/dihim/interbotix_ws/install/interbotix_xs_rviz:/home/dihim/interbotix_ws/install/interbotix_xs_ros_control:/home/dihim/interbotix_ws/install/interbotix_perception_toolbox:/home/dihim/interbotix_ws/install/interbotix_perception_pipelines:/home/dihim/interbotix_ws/install/interbotix_xs_msgs:/home/dihim/interbotix_ws/install/interbotix_tf_tools:/home/dihim/interbotix_ws/install/interbotix_perception_msgs:/home/dihim/interbotix_ws/install/interbotix_moveit_interface_msgs:/home/dihim/interbotix_ws/install/interbotix_common_toolbox:/home/dihim/interbotix_ws/install/interbotix_common_sim')]), 'shell': False}
+[5.644432] (-) TimerEvent: {}
+[5.704747] (locobot_yicheng) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[5.709322] (locobot_yicheng) StdoutLine: {'line': b'-- Up-to-date: /home/dihim/me326_ws/install/locobot_yicheng/lib/locobot_yicheng/locobot_control.py\n'}
+[5.709379] (locobot_yicheng) StdoutLine: {'line': b'-- Up-to-date: /home/dihim/me326_ws/install/locobot_yicheng/share/ament_index/resource_index/package_run_dependencies/locobot_yicheng\n'}
+[5.709409] (locobot_yicheng) StdoutLine: {'line': b'-- Up-to-date: /home/dihim/me326_ws/install/locobot_yicheng/share/ament_index/resource_index/parent_prefix_path/locobot_yicheng\n'}
+[5.709435] (locobot_yicheng) StdoutLine: {'line': b'-- Up-to-date: /home/dihim/me326_ws/install/locobot_yicheng/share/locobot_yicheng/environment/ament_prefix_path.sh\n'}
+[5.709460] (locobot_yicheng) StdoutLine: {'line': b'-- Up-to-date: /home/dihim/me326_ws/install/locobot_yicheng/share/locobot_yicheng/environment/ament_prefix_path.dsv\n'}
+[5.709483] (locobot_yicheng) StdoutLine: {'line': b'-- Up-to-date: /home/dihim/me326_ws/install/locobot_yicheng/share/locobot_yicheng/environment/path.sh\n'}
+[5.709507] (locobot_yicheng) StdoutLine: {'line': b'-- Up-to-date: /home/dihim/me326_ws/install/locobot_yicheng/share/locobot_yicheng/environment/path.dsv\n'}
+[5.709530] (locobot_yicheng) StdoutLine: {'line': b'-- Up-to-date: /home/dihim/me326_ws/install/locobot_yicheng/share/locobot_yicheng/local_setup.bash\n'}
+[5.709558] (locobot_yicheng) StdoutLine: {'line': b'-- Up-to-date: /home/dihim/me326_ws/install/locobot_yicheng/share/locobot_yicheng/local_setup.sh\n'}
+[5.709582] (locobot_yicheng) StdoutLine: {'line': b'-- Up-to-date: /home/dihim/me326_ws/install/locobot_yicheng/share/locobot_yicheng/local_setup.zsh\n'}
+[5.709605] (locobot_yicheng) StdoutLine: {'line': b'-- Up-to-date: /home/dihim/me326_ws/install/locobot_yicheng/share/locobot_yicheng/local_setup.dsv\n'}
+[5.709641] (locobot_yicheng) StdoutLine: {'line': b'-- Installing: /home/dihim/me326_ws/install/locobot_yicheng/share/locobot_yicheng/package.dsv\n'}
+[5.709665] (locobot_yicheng) StdoutLine: {'line': b'-- Up-to-date: /home/dihim/me326_ws/install/locobot_yicheng/share/ament_index/resource_index/packages/locobot_yicheng\n'}
+[5.709688] (locobot_yicheng) StdoutLine: {'line': b'-- Up-to-date: /home/dihim/me326_ws/install/locobot_yicheng/share/locobot_yicheng/cmake/locobot_yichengConfig.cmake\n'}
+[5.709712] (locobot_yicheng) StdoutLine: {'line': b'-- Up-to-date: /home/dihim/me326_ws/install/locobot_yicheng/share/locobot_yicheng/cmake/locobot_yichengConfig-version.cmake\n'}
+[5.709735] (locobot_yicheng) StdoutLine: {'line': b'-- Up-to-date: /home/dihim/me326_ws/install/locobot_yicheng/share/locobot_yicheng/package.xml\n'}
+[5.709758] (la_msgs) StdoutLine: {'line': b'[ 84%] Built target la_msgs__python\n'}
+[5.709797] (locobot_yicheng) CommandEnded: {'returncode': 0}
+[5.774642] (-) TimerEvent: {}
+[5.875828] (-) TimerEvent: {}
+[5.926514] (la_msgs) StdoutLine: {'line': b'[ 89%] Built target la_msgs__rosidl_typesupport_c__pyext\n'}
+[5.976092] (-) TimerEvent: {}
+[6.075791] (la_msgs) StdoutLine: {'line': b'[ 94%] Built target la_msgs__rosidl_typesupport_fastrtps_c__pyext\n'}
+[6.076740] (-) TimerEvent: {}
+[6.112548] (la_msgs) StdoutLine: {'line': b'[100%] Built target la_msgs__rosidl_typesupport_introspection_c__pyext\n'}
+[6.176875] (-) TimerEvent: {}
+[6.261216] (locobot_controller) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/locobot_controller', 'build', '--build-base', '/home/dihim/me326_ws/build/locobot_controller/build', 'install', '--record', '/home/dihim/me326_ws/build/locobot_controller/install.log', '--single-version-externally-managed'], 'cwd': '/home/dihim/me326_ws/src/locobot_controller', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'dihim', 'SSH_AGENT_PID': '1601', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/dihim/interbotix_ws/install/gazebo_ros_link_attacher/lib:/home/dihim/me326_ws/install/la_msgs/lib:/home/dihim/me326_ws/install/gazebo_ros_link_attacher/lib:/home/dihim/interbotix_ws/install/moveit_visual_tools/lib:/home/dihim/interbotix_ws/install/interbotix_xs_rviz/lib:/home/dihim/interbotix_ws/install/interbotix_xs_ros_control/lib:/home/dihim/interbotix_ws/install/interbotix_xs_msgs/lib:/home/dihim/interbotix_ws/install/interbotix_tf_tools/lib:/home/dihim/interbotix_ws/install/interbotix_perception_msgs/lib:/home/dihim/interbotix_ws/install/interbotix_moveit_interface_msgs/lib:/usr/lib/aarch64-linux-gnu/gazebo-11/plugins:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/aarch64-linux-gnu:/opt/ros/galactic/lib:/usr/share/gazebo/../../lib/aarch64-linux-gnu/gazebo-11/plugins:', 'HOME': '/home/dihim', 'OLDPWD': '/home/dihim', 'DESKTOP_SESSION': 'ubuntu', 'GAZEBO_MASTER_URI': 'http://localhost:11345', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '1411', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'COLCON_PREFIX_PATH': '/home/dihim/me326_ws/install:/home/dihim/interbotix_ws/install', 'ROS_DISTRO': 'galactic', 'LOGNAME': 'dihim', 'JOURNAL_STREAM': '9:39998', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'dihim', 'TERM': 'xterm-256color', 'GAZEBO_MODEL_PATH': '/usr/share/gazebo/../../share/gazebo-11/models:', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'OGRE_RESOURCE_PATH': '/usr/lib/aarch64-linux-gnu/OGRE-1.9.0', 'PATH': '/opt/ros/galactic/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'SESSION_MANAGER': 'local/dihim:@/tmp/.ICE-unix/1655,unix/dihim:/tmp/.ICE-unix/1655', 'INVOCATION_ID': 'eac6b79f266640b5872e88290b956019', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/351f287d_7844_4946_a453_5c7daca0b37c', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'INTERBOTIX_XSLOCOBOT_BASE_TYPE': 'create3', 'GNOME_TERMINAL_SERVICE': ':1.77', 'INTERBOTIX_WS': '/home/dihim/interbotix_ws', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/dihim/interbotix_ws/install/gazebo_ros_link_attacher:/home/dihim/me326_ws/install/locobot_yicheng:/home/dihim/me326_ws/install/locobot_controller:/home/dihim/me326_ws/install/la_msgs:/home/dihim/me326_ws/install/arm_controller:/home/dihim/me326_ws/install/gazebo_ros_link_attacher:/home/dihim/interbotix_ws/install/interbotix_moveit_interface:/home/dihim/interbotix_ws/install/arm_controller:/home/dihim/interbotix_ws/install/moveit_visual_tools:/home/dihim/interbotix_ws/install/interbotix_xslocobot_sim:/home/dihim/interbotix_ws/install/interbotix_xslocobot_moveit:/home/dihim/interbotix_ws/install/interbotix_xslocobot_descriptions:/home/dihim/interbotix_ws/install/interbotix_xs_toolbox:/home/dihim/interbotix_ws/install/interbotix_xs_rviz:/home/dihim/interbotix_ws/install/interbotix_xs_ros_control:/home/dihim/interbotix_ws/install/interbotix_xs_modules:/home/dihim/interbotix_ws/install/interbotix_perception_toolbox:/home/dihim/interbotix_ws/install/interbotix_perception_modules:/home/dihim/interbotix_ws/install/interbotix_perception_pipelines:/home/dihim/interbotix_ws/install/interbotix_xs_msgs:/home/dihim/interbotix_ws/install/interbotix_tf_tools:/home/dihim/interbotix_ws/install/interbotix_perception_msgs:/home/dihim/interbotix_ws/install/interbotix_moveit_interface_msgs:/home/dihim/interbotix_ws/install/interbotix_common_toolbox:/home/dihim/interbotix_ws/install/interbotix_common_sim:/home/dihim/interbotix_ws/install/interbotix_common_modules:/opt/ros/galactic', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'GAZEBO_RESOURCE_PATH': '/usr/share/gazebo/../../share/gazebo-11:', 'GJS_DEBUG_OUTPUT': 'stderr', 'GAZEBO_MODEL_DATABASE_URI': 'http://models.gazebosim.org', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/dihim/me326_ws/build/locobot_controller', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'GAZEBO_PLUGIN_PATH': '/usr/share/gazebo/../../lib/aarch64-linux-gnu/gazebo-11/plugins:', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/dihim/me326_ws/build/locobot_controller/prefix_override:/home/dihim/me326_ws/install/locobot_controller/lib/python3.8/site-packages:/home/dihim/interbotix_ws/install/gazebo_ros_link_attacher/lib/python3.8/site-packages:/home/dihim/me326_ws/install/locobot_controller/lib/python3.8/site-packages:/home/dihim/me326_ws/install/la_msgs/lib/python3.8/site-packages:/home/dihim/me326_ws/install/gazebo_ros_link_attacher/lib/python3.8/site-packages:/home/dihim/interbotix_ws/install/interbotix_xs_modules/lib/python3.8/site-packages:/home/dihim/interbotix_ws/install/interbotix_perception_modules/lib/python3.8/site-packages:/home/dihim/interbotix_ws/install/interbotix_xs_msgs/lib/python3.8/site-packages:/home/dihim/interbotix_ws/install/interbotix_perception_msgs/lib/python3.8/site-packages:/home/dihim/interbotix_ws/install/interbotix_moveit_interface_msgs/lib/python3.8/site-packages:/home/dihim/interbotix_ws/install/interbotix_common_modules/lib/python3.8/site-packages:/opt/ros/galactic/lib/python3.8/site-packages', 'COLCON': '1', 'VTE_VERSION': '6003', 'CMAKE_PREFIX_PATH': '/home/dihim/interbotix_ws/install/gazebo_ros_link_attacher:/home/dihim/me326_ws/install/locobot_yicheng:/home/dihim/me326_ws/install/la_msgs:/home/dihim/me326_ws/install/arm_controller:/home/dihim/me326_ws/install/gazebo_ros_link_attacher:/home/dihim/interbotix_ws/install/interbotix_moveit_interface:/home/dihim/interbotix_ws/install/arm_controller:/home/dihim/interbotix_ws/install/moveit_visual_tools:/home/dihim/interbotix_ws/install/interbotix_xslocobot_sim:/home/dihim/interbotix_ws/install/interbotix_xslocobot_moveit:/home/dihim/interbotix_ws/install/interbotix_xslocobot_descriptions:/home/dihim/interbotix_ws/install/interbotix_xs_toolbox:/home/dihim/interbotix_ws/install/interbotix_xs_rviz:/home/dihim/interbotix_ws/install/interbotix_xs_ros_control:/home/dihim/interbotix_ws/install/interbotix_perception_toolbox:/home/dihim/interbotix_ws/install/interbotix_perception_pipelines:/home/dihim/interbotix_ws/install/interbotix_xs_msgs:/home/dihim/interbotix_ws/install/interbotix_tf_tools:/home/dihim/interbotix_ws/install/interbotix_perception_msgs:/home/dihim/interbotix_ws/install/interbotix_moveit_interface_msgs:/home/dihim/interbotix_ws/install/interbotix_common_toolbox:/home/dihim/interbotix_ws/install/interbotix_common_sim'}, 'shell': False}
+[6.276988] (-) TimerEvent: {}
+[6.288017] (la_msgs) CommandEnded: {'returncode': 0}
+[6.377162] (-) TimerEvent: {}
+[6.477489] (-) TimerEvent: {}
+[6.581191] (-) TimerEvent: {}
+[6.633411] (locobot_controller) StdoutLine: {'line': b'running egg_info\n'}
+[6.633515] (locobot_controller) StdoutLine: {'line': b'writing ../../build/locobot_controller/locobot_controller.egg-info/PKG-INFO\n'}
+[6.633549] (locobot_controller) StdoutLine: {'line': b'writing dependency_links to ../../build/locobot_controller/locobot_controller.egg-info/dependency_links.txt\n'}
+[6.633576] (locobot_controller) StdoutLine: {'line': b'writing entry points to ../../build/locobot_controller/locobot_controller.egg-info/entry_points.txt\n'}
+[6.633602] (locobot_controller) StdoutLine: {'line': b'writing requirements to ../../build/locobot_controller/locobot_controller.egg-info/requires.txt\n'}
+[6.633627] (locobot_controller) StdoutLine: {'line': b'writing top-level names to ../../build/locobot_controller/locobot_controller.egg-info/top_level.txt\n'}
+[6.693520] (locobot_controller) StdoutLine: {'line': b"reading manifest file '../../build/locobot_controller/locobot_controller.egg-info/SOURCES.txt'\n"}
+[6.693624] (-) TimerEvent: {}
+[6.693693] (locobot_controller) StdoutLine: {'line': b"writing manifest file '../../build/locobot_controller/locobot_controller.egg-info/SOURCES.txt'\n"}
+[6.693728] (locobot_controller) StdoutLine: {'line': b'running build\n'}
+[6.693756] (locobot_controller) StdoutLine: {'line': b'running build_py\n'}
+[6.693782] (locobot_controller) StdoutLine: {'line': b'running install\n'}
+[6.693807] (locobot_controller) StdoutLine: {'line': b'running install_lib\n'}
+[6.693831] (locobot_controller) StdoutLine: {'line': b'byte-compiling /home/dihim/me326_ws/install/locobot_controller/lib/python3.8/site-packages/locobot_controller/locobot_controller.py to locobot_controller.cpython-38.pyc\n'}
+[6.697830] (locobot_controller) StderrLine: {'line': b'  File "/home/dihim/me326_ws/install/locobot_controller/lib/python3.8/site-packages/locobot_controller/locobot_controller.py", line 37\n'}
+[6.697913] (locobot_controller) StderrLine: {'line': b'    cy = int(M["m01"]/M["mOO"})\n'}
+[6.697944] (locobot_controller) StderrLine: {'line': b'                             ^\n'}
+[6.697970] (locobot_controller) StderrLine: {'line': b"SyntaxError: closing parenthesis '}' does not match opening parenthesis '['\n"}
+[6.697995] (locobot_controller) StderrLine: {'line': b'\n'}
+[6.698035] (locobot_controller) StdoutLine: {'line': b'running install_data\n'}
+[6.698063] (locobot_controller) StdoutLine: {'line': b'running install_egg_info\n'}
+[6.698891] (locobot_controller) StdoutLine: {'line': b"removing '/home/dihim/me326_ws/install/locobot_controller/lib/python3.8/site-packages/locobot_controller-0.0.0-py3.8.egg-info' (and everything under it)\n"}
+[6.699114] (locobot_controller) StdoutLine: {'line': b'Copying ../../build/locobot_controller/locobot_controller.egg-info to /home/dihim/me326_ws/install/locobot_controller/lib/python3.8/site-packages/locobot_controller-0.0.0-py3.8.egg-info\n'}
+[6.700422] (locobot_controller) StdoutLine: {'line': b'running install_scripts\n'}
+[6.731635] (locobot_controller) StdoutLine: {'line': b'Installing locobot_controller script to /home/dihim/me326_ws/install/locobot_controller/lib/locobot_controller\n'}
+[6.731763] (locobot_controller) StdoutLine: {'line': b"writing list of installed files to '/home/dihim/me326_ws/build/locobot_controller/install.log'\n"}
+[6.794039] (-) TimerEvent: {}
+[6.894441] (-) TimerEvent: {}
+[6.997365] (-) TimerEvent: {}
+[7.102642] (-) TimerEvent: {}
+[7.202894] (-) TimerEvent: {}
+[7.304679] (-) TimerEvent: {}
+[7.321268] (locobot_yicheng) JobEnded: {'identifier': 'locobot_yicheng', 'rc': 0}
+[7.321946] (locobot_controller) CommandEnded: {'returncode': 0}
+[7.404941] (-) TimerEvent: {}
+[7.483850] (locobot_controller) JobEnded: {'identifier': 'locobot_controller', 'rc': 0}
+[7.505229] (-) TimerEvent: {}
+[7.562373] (la_msgs) JobProgress: {'identifier': 'la_msgs', 'progress': 'install'}
+[7.562568] (la_msgs) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/dihim/me326_ws/build/la_msgs'], 'cwd': '/home/dihim/me326_ws/build/la_msgs', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'dihim'), ('SSH_AGENT_PID', '1601'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/dihim/interbotix_ws/install/gazebo_ros_link_attacher/lib:/home/dihim/me326_ws/install/la_msgs/lib:/home/dihim/me326_ws/install/gazebo_ros_link_attacher/lib:/home/dihim/interbotix_ws/install/moveit_visual_tools/lib:/home/dihim/interbotix_ws/install/interbotix_xs_rviz/lib:/home/dihim/interbotix_ws/install/interbotix_xs_ros_control/lib:/home/dihim/interbotix_ws/install/interbotix_xs_msgs/lib:/home/dihim/interbotix_ws/install/interbotix_tf_tools/lib:/home/dihim/interbotix_ws/install/interbotix_perception_msgs/lib:/home/dihim/interbotix_ws/install/interbotix_moveit_interface_msgs/lib:/usr/lib/aarch64-linux-gnu/gazebo-11/plugins:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/aarch64-linux-gnu:/opt/ros/galactic/lib:/usr/share/gazebo/../../lib/aarch64-linux-gnu/gazebo-11/plugins:'), ('HOME', '/home/dihim'), ('OLDPWD', '/home/dihim'), ('DESKTOP_SESSION', 'ubuntu'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1411'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/dihim/me326_ws/install:/home/dihim/interbotix_ws/install'), ('ROS_DISTRO', 'galactic'), ('LOGNAME', 'dihim'), ('JOURNAL_STREAM', '9:39998'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'dihim'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo/../../share/gazebo-11/models:'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('OGRE_RESOURCE_PATH', '/usr/lib/aarch64-linux-gnu/OGRE-1.9.0'), ('PATH', '/opt/ros/galactic/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/dihim:@/tmp/.ICE-unix/1655,unix/dihim:/tmp/.ICE-unix/1655'), ('INVOCATION_ID', 'eac6b79f266640b5872e88290b956019'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/351f287d_7844_4946_a453_5c7daca0b37c'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('INTERBOTIX_XSLOCOBOT_BASE_TYPE', 'create3'), ('GNOME_TERMINAL_SERVICE', ':1.77'), ('INTERBOTIX_WS', '/home/dihim/interbotix_ws'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/dihim/interbotix_ws/install/gazebo_ros_link_attacher:/home/dihim/me326_ws/install/locobot_yicheng:/home/dihim/me326_ws/install/locobot_controller:/home/dihim/me326_ws/install/la_msgs:/home/dihim/me326_ws/install/arm_controller:/home/dihim/me326_ws/install/gazebo_ros_link_attacher:/home/dihim/interbotix_ws/install/interbotix_moveit_interface:/home/dihim/interbotix_ws/install/arm_controller:/home/dihim/interbotix_ws/install/moveit_visual_tools:/home/dihim/interbotix_ws/install/interbotix_xslocobot_sim:/home/dihim/interbotix_ws/install/interbotix_xslocobot_moveit:/home/dihim/interbotix_ws/install/interbotix_xslocobot_descriptions:/home/dihim/interbotix_ws/install/interbotix_xs_toolbox:/home/dihim/interbotix_ws/install/interbotix_xs_rviz:/home/dihim/interbotix_ws/install/interbotix_xs_ros_control:/home/dihim/interbotix_ws/install/interbotix_xs_modules:/home/dihim/interbotix_ws/install/interbotix_perception_toolbox:/home/dihim/interbotix_ws/install/interbotix_perception_modules:/home/dihim/interbotix_ws/install/interbotix_perception_pipelines:/home/dihim/interbotix_ws/install/interbotix_xs_msgs:/home/dihim/interbotix_ws/install/interbotix_tf_tools:/home/dihim/interbotix_ws/install/interbotix_perception_msgs:/home/dihim/interbotix_ws/install/interbotix_moveit_interface_msgs:/home/dihim/interbotix_ws/install/interbotix_common_toolbox:/home/dihim/interbotix_ws/install/interbotix_common_sim:/home/dihim/interbotix_ws/install/interbotix_common_modules:/opt/ros/galactic'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo/../../share/gazebo-11:'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/dihim/me326_ws/build/la_msgs'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('GAZEBO_PLUGIN_PATH', '/usr/share/gazebo/../../lib/aarch64-linux-gnu/gazebo-11/plugins:'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/dihim/interbotix_ws/install/gazebo_ros_link_attacher/lib/python3.8/site-packages:/home/dihim/me326_ws/install/locobot_controller/lib/python3.8/site-packages:/home/dihim/me326_ws/install/la_msgs/lib/python3.8/site-packages:/home/dihim/me326_ws/install/gazebo_ros_link_attacher/lib/python3.8/site-packages:/home/dihim/interbotix_ws/install/interbotix_xs_modules/lib/python3.8/site-packages:/home/dihim/interbotix_ws/install/interbotix_perception_modules/lib/python3.8/site-packages:/home/dihim/interbotix_ws/install/interbotix_xs_msgs/lib/python3.8/site-packages:/home/dihim/interbotix_ws/install/interbotix_perception_msgs/lib/python3.8/site-packages:/home/dihim/interbotix_ws/install/interbotix_moveit_interface_msgs/lib/python3.8/site-packages:/home/dihim/interbotix_ws/install/interbotix_common_modules/lib/python3.8/site-packages:/opt/ros/galactic/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/dihim/interbotix_ws/install/gazebo_ros_link_attacher:/home/dihim/me326_ws/install/locobot_yicheng:/home/dihim/me326_ws/install/la_msgs:/home/dihim/me326_ws/install/arm_controller:/home/dihim/me326_ws/install/locobot_controller:/home/dihim/interbotix_ws/install/interbotix_xs_modules:/home/dihim/interbotix_ws/install/interbotix_perception_modules:/home/dihim/interbotix_ws/install/interbotix_common_modules:/opt/ros/galactic:/home/dihim/me326_ws/install/gazebo_ros_link_attacher:/home/dihim/interbotix_ws/install/interbotix_moveit_interface:/home/dihim/interbotix_ws/install/arm_controller:/home/dihim/interbotix_ws/install/moveit_visual_tools:/home/dihim/interbotix_ws/install/interbotix_xslocobot_sim:/home/dihim/interbotix_ws/install/interbotix_xslocobot_moveit:/home/dihim/interbotix_ws/install/interbotix_xslocobot_descriptions:/home/dihim/interbotix_ws/install/interbotix_xs_toolbox:/home/dihim/interbotix_ws/install/interbotix_xs_rviz:/home/dihim/interbotix_ws/install/interbotix_xs_ros_control:/home/dihim/interbotix_ws/install/interbotix_perception_toolbox:/home/dihim/interbotix_ws/install/interbotix_perception_pipelines:/home/dihim/interbotix_ws/install/interbotix_xs_msgs:/home/dihim/interbotix_ws/install/interbotix_tf_tools:/home/dihim/interbotix_ws/install/interbotix_perception_msgs:/home/dihim/interbotix_ws/install/interbotix_moveit_interface_msgs:/home/dihim/interbotix_ws/install/interbotix_common_toolbox:/home/dihim/interbotix_ws/install/interbotix_common_sim')]), 'shell': False}
+[7.595117] (la_msgs) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[7.595478] (la_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/dihim/me326_ws/install/la_msgs/share/ament_index/resource_index/rosidl_interfaces/la_msgs\n'}
+[7.595569] (la_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/dihim/me326_ws/install/la_msgs/include/la_msgs\n'}
+[7.595600] (la_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/dihim/me326_ws/install/la_msgs/include/la_msgs/action\n'}
+[7.595668] (la_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/dihim/me326_ws/install/la_msgs/include/la_msgs/action/move_base.h\n'}
+[7.595763] (la_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/dihim/me326_ws/install/la_msgs/include/la_msgs/action/detail\n'}
+[7.595794] (la_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/dihim/me326_ws/install/la_msgs/include/la_msgs/action/detail/move_base__functions.c\n'}
+[7.595824] (la_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/dihim/me326_ws/install/la_msgs/include/la_msgs/action/detail/move_base__type_support.h\n'}
+[7.595849] (la_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/dihim/me326_ws/install/la_msgs/include/la_msgs/action/detail/move_base__struct.h\n'}
+[7.595873] (la_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/dihim/me326_ws/install/la_msgs/include/la_msgs/action/detail/move_base__functions.h\n'}
+[7.595896] (la_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/dihim/me326_ws/install/la_msgs/include/la_msgs/msg\n'}
+[7.595920] (la_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/dihim/me326_ws/install/la_msgs/include/la_msgs/msg/rosidl_generator_c__visibility_control.h\n'}
+[7.595944] (la_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/dihim/me326_ws/install/la_msgs/include/la_msgs/srv\n'}
+[7.595967] (la_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/dihim/me326_ws/install/la_msgs/include/la_msgs/srv/detail\n'}
+[7.595991] (la_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/dihim/me326_ws/install/la_msgs/include/la_msgs/srv/detail/ptps__type_support.h\n'}
+[7.596022] (la_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/dihim/me326_ws/install/la_msgs/include/la_msgs/srv/detail/ptps__struct.h\n'}
+[7.596053] (la_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/dihim/me326_ws/install/la_msgs/include/la_msgs/srv/detail/ptps__functions.h\n'}
+[7.596077] (la_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/dihim/me326_ws/install/la_msgs/include/la_msgs/srv/detail/ptps__functions.c\n'}
+[7.596099] (la_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/dihim/me326_ws/install/la_msgs/include/la_msgs/srv/ptps.h\n'}
+[7.596121] (la_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/dihim/me326_ws/install/la_msgs/share/la_msgs/environment/library_path.sh\n'}
+[7.596144] (la_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/dihim/me326_ws/install/la_msgs/share/la_msgs/environment/library_path.dsv\n'}
+[7.597492] (la_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/dihim/me326_ws/install/la_msgs/lib/libla_msgs__rosidl_generator_c.so\n'}
+[7.597605] (la_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/dihim/me326_ws/install/la_msgs/include/la_msgs\n'}
+[7.597762] (la_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/dihim/me326_ws/install/la_msgs/include/la_msgs/action\n'}
+[7.597787] (la_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/dihim/me326_ws/install/la_msgs/include/la_msgs/action/detail\n'}
+[7.597811] (la_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/dihim/me326_ws/install/la_msgs/include/la_msgs/action/detail/move_base__rosidl_typesupport_fastrtps_c.h\n'}
+[7.597841] (la_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/dihim/me326_ws/install/la_msgs/include/la_msgs/msg\n'}
+[7.597869] (la_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/dihim/me326_ws/install/la_msgs/include/la_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[7.597893] (la_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/dihim/me326_ws/install/la_msgs/include/la_msgs/srv\n'}
+[7.597916] (la_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/dihim/me326_ws/install/la_msgs/include/la_msgs/srv/detail\n'}
+[7.597939] (la_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/dihim/me326_ws/install/la_msgs/include/la_msgs/srv/detail/ptps__rosidl_typesupport_fastrtps_c.h\n'}
+[7.603497] (la_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/dihim/me326_ws/install/la_msgs/lib/libla_msgs__rosidl_typesupport_fastrtps_c.so\n'}
+[7.603845] (la_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/dihim/me326_ws/install/la_msgs/include/la_msgs\n'}
+[7.603888] (la_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/dihim/me326_ws/install/la_msgs/include/la_msgs/action\n'}
+[7.603916] (la_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/dihim/me326_ws/install/la_msgs/include/la_msgs/action/detail\n'}
+[7.603941] (la_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/dihim/me326_ws/install/la_msgs/include/la_msgs/action/detail/move_base__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[7.603966] (la_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/dihim/me326_ws/install/la_msgs/include/la_msgs/action/detail/dds_fastrtps\n'}
+[7.603991] (la_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/dihim/me326_ws/install/la_msgs/include/la_msgs/msg\n'}
+[7.604020] (la_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/dihim/me326_ws/install/la_msgs/include/la_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[7.604045] (la_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/dihim/me326_ws/install/la_msgs/include/la_msgs/srv\n'}
+[7.604069] (la_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/dihim/me326_ws/install/la_msgs/include/la_msgs/srv/detail\n'}
+[7.604092] (la_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/dihim/me326_ws/install/la_msgs/include/la_msgs/srv/detail/ptps__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[7.604116] (la_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/dihim/me326_ws/install/la_msgs/include/la_msgs/srv/detail/dds_fastrtps\n'}
+[7.605313] (-) TimerEvent: {}
+[7.610719] (la_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/dihim/me326_ws/install/la_msgs/lib/libla_msgs__rosidl_typesupport_fastrtps_cpp.so\n'}
+[7.610954] (la_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/dihim/me326_ws/install/la_msgs/include/la_msgs\n'}
+[7.611009] (la_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/dihim/me326_ws/install/la_msgs/include/la_msgs/action\n'}
+[7.611040] (la_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/dihim/me326_ws/install/la_msgs/include/la_msgs/action/detail\n'}
+[7.611066] (la_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/dihim/me326_ws/install/la_msgs/include/la_msgs/action/detail/move_base__type_support.c\n'}
+[7.611091] (la_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/dihim/me326_ws/install/la_msgs/include/la_msgs/action/detail/move_base__rosidl_typesupport_introspection_c.h\n'}
+[7.611116] (la_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/dihim/me326_ws/install/la_msgs/include/la_msgs/msg\n'}
+[7.611139] (la_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/dihim/me326_ws/install/la_msgs/include/la_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[7.611167] (la_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/dihim/me326_ws/install/la_msgs/include/la_msgs/srv\n'}
+[7.611191] (la_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/dihim/me326_ws/install/la_msgs/include/la_msgs/srv/detail\n'}
+[7.611301] (la_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/dihim/me326_ws/install/la_msgs/include/la_msgs/srv/detail/ptps__rosidl_typesupport_introspection_c.h\n'}
+[7.611354] (la_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/dihim/me326_ws/install/la_msgs/include/la_msgs/srv/detail/ptps__type_support.c\n'}
+[7.611417] (la_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/dihim/me326_ws/install/la_msgs/lib/libla_msgs__rosidl_typesupport_introspection_c.so\n'}
+[7.611946] (la_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/dihim/me326_ws/install/la_msgs/lib/libla_msgs__rosidl_typesupport_c.so\n'}
+[7.612059] (la_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/dihim/me326_ws/install/la_msgs/include/la_msgs\n'}
+[7.612207] (la_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/dihim/me326_ws/install/la_msgs/include/la_msgs/action\n'}
+[7.612234] (la_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/dihim/me326_ws/install/la_msgs/include/la_msgs/action/detail\n'}
+[7.612322] (la_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/dihim/me326_ws/install/la_msgs/include/la_msgs/action/detail/move_base__traits.hpp\n'}
+[7.612377] (la_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/dihim/me326_ws/install/la_msgs/include/la_msgs/action/detail/move_base__builder.hpp\n'}
+[7.612402] (la_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/dihim/me326_ws/install/la_msgs/include/la_msgs/action/detail/move_base__struct.hpp\n'}
+[7.612425] (la_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/dihim/me326_ws/install/la_msgs/include/la_msgs/action/move_base.hpp\n'}
+[7.612449] (la_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/dihim/me326_ws/install/la_msgs/include/la_msgs/srv\n'}
+[7.612472] (la_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/dihim/me326_ws/install/la_msgs/include/la_msgs/srv/detail\n'}
+[7.612559] (la_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/dihim/me326_ws/install/la_msgs/include/la_msgs/srv/detail/ptps__traits.hpp\n'}
+[7.612596] (la_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/dihim/me326_ws/install/la_msgs/include/la_msgs/srv/detail/ptps__builder.hpp\n'}
+[7.612627] (la_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/dihim/me326_ws/install/la_msgs/include/la_msgs/srv/detail/ptps__struct.hpp\n'}
+[7.612654] (la_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/dihim/me326_ws/install/la_msgs/include/la_msgs/srv/ptps.hpp\n'}
+[7.612679] (la_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/dihim/me326_ws/install/la_msgs/include/la_msgs\n'}
+[7.612772] (la_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/dihim/me326_ws/install/la_msgs/include/la_msgs/action\n'}
+[7.612799] (la_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/dihim/me326_ws/install/la_msgs/include/la_msgs/action/detail\n'}
+[7.612854] (la_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/dihim/me326_ws/install/la_msgs/include/la_msgs/action/detail/move_base__rosidl_typesupport_introspection_cpp.hpp\n'}
+[7.612897] (la_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/dihim/me326_ws/install/la_msgs/include/la_msgs/action/detail/move_base__type_support.cpp\n'}
+[7.612922] (la_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/dihim/me326_ws/install/la_msgs/include/la_msgs/srv\n'}
+[7.612946] (la_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/dihim/me326_ws/install/la_msgs/include/la_msgs/srv/detail\n'}
+[7.612969] (la_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/dihim/me326_ws/install/la_msgs/include/la_msgs/srv/detail/ptps__type_support.cpp\n'}
+[7.612991] (la_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/dihim/me326_ws/install/la_msgs/include/la_msgs/srv/detail/ptps__rosidl_typesupport_introspection_cpp.hpp\n'}
+[7.613014] (la_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/dihim/me326_ws/install/la_msgs/lib/libla_msgs__rosidl_typesupport_introspection_cpp.so\n'}
+[7.624051] (la_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/dihim/me326_ws/install/la_msgs/lib/libla_msgs__rosidl_typesupport_cpp.so\n'}
+[7.624161] (la_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/dihim/me326_ws/install/la_msgs/share/la_msgs/environment/pythonpath.sh\n'}
+[7.624229] (la_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/dihim/me326_ws/install/la_msgs/share/la_msgs/environment/pythonpath.dsv\n'}
+[7.624256] (la_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/dihim/me326_ws/install/la_msgs/lib/python3.8/site-packages/la_msgs/__init__.py\n'}
+[7.705401] (-) TimerEvent: {}
+[7.789887] (la_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/dihim/me326_ws/install/la_msgs/lib/python3.8/site-packages/la_msgs/action\n'}
+[7.789999] (la_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/dihim/me326_ws/install/la_msgs/lib/python3.8/site-packages/la_msgs/action/__init__.py\n'}
+[7.790032] (la_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/dihim/me326_ws/install/la_msgs/lib/python3.8/site-packages/la_msgs/action/_move_base_s.c\n'}
+[7.790058] (la_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/dihim/me326_ws/install/la_msgs/lib/python3.8/site-packages/la_msgs/action/_move_base.py\n'}
+[7.790083] (la_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/dihim/me326_ws/install/la_msgs/lib/python3.8/site-packages/la_msgs/srv\n'}
+[7.790126] (la_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/dihim/me326_ws/install/la_msgs/lib/python3.8/site-packages/la_msgs/srv/__init__.py\n'}
+[7.790152] (la_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/dihim/me326_ws/install/la_msgs/lib/python3.8/site-packages/la_msgs/srv/_ptps.py\n'}
+[7.790175] (la_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/dihim/me326_ws/install/la_msgs/lib/python3.8/site-packages/la_msgs/srv/_ptps_s.c\n'}
+[7.792695] (la_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/dihim/me326_ws/install/la_msgs/lib/python3.8/site-packages/la_msgs/la_msgs_s__rosidl_typesupport_fastrtps_c.cpython-38-aarch64-linux-gnu.so\n'}
+[7.795304] (la_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/dihim/me326_ws/install/la_msgs/lib/python3.8/site-packages/la_msgs/la_msgs_s__rosidl_typesupport_introspection_c.cpython-38-aarch64-linux-gnu.so\n'}
+[7.796159] (la_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/dihim/me326_ws/install/la_msgs/lib/python3.8/site-packages/la_msgs/la_msgs_s__rosidl_typesupport_c.cpython-38-aarch64-linux-gnu.so\n'}
+[7.797025] (la_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/dihim/me326_ws/install/la_msgs/lib/libla_msgs__python.so\n'}
+[7.797263] (la_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/dihim/me326_ws/install/la_msgs/share/la_msgs/action/MoveBase.idl\n'}
+[7.797345] (la_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/dihim/me326_ws/install/la_msgs/share/la_msgs/srv/Ptps.idl\n'}
+[7.797395] (la_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/dihim/me326_ws/install/la_msgs/share/la_msgs/action/MoveBase.action\n'}
+[7.797435] (la_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/dihim/me326_ws/install/la_msgs/share/la_msgs/srv/Ptps.srv\n'}
+[7.797470] (la_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/dihim/me326_ws/install/la_msgs/share/la_msgs/srv/Ptps_Request.msg\n'}
+[7.797511] (la_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/dihim/me326_ws/install/la_msgs/share/la_msgs/srv/Ptps_Response.msg\n'}
+[7.797555] (la_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/dihim/me326_ws/install/la_msgs/share/ament_index/resource_index/package_run_dependencies/la_msgs\n'}
+[7.797618] (la_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/dihim/me326_ws/install/la_msgs/share/ament_index/resource_index/parent_prefix_path/la_msgs\n'}
+[7.797668] (la_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/dihim/me326_ws/install/la_msgs/share/la_msgs/environment/ament_prefix_path.sh\n'}
+[7.797712] (la_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/dihim/me326_ws/install/la_msgs/share/la_msgs/environment/ament_prefix_path.dsv\n'}
+[7.797747] (la_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/dihim/me326_ws/install/la_msgs/share/la_msgs/environment/path.sh\n'}
+[7.797773] (la_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/dihim/me326_ws/install/la_msgs/share/la_msgs/environment/path.dsv\n'}
+[7.797796] (la_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/dihim/me326_ws/install/la_msgs/share/la_msgs/local_setup.bash\n'}
+[7.797820] (la_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/dihim/me326_ws/install/la_msgs/share/la_msgs/local_setup.sh\n'}
+[7.797855] (la_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/dihim/me326_ws/install/la_msgs/share/la_msgs/local_setup.zsh\n'}
+[7.797879] (la_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/dihim/me326_ws/install/la_msgs/share/la_msgs/local_setup.dsv\n'}
+[7.797902] (la_msgs) StdoutLine: {'line': b'-- Installing: /home/dihim/me326_ws/install/la_msgs/share/la_msgs/package.dsv\n'}
+[7.801311] (la_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/dihim/me326_ws/install/la_msgs/share/ament_index/resource_index/packages/la_msgs\n'}
+[7.801754] (la_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/dihim/me326_ws/install/la_msgs/share/la_msgs/cmake/la_msgs__rosidl_generator_cExport.cmake\n'}
+[7.801800] (la_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/dihim/me326_ws/install/la_msgs/share/la_msgs/cmake/la_msgs__rosidl_generator_cExport-noconfig.cmake\n'}
+[7.802156] (la_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/dihim/me326_ws/install/la_msgs/share/la_msgs/cmake/la_msgs__rosidl_typesupport_introspection_cExport.cmake\n'}
+[7.802200] (la_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/dihim/me326_ws/install/la_msgs/share/la_msgs/cmake/la_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[7.804182] (la_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/dihim/me326_ws/install/la_msgs/share/la_msgs/cmake/la_msgs__rosidl_typesupport_cExport.cmake\n'}
+[7.804239] (la_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/dihim/me326_ws/install/la_msgs/share/la_msgs/cmake/la_msgs__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[7.804702] (la_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/dihim/me326_ws/install/la_msgs/share/la_msgs/cmake/la_msgs__rosidl_generator_cppExport.cmake\n'}
+[7.805012] (la_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/dihim/me326_ws/install/la_msgs/share/la_msgs/cmake/la_msgs__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[7.805155] (la_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/dihim/me326_ws/install/la_msgs/share/la_msgs/cmake/la_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[7.805461] (-) TimerEvent: {}
+[7.805685] (la_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/dihim/me326_ws/install/la_msgs/share/la_msgs/cmake/la_msgs__rosidl_typesupport_cppExport.cmake\n'}
+[7.805750] (la_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/dihim/me326_ws/install/la_msgs/share/la_msgs/cmake/la_msgs__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[7.805798] (la_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/dihim/me326_ws/install/la_msgs/share/la_msgs/cmake/rosidl_cmake-extras.cmake\n'}
+[7.805853] (la_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/dihim/me326_ws/install/la_msgs/share/la_msgs/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[7.805904] (la_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/dihim/me326_ws/install/la_msgs/share/la_msgs/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[7.805968] (la_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/dihim/me326_ws/install/la_msgs/share/la_msgs/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[7.805994] (la_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/dihim/me326_ws/install/la_msgs/share/la_msgs/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[7.806018] (la_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/dihim/me326_ws/install/la_msgs/share/la_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[7.806041] (la_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/dihim/me326_ws/install/la_msgs/share/la_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[7.806068] (la_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/dihim/me326_ws/install/la_msgs/share/la_msgs/cmake/la_msgsConfig.cmake\n'}
+[7.806092] (la_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/dihim/me326_ws/install/la_msgs/share/la_msgs/cmake/la_msgsConfig-version.cmake\n'}
+[7.806125] (la_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/dihim/me326_ws/install/la_msgs/share/la_msgs/package.xml\n'}
+[7.811645] (la_msgs) CommandEnded: {'returncode': 0}
+[7.905561] (-) TimerEvent: {}
+[8.041173] (-) TimerEvent: {}
+[8.151657] (-) TimerEvent: {}
+[8.251955] (-) TimerEvent: {}
+[8.369196] (-) TimerEvent: {}
+[8.469520] (-) TimerEvent: {}
+[8.569817] (-) TimerEvent: {}
+[8.670143] (-) TimerEvent: {}
+[8.770460] (-) TimerEvent: {}
+[8.870724] (-) TimerEvent: {}
+[8.971033] (-) TimerEvent: {}
+[9.071353] (-) TimerEvent: {}
+[9.171600] (-) TimerEvent: {}
+[9.271975] (-) TimerEvent: {}
+[9.372226] (-) TimerEvent: {}
+[9.472627] (-) TimerEvent: {}
+[9.572931] (-) TimerEvent: {}
+[9.673298] (-) TimerEvent: {}
+[9.773590] (-) TimerEvent: {}
+[9.876604] (-) TimerEvent: {}
+[9.977253] (-) TimerEvent: {}
+[10.078924] (-) TimerEvent: {}
+[10.179343] (-) TimerEvent: {}
+[10.282509] (-) TimerEvent: {}
+[10.382904] (-) TimerEvent: {}
+[10.484808] (-) TimerEvent: {}
+[10.595799] (-) TimerEvent: {}
+[10.696123] (-) TimerEvent: {}
+[10.805195] (-) TimerEvent: {}
+[10.924898] (-) TimerEvent: {}
+[11.045460] (-) TimerEvent: {}
+[11.149814] (-) TimerEvent: {}
+[11.199738] (la_msgs) JobEnded: {'identifier': 'la_msgs', 'rc': 0}
+[11.249920] (-) TimerEvent: {}
+[11.350359] (-) TimerEvent: {}
+[11.450671] (-) TimerEvent: {}
+[11.550985] (-) TimerEvent: {}
+[11.651295] (-) TimerEvent: {}
+[11.751609] (-) TimerEvent: {}
+[11.851869] (-) TimerEvent: {}
+[11.952090] (-) TimerEvent: {}
+[12.052354] (-) TimerEvent: {}
+[12.153248] (-) TimerEvent: {}
+[12.253481] (-) TimerEvent: {}
+[12.353980] (-) TimerEvent: {}
+[12.454217] (-) TimerEvent: {}
+[12.554446] (-) TimerEvent: {}
+[12.654670] (-) TimerEvent: {}
+[12.754937] (-) TimerEvent: {}
+[12.855204] (-) TimerEvent: {}
+[12.955554] (-) TimerEvent: {}
+[13.055803] (-) TimerEvent: {}
+[13.156063] (-) TimerEvent: {}
+[13.256303] (-) TimerEvent: {}
+[13.356540] (-) TimerEvent: {}
+[13.456783] (-) TimerEvent: {}
+[13.557013] (-) TimerEvent: {}
+[13.657337] (-) TimerEvent: {}
+[13.757539] (-) TimerEvent: {}
+[13.857938] (-) TimerEvent: {}
+[13.958261] (-) TimerEvent: {}
+[14.058627] (-) TimerEvent: {}
+[14.159062] (-) TimerEvent: {}
+[14.259533] (-) TimerEvent: {}
+[14.359873] (-) TimerEvent: {}
+[14.460224] (-) TimerEvent: {}
+[14.560526] (-) TimerEvent: {}
+[14.660850] (-) TimerEvent: {}
+[14.761266] (-) TimerEvent: {}
+[14.865181] (-) TimerEvent: {}
+[14.965494] (-) TimerEvent: {}
+[15.065802] (-) TimerEvent: {}
+[15.166085] (-) TimerEvent: {}
+[15.266400] (-) TimerEvent: {}
+[15.374462] (-) TimerEvent: {}
+[15.474797] (-) TimerEvent: {}
+[15.575077] (-) TimerEvent: {}
+[15.675378] (-) TimerEvent: {}
+[15.776360] (-) TimerEvent: {}
+[15.876580] (-) TimerEvent: {}
+[15.976802] (-) TimerEvent: {}
+[16.077170] (-) TimerEvent: {}
+[16.177449] (-) TimerEvent: {}
+[16.277710] (-) TimerEvent: {}
+[16.377953] (-) TimerEvent: {}
+[16.426956] (arm_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dihim/me326_ws/src/arm_controller/src/moveit_interface.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid MyNode::pick_callback(geometry_msgs::msg::PoseStamped) const\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[16.427145] (arm_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dihim/me326_ws/src/arm_controller/src/moveit_interface.cpp:66:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kmessage\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[16.427183] (arm_controller) StderrLine: {'line': b'   66 |         \x1b[01;31m\x1b[Kmessage\x1b[m\x1b[K.data = true;\n'}
+[16.427212] (arm_controller) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[16.443930] (arm_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dihim/me326_ws/src/arm_controller/src/moveit_interface.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid MyNode::drop_callback(geometry_msgs::msg::PoseStamped) const\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[16.444077] (arm_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dihim/me326_ws/src/arm_controller/src/moveit_interface.cpp:85:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kmessage\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[16.444113] (arm_controller) StderrLine: {'line': b'   85 |         \x1b[01;31m\x1b[Kmessage\x1b[m\x1b[K.data = true;\n'}
+[16.444142] (arm_controller) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[16.478043] (-) TimerEvent: {}
+[16.578325] (-) TimerEvent: {}
+[16.678597] (-) TimerEvent: {}
+[16.778848] (-) TimerEvent: {}
+[16.879090] (-) TimerEvent: {}
+[16.979337] (-) TimerEvent: {}
+[17.079567] (-) TimerEvent: {}
+[17.179829] (-) TimerEvent: {}
+[17.280054] (-) TimerEvent: {}
+[17.380319] (-) TimerEvent: {}
+[17.480546] (-) TimerEvent: {}
+[17.580791] (-) TimerEvent: {}
+[17.681159] (-) TimerEvent: {}
+[17.781512] (-) TimerEvent: {}
+[17.881794] (-) TimerEvent: {}
+[17.982045] (-) TimerEvent: {}
+[18.082357] (-) TimerEvent: {}
+[18.185164] (-) TimerEvent: {}
+[18.289187] (-) TimerEvent: {}
+[18.389489] (-) TimerEvent: {}
+[18.489827] (-) TimerEvent: {}
+[18.590080] (-) TimerEvent: {}
+[18.693340] (-) TimerEvent: {}
+[18.793631] (-) TimerEvent: {}
+[18.897184] (-) TimerEvent: {}
+[18.998168] (-) TimerEvent: {}
+[19.098455] (-) TimerEvent: {}
+[19.198821] (-) TimerEvent: {}
+[19.302099] (-) TimerEvent: {}
+[19.402574] (-) TimerEvent: {}
+[19.502898] (-) TimerEvent: {}
+[19.603194] (-) TimerEvent: {}
+[19.703554] (-) TimerEvent: {}
+[19.814221] (-) TimerEvent: {}
+[19.914677] (-) TimerEvent: {}
+[20.014953] (-) TimerEvent: {}
+[20.118058] (-) TimerEvent: {}
+[20.218368] (-) TimerEvent: {}
+[20.321097] (-) TimerEvent: {}
+[20.421427] (-) TimerEvent: {}
+[20.521726] (-) TimerEvent: {}
+[20.621957] (-) TimerEvent: {}
+[20.729767] (-) TimerEvent: {}
+[20.830112] (-) TimerEvent: {}
+[20.930388] (-) TimerEvent: {}
+[21.033184] (-) TimerEvent: {}
+[21.133456] (-) TimerEvent: {}
+[21.233696] (-) TimerEvent: {}
+[21.334656] (-) TimerEvent: {}
+[21.434941] (-) TimerEvent: {}
+[21.535222] (-) TimerEvent: {}
+[21.635519] (-) TimerEvent: {}
+[21.735760] (-) TimerEvent: {}
+[21.836012] (-) TimerEvent: {}
+[21.936359] (-) TimerEvent: {}
+[22.036705] (-) TimerEvent: {}
+[22.136986] (-) TimerEvent: {}
+[22.237465] (-) TimerEvent: {}
+[22.337760] (-) TimerEvent: {}
+[22.438198] (-) TimerEvent: {}
+[22.538515] (-) TimerEvent: {}
+[22.638815] (-) TimerEvent: {}
+[22.739186] (-) TimerEvent: {}
+[22.839498] (-) TimerEvent: {}
+[22.939861] (-) TimerEvent: {}
+[23.040147] (-) TimerEvent: {}
+[23.140456] (-) TimerEvent: {}
+[23.243789] (-) TimerEvent: {}
+[23.357437] (-) TimerEvent: {}
+[23.461360] (-) TimerEvent: {}
+[23.561621] (-) TimerEvent: {}
+[23.661844] (-) TimerEvent: {}
+[23.762084] (-) TimerEvent: {}
+[23.766854] (arm_controller) StderrLine: {'line': b'make[2]: *** [CMakeFiles/arm_controller.dir/build.make:63: CMakeFiles/arm_controller.dir/src/moveit_interface.cpp.o] Error 1\n'}
+[23.768359] (arm_controller) StderrLine: {'line': b'make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/arm_controller.dir/all] Error 2\n'}
+[23.768719] (arm_controller) StderrLine: {'line': b'make: *** [Makefile:141: all] Error 2\n'}
+[23.778708] (arm_controller) CommandEnded: {'returncode': 2}
+[23.865156] (-) TimerEvent: {}
+[23.965493] (-) TimerEvent: {}
+[24.065787] (-) TimerEvent: {}
+[24.165968] (-) TimerEvent: {}
+[24.266212] (-) TimerEvent: {}
+[24.373328] (-) TimerEvent: {}
+[24.485038] (-) TimerEvent: {}
+[24.585389] (-) TimerEvent: {}
+[24.684210] (arm_controller) JobEnded: {'identifier': 'arm_controller', 'rc': 2}
+[24.685451] (-) EventReactorShutdown: {}

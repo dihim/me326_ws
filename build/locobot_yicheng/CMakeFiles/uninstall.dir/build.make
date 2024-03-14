@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/yicheng/me326_ws/src/locobot_yicheng
+CMAKE_SOURCE_DIR = /home/dihim/me326_ws/src/locobot_yicheng
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/yicheng/me326_ws/build/locobot_yicheng
+CMAKE_BINARY_DIR = /home/dihim/me326_ws/build/locobot_yicheng
 
 # Utility rule file for uninstall.
 
@@ -67,6 +67,6 @@ CMakeFiles/uninstall.dir/clean:
 .PHONY : CMakeFiles/uninstall.dir/clean
 
 CMakeFiles/uninstall.dir/depend:
-	cd /home/yicheng/me326_ws/build/locobot_yicheng && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/yicheng/me326_ws/src/locobot_yicheng /home/yicheng/me326_ws/src/locobot_yicheng /home/yicheng/me326_ws/build/locobot_yicheng /home/yicheng/me326_ws/build/locobot_yicheng /home/yicheng/me326_ws/build/locobot_yicheng/CMakeFiles/uninstall.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/dihim/me326_ws/build/locobot_yicheng && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/dihim/me326_ws/src/locobot_yicheng /home/dihim/me326_ws/src/locobot_yicheng /home/dihim/me326_ws/build/locobot_yicheng /home/dihim/me326_ws/build/locobot_yicheng /home/dihim/me326_ws/build/locobot_yicheng/CMakeFiles/uninstall.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/uninstall.dir/depend
 

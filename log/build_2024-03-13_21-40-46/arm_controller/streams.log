@@ -1,0 +1,14 @@
+[3.436s] Invoking command in '/home/dihim/me326_ws/build/arm_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dihim/me326_ws/install/locobot_controller:/home/dihim/interbotix_ws/install/interbotix_xs_modules:/home/dihim/interbotix_ws/install/interbotix_perception_modules:/home/dihim/interbotix_ws/install/interbotix_common_modules:/opt/ros/galactic /usr/bin/cmake --build /home/dihim/me326_ws/build/arm_controller -- -j4 -l4
+[5.372s] [35m[1mScanning dependencies of target arm_controller[0m
+[5.372s] [ 33%] [32mBuilding CXX object CMakeFiles/arm_controller.dir/src/moveit_interface.cpp.o[0m
+[17.760s] [01m[K/home/dihim/me326_ws/src/arm_controller/src/moveit_interface.cpp:[m[K In member function ‘[01m[Kvoid MyNode::pick_callback(geometry_msgs::msg::PoseStamped_<std::allocator<void> >::SharedPtr) const[m[K’:
+[17.761s] [01m[K/home/dihim/me326_ws/src/arm_controller/src/moveit_interface.cpp:32:9:[m[K [01;31m[Kerror: [m[K‘[01m[Ktarget_pose[m[K’ was not declared in this scope
+[17.761s]    32 |         [01;31m[Ktarget_pose[m[K->pose.position.z = 0.02;
+[17.761s]       |         [01;31m[K^~~~~~~~~~~[m[K
+[17.787s] [01m[K/home/dihim/me326_ws/src/arm_controller/src/moveit_interface.cpp:30:67:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kpose[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[17.787s]    30 |     void pick_callback([01;35m[Kgeometry_msgs::msg::PoseStamped::SharedPtr pose[m[K) const {
+[17.787s]       |                        [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~[m[K
+[24.776s] make[2]: *** [CMakeFiles/arm_controller.dir/build.make:63: CMakeFiles/arm_controller.dir/src/moveit_interface.cpp.o] Error 1
+[24.777s] make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/arm_controller.dir/all] Error 2
+[24.777s] make: *** [Makefile:141: all] Error 2
+[24.784s] Invoked command in '/home/dihim/me326_ws/build/arm_controller' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dihim/me326_ws/install/locobot_controller:/home/dihim/interbotix_ws/install/interbotix_xs_modules:/home/dihim/interbotix_ws/install/interbotix_perception_modules:/home/dihim/interbotix_ws/install/interbotix_common_modules:/opt/ros/galactic /usr/bin/cmake --build /home/dihim/me326_ws/build/arm_controller -- -j4 -l4

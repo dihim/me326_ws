@@ -1,0 +1,25 @@
+[0.710s] Invoking command in '/home/dihim/me326_ws/build/gazebo_ros_link_attacher': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dihim/interbotix_ws/install/interbotix_xs_modules:/home/dihim/interbotix_ws/install/interbotix_perception_modules:/home/dihim/interbotix_ws/install/interbotix_common_modules:/opt/ros/galactic /usr/bin/cmake --build /home/dihim/me326_ws/build/gazebo_ros_link_attacher -- -j4 -l4
+[1.003s] [  8%] Built target gazebo_ros_link_attacher__rosidl_generator_c
+[1.004s] [ 11%] Built target gazebo_ros_link_attacher__cpp
+[1.004s] [ 20%] Built target gazebo_ros_link_attacher__rosidl_typesupport_introspection_cpp
+[1.004s] [ 28%] Built target gazebo_ros_link_attacher__rosidl_typesupport_introspection_c
+[1.004s] [ 37%] Built target gazebo_ros_link_attacher__rosidl_typesupport_c
+[1.004s] [ 45%] Built target gazebo_ros_link_attacher__rosidl_typesupport_fastrtps_cpp
+[1.004s] [ 54%] Built target gazebo_ros_link_attacher__rosidl_typesupport_cpp
+[1.004s] [ 62%] Built target gazebo_ros_link_attacher__rosidl_typesupport_fastrtps_c
+[1.004s] [ 62%] Built target gazebo_ros_link_attacher
+[1.004s] [ 65%] Built target gazebo_ros_link_attacher__py
+[1.004s] [ 71%] Built target gazebo_ros_link_attacher__python
+[1.004s] [ 77%] Built target gazebo_ros_link_attacher_plugin
+[1.004s] [ 82%] Built target gazebo_ros_link_attacher__rosidl_typesupport_c__pyext
+[1.004s] [ 88%] Built target gazebo_ros_link_attacher__rosidl_typesupport_introspection_c__pyext
+[1.004s] [ 94%] Built target gazebo_ros_link_attacher__rosidl_typesupport_fastrtps_c__pyext
+[1.004s] [ 97%] [32m[1mLinking CXX executable gazebo_ros_link_attacher_node[0m
+[1.478s] /usr/bin/ld: /usr/lib/gcc/aarch64-linux-gnu/9/../../../aarch64-linux-gnu/Scrt1.o: in function `_start':
+[1.478s] (.text+0x18): undefined reference to `main'
+[1.478s] /usr/bin/ld: (.text+0x1c): undefined reference to `main'
+[1.478s] collect2: error: ld returned 1 exit status
+[1.478s] make[2]: *** [CMakeFiles/gazebo_ros_link_attacher_node.dir/build.make:283: gazebo_ros_link_attacher_node] Error 1
+[1.479s] make[1]: *** [CMakeFiles/Makefile2:424: CMakeFiles/gazebo_ros_link_attacher_node.dir/all] Error 2
+[1.479s] make: *** [Makefile:141: all] Error 2
+[1.794s] Invoked command in '/home/dihim/me326_ws/build/gazebo_ros_link_attacher' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dihim/interbotix_ws/install/interbotix_xs_modules:/home/dihim/interbotix_ws/install/interbotix_perception_modules:/home/dihim/interbotix_ws/install/interbotix_common_modules:/opt/ros/galactic /usr/bin/cmake --build /home/dihim/me326_ws/build/gazebo_ros_link_attacher -- -j4 -l4

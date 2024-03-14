@@ -1,0 +1,18 @@
+[0.905s] Invoking command in '/home/dihim/me326_ws/build/arm_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dihim/me326_ws/install/locobot_controller:/home/dihim/interbotix_ws/install/interbotix_xs_modules:/home/dihim/interbotix_ws/install/interbotix_perception_modules:/home/dihim/interbotix_ws/install/interbotix_common_modules:/opt/ros/galactic /usr/bin/cmake --build /home/dihim/me326_ws/build/arm_controller -- -j4 -l4
+[1.279s] [35m[1mScanning dependencies of target arm_controller[0m
+[1.279s] [ 33%] [32mBuilding CXX object CMakeFiles/arm_controller.dir/src/moveit_interface.cpp.o[0m
+[4.703s] [01m[K/home/dihim/me326_ws/src/arm_controller/src/moveit_interface.cpp:[m[K In constructor ‘[01m[KMyNode::MyNode()[m[K’:
+[4.703s] [01m[K/home/dihim/me326_ws/src/arm_controller/src/moveit_interface.cpp:29:45:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kmake_shared<node>()[m[K’
+[4.703s]    29 |         rclcpp::spin(std::make_shared<node>([01;31m[K)[m[K);
+[4.703s]       |                                             [01;31m[K^[m[K
+[4.703s] In file included from [01m[K/usr/include/c++/9/memory:81[m[K,
+[4.703s]                  from [01m[K/home/dihim/me326_ws/src/arm_controller/include/interbotix_moveit_interface/moveit_interface_obj.hpp:32[m[K,
+[4.703s]                  from [01m[K/home/dihim/me326_ws/src/arm_controller/src/moveit_interface.cpp:1[m[K:
+[4.703s] [01m[K/usr/include/c++/9/bits/shared_ptr.h:714:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, class ... _Args> std::shared_ptr<_Tp> std::make_shared(_Args&& ...)[m[K’
+[4.703s]   714 |     [01;36m[Kmake_shared[m[K(_Args&&... __args)
+[4.703s]       |     [01;36m[K^~~~~~~~~~~[m[K
+[4.703s] [01m[K/usr/include/c++/9/bits/shared_ptr.h:714:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[7.049s] make[2]: *** [CMakeFiles/arm_controller.dir/build.make:63: CMakeFiles/arm_controller.dir/src/moveit_interface.cpp.o] Error 1
+[7.050s] make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/arm_controller.dir/all] Error 2
+[7.050s] make: *** [Makefile:141: all] Error 2
+[7.051s] Invoked command in '/home/dihim/me326_ws/build/arm_controller' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dihim/me326_ws/install/locobot_controller:/home/dihim/interbotix_ws/install/interbotix_xs_modules:/home/dihim/interbotix_ws/install/interbotix_perception_modules:/home/dihim/interbotix_ws/install/interbotix_common_modules:/opt/ros/galactic /usr/bin/cmake --build /home/dihim/me326_ws/build/arm_controller -- -j4 -l4

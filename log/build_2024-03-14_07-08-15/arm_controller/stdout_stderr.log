@@ -1,0 +1,19 @@
+[35m[1mScanning dependencies of target arm_controller[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/arm_controller.dir/src/moveit_interface.cpp.o[0m
+[01m[K/home/dihim/me326_ws/src/arm_controller/src/moveit_interface.cpp:92:20:[m[K [01;31m[Kerror: [m[K‘[01m[Kgazebo_ros_link_attacher[m[K’ was not declared in this scope
+   92 |     rclcpp::Client<[01;31m[Kgazebo_ros_link_attacher[m[K::srv::Attach>::SharedPtr attach_client_;
+      |                    [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/dihim/me326_ws/src/arm_controller/src/moveit_interface.cpp:92:57:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   92 |     rclcpp::Client<gazebo_ros_link_attacher::srv::Attach[01;31m[K>[m[K::SharedPtr attach_client_;
+      |                                                         [01;31m[K^[m[K
+[01m[K/home/dihim/me326_ws/src/arm_controller/src/moveit_interface.cpp:92:60:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+   92 |     rclcpp::Client<gazebo_ros_link_attacher::srv::Attach>::[01;31m[KSharedPtr[m[K attach_client_;
+      |                                                            [01;31m[K^~~~~~~~~[m[K
+      |                                                                     [32m[K;[m[K
+[01m[K/home/dihim/me326_ws/src/arm_controller/src/moveit_interface.cpp:92:70:[m[K [01;31m[Kerror: [m[K‘[01m[Kattach_client_[m[K’ does not name a type
+   92 | clcpp::Client<gazebo_ros_link_attacher::srv::Attach>::SharedPtr [01;31m[Kattach_client_[m[K;
+      |                                                                 [01;31m[K^~~~~~~~~~~~~~[m[K
+
+make[2]: *** [CMakeFiles/arm_controller.dir/build.make:63: CMakeFiles/arm_controller.dir/src/moveit_interface.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/arm_controller.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

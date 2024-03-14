@@ -1,0 +1,20 @@
+[4.316s] Invoking command in '/home/dihim/me326_ws/build/arm_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dihim/me326_ws/install/locobot_controller:/home/dihim/interbotix_ws/install/interbotix_xs_modules:/home/dihim/interbotix_ws/install/interbotix_perception_modules:/home/dihim/interbotix_ws/install/interbotix_common_modules:/opt/ros/galactic /usr/bin/cmake --build /home/dihim/me326_ws/build/arm_controller -- -j4 -l4
+[6.173s] [35m[1mScanning dependencies of target arm_controller[0m
+[6.173s] [ 33%] [32mBuilding CXX object CMakeFiles/arm_controller.dir/src/moveit_interface.cpp.o[0m
+[19.536s] [01m[K/home/dihim/me326_ws/src/arm_controller/src/moveit_interface.cpp:[m[K In member function ‘[01m[Kvoid MyNode::pick_callback(geometry_msgs::msg::PoseStamped) const[m[K’:
+[19.536s] [01m[K/home/dihim/me326_ws/src/arm_controller/src/moveit_interface.cpp:59:20:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ has non-pointer type ‘[01m[Kgeometry_msgs::msg::PoseStamped[m[K’ {aka ‘[01m[Kgeometry_msgs::msg::PoseStamped_<std::allocator<void> >[m[K’}
+[19.536s]    59 |         target_pose[01;31m[K->[m[Kpose.orientation.x = v(0) * std::sin(th / 2);
+[19.536s]       |                    [01;31m[K^~[m[K
+[19.537s] [01m[K/home/dihim/me326_ws/src/arm_controller/src/moveit_interface.cpp:61:20:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ has non-pointer type ‘[01m[Kgeometry_msgs::msg::PoseStamped[m[K’ {aka ‘[01m[Kgeometry_msgs::msg::PoseStamped_<std::allocator<void> >[m[K’}
+[19.537s]    61 |         target_pose[01;31m[K->[m[Kpose.orientation.y = v(1) * std::sin(th / 2);
+[19.537s]       |                    [01;31m[K^~[m[K
+[19.537s] [01m[K/home/dihim/me326_ws/src/arm_controller/src/moveit_interface.cpp:63:20:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ has non-pointer type ‘[01m[Kgeometry_msgs::msg::PoseStamped[m[K’ {aka ‘[01m[Kgeometry_msgs::msg::PoseStamped_<std::allocator<void> >[m[K’}
+[19.537s]    63 |         target_pose[01;31m[K->[m[Kpose.orientation.z = v(2) * std::sin(th / 2);
+[19.537s]       |                    [01;31m[K^~[m[K
+[19.540s] [01m[K/home/dihim/me326_ws/src/arm_controller/src/moveit_interface.cpp:65:20:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ has non-pointer type ‘[01m[Kgeometry_msgs::msg::PoseStamped[m[K’ {aka ‘[01m[Kgeometry_msgs::msg::PoseStamped_<std::allocator<void> >[m[K’}
+[19.540s]    65 |         target_pose[01;31m[K->[m[Kpose.orientation.w = std::cos(th / 2);
+[19.540s]       |                    [01;31m[K^~[m[K
+[28.465s] make[2]: *** [CMakeFiles/arm_controller.dir/build.make:63: CMakeFiles/arm_controller.dir/src/moveit_interface.cpp.o] Error 1
+[28.465s] make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/arm_controller.dir/all] Error 2
+[28.465s] make: *** [Makefile:141: all] Error 2
+[28.480s] Invoked command in '/home/dihim/me326_ws/build/arm_controller' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dihim/me326_ws/install/locobot_controller:/home/dihim/interbotix_ws/install/interbotix_xs_modules:/home/dihim/interbotix_ws/install/interbotix_perception_modules:/home/dihim/interbotix_ws/install/interbotix_common_modules:/opt/ros/galactic /usr/bin/cmake --build /home/dihim/me326_ws/build/arm_controller -- -j4 -l4

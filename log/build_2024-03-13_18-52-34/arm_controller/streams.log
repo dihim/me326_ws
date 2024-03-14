@@ -1,0 +1,30 @@
+[1.699s] Invoking command in '/home/dihim/me326_ws/build/arm_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dihim/interbotix_ws/install/interbotix_xs_modules:/home/dihim/interbotix_ws/install/interbotix_perception_modules:/home/dihim/interbotix_ws/install/interbotix_common_modules:/opt/ros/galactic /usr/bin/cmake --build /home/dihim/me326_ws/build/arm_controller -- -j4 -l4
+[2.034s] [100%] Built target arm_controller
+[2.043s] Invoked command in '/home/dihim/me326_ws/build/arm_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dihim/interbotix_ws/install/interbotix_xs_modules:/home/dihim/interbotix_ws/install/interbotix_perception_modules:/home/dihim/interbotix_ws/install/interbotix_common_modules:/opt/ros/galactic /usr/bin/cmake --build /home/dihim/me326_ws/build/arm_controller -- -j4 -l4
+[2.109s] Invoking command in '/home/dihim/me326_ws/build/arm_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dihim/interbotix_ws/install/interbotix_xs_modules:/home/dihim/interbotix_ws/install/interbotix_perception_modules:/home/dihim/interbotix_ws/install/interbotix_common_modules:/opt/ros/galactic /usr/bin/cmake --install /home/dihim/me326_ws/build/arm_controller
+[2.116s] -- Install configuration: ""
+[2.117s] -- Up-to-date: /home/dihim/me326_ws/install/arm_controller/lib/arm_controller/arm_controller
+[2.117s] -- Up-to-date: /home/dihim/me326_ws/install/arm_controller/lib/arm_controller/moveit_interface_gui
+[2.117s] -- Up-to-date: /home/dihim/me326_ws/install/arm_controller/share/arm_controller//launch
+[2.117s] -- Up-to-date: /home/dihim/me326_ws/install/arm_controller/share/arm_controller//launch/spawn_blocks.py
+[2.117s] -- Up-to-date: /home/dihim/me326_ws/install/arm_controller/share/arm_controller/model
+[2.117s] -- Installing: /home/dihim/me326_ws/install/arm_controller/share/arm_controller/model/blue_cube.urdf
+[2.117s] -- Up-to-date: /home/dihim/me326_ws/install/arm_controller/share/arm_controller/model/yellow_cube.urdf
+[2.117s] -- Up-to-date: /home/dihim/me326_ws/install/arm_controller/share/arm_controller/model/red_cube.urdf
+[2.117s] -- Up-to-date: /home/dihim/me326_ws/install/arm_controller/share/arm_controller/model/green_cube.urdf
+[2.117s] -- Up-to-date: /home/dihim/me326_ws/install/arm_controller/share/ament_index/resource_index/package_run_dependencies/arm_controller
+[2.117s] -- Up-to-date: /home/dihim/me326_ws/install/arm_controller/share/ament_index/resource_index/parent_prefix_path/arm_controller
+[2.117s] -- Up-to-date: /home/dihim/me326_ws/install/arm_controller/share/arm_controller/environment/ament_prefix_path.sh
+[2.117s] -- Up-to-date: /home/dihim/me326_ws/install/arm_controller/share/arm_controller/environment/ament_prefix_path.dsv
+[2.117s] -- Up-to-date: /home/dihim/me326_ws/install/arm_controller/share/arm_controller/environment/path.sh
+[2.117s] -- Up-to-date: /home/dihim/me326_ws/install/arm_controller/share/arm_controller/environment/path.dsv
+[2.117s] -- Up-to-date: /home/dihim/me326_ws/install/arm_controller/share/arm_controller/local_setup.bash
+[2.117s] -- Up-to-date: /home/dihim/me326_ws/install/arm_controller/share/arm_controller/local_setup.sh
+[2.117s] -- Up-to-date: /home/dihim/me326_ws/install/arm_controller/share/arm_controller/local_setup.zsh
+[2.117s] -- Up-to-date: /home/dihim/me326_ws/install/arm_controller/share/arm_controller/local_setup.dsv
+[2.117s] -- Installing: /home/dihim/me326_ws/install/arm_controller/share/arm_controller/package.dsv
+[2.117s] -- Up-to-date: /home/dihim/me326_ws/install/arm_controller/share/ament_index/resource_index/packages/arm_controller
+[2.118s] -- Up-to-date: /home/dihim/me326_ws/install/arm_controller/share/arm_controller/cmake/arm_controllerConfig.cmake
+[2.118s] -- Up-to-date: /home/dihim/me326_ws/install/arm_controller/share/arm_controller/cmake/arm_controllerConfig-version.cmake
+[2.118s] -- Up-to-date: /home/dihim/me326_ws/install/arm_controller/share/arm_controller/package.xml
+[2.126s] Invoked command in '/home/dihim/me326_ws/build/arm_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dihim/interbotix_ws/install/interbotix_xs_modules:/home/dihim/interbotix_ws/install/interbotix_perception_modules:/home/dihim/interbotix_ws/install/interbotix_common_modules:/opt/ros/galactic /usr/bin/cmake --install /home/dihim/me326_ws/build/arm_controller

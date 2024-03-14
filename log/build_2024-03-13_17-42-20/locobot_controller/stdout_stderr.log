@@ -1,0 +1,46 @@
+running egg_info
+creating ../../build/locobot_controller/locobot_controller.egg-info
+writing ../../build/locobot_controller/locobot_controller.egg-info/PKG-INFO
+writing dependency_links to ../../build/locobot_controller/locobot_controller.egg-info/dependency_links.txt
+writing entry points to ../../build/locobot_controller/locobot_controller.egg-info/entry_points.txt
+writing requirements to ../../build/locobot_controller/locobot_controller.egg-info/requires.txt
+writing top-level names to ../../build/locobot_controller/locobot_controller.egg-info/top_level.txt
+writing manifest file '../../build/locobot_controller/locobot_controller.egg-info/SOURCES.txt'
+reading manifest file '../../build/locobot_controller/locobot_controller.egg-info/SOURCES.txt'
+writing manifest file '../../build/locobot_controller/locobot_controller.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/dihim/me326_ws/build/locobot_controller/build
+creating /home/dihim/me326_ws/build/locobot_controller/build/lib
+creating /home/dihim/me326_ws/build/locobot_controller/build/lib/locobot_controller
+copying locobot_controller/__init__.py -> /home/dihim/me326_ws/build/locobot_controller/build/lib/locobot_controller
+copying locobot_controller/locobot_controller.py -> /home/dihim/me326_ws/build/locobot_controller/build/lib/locobot_controller
+copying locobot_controller/locobot_strategy.py -> /home/dihim/me326_ws/build/locobot_controller/build/lib/locobot_controller
+copying locobot_controller/locobot_perception.py -> /home/dihim/me326_ws/build/locobot_controller/build/lib/locobot_controller
+running install
+running install_lib
+creating /home/dihim/me326_ws/install/locobot_controller/lib/python3.8/site-packages/locobot_controller
+copying /home/dihim/me326_ws/build/locobot_controller/build/lib/locobot_controller/__init__.py -> /home/dihim/me326_ws/install/locobot_controller/lib/python3.8/site-packages/locobot_controller
+copying /home/dihim/me326_ws/build/locobot_controller/build/lib/locobot_controller/locobot_controller.py -> /home/dihim/me326_ws/install/locobot_controller/lib/python3.8/site-packages/locobot_controller
+copying /home/dihim/me326_ws/build/locobot_controller/build/lib/locobot_controller/locobot_strategy.py -> /home/dihim/me326_ws/install/locobot_controller/lib/python3.8/site-packages/locobot_controller
+copying /home/dihim/me326_ws/build/locobot_controller/build/lib/locobot_controller/locobot_perception.py -> /home/dihim/me326_ws/install/locobot_controller/lib/python3.8/site-packages/locobot_controller
+byte-compiling /home/dihim/me326_ws/install/locobot_controller/lib/python3.8/site-packages/locobot_controller/__init__.py to __init__.cpython-38.pyc
+byte-compiling /home/dihim/me326_ws/install/locobot_controller/lib/python3.8/site-packages/locobot_controller/locobot_controller.py to locobot_controller.cpython-38.pyc
+byte-compiling /home/dihim/me326_ws/install/locobot_controller/lib/python3.8/site-packages/locobot_controller/locobot_strategy.py to locobot_strategy.cpython-38.pyc
+  File "/home/dihim/me326_ws/install/locobot_controller/lib/python3.8/site-packages/locobot_controller/locobot_controller.py", line 37
+    cy = int(M["m01"]/M["mOO"})
+                             ^
+SyntaxError: closing parenthesis '}' does not match opening parenthesis '['
+
+byte-compiling /home/dihim/me326_ws/install/locobot_controller/lib/python3.8/site-packages/locobot_controller/locobot_perception.py to locobot_perception.cpython-38.pyc
+running install_data
+creating /home/dihim/me326_ws/install/locobot_controller/share/ament_index
+creating /home/dihim/me326_ws/install/locobot_controller/share/ament_index/resource_index
+creating /home/dihim/me326_ws/install/locobot_controller/share/ament_index/resource_index/packages
+copying resource/locobot_controller -> /home/dihim/me326_ws/install/locobot_controller/share/ament_index/resource_index/packages
+copying package.xml -> /home/dihim/me326_ws/install/locobot_controller/share/locobot_controller
+running install_egg_info
+Copying ../../build/locobot_controller/locobot_controller.egg-info to /home/dihim/me326_ws/install/locobot_controller/lib/python3.8/site-packages/locobot_controller-0.0.0-py3.8.egg-info
+running install_scripts
+Installing locobot_controller script to /home/dihim/me326_ws/install/locobot_controller/lib/locobot_controller
+writing list of installed files to '/home/dihim/me326_ws/build/locobot_controller/install.log'

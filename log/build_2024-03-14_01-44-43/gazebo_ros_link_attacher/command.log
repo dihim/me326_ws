@@ -1,0 +1,2 @@
+Invoking command in '/home/dihim/me326_ws/build/gazebo_ros_link_attacher': /usr/bin/cmake /home/dihim/me326_ws/src/gazebo_ros_link_attacher -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/dihim/me326_ws/install/gazebo_ros_link_attacher
+Invoked command in '/home/dihim/me326_ws/build/gazebo_ros_link_attacher' returned '1': /usr/bin/cmake /home/dihim/me326_ws/src/gazebo_ros_link_attacher -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/dihim/me326_ws/install/gazebo_ros_link_attacher

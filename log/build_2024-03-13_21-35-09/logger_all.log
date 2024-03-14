@@ -1,0 +1,330 @@
+[7.777s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[7.777s] DEBUG:colcon:Parsed command line arguments: Namespace(allow_overriding=[], ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0xffff986eb490>>, merge_install=False, metas=['./colcon.meta'], packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=None, packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=4, paths=None, symlink_install=False, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0xffff986eb490>, verb_name='build', verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0xffff984056a0>)
+[8.297s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[8.297s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[8.298s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[8.298s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[8.298s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[8.298s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[8.298s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/dihim/me326_ws'
+[8.298s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[8.299s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[8.299s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[8.300s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[8.300s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[8.300s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[8.300s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[8.300s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[8.300s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[8.341s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[8.342s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[8.342s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[8.343s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[8.344s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[8.344s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[8.344s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[8.345s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[8.345s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[8.345s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[8.345s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[8.345s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[8.346s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[8.346s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[8.346s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[8.346s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[8.346s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[8.346s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[8.346s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[8.346s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[8.346s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[8.346s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[8.346s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[8.346s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[8.346s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[8.346s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[8.346s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[8.346s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[8.346s] Level 1:colcon.colcon_core.package_identification:_identify(src/apriltag_ros) by extensions ['ignore', 'ignore_ament_install']
+[8.346s] Level 1:colcon.colcon_core.package_identification:_identify(src/apriltag_ros) by extension 'ignore'
+[8.346s] Level 1:colcon.colcon_core.package_identification:_identify(src/apriltag_ros) by extension 'ignore_ament_install'
+[8.346s] Level 1:colcon.colcon_core.package_identification:_identify(src/apriltag_ros) by extensions ['colcon_pkg']
+[8.346s] Level 1:colcon.colcon_core.package_identification:_identify(src/apriltag_ros) by extension 'colcon_pkg'
+[8.346s] Level 1:colcon.colcon_core.package_identification:_identify(src/apriltag_ros) by extensions ['colcon_meta']
+[8.346s] Level 1:colcon.colcon_core.package_identification:_identify(src/apriltag_ros) by extension 'colcon_meta'
+[8.346s] Level 1:colcon.colcon_core.package_identification:_identify(src/apriltag_ros) by extensions ['ros']
+[8.346s] Level 1:colcon.colcon_core.package_identification:_identify(src/apriltag_ros) by extension 'ros'
+[8.346s] Level 1:colcon.colcon_core.package_identification:_identify(src/apriltag_ros) by extensions ['cmake', 'python']
+[8.346s] Level 1:colcon.colcon_core.package_identification:_identify(src/apriltag_ros) by extension 'cmake'
+[8.346s] Level 1:colcon.colcon_core.package_identification:_identify(src/apriltag_ros) by extension 'python'
+[8.346s] Level 1:colcon.colcon_core.package_identification:_identify(src/apriltag_ros) by extensions ['python_setup_py']
+[8.346s] Level 1:colcon.colcon_core.package_identification:_identify(src/apriltag_ros) by extension 'python_setup_py'
+[8.346s] Level 1:colcon.colcon_core.package_identification:_identify(src/arm_controller) by extensions ['ignore', 'ignore_ament_install']
+[8.352s] Level 1:colcon.colcon_core.package_identification:_identify(src/arm_controller) by extension 'ignore'
+[8.352s] Level 1:colcon.colcon_core.package_identification:_identify(src/arm_controller) by extension 'ignore_ament_install'
+[8.352s] Level 1:colcon.colcon_core.package_identification:_identify(src/arm_controller) by extensions ['colcon_pkg']
+[8.353s] Level 1:colcon.colcon_core.package_identification:_identify(src/arm_controller) by extension 'colcon_pkg'
+[8.354s] Level 1:colcon.colcon_core.package_identification:_identify(src/arm_controller) by extensions ['colcon_meta']
+[8.354s] Level 1:colcon.colcon_core.package_identification:_identify(src/arm_controller) by extension 'colcon_meta'
+[8.354s] Level 1:colcon.colcon_core.package_identification:_identify(src/arm_controller) by extensions ['ros']
+[8.354s] Level 1:colcon.colcon_core.package_identification:_identify(src/arm_controller) by extension 'ros'
+[8.360s] DEBUG:colcon.colcon_core.package_identification:Package 'src/arm_controller' with type 'ros.ament_cmake' and name 'arm_controller'
+[8.360s] Level 1:colcon.colcon_core.package_identification:_identify(src/la_msgs) by extensions ['ignore', 'ignore_ament_install']
+[8.360s] Level 1:colcon.colcon_core.package_identification:_identify(src/la_msgs) by extension 'ignore'
+[8.360s] Level 1:colcon.colcon_core.package_identification:_identify(src/la_msgs) by extension 'ignore_ament_install'
+[8.361s] Level 1:colcon.colcon_core.package_identification:_identify(src/la_msgs) by extensions ['colcon_pkg']
+[8.361s] Level 1:colcon.colcon_core.package_identification:_identify(src/la_msgs) by extension 'colcon_pkg'
+[8.362s] Level 1:colcon.colcon_core.package_identification:_identify(src/la_msgs) by extensions ['colcon_meta']
+[8.362s] Level 1:colcon.colcon_core.package_identification:_identify(src/la_msgs) by extension 'colcon_meta'
+[8.362s] Level 1:colcon.colcon_core.package_identification:_identify(src/la_msgs) by extensions ['ros']
+[8.362s] Level 1:colcon.colcon_core.package_identification:_identify(src/la_msgs) by extension 'ros'
+[8.363s] DEBUG:colcon.colcon_core.package_identification:Package 'src/la_msgs' with type 'ros.ament_cmake' and name 'la_msgs'
+[8.363s] Level 1:colcon.colcon_core.package_identification:_identify(src/locobot_controller) by extensions ['ignore', 'ignore_ament_install']
+[8.363s] Level 1:colcon.colcon_core.package_identification:_identify(src/locobot_controller) by extension 'ignore'
+[8.363s] Level 1:colcon.colcon_core.package_identification:_identify(src/locobot_controller) by extension 'ignore_ament_install'
+[8.363s] Level 1:colcon.colcon_core.package_identification:_identify(src/locobot_controller) by extensions ['colcon_pkg']
+[8.363s] Level 1:colcon.colcon_core.package_identification:_identify(src/locobot_controller) by extension 'colcon_pkg'
+[8.364s] Level 1:colcon.colcon_core.package_identification:_identify(src/locobot_controller) by extensions ['colcon_meta']
+[8.364s] Level 1:colcon.colcon_core.package_identification:_identify(src/locobot_controller) by extension 'colcon_meta'
+[8.364s] Level 1:colcon.colcon_core.package_identification:_identify(src/locobot_controller) by extensions ['ros']
+[8.364s] Level 1:colcon.colcon_core.package_identification:_identify(src/locobot_controller) by extension 'ros'
+[8.364s] DEBUG:colcon.colcon_core.package_identification:Package 'src/locobot_controller' with type 'ros.ament_python' and name 'locobot_controller'
+[8.364s] Level 1:colcon.colcon_core.package_identification:_identify(src/locobot_yicheng) by extensions ['ignore', 'ignore_ament_install']
+[8.365s] Level 1:colcon.colcon_core.package_identification:_identify(src/locobot_yicheng) by extension 'ignore'
+[8.365s] Level 1:colcon.colcon_core.package_identification:_identify(src/locobot_yicheng) by extension 'ignore_ament_install'
+[8.365s] Level 1:colcon.colcon_core.package_identification:_identify(src/locobot_yicheng) by extensions ['colcon_pkg']
+[8.365s] Level 1:colcon.colcon_core.package_identification:_identify(src/locobot_yicheng) by extension 'colcon_pkg'
+[8.365s] Level 1:colcon.colcon_core.package_identification:_identify(src/locobot_yicheng) by extensions ['colcon_meta']
+[8.365s] Level 1:colcon.colcon_core.package_identification:_identify(src/locobot_yicheng) by extension 'colcon_meta'
+[8.365s] Level 1:colcon.colcon_core.package_identification:_identify(src/locobot_yicheng) by extensions ['ros']
+[8.365s] Level 1:colcon.colcon_core.package_identification:_identify(src/locobot_yicheng) by extension 'ros'
+[8.365s] DEBUG:colcon.colcon_core.package_identification:Package 'src/locobot_yicheng' with type 'ros.ament_cmake' and name 'locobot_yicheng'
+[8.365s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[8.365s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[8.365s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[8.365s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[8.365s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[9.401s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[9.401s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[9.592s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 4 installed packages in /home/dihim/me326_ws/install
+[9.697s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 21 installed packages in /home/dihim/interbotix_ws/install
+[9.835s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 348 installed packages in /opt/ros/galactic
+[9.836s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[10.206s] Level 5:colcon.colcon_core.verb:set package 'arm_controller' build argument 'cmake_args' from command line to 'None'
+[10.208s] Level 5:colcon.colcon_core.verb:set package 'arm_controller' build argument 'cmake_target' from command line to 'None'
+[10.208s] Level 5:colcon.colcon_core.verb:set package 'arm_controller' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[10.209s] Level 5:colcon.colcon_core.verb:set package 'arm_controller' build argument 'cmake_clean_cache' from command line to 'False'
+[10.209s] Level 5:colcon.colcon_core.verb:set package 'arm_controller' build argument 'cmake_clean_first' from command line to 'False'
+[10.209s] Level 5:colcon.colcon_core.verb:set package 'arm_controller' build argument 'cmake_force_configure' from command line to 'False'
+[10.209s] Level 5:colcon.colcon_core.verb:set package 'arm_controller' build argument 'ament_cmake_args' from command line to 'None'
+[10.209s] Level 5:colcon.colcon_core.verb:set package 'arm_controller' build argument 'catkin_cmake_args' from command line to 'None'
+[10.209s] Level 5:colcon.colcon_core.verb:set package 'arm_controller' build argument 'catkin_skip_building_tests' from command line to 'False'
+[10.209s] DEBUG:colcon.colcon_core.verb:Building package 'arm_controller' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/dihim/me326_ws/build/arm_controller', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/dihim/me326_ws/install/arm_controller', 'merge_install': False, 'path': '/home/dihim/me326_ws/src/arm_controller', 'symlink_install': False, 'test_result_base': None}
+[10.403s] Level 5:colcon.colcon_core.verb:set package 'la_msgs' build argument 'cmake_args' from command line to 'None'
+[10.403s] Level 5:colcon.colcon_core.verb:set package 'la_msgs' build argument 'cmake_target' from command line to 'None'
+[10.403s] Level 5:colcon.colcon_core.verb:set package 'la_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[10.403s] Level 5:colcon.colcon_core.verb:set package 'la_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[10.403s] Level 5:colcon.colcon_core.verb:set package 'la_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[10.403s] Level 5:colcon.colcon_core.verb:set package 'la_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[10.403s] Level 5:colcon.colcon_core.verb:set package 'la_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[10.403s] Level 5:colcon.colcon_core.verb:set package 'la_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[10.404s] Level 5:colcon.colcon_core.verb:set package 'la_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[10.404s] DEBUG:colcon.colcon_core.verb:Building package 'la_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/dihim/me326_ws/build/la_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/dihim/me326_ws/install/la_msgs', 'merge_install': False, 'path': '/home/dihim/me326_ws/src/la_msgs', 'symlink_install': False, 'test_result_base': None}
+[10.571s] Level 5:colcon.colcon_core.verb:set package 'locobot_controller' build argument 'cmake_args' from command line to 'None'
+[10.571s] Level 5:colcon.colcon_core.verb:set package 'locobot_controller' build argument 'cmake_target' from command line to 'None'
+[10.571s] Level 5:colcon.colcon_core.verb:set package 'locobot_controller' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[10.571s] Level 5:colcon.colcon_core.verb:set package 'locobot_controller' build argument 'cmake_clean_cache' from command line to 'False'
+[10.571s] Level 5:colcon.colcon_core.verb:set package 'locobot_controller' build argument 'cmake_clean_first' from command line to 'False'
+[10.571s] Level 5:colcon.colcon_core.verb:set package 'locobot_controller' build argument 'cmake_force_configure' from command line to 'False'
+[10.571s] Level 5:colcon.colcon_core.verb:set package 'locobot_controller' build argument 'ament_cmake_args' from command line to 'None'
+[10.571s] Level 5:colcon.colcon_core.verb:set package 'locobot_controller' build argument 'catkin_cmake_args' from command line to 'None'
+[10.572s] Level 5:colcon.colcon_core.verb:set package 'locobot_controller' build argument 'catkin_skip_building_tests' from command line to 'False'
+[10.572s] DEBUG:colcon.colcon_core.verb:Building package 'locobot_controller' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/dihim/me326_ws/build/locobot_controller', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/dihim/me326_ws/install/locobot_controller', 'merge_install': False, 'path': '/home/dihim/me326_ws/src/locobot_controller', 'symlink_install': False, 'test_result_base': None}
+[10.690s] Level 5:colcon.colcon_core.verb:set package 'locobot_yicheng' build argument 'cmake_args' from command line to 'None'
+[10.690s] Level 5:colcon.colcon_core.verb:set package 'locobot_yicheng' build argument 'cmake_target' from command line to 'None'
+[10.690s] Level 5:colcon.colcon_core.verb:set package 'locobot_yicheng' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[10.690s] Level 5:colcon.colcon_core.verb:set package 'locobot_yicheng' build argument 'cmake_clean_cache' from command line to 'False'
+[10.690s] Level 5:colcon.colcon_core.verb:set package 'locobot_yicheng' build argument 'cmake_clean_first' from command line to 'False'
+[10.690s] Level 5:colcon.colcon_core.verb:set package 'locobot_yicheng' build argument 'cmake_force_configure' from command line to 'False'
+[10.691s] Level 5:colcon.colcon_core.verb:set package 'locobot_yicheng' build argument 'ament_cmake_args' from command line to 'None'
+[10.691s] Level 5:colcon.colcon_core.verb:set package 'locobot_yicheng' build argument 'catkin_cmake_args' from command line to 'None'
+[10.691s] Level 5:colcon.colcon_core.verb:set package 'locobot_yicheng' build argument 'catkin_skip_building_tests' from command line to 'False'
+[10.691s] DEBUG:colcon.colcon_core.verb:Building package 'locobot_yicheng' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/dihim/me326_ws/build/locobot_yicheng', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/dihim/me326_ws/install/locobot_yicheng', 'merge_install': False, 'path': '/home/dihim/me326_ws/src/locobot_yicheng', 'symlink_install': False, 'test_result_base': None}
+[10.760s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[10.900s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[10.900s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/dihim/me326_ws/src/arm_controller' with build type 'ament_cmake'
+[10.900s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/dihim/me326_ws/src/arm_controller'
+[11.011s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[11.011s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[11.011s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[11.521s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/dihim/me326_ws/src/la_msgs' with build type 'ament_cmake'
+[11.521s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/dihim/me326_ws/src/la_msgs'
+[11.696s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[11.696s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[12.543s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/dihim/me326_ws/src/locobot_controller' with build type 'ament_python'
+[12.543s] Level 1:colcon.colcon_core.shell:create_environment_hook('locobot_controller', 'ament_prefix_path')
+[12.687s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dihim/me326_ws/install/locobot_controller/share/locobot_controller/hook/ament_prefix_path.ps1'
+[12.687s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dihim/me326_ws/install/locobot_controller/share/locobot_controller/hook/ament_prefix_path.dsv'
+[12.687s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dihim/me326_ws/install/locobot_controller/share/locobot_controller/hook/ament_prefix_path.sh'
+[12.851s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[12.871s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[13.529s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/dihim/me326_ws/src/locobot_yicheng' with build type 'ament_cmake'
+[13.529s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/dihim/me326_ws/src/locobot_yicheng'
+[13.705s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[13.705s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[14.234s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dihim/me326_ws/build/arm_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dihim/me326_ws/install/locobot_controller:/home/dihim/interbotix_ws/install/interbotix_xs_modules:/home/dihim/interbotix_ws/install/interbotix_perception_modules:/home/dihim/interbotix_ws/install/interbotix_common_modules:/opt/ros/galactic /usr/bin/cmake --build /home/dihim/me326_ws/build/arm_controller -- -j4 -l4
+[14.275s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dihim/me326_ws/build/la_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dihim/me326_ws/install/locobot_controller:/home/dihim/interbotix_ws/install/interbotix_xs_modules:/home/dihim/interbotix_ws/install/interbotix_perception_modules:/home/dihim/interbotix_ws/install/interbotix_common_modules:/opt/ros/galactic /usr/bin/cmake --build /home/dihim/me326_ws/build/la_msgs -- -j4 -l4
+[14.933s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/dihim/me326_ws/src/locobot_controller'
+[15.084s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[15.084s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[16.302s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dihim/me326_ws/build/locobot_yicheng': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dihim/me326_ws/install/locobot_controller:/home/dihim/interbotix_ws/install/interbotix_xs_modules:/home/dihim/interbotix_ws/install/interbotix_perception_modules:/home/dihim/interbotix_ws/install/interbotix_common_modules:/opt/ros/galactic /usr/bin/cmake --build /home/dihim/me326_ws/build/locobot_yicheng -- -j4 -l4
+[16.510s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/dihim/me326_ws/build/la_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dihim/me326_ws/install/locobot_controller:/home/dihim/interbotix_ws/install/interbotix_xs_modules:/home/dihim/interbotix_ws/install/interbotix_perception_modules:/home/dihim/interbotix_ws/install/interbotix_common_modules:/opt/ros/galactic /usr/bin/cmake --build /home/dihim/me326_ws/build/la_msgs -- -j4 -l4
+[16.669s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/dihim/me326_ws/build/locobot_yicheng' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dihim/me326_ws/install/locobot_controller:/home/dihim/interbotix_ws/install/interbotix_xs_modules:/home/dihim/interbotix_ws/install/interbotix_perception_modules:/home/dihim/interbotix_ws/install/interbotix_common_modules:/opt/ros/galactic /usr/bin/cmake --build /home/dihim/me326_ws/build/locobot_yicheng -- -j4 -l4
+[16.846s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dihim/me326_ws/build/locobot_yicheng': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dihim/me326_ws/install/locobot_controller:/home/dihim/interbotix_ws/install/interbotix_xs_modules:/home/dihim/interbotix_ws/install/interbotix_perception_modules:/home/dihim/interbotix_ws/install/interbotix_common_modules:/opt/ros/galactic /usr/bin/cmake --install /home/dihim/me326_ws/build/locobot_yicheng
+[16.965s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(locobot_yicheng)
+[16.965s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/dihim/me326_ws/build/locobot_yicheng' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dihim/me326_ws/install/locobot_controller:/home/dihim/interbotix_ws/install/interbotix_xs_modules:/home/dihim/interbotix_ws/install/interbotix_perception_modules:/home/dihim/interbotix_ws/install/interbotix_common_modules:/opt/ros/galactic /usr/bin/cmake --install /home/dihim/me326_ws/build/locobot_yicheng
+[17.111s] Level 1:colcon.colcon_core.environment:checking '/home/dihim/me326_ws/install/locobot_yicheng' for CMake module files
+[17.111s] Level 1:colcon.colcon_core.environment:checking '/home/dihim/me326_ws/install/locobot_yicheng' for CMake config files
+[17.111s] Level 1:colcon.colcon_core.shell:create_environment_hook('locobot_yicheng', 'cmake_prefix_path')
+[17.388s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dihim/me326_ws/install/locobot_yicheng/share/locobot_yicheng/hook/cmake_prefix_path.ps1'
+[17.390s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dihim/me326_ws/install/locobot_yicheng/share/locobot_yicheng/hook/cmake_prefix_path.dsv'
+[17.391s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dihim/me326_ws/install/locobot_yicheng/share/locobot_yicheng/hook/cmake_prefix_path.sh'
+[17.392s] Level 1:colcon.colcon_core.environment:checking '/home/dihim/me326_ws/install/locobot_yicheng/lib'
+[17.393s] Level 1:colcon.colcon_core.environment:checking '/home/dihim/me326_ws/install/locobot_yicheng/bin'
+[17.393s] Level 1:colcon.colcon_core.environment:checking '/home/dihim/me326_ws/install/locobot_yicheng/lib/pkgconfig/locobot_yicheng.pc'
+[17.394s] Level 1:colcon.colcon_core.environment:checking '/home/dihim/me326_ws/install/locobot_yicheng/lib/python3.8/site-packages'
+[17.394s] Level 1:colcon.colcon_core.environment:checking '/home/dihim/me326_ws/install/locobot_yicheng/bin'
+[17.600s] INFO:colcon.colcon_core.shell:Creating package script '/home/dihim/me326_ws/install/locobot_yicheng/share/locobot_yicheng/package.ps1'
+[17.601s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/dihim/me326_ws/install/locobot_yicheng/share/locobot_yicheng/package.dsv'
+[17.601s] INFO:colcon.colcon_core.shell:Creating package script '/home/dihim/me326_ws/install/locobot_yicheng/share/locobot_yicheng/package.sh'
+[17.602s] INFO:colcon.colcon_core.shell:Creating package script '/home/dihim/me326_ws/install/locobot_yicheng/share/locobot_yicheng/package.bash'
+[17.602s] INFO:colcon.colcon_core.shell:Creating package script '/home/dihim/me326_ws/install/locobot_yicheng/share/locobot_yicheng/package.zsh'
+[17.605s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/dihim/me326_ws/install/locobot_yicheng/share/colcon-core/packages/locobot_yicheng)
+[17.618s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dihim/me326_ws/src/locobot_controller': PYTHONPATH=/home/dihim/me326_ws/build/locobot_controller/prefix_override:/home/dihim/me326_ws/install/locobot_controller/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/locobot_controller build --build-base /home/dihim/me326_ws/build/locobot_controller/build install --record /home/dihim/me326_ws/build/locobot_controller/install.log --single-version-externally-managed
+[17.891s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dihim/me326_ws/build/la_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dihim/me326_ws/install/locobot_controller:/home/dihim/interbotix_ws/install/interbotix_xs_modules:/home/dihim/interbotix_ws/install/interbotix_perception_modules:/home/dihim/interbotix_ws/install/interbotix_common_modules:/opt/ros/galactic /usr/bin/cmake --install /home/dihim/me326_ws/build/la_msgs
+[18.119s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(locobot_yicheng)
+[18.177s] Level 1:colcon.colcon_core.environment:checking '/home/dihim/me326_ws/install/locobot_yicheng' for CMake module files
+[18.177s] Level 1:colcon.colcon_core.environment:checking '/home/dihim/me326_ws/install/locobot_yicheng' for CMake config files
+[18.177s] Level 1:colcon.colcon_core.shell:create_environment_hook('locobot_yicheng', 'cmake_prefix_path')
+[18.235s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dihim/me326_ws/install/locobot_yicheng/share/locobot_yicheng/hook/cmake_prefix_path.ps1'
+[18.236s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dihim/me326_ws/install/locobot_yicheng/share/locobot_yicheng/hook/cmake_prefix_path.dsv'
+[18.236s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dihim/me326_ws/install/locobot_yicheng/share/locobot_yicheng/hook/cmake_prefix_path.sh'
+[18.237s] Level 1:colcon.colcon_core.environment:checking '/home/dihim/me326_ws/install/locobot_yicheng/lib'
+[18.237s] Level 1:colcon.colcon_core.environment:checking '/home/dihim/me326_ws/install/locobot_yicheng/bin'
+[18.237s] Level 1:colcon.colcon_core.environment:checking '/home/dihim/me326_ws/install/locobot_yicheng/lib/pkgconfig/locobot_yicheng.pc'
+[18.237s] Level 1:colcon.colcon_core.environment:checking '/home/dihim/me326_ws/install/locobot_yicheng/lib/python3.8/site-packages'
+[18.237s] Level 1:colcon.colcon_core.environment:checking '/home/dihim/me326_ws/install/locobot_yicheng/bin'
+[18.361s] INFO:colcon.colcon_core.shell:Creating package script '/home/dihim/me326_ws/install/locobot_yicheng/share/locobot_yicheng/package.ps1'
+[18.362s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/dihim/me326_ws/install/locobot_yicheng/share/locobot_yicheng/package.dsv'
+[18.362s] INFO:colcon.colcon_core.shell:Creating package script '/home/dihim/me326_ws/install/locobot_yicheng/share/locobot_yicheng/package.sh'
+[18.363s] INFO:colcon.colcon_core.shell:Creating package script '/home/dihim/me326_ws/install/locobot_yicheng/share/locobot_yicheng/package.bash'
+[18.365s] INFO:colcon.colcon_core.shell:Creating package script '/home/dihim/me326_ws/install/locobot_yicheng/share/locobot_yicheng/package.zsh'
+[18.366s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/dihim/me326_ws/install/locobot_yicheng/share/colcon-core/packages/locobot_yicheng)
+[18.368s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/dihim/me326_ws/src/locobot_controller' returned '0': PYTHONPATH=/home/dihim/me326_ws/build/locobot_controller/prefix_override:/home/dihim/me326_ws/install/locobot_controller/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/locobot_controller build --build-base /home/dihim/me326_ws/build/locobot_controller/build install --record /home/dihim/me326_ws/build/locobot_controller/install.log --single-version-externally-managed
+[18.553s] Level 1:colcon.colcon_core.environment:checking '/home/dihim/me326_ws/install/locobot_controller' for CMake module files
+[18.553s] Level 1:colcon.colcon_core.environment:checking '/home/dihim/me326_ws/install/locobot_controller' for CMake config files
+[18.554s] Level 1:colcon.colcon_core.environment:checking '/home/dihim/me326_ws/install/locobot_controller/lib'
+[18.554s] Level 1:colcon.colcon_core.environment:checking '/home/dihim/me326_ws/install/locobot_controller/bin'
+[18.554s] Level 1:colcon.colcon_core.environment:checking '/home/dihim/me326_ws/install/locobot_controller/lib/pkgconfig/locobot_controller.pc'
+[18.554s] Level 1:colcon.colcon_core.environment:checking '/home/dihim/me326_ws/install/locobot_controller/lib/python3.8/site-packages'
+[18.554s] Level 1:colcon.colcon_core.shell:create_environment_hook('locobot_controller', 'pythonpath')
+[18.613s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dihim/me326_ws/install/locobot_controller/share/locobot_controller/hook/pythonpath.ps1'
+[18.614s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dihim/me326_ws/install/locobot_controller/share/locobot_controller/hook/pythonpath.dsv'
+[18.614s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dihim/me326_ws/install/locobot_controller/share/locobot_controller/hook/pythonpath.sh'
+[18.614s] Level 1:colcon.colcon_core.environment:checking '/home/dihim/me326_ws/install/locobot_controller/bin'
+[18.614s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(locobot_controller)
+[18.824s] INFO:colcon.colcon_core.shell:Creating package script '/home/dihim/me326_ws/install/locobot_controller/share/locobot_controller/package.ps1'
+[18.824s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/dihim/me326_ws/install/locobot_controller/share/locobot_controller/package.dsv'
+[18.824s] INFO:colcon.colcon_core.shell:Creating package script '/home/dihim/me326_ws/install/locobot_controller/share/locobot_controller/package.sh'
+[18.825s] INFO:colcon.colcon_core.shell:Creating package script '/home/dihim/me326_ws/install/locobot_controller/share/locobot_controller/package.bash'
+[18.825s] INFO:colcon.colcon_core.shell:Creating package script '/home/dihim/me326_ws/install/locobot_controller/share/locobot_controller/package.zsh'
+[18.825s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/dihim/me326_ws/install/locobot_controller/share/colcon-core/packages/locobot_controller)
+[18.825s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(la_msgs)
+[18.826s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/dihim/me326_ws/build/la_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dihim/me326_ws/install/locobot_controller:/home/dihim/interbotix_ws/install/interbotix_xs_modules:/home/dihim/interbotix_ws/install/interbotix_perception_modules:/home/dihim/interbotix_ws/install/interbotix_common_modules:/opt/ros/galactic /usr/bin/cmake --install /home/dihim/me326_ws/build/la_msgs
+[18.946s] Level 1:colcon.colcon_core.environment:checking '/home/dihim/me326_ws/install/la_msgs' for CMake module files
+[18.946s] Level 1:colcon.colcon_core.environment:checking '/home/dihim/me326_ws/install/la_msgs' for CMake config files
+[18.946s] Level 1:colcon.colcon_core.shell:create_environment_hook('la_msgs', 'cmake_prefix_path')
+[19.025s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dihim/me326_ws/install/la_msgs/share/la_msgs/hook/cmake_prefix_path.ps1'
+[19.025s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dihim/me326_ws/install/la_msgs/share/la_msgs/hook/cmake_prefix_path.dsv'
+[19.026s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dihim/me326_ws/install/la_msgs/share/la_msgs/hook/cmake_prefix_path.sh'
+[19.026s] Level 1:colcon.colcon_core.environment:checking '/home/dihim/me326_ws/install/la_msgs/lib'
+[19.026s] Level 1:colcon.colcon_core.shell:create_environment_hook('la_msgs', 'ld_library_path_lib')
+[19.178s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dihim/me326_ws/install/la_msgs/share/la_msgs/hook/ld_library_path_lib.ps1'
+[19.178s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dihim/me326_ws/install/la_msgs/share/la_msgs/hook/ld_library_path_lib.dsv'
+[19.179s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dihim/me326_ws/install/la_msgs/share/la_msgs/hook/ld_library_path_lib.sh'
+[19.180s] Level 1:colcon.colcon_core.environment:checking '/home/dihim/me326_ws/install/la_msgs/bin'
+[19.181s] Level 1:colcon.colcon_core.environment:checking '/home/dihim/me326_ws/install/la_msgs/lib/pkgconfig/la_msgs.pc'
+[19.181s] Level 1:colcon.colcon_core.environment:checking '/home/dihim/me326_ws/install/la_msgs/lib/python3.8/site-packages'
+[19.181s] Level 1:colcon.colcon_core.shell:create_environment_hook('la_msgs', 'pythonpath')
+[19.342s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dihim/me326_ws/install/la_msgs/share/la_msgs/hook/pythonpath.ps1'
+[19.342s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dihim/me326_ws/install/la_msgs/share/la_msgs/hook/pythonpath.dsv'
+[19.343s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dihim/me326_ws/install/la_msgs/share/la_msgs/hook/pythonpath.sh'
+[19.343s] Level 1:colcon.colcon_core.environment:checking '/home/dihim/me326_ws/install/la_msgs/bin'
+[19.446s] INFO:colcon.colcon_core.shell:Creating package script '/home/dihim/me326_ws/install/la_msgs/share/la_msgs/package.ps1'
+[19.447s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/dihim/me326_ws/install/la_msgs/share/la_msgs/package.dsv'
+[19.448s] INFO:colcon.colcon_core.shell:Creating package script '/home/dihim/me326_ws/install/la_msgs/share/la_msgs/package.sh'
+[19.449s] INFO:colcon.colcon_core.shell:Creating package script '/home/dihim/me326_ws/install/la_msgs/share/la_msgs/package.bash'
+[19.449s] INFO:colcon.colcon_core.shell:Creating package script '/home/dihim/me326_ws/install/la_msgs/share/la_msgs/package.zsh'
+[19.449s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/dihim/me326_ws/install/la_msgs/share/colcon-core/packages/la_msgs)
+[20.357s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(la_msgs)
+[20.512s] Level 1:colcon.colcon_core.environment:checking '/home/dihim/me326_ws/install/la_msgs' for CMake module files
+[20.512s] Level 1:colcon.colcon_core.environment:checking '/home/dihim/me326_ws/install/la_msgs' for CMake config files
+[20.513s] Level 1:colcon.colcon_core.shell:create_environment_hook('la_msgs', 'cmake_prefix_path')
+[20.701s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dihim/me326_ws/install/la_msgs/share/la_msgs/hook/cmake_prefix_path.ps1'
+[20.702s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dihim/me326_ws/install/la_msgs/share/la_msgs/hook/cmake_prefix_path.dsv'
+[20.702s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dihim/me326_ws/install/la_msgs/share/la_msgs/hook/cmake_prefix_path.sh'
+[20.702s] Level 1:colcon.colcon_core.environment:checking '/home/dihim/me326_ws/install/la_msgs/lib'
+[20.702s] Level 1:colcon.colcon_core.shell:create_environment_hook('la_msgs', 'ld_library_path_lib')
+[20.775s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dihim/me326_ws/install/la_msgs/share/la_msgs/hook/ld_library_path_lib.ps1'
+[20.775s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dihim/me326_ws/install/la_msgs/share/la_msgs/hook/ld_library_path_lib.dsv'
+[20.775s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dihim/me326_ws/install/la_msgs/share/la_msgs/hook/ld_library_path_lib.sh'
+[20.777s] Level 1:colcon.colcon_core.environment:checking '/home/dihim/me326_ws/install/la_msgs/bin'
+[20.777s] Level 1:colcon.colcon_core.environment:checking '/home/dihim/me326_ws/install/la_msgs/lib/pkgconfig/la_msgs.pc'
+[20.777s] Level 1:colcon.colcon_core.environment:checking '/home/dihim/me326_ws/install/la_msgs/lib/python3.8/site-packages'
+[20.777s] Level 1:colcon.colcon_core.shell:create_environment_hook('la_msgs', 'pythonpath')
+[21.024s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dihim/me326_ws/install/la_msgs/share/la_msgs/hook/pythonpath.ps1'
+[21.026s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dihim/me326_ws/install/la_msgs/share/la_msgs/hook/pythonpath.dsv'
+[21.027s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dihim/me326_ws/install/la_msgs/share/la_msgs/hook/pythonpath.sh'
+[21.028s] Level 1:colcon.colcon_core.environment:checking '/home/dihim/me326_ws/install/la_msgs/bin'
+[21.100s] INFO:colcon.colcon_core.shell:Creating package script '/home/dihim/me326_ws/install/la_msgs/share/la_msgs/package.ps1'
+[21.101s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/dihim/me326_ws/install/la_msgs/share/la_msgs/package.dsv'
+[21.101s] INFO:colcon.colcon_core.shell:Creating package script '/home/dihim/me326_ws/install/la_msgs/share/la_msgs/package.sh'
+[21.101s] INFO:colcon.colcon_core.shell:Creating package script '/home/dihim/me326_ws/install/la_msgs/share/la_msgs/package.bash'
+[21.101s] INFO:colcon.colcon_core.shell:Creating package script '/home/dihim/me326_ws/install/la_msgs/share/la_msgs/package.zsh'
+[21.101s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/dihim/me326_ws/install/la_msgs/share/colcon-core/packages/la_msgs)
+[34.741s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/dihim/me326_ws/build/arm_controller' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dihim/me326_ws/install/locobot_controller:/home/dihim/interbotix_ws/install/interbotix_xs_modules:/home/dihim/interbotix_ws/install/interbotix_perception_modules:/home/dihim/interbotix_ws/install/interbotix_common_modules:/opt/ros/galactic /usr/bin/cmake --build /home/dihim/me326_ws/build/arm_controller -- -j4 -l4
+[35.596s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(arm_controller)
+[35.736s] Level 1:colcon.colcon_core.environment:checking '/home/dihim/me326_ws/install/arm_controller' for CMake module files
+[35.739s] Level 1:colcon.colcon_core.environment:checking '/home/dihim/me326_ws/install/arm_controller' for CMake config files
+[35.752s] Level 1:colcon.colcon_core.shell:create_environment_hook('arm_controller', 'cmake_prefix_path')
+[35.960s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dihim/me326_ws/install/arm_controller/share/arm_controller/hook/cmake_prefix_path.ps1'
+[35.977s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dihim/me326_ws/install/arm_controller/share/arm_controller/hook/cmake_prefix_path.dsv'
+[35.979s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dihim/me326_ws/install/arm_controller/share/arm_controller/hook/cmake_prefix_path.sh'
+[35.980s] Level 1:colcon.colcon_core.environment:checking '/home/dihim/me326_ws/install/arm_controller/lib'
+[35.980s] Level 1:colcon.colcon_core.environment:checking '/home/dihim/me326_ws/install/arm_controller/bin'
+[35.980s] Level 1:colcon.colcon_core.environment:checking '/home/dihim/me326_ws/install/arm_controller/lib/pkgconfig/arm_controller.pc'
+[35.981s] Level 1:colcon.colcon_core.environment:checking '/home/dihim/me326_ws/install/arm_controller/lib/python3.8/site-packages'
+[35.981s] Level 1:colcon.colcon_core.environment:checking '/home/dihim/me326_ws/install/arm_controller/bin'
+[36.197s] INFO:colcon.colcon_core.shell:Creating package script '/home/dihim/me326_ws/install/arm_controller/share/arm_controller/package.ps1'
+[36.200s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/dihim/me326_ws/install/arm_controller/share/arm_controller/package.dsv'
+[36.202s] INFO:colcon.colcon_core.shell:Creating package script '/home/dihim/me326_ws/install/arm_controller/share/arm_controller/package.sh'
+[36.203s] INFO:colcon.colcon_core.shell:Creating package script '/home/dihim/me326_ws/install/arm_controller/share/arm_controller/package.bash'
+[36.204s] INFO:colcon.colcon_core.shell:Creating package script '/home/dihim/me326_ws/install/arm_controller/share/arm_controller/package.zsh'
+[36.205s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/dihim/me326_ws/install/arm_controller/share/colcon-core/packages/arm_controller)
+[36.206s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[36.207s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[36.208s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '2'
+[36.208s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[36.467s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[36.467s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[36.467s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[36.488s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[36.602s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/dihim/me326_ws/install/local_setup.ps1'
+[36.606s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/dihim/me326_ws/install/_local_setup_util_ps1.py'
+[36.607s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/dihim/me326_ws/install/setup.ps1'
+[36.711s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/dihim/me326_ws/install/local_setup.sh'
+[36.712s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/dihim/me326_ws/install/_local_setup_util_sh.py'
+[36.712s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/dihim/me326_ws/install/setup.sh'
+[36.852s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/dihim/me326_ws/install/local_setup.bash'
+[36.853s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/dihim/me326_ws/install/setup.bash'
+[37.005s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/dihim/me326_ws/install/local_setup.zsh'
+[37.005s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/dihim/me326_ws/install/setup.zsh'

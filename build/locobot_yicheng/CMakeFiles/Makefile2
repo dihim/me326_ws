@@ -44,10 +44,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/yicheng/me326_ws/src/locobot_yicheng
+CMAKE_SOURCE_DIR = /home/dihim/me326_ws/src/locobot_yicheng
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/yicheng/me326_ws/build/locobot_yicheng
+CMAKE_BINARY_DIR = /home/dihim/me326_ws/build/locobot_yicheng
 
 #=============================================================================
 # Directory level rules for the build root directory
@@ -75,14 +75,14 @@ clean: CMakeFiles/uninstall.dir/clean
 CMakeFiles/locobot_yicheng_uninstall.dir/all:
 	$(MAKE) -f CMakeFiles/locobot_yicheng_uninstall.dir/build.make CMakeFiles/locobot_yicheng_uninstall.dir/depend
 	$(MAKE) -f CMakeFiles/locobot_yicheng_uninstall.dir/build.make CMakeFiles/locobot_yicheng_uninstall.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/yicheng/me326_ws/build/locobot_yicheng/CMakeFiles --progress-num= "Built target locobot_yicheng_uninstall"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/dihim/me326_ws/build/locobot_yicheng/CMakeFiles --progress-num= "Built target locobot_yicheng_uninstall"
 .PHONY : CMakeFiles/locobot_yicheng_uninstall.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/locobot_yicheng_uninstall.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/yicheng/me326_ws/build/locobot_yicheng/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/dihim/me326_ws/build/locobot_yicheng/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/locobot_yicheng_uninstall.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/yicheng/me326_ws/build/locobot_yicheng/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/dihim/me326_ws/build/locobot_yicheng/CMakeFiles 0
 .PHONY : CMakeFiles/locobot_yicheng_uninstall.dir/rule
 
 # Convenience name for target.
@@ -102,14 +102,14 @@ CMakeFiles/locobot_yicheng_uninstall.dir/clean:
 CMakeFiles/uninstall.dir/all: CMakeFiles/locobot_yicheng_uninstall.dir/all
 	$(MAKE) -f CMakeFiles/uninstall.dir/build.make CMakeFiles/uninstall.dir/depend
 	$(MAKE) -f CMakeFiles/uninstall.dir/build.make CMakeFiles/uninstall.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/yicheng/me326_ws/build/locobot_yicheng/CMakeFiles --progress-num= "Built target uninstall"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/dihim/me326_ws/build/locobot_yicheng/CMakeFiles --progress-num= "Built target uninstall"
 .PHONY : CMakeFiles/uninstall.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/uninstall.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/yicheng/me326_ws/build/locobot_yicheng/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/dihim/me326_ws/build/locobot_yicheng/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/uninstall.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/yicheng/me326_ws/build/locobot_yicheng/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/dihim/me326_ws/build/locobot_yicheng/CMakeFiles 0
 .PHONY : CMakeFiles/uninstall.dir/rule
 
 # Convenience name for target.

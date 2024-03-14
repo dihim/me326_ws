@@ -1,0 +1,5 @@
+  File "/home/dihim/me326_ws/install/locobot_controller/lib/python3.8/site-packages/locobot_controller/locobot_controller.py", line 37
+    cy = int(M["m01"]/M["mOO"})
+                             ^
+SyntaxError: closing parenthesis '}' does not match opening parenthesis '['
+

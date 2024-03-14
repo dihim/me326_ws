@@ -1,0 +1,31 @@
+[35m[1mScanning dependencies of target arm_controller[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/arm_controller.dir/src/moveit_interface.cpp.o[0m
+[01m[K/home/dihim/me326_ws/src/arm_controller/src/moveit_interface.cpp:[m[K In member function ‘[01m[Kvoid MyNode::pick_callback(geometry_msgs::msg::PoseStamped) const[m[K’:
+[01m[K/home/dihim/me326_ws/src/arm_controller/src/moveit_interface.cpp:67:26:[m[K [01;31m[Kerror: [m[K‘[01m[Knode[m[K’ was not declared in this scope; did you mean ‘[01m[KNode[m[K’?
+   67 |         auto publisher = [01;31m[Knode[m[K->create_publisher<std_msgs::msg::Bool>("pick_block_response", 10);
+      |                          [01;31m[K^~~~[m[K
+      |                          [32m[KNode[m[K
+[01m[K/home/dihim/me326_ws/src/arm_controller/src/moveit_interface.cpp:67:68:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K>[m[K’ token
+   67 |   auto publisher = node->create_publisher<std_msgs::msg::Bool[01;31m[K>[m[K("pick_block_response", 10);
+      |                                                              [01;31m[K^[m[K
+
+[01m[K/home/dihim/me326_ws/src/arm_controller/src/moveit_interface.cpp:67:70:[m[K [01;35m[Kwarning: [m[Kleft operand of comma operator has no effect [[01;35m[K-Wunused-value[m[K]
+   67 | auto publisher = node->create_publisher<std_msgs::msg::Bool>([01;35m[K"pick_block_response"[m[K, 10);
+      |                                                              [01;35m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+
+[01m[K/home/dihim/me326_ws/src/arm_controller/src/moveit_interface.cpp:[m[K In member function ‘[01m[Kvoid MyNode::drop_callback(geometry_msgs::msg::PoseStamped) const[m[K’:
+[01m[K/home/dihim/me326_ws/src/arm_controller/src/moveit_interface.cpp:87:26:[m[K [01;31m[Kerror: [m[K‘[01m[Knode[m[K’ was not declared in this scope; did you mean ‘[01m[KNode[m[K’?
+   87 |         auto publisher = [01;31m[Knode[m[K->create_publisher<std_msgs::msg::Bool>("drop_block_response", 10);
+      |                          [01;31m[K^~~~[m[K
+      |                          [32m[KNode[m[K
+[01m[K/home/dihim/me326_ws/src/arm_controller/src/moveit_interface.cpp:87:68:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K>[m[K’ token
+   87 |   auto publisher = node->create_publisher<std_msgs::msg::Bool[01;31m[K>[m[K("drop_block_response", 10);
+      |                                                              [01;31m[K^[m[K
+
+[01m[K/home/dihim/me326_ws/src/arm_controller/src/moveit_interface.cpp:87:70:[m[K [01;35m[Kwarning: [m[Kleft operand of comma operator has no effect [[01;35m[K-Wunused-value[m[K]
+   87 | auto publisher = node->create_publisher<std_msgs::msg::Bool>([01;35m[K"drop_block_response"[m[K, 10);
+      |                                                              [01;35m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+
+make[2]: *** [CMakeFiles/arm_controller.dir/build.make:63: CMakeFiles/arm_controller.dir/src/moveit_interface.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/arm_controller.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2
