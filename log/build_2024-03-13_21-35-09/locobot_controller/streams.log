@@ -1,0 +1,27 @@
+[5.074s] Invoking command in '/home/dihim/me326_ws/src/locobot_controller': PYTHONPATH=/home/dihim/me326_ws/build/locobot_controller/prefix_override:/home/dihim/me326_ws/install/locobot_controller/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/locobot_controller build --build-base /home/dihim/me326_ws/build/locobot_controller/build install --record /home/dihim/me326_ws/build/locobot_controller/install.log --single-version-externally-managed
+[5.313s] running egg_info
+[5.315s] writing ../../build/locobot_controller/locobot_controller.egg-info/PKG-INFO
+[5.318s] writing dependency_links to ../../build/locobot_controller/locobot_controller.egg-info/dependency_links.txt
+[5.318s] writing entry points to ../../build/locobot_controller/locobot_controller.egg-info/entry_points.txt
+[5.318s] writing requirements to ../../build/locobot_controller/locobot_controller.egg-info/requires.txt
+[5.318s] writing top-level names to ../../build/locobot_controller/locobot_controller.egg-info/top_level.txt
+[5.365s] reading manifest file '../../build/locobot_controller/locobot_controller.egg-info/SOURCES.txt'
+[5.379s] writing manifest file '../../build/locobot_controller/locobot_controller.egg-info/SOURCES.txt'
+[5.380s] running build
+[5.380s] running build_py
+[5.386s] running install
+[5.388s] running install_lib
+[5.388s] byte-compiling /home/dihim/me326_ws/install/locobot_controller/lib/python3.8/site-packages/locobot_controller/locobot_controller.py to locobot_controller.cpython-38.pyc
+[5.390s]   File "/home/dihim/me326_ws/install/locobot_controller/lib/python3.8/site-packages/locobot_controller/locobot_controller.py", line 37
+[5.390s]     cy = int(M["m01"]/M["mOO"})
+[5.390s]                              ^
+[5.390s] SyntaxError: closing parenthesis '}' does not match opening parenthesis '['
+[5.390s] 
+[5.390s] running install_data
+[5.390s] running install_egg_info
+[5.390s] removing '/home/dihim/me326_ws/install/locobot_controller/lib/python3.8/site-packages/locobot_controller-0.0.0-py3.8.egg-info' (and everything under it)
+[5.391s] Copying ../../build/locobot_controller/locobot_controller.egg-info to /home/dihim/me326_ws/install/locobot_controller/lib/python3.8/site-packages/locobot_controller-0.0.0-py3.8.egg-info
+[5.391s] running install_scripts
+[5.423s] Installing locobot_controller script to /home/dihim/me326_ws/install/locobot_controller/lib/locobot_controller
+[5.423s] writing list of installed files to '/home/dihim/me326_ws/build/locobot_controller/install.log'
+[5.825s] Invoked command in '/home/dihim/me326_ws/src/locobot_controller' returned '0': PYTHONPATH=/home/dihim/me326_ws/build/locobot_controller/prefix_override:/home/dihim/me326_ws/install/locobot_controller/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/locobot_controller build --build-base /home/dihim/me326_ws/build/locobot_controller/build install --record /home/dihim/me326_ws/build/locobot_controller/install.log --single-version-externally-managed

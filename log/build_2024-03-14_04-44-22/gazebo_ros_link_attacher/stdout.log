@@ -1,0 +1,16 @@
+[  8%] Built target gazebo_ros_link_attacher__rosidl_generator_c
+[ 11%] Built target gazebo_ros_link_attacher__cpp
+[ 20%] Built target gazebo_ros_link_attacher__rosidl_typesupport_introspection_cpp
+[ 28%] Built target gazebo_ros_link_attacher__rosidl_typesupport_introspection_c
+[ 37%] Built target gazebo_ros_link_attacher__rosidl_typesupport_c
+[ 45%] Built target gazebo_ros_link_attacher__rosidl_typesupport_fastrtps_cpp
+[ 54%] Built target gazebo_ros_link_attacher__rosidl_typesupport_cpp
+[ 62%] Built target gazebo_ros_link_attacher__rosidl_typesupport_fastrtps_c
+[ 62%] Built target gazebo_ros_link_attacher
+[ 65%] Built target gazebo_ros_link_attacher__py
+[ 71%] Built target gazebo_ros_link_attacher__python
+[ 77%] Built target gazebo_ros_link_attacher_plugin
+[ 82%] Built target gazebo_ros_link_attacher__rosidl_typesupport_c__pyext
+[ 88%] Built target gazebo_ros_link_attacher__rosidl_typesupport_introspection_c__pyext
+[ 94%] Built target gazebo_ros_link_attacher__rosidl_typesupport_fastrtps_c__pyext
+[ 97%] [32m[1mLinking CXX executable gazebo_ros_link_attacher_node[0m

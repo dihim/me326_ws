@@ -1,0 +1,15 @@
+[3.034s] Invoking command in '/home/dihim/me326_ws/build/la_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dihim/me326_ws/install/locobot_controller:/home/dihim/interbotix_ws/install/interbotix_xs_modules:/home/dihim/interbotix_ws/install/interbotix_perception_modules:/home/dihim/interbotix_ws/install/interbotix_common_modules:/opt/ros/galactic /usr/bin/cmake --build /home/dihim/me326_ws/build/la_msgs -- -j4 -l4
+[5.071s] [  2%] Built target la_msgs__cpp
+[5.071s] [ 12%] Built target la_msgs__rosidl_generator_c
+[5.071s] [ 23%] Built target la_msgs__rosidl_typesupport_fastrtps_cpp
+[5.071s] [ 33%] Built target la_msgs__rosidl_typesupport_c
+[5.071s] [ 43%] Built target la_msgs__rosidl_typesupport_introspection_c
+[5.071s] [ 53%] Built target la_msgs__rosidl_typesupport_fastrtps_c
+[5.071s] [ 64%] Built target la_msgs__rosidl_typesupport_introspection_cpp
+[5.071s] [ 74%] Built target la_msgs__rosidl_typesupport_cpp
+[5.071s] [ 74%] Built target la_msgs
+[5.145s] [ 76%] Built target la_msgs__py
+[5.407s] [ 84%] Built target la_msgs__python
+[5.575s] [ 89%] Built target la_msgs__rosidl_typesupport_c__pyext
+[5.814s] [ 94%] Built target la_msgs__rosidl_typesupport_fastrtps_c__pyext
+[6.142s] [100%] Built target la_msgs__rosidl_typesupport_introspection_c__pyext

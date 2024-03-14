@@ -1,0 +1,64 @@
+[0.551s] Invoking command in '/home/dihim/me326_ws/build/gazebo_ros_link_attacher': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dihim/interbotix_ws/install/interbotix_xs_modules:/home/dihim/interbotix_ws/install/interbotix_perception_modules:/home/dihim/interbotix_ws/install/interbotix_common_modules:/opt/ros/galactic /usr/bin/cmake --build /home/dihim/me326_ws/build/gazebo_ros_link_attacher -- -j4 -l4
+[0.951s] [35m[1mScanning dependencies of target gazebo_ros_link_attacher__cpp[0m
+[0.951s] [  3%] [34m[1mGenerating C code for ROS interfaces[0m
+[0.951s] [  6%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[0.951s] [35m[1mScanning dependencies of target gazebo_ros_link_attacher__rosidl_generator_c[0m
+[0.951s] [  6%] Built target gazebo_ros_link_attacher__cpp
+[0.951s] [  9%] [32mBuilding C object CMakeFiles/gazebo_ros_link_attacher__rosidl_generator_c.dir/rosidl_generator_c/gazebo_ros_link_attacher/srv/detail/attach__functions.c.o[0m
+[0.951s] [ 12%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[0.951s] [ 15%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[0.952s] [ 18%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[0.952s] [ 21%] [32m[1mLinking C shared library libgazebo_ros_link_attacher__rosidl_generator_c.so[0m
+[0.979s] [35m[1mScanning dependencies of target gazebo_ros_link_attacher__rosidl_typesupport_cpp[0m
+[1.027s] [ 24%] [32mBuilding CXX object CMakeFiles/gazebo_ros_link_attacher__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/gazebo_ros_link_attacher/srv/attach__type_support.cpp.o[0m
+[1.041s] [ 24%] Built target gazebo_ros_link_attacher__rosidl_generator_c
+[1.055s] [ 27%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[1.072s] [35m[1mScanning dependencies of target gazebo_ros_link_attacher__rosidl_typesupport_fastrtps_cpp[0m
+[1.100s] [35m[1mScanning dependencies of target gazebo_ros_link_attacher__rosidl_typesupport_introspection_cpp[0m
+[1.129s] [ 30%] [32mBuilding CXX object CMakeFiles/gazebo_ros_link_attacher__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/gazebo_ros_link_attacher/srv/detail/dds_fastrtps/attach__type_support.cpp.o[0m
+[1.159s] [ 33%] [32mBuilding CXX object CMakeFiles/gazebo_ros_link_attacher__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/gazebo_ros_link_attacher/srv/detail/attach__type_support.cpp.o[0m
+[1.258s] [ 36%] [32m[1mLinking CXX shared library libgazebo_ros_link_attacher__rosidl_typesupport_cpp.so[0m
+[1.471s] [ 36%] Built target gazebo_ros_link_attacher__rosidl_typesupport_cpp
+[1.471s] [35m[1mScanning dependencies of target gazebo_ros_link_attacher__rosidl_typesupport_introspection_c[0m
+[1.528s] [ 39%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[1.560s] [ 42%] [32mBuilding C object CMakeFiles/gazebo_ros_link_attacher__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/gazebo_ros_link_attacher/srv/detail/attach__type_support.c.o[0m
+[1.573s] [ 45%] [32m[1mLinking CXX shared library libgazebo_ros_link_attacher__rosidl_typesupport_introspection_cpp.so[0m
+[1.614s] [ 48%] [32m[1mLinking C shared library libgazebo_ros_link_attacher__rosidl_typesupport_introspection_c.so[0m
+[1.681s] [ 51%] [32m[1mLinking CXX shared library libgazebo_ros_link_attacher__rosidl_typesupport_fastrtps_cpp.so[0m
+[1.703s] [ 51%] Built target gazebo_ros_link_attacher__rosidl_typesupport_introspection_cpp
+[1.706s] [35m[1mScanning dependencies of target gazebo_ros_link_attacher__rosidl_typesupport_c[0m
+[1.736s] [ 51%] Built target gazebo_ros_link_attacher__rosidl_typesupport_introspection_c
+[1.782s] [ 54%] [32mBuilding CXX object CMakeFiles/gazebo_ros_link_attacher__rosidl_typesupport_c.dir/rosidl_typesupport_c/gazebo_ros_link_attacher/srv/attach__type_support.cpp.o[0m
+[1.826s] [ 54%] Built target gazebo_ros_link_attacher__rosidl_typesupport_fastrtps_cpp
+[1.842s] [ 57%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[1.846s] [ 60%] [32m[1mLinking CXX shared library libgazebo_ros_link_attacher__rosidl_typesupport_c.so[0m
+[1.974s] [ 60%] Built target gazebo_ros_link_attacher__rosidl_typesupport_c
+[2.103s] [35m[1mScanning dependencies of target gazebo_ros_link_attacher__rosidl_typesupport_fastrtps_c[0m
+[2.132s] [ 63%] [32mBuilding CXX object CMakeFiles/gazebo_ros_link_attacher__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/gazebo_ros_link_attacher/srv/detail/attach__type_support_c.cpp.o[0m
+[2.350s] [ 66%] [32m[1mLinking CXX shared library libgazebo_ros_link_attacher__rosidl_typesupport_fastrtps_c.so[0m
+[2.398s] [ 66%] Built target gazebo_ros_link_attacher__rosidl_typesupport_fastrtps_c
+[2.403s] [35m[1mScanning dependencies of target gazebo_ros_link_attacher[0m
+[2.410s] [ 66%] Built target gazebo_ros_link_attacher
+[2.416s] [35m[1mScanning dependencies of target gazebo_ros_link_attacher__py[0m
+[2.425s] [35m[1mScanning dependencies of target gazebo_ros_link_attacher_plugin[0m
+[2.430s] [ 69%] [34m[1mGenerating Python code for ROS interfaces[0m
+[2.717s] [ 72%] [32mBuilding CXX object CMakeFiles/gazebo_ros_link_attacher_plugin.dir/src/gazebo_ros_link_attacher.cpp.o[0m
+[2.862s] [ 72%] Built target gazebo_ros_link_attacher__py
+[2.882s] [35m[1mScanning dependencies of target gazebo_ros_link_attacher__python[0m
+[2.949s] [ 75%] [32mBuilding C object CMakeFiles/gazebo_ros_link_attacher__python.dir/rosidl_generator_py/gazebo_ros_link_attacher/srv/_attach_s.c.o[0m
+[3.055s] [ 78%] [32m[1mLinking C shared library rosidl_generator_py/gazebo_ros_link_attacher/libgazebo_ros_link_attacher__python.so[0m
+[3.089s] [ 78%] Built target gazebo_ros_link_attacher__python
+[3.111s] [35m[1mScanning dependencies of target gazebo_ros_link_attacher__rosidl_typesupport_c__pyext[0m
+[3.162s] [ 81%] [32mBuilding C object CMakeFiles/gazebo_ros_link_attacher__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/gazebo_ros_link_attacher/_gazebo_ros_link_attacher_s.ep.rosidl_typesupport_c.c.o[0m
+[3.168s] [35m[1mScanning dependencies of target gazebo_ros_link_attacher__rosidl_typesupport_fastrtps_c__pyext[0m
+[3.168s] [35m[1mScanning dependencies of target gazebo_ros_link_attacher__rosidl_typesupport_introspection_c__pyext[0m
+[3.210s] [ 84%] [32mBuilding C object CMakeFiles/gazebo_ros_link_attacher__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/gazebo_ros_link_attacher/_gazebo_ros_link_attacher_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[3.222s] [ 87%] [32mBuilding C object CMakeFiles/gazebo_ros_link_attacher__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/gazebo_ros_link_attacher/_gazebo_ros_link_attacher_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[3.355s] [ 90%] [32m[1mLinking C shared library rosidl_generator_py/gazebo_ros_link_attacher/gazebo_ros_link_attacher_s__rosidl_typesupport_c.cpython-38-aarch64-linux-gnu.so[0m
+[3.360s] [ 93%] [32m[1mLinking CXX shared library rosidl_generator_py/gazebo_ros_link_attacher/gazebo_ros_link_attacher_s__rosidl_typesupport_fastrtps_c.cpython-38-aarch64-linux-gnu.so[0m
+[3.372s] [ 96%] [32m[1mLinking C shared library rosidl_generator_py/gazebo_ros_link_attacher/gazebo_ros_link_attacher_s__rosidl_typesupport_introspection_c.cpython-38-aarch64-linux-gnu.so[0m
+[3.435s] [ 96%] Built target gazebo_ros_link_attacher__rosidl_typesupport_c__pyext
+[3.441s] [ 96%] Built target gazebo_ros_link_attacher__rosidl_typesupport_introspection_c__pyext
+[3.447s] [ 96%] Built target gazebo_ros_link_attacher__rosidl_typesupport_fastrtps_c__pyext
+[9.100s] [100%] [32m[1mLinking CXX shared library libgazebo_ros_link_attacher_plugin.so[0m
+[9.701s] [100%] Built target gazebo_ros_link_attacher_plugin

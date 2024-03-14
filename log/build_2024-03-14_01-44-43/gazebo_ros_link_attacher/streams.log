@@ -1,0 +1,21 @@
+[0.577s] Invoking command in '/home/dihim/me326_ws/build/gazebo_ros_link_attacher': /usr/bin/cmake /home/dihim/me326_ws/src/gazebo_ros_link_attacher -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/dihim/me326_ws/install/gazebo_ros_link_attacher
+[0.884s] -- Configuring incomplete, errors occurred!
+[0.884s] See also "/home/dihim/me326_ws/build/gazebo_ros_link_attacher/CMakeFiles/CMakeOutput.log".
+[0.887s] CMake Error at CMakeLists.txt:20 (find_package):
+[0.887s]   By not providing "Findcatkin.cmake" in CMAKE_MODULE_PATH this project has
+[0.887s]   asked CMake to find a package configuration file provided by "catkin", but
+[0.888s]   CMake did not find one.
+[0.888s] 
+[0.888s]   Could not find a package configuration file provided by "catkin" with any
+[0.888s]   of the following names:
+[0.889s] 
+[0.889s]     catkinConfig.cmake
+[0.889s]     catkin-config.cmake
+[0.889s] 
+[0.890s]   Add the installation prefix of "catkin" to CMAKE_PREFIX_PATH or set
+[0.890s]   "catkin_DIR" to a directory containing one of the above files.  If "catkin"
+[0.890s]   provides a separate development package or SDK, be sure it has been
+[0.890s]   installed.
+[0.890s] 
+[0.890s] 
+[0.894s] Invoked command in '/home/dihim/me326_ws/build/gazebo_ros_link_attacher' returned '1': /usr/bin/cmake /home/dihim/me326_ws/src/gazebo_ros_link_attacher -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/dihim/me326_ws/install/gazebo_ros_link_attacher

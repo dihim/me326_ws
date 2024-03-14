@@ -1,0 +1,30 @@
+[35m[1mScanning dependencies of target arm_controller[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/arm_controller.dir/src/moveit_interface.cpp.o[0m
+[ 66%] [32m[1mLinking CXX executable arm_controller[0m
+[100%] Built target arm_controller
+-- Install configuration: ""
+-- Installing: /home/dihim/me326_ws/install/arm_controller/lib/arm_controller/arm_controller
+-- Set runtime path of "/home/dihim/me326_ws/install/arm_controller/lib/arm_controller/arm_controller" to ""
+-- Installing: /home/dihim/me326_ws/install/arm_controller/lib/arm_controller/moveit_interface_gui
+-- Installing: /home/dihim/me326_ws/install/arm_controller/share/arm_controller//launch
+-- Installing: /home/dihim/me326_ws/install/arm_controller/share/arm_controller//launch/spawn_blocks.py
+-- Installing: /home/dihim/me326_ws/install/arm_controller/share/arm_controller/model
+-- Installing: /home/dihim/me326_ws/install/arm_controller/share/arm_controller/model/blue_cube.urdf
+-- Installing: /home/dihim/me326_ws/install/arm_controller/share/arm_controller/model/yellow_cube.urdf
+-- Installing: /home/dihim/me326_ws/install/arm_controller/share/arm_controller/model/red_cube.urdf
+-- Installing: /home/dihim/me326_ws/install/arm_controller/share/arm_controller/model/green_cube.urdf
+-- Installing: /home/dihim/me326_ws/install/arm_controller/share/ament_index/resource_index/package_run_dependencies/arm_controller
+-- Installing: /home/dihim/me326_ws/install/arm_controller/share/ament_index/resource_index/parent_prefix_path/arm_controller
+-- Installing: /home/dihim/me326_ws/install/arm_controller/share/arm_controller/environment/ament_prefix_path.sh
+-- Installing: /home/dihim/me326_ws/install/arm_controller/share/arm_controller/environment/ament_prefix_path.dsv
+-- Installing: /home/dihim/me326_ws/install/arm_controller/share/arm_controller/environment/path.sh
+-- Installing: /home/dihim/me326_ws/install/arm_controller/share/arm_controller/environment/path.dsv
+-- Installing: /home/dihim/me326_ws/install/arm_controller/share/arm_controller/local_setup.bash
+-- Installing: /home/dihim/me326_ws/install/arm_controller/share/arm_controller/local_setup.sh
+-- Installing: /home/dihim/me326_ws/install/arm_controller/share/arm_controller/local_setup.zsh
+-- Installing: /home/dihim/me326_ws/install/arm_controller/share/arm_controller/local_setup.dsv
+-- Installing: /home/dihim/me326_ws/install/arm_controller/share/arm_controller/package.dsv
+-- Installing: /home/dihim/me326_ws/install/arm_controller/share/ament_index/resource_index/packages/arm_controller
+-- Installing: /home/dihim/me326_ws/install/arm_controller/share/arm_controller/cmake/arm_controllerConfig.cmake
+-- Installing: /home/dihim/me326_ws/install/arm_controller/share/arm_controller/cmake/arm_controllerConfig-version.cmake
+-- Installing: /home/dihim/me326_ws/install/arm_controller/share/arm_controller/package.xml

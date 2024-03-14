@@ -1,0 +1,11 @@
+[01m[K/home/dihim/me326_ws/src/arm_controller/src/moveit_interface.cpp:[m[K In member function ‘[01m[Kvoid MyNode::pick_callback(geometry_msgs::msg::PoseStamped) const[m[K’:
+[01m[K/home/dihim/me326_ws/src/arm_controller/src/moveit_interface.cpp:66:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kmessage[m[K’ was not declared in this scope
+   66 |         [01;31m[Kmessage[m[K.data = true;
+      |         [01;31m[K^~~~~~~[m[K
+[01m[K/home/dihim/me326_ws/src/arm_controller/src/moveit_interface.cpp:[m[K In member function ‘[01m[Kvoid MyNode::drop_callback(geometry_msgs::msg::PoseStamped) const[m[K’:
+[01m[K/home/dihim/me326_ws/src/arm_controller/src/moveit_interface.cpp:85:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kmessage[m[K’ was not declared in this scope
+   85 |         [01;31m[Kmessage[m[K.data = true;
+      |         [01;31m[K^~~~~~~[m[K
+make[2]: *** [CMakeFiles/arm_controller.dir/build.make:63: CMakeFiles/arm_controller.dir/src/moveit_interface.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/arm_controller.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

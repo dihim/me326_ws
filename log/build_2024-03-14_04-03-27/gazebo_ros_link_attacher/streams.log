@@ -1,0 +1,130 @@
+[3.380s] Invoking command in '/home/dihim/me326_ws/build/gazebo_ros_link_attacher': CMAKE_PREFIX_PATH=/home/dihim/me326_ws/install/locobot_yicheng:/home/dihim/me326_ws/install/la_msgs:/home/dihim/me326_ws/install/arm_controller:/home/dihim/me326_ws/install/locobot_controller:/home/dihim/interbotix_ws/install/interbotix_xs_modules:/home/dihim/interbotix_ws/install/interbotix_perception_modules:/home/dihim/interbotix_ws/install/interbotix_common_modules:/opt/ros/galactic:/home/dihim/me326_ws/install/gazebo_ros_link_attacher:/home/dihim/interbotix_ws/install/interbotix_moveit_interface:/home/dihim/interbotix_ws/install/arm_controller:/home/dihim/interbotix_ws/install/moveit_visual_tools:/home/dihim/interbotix_ws/install/interbotix_xslocobot_sim:/home/dihim/interbotix_ws/install/interbotix_xslocobot_moveit:/home/dihim/interbotix_ws/install/interbotix_xslocobot_descriptions:/home/dihim/interbotix_ws/install/interbotix_xs_toolbox:/home/dihim/interbotix_ws/install/interbotix_xs_rviz:/home/dihim/interbotix_ws/install/interbotix_xs_ros_control:/home/dihim/interbotix_ws/install/interbotix_perception_toolbox:/home/dihim/interbotix_ws/install/interbotix_perception_pipelines:/home/dihim/interbotix_ws/install/interbotix_xs_msgs:/home/dihim/interbotix_ws/install/interbotix_tf_tools:/home/dihim/interbotix_ws/install/interbotix_perception_msgs:/home/dihim/interbotix_ws/install/interbotix_moveit_interface_msgs:/home/dihim/interbotix_ws/install/interbotix_common_toolbox:/home/dihim/interbotix_ws/install/interbotix_common_sim /usr/bin/cmake --build /home/dihim/me326_ws/build/gazebo_ros_link_attacher -- -j4 -l4
+[4.572s] [  3%] Built target gazebo_ros_link_attacher__cpp
+[4.572s] [ 12%] Built target gazebo_ros_link_attacher__rosidl_generator_c
+[4.572s] [ 21%] Built target gazebo_ros_link_attacher__rosidl_typesupport_cpp
+[4.603s] [ 30%] Built target gazebo_ros_link_attacher__rosidl_typesupport_introspection_c
+[4.802s] [ 39%] Built target gazebo_ros_link_attacher__rosidl_typesupport_c
+[4.932s] [ 48%] Built target gazebo_ros_link_attacher__rosidl_typesupport_fastrtps_cpp
+[5.043s] [ 57%] Built target gazebo_ros_link_attacher__rosidl_typesupport_introspection_cpp
+[5.283s] [ 66%] Built target gazebo_ros_link_attacher__rosidl_typesupport_fastrtps_c
+[5.513s] [ 66%] Built target gazebo_ros_link_attacher
+[5.654s] [ 69%] Built target gazebo_ros_link_attacher__py
+[5.978s] [ 75%] Built target gazebo_ros_link_attacher_plugin
+[6.134s] [ 81%] Built target gazebo_ros_link_attacher__python
+[6.402s] [ 87%] Built target gazebo_ros_link_attacher__rosidl_typesupport_c__pyext
+[6.530s] [ 93%] Built target gazebo_ros_link_attacher__rosidl_typesupport_fastrtps_c__pyext
+[6.733s] [100%] Built target gazebo_ros_link_attacher__rosidl_typesupport_introspection_c__pyext
+[7.713s] Invoked command in '/home/dihim/me326_ws/build/gazebo_ros_link_attacher' returned '0': CMAKE_PREFIX_PATH=/home/dihim/me326_ws/install/locobot_yicheng:/home/dihim/me326_ws/install/la_msgs:/home/dihim/me326_ws/install/arm_controller:/home/dihim/me326_ws/install/locobot_controller:/home/dihim/interbotix_ws/install/interbotix_xs_modules:/home/dihim/interbotix_ws/install/interbotix_perception_modules:/home/dihim/interbotix_ws/install/interbotix_common_modules:/opt/ros/galactic:/home/dihim/me326_ws/install/gazebo_ros_link_attacher:/home/dihim/interbotix_ws/install/interbotix_moveit_interface:/home/dihim/interbotix_ws/install/arm_controller:/home/dihim/interbotix_ws/install/moveit_visual_tools:/home/dihim/interbotix_ws/install/interbotix_xslocobot_sim:/home/dihim/interbotix_ws/install/interbotix_xslocobot_moveit:/home/dihim/interbotix_ws/install/interbotix_xslocobot_descriptions:/home/dihim/interbotix_ws/install/interbotix_xs_toolbox:/home/dihim/interbotix_ws/install/interbotix_xs_rviz:/home/dihim/interbotix_ws/install/interbotix_xs_ros_control:/home/dihim/interbotix_ws/install/interbotix_perception_toolbox:/home/dihim/interbotix_ws/install/interbotix_perception_pipelines:/home/dihim/interbotix_ws/install/interbotix_xs_msgs:/home/dihim/interbotix_ws/install/interbotix_tf_tools:/home/dihim/interbotix_ws/install/interbotix_perception_msgs:/home/dihim/interbotix_ws/install/interbotix_moveit_interface_msgs:/home/dihim/interbotix_ws/install/interbotix_common_toolbox:/home/dihim/interbotix_ws/install/interbotix_common_sim /usr/bin/cmake --build /home/dihim/me326_ws/build/gazebo_ros_link_attacher -- -j4 -l4
+[9.661s] Invoking command in '/home/dihim/me326_ws/build/gazebo_ros_link_attacher': CMAKE_PREFIX_PATH=/home/dihim/me326_ws/install/locobot_yicheng:/home/dihim/me326_ws/install/la_msgs:/home/dihim/me326_ws/install/arm_controller:/home/dihim/me326_ws/install/locobot_controller:/home/dihim/interbotix_ws/install/interbotix_xs_modules:/home/dihim/interbotix_ws/install/interbotix_perception_modules:/home/dihim/interbotix_ws/install/interbotix_common_modules:/opt/ros/galactic:/home/dihim/me326_ws/install/gazebo_ros_link_attacher:/home/dihim/interbotix_ws/install/interbotix_moveit_interface:/home/dihim/interbotix_ws/install/arm_controller:/home/dihim/interbotix_ws/install/moveit_visual_tools:/home/dihim/interbotix_ws/install/interbotix_xslocobot_sim:/home/dihim/interbotix_ws/install/interbotix_xslocobot_moveit:/home/dihim/interbotix_ws/install/interbotix_xslocobot_descriptions:/home/dihim/interbotix_ws/install/interbotix_xs_toolbox:/home/dihim/interbotix_ws/install/interbotix_xs_rviz:/home/dihim/interbotix_ws/install/interbotix_xs_ros_control:/home/dihim/interbotix_ws/install/interbotix_perception_toolbox:/home/dihim/interbotix_ws/install/interbotix_perception_pipelines:/home/dihim/interbotix_ws/install/interbotix_xs_msgs:/home/dihim/interbotix_ws/install/interbotix_tf_tools:/home/dihim/interbotix_ws/install/interbotix_perception_msgs:/home/dihim/interbotix_ws/install/interbotix_moveit_interface_msgs:/home/dihim/interbotix_ws/install/interbotix_common_toolbox:/home/dihim/interbotix_ws/install/interbotix_common_sim /usr/bin/cmake --install /home/dihim/me326_ws/build/gazebo_ros_link_attacher
+[9.691s] -- Install configuration: ""
+[9.691s] -- Up-to-date: /home/dihim/me326_ws/install/gazebo_ros_link_attacher/share/ament_index/resource_index/rosidl_interfaces/gazebo_ros_link_attacher
+[9.691s] -- Up-to-date: /home/dihim/me326_ws/install/gazebo_ros_link_attacher/include/gazebo_ros_link_attacher
+[9.692s] -- Up-to-date: /home/dihim/me326_ws/install/gazebo_ros_link_attacher/include/gazebo_ros_link_attacher/msg
+[9.692s] -- Up-to-date: /home/dihim/me326_ws/install/gazebo_ros_link_attacher/include/gazebo_ros_link_attacher/msg/rosidl_generator_c__visibility_control.h
+[9.692s] -- Up-to-date: /home/dihim/me326_ws/install/gazebo_ros_link_attacher/include/gazebo_ros_link_attacher/srv
+[9.692s] -- Up-to-date: /home/dihim/me326_ws/install/gazebo_ros_link_attacher/include/gazebo_ros_link_attacher/srv/detail
+[9.692s] -- Up-to-date: /home/dihim/me326_ws/install/gazebo_ros_link_attacher/include/gazebo_ros_link_attacher/srv/detail/attach__struct.h
+[9.692s] -- Up-to-date: /home/dihim/me326_ws/install/gazebo_ros_link_attacher/include/gazebo_ros_link_attacher/srv/detail/attach__type_support.h
+[9.692s] -- Up-to-date: /home/dihim/me326_ws/install/gazebo_ros_link_attacher/include/gazebo_ros_link_attacher/srv/detail/attach__functions.c
+[9.692s] -- Up-to-date: /home/dihim/me326_ws/install/gazebo_ros_link_attacher/include/gazebo_ros_link_attacher/srv/detail/attach__functions.h
+[9.692s] -- Up-to-date: /home/dihim/me326_ws/install/gazebo_ros_link_attacher/include/gazebo_ros_link_attacher/srv/attach.h
+[9.694s] -- Up-to-date: /home/dihim/me326_ws/install/gazebo_ros_link_attacher/share/gazebo_ros_link_attacher/environment/library_path.sh
+[9.694s] -- Up-to-date: /home/dihim/me326_ws/install/gazebo_ros_link_attacher/share/gazebo_ros_link_attacher/environment/library_path.dsv
+[9.694s] -- Up-to-date: /home/dihim/me326_ws/install/gazebo_ros_link_attacher/lib/libgazebo_ros_link_attacher__rosidl_generator_c.so
+[9.695s] -- Up-to-date: /home/dihim/me326_ws/install/gazebo_ros_link_attacher/include/gazebo_ros_link_attacher
+[9.695s] -- Up-to-date: /home/dihim/me326_ws/install/gazebo_ros_link_attacher/include/gazebo_ros_link_attacher/msg
+[9.695s] -- Up-to-date: /home/dihim/me326_ws/install/gazebo_ros_link_attacher/include/gazebo_ros_link_attacher/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[9.695s] -- Up-to-date: /home/dihim/me326_ws/install/gazebo_ros_link_attacher/include/gazebo_ros_link_attacher/srv
+[9.695s] -- Up-to-date: /home/dihim/me326_ws/install/gazebo_ros_link_attacher/include/gazebo_ros_link_attacher/srv/detail
+[9.696s] -- Up-to-date: /home/dihim/me326_ws/install/gazebo_ros_link_attacher/include/gazebo_ros_link_attacher/srv/detail/attach__rosidl_typesupport_fastrtps_c.h
+[9.697s] -- Up-to-date: /home/dihim/me326_ws/install/gazebo_ros_link_attacher/lib/libgazebo_ros_link_attacher__rosidl_typesupport_fastrtps_c.so
+[9.698s] -- Up-to-date: /home/dihim/me326_ws/install/gazebo_ros_link_attacher/include/gazebo_ros_link_attacher
+[9.698s] -- Up-to-date: /home/dihim/me326_ws/install/gazebo_ros_link_attacher/include/gazebo_ros_link_attacher/msg
+[9.698s] -- Up-to-date: /home/dihim/me326_ws/install/gazebo_ros_link_attacher/include/gazebo_ros_link_attacher/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[9.698s] -- Up-to-date: /home/dihim/me326_ws/install/gazebo_ros_link_attacher/include/gazebo_ros_link_attacher/srv
+[9.699s] -- Up-to-date: /home/dihim/me326_ws/install/gazebo_ros_link_attacher/include/gazebo_ros_link_attacher/srv/detail
+[9.699s] -- Up-to-date: /home/dihim/me326_ws/install/gazebo_ros_link_attacher/include/gazebo_ros_link_attacher/srv/detail/attach__rosidl_typesupport_fastrtps_cpp.hpp
+[9.700s] -- Up-to-date: /home/dihim/me326_ws/install/gazebo_ros_link_attacher/include/gazebo_ros_link_attacher/srv/detail/dds_fastrtps
+[9.701s] -- Up-to-date: /home/dihim/me326_ws/install/gazebo_ros_link_attacher/lib/libgazebo_ros_link_attacher__rosidl_typesupport_fastrtps_cpp.so
+[9.701s] -- Up-to-date: /home/dihim/me326_ws/install/gazebo_ros_link_attacher/include/gazebo_ros_link_attacher
+[9.702s] -- Up-to-date: /home/dihim/me326_ws/install/gazebo_ros_link_attacher/include/gazebo_ros_link_attacher/msg
+[9.702s] -- Up-to-date: /home/dihim/me326_ws/install/gazebo_ros_link_attacher/include/gazebo_ros_link_attacher/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[9.703s] -- Up-to-date: /home/dihim/me326_ws/install/gazebo_ros_link_attacher/include/gazebo_ros_link_attacher/srv
+[9.703s] -- Up-to-date: /home/dihim/me326_ws/install/gazebo_ros_link_attacher/include/gazebo_ros_link_attacher/srv/detail
+[9.703s] -- Up-to-date: /home/dihim/me326_ws/install/gazebo_ros_link_attacher/include/gazebo_ros_link_attacher/srv/detail/attach__rosidl_typesupport_introspection_c.h
+[9.703s] -- Up-to-date: /home/dihim/me326_ws/install/gazebo_ros_link_attacher/include/gazebo_ros_link_attacher/srv/detail/attach__type_support.c
+[9.704s] -- Up-to-date: /home/dihim/me326_ws/install/gazebo_ros_link_attacher/lib/libgazebo_ros_link_attacher__rosidl_typesupport_introspection_c.so
+[9.706s] -- Up-to-date: /home/dihim/me326_ws/install/gazebo_ros_link_attacher/lib/libgazebo_ros_link_attacher__rosidl_typesupport_c.so
+[9.706s] -- Up-to-date: /home/dihim/me326_ws/install/gazebo_ros_link_attacher/include/gazebo_ros_link_attacher
+[9.707s] -- Up-to-date: /home/dihim/me326_ws/install/gazebo_ros_link_attacher/include/gazebo_ros_link_attacher/srv
+[9.707s] -- Up-to-date: /home/dihim/me326_ws/install/gazebo_ros_link_attacher/include/gazebo_ros_link_attacher/srv/detail
+[9.707s] -- Up-to-date: /home/dihim/me326_ws/install/gazebo_ros_link_attacher/include/gazebo_ros_link_attacher/srv/detail/attach__struct.hpp
+[9.707s] -- Up-to-date: /home/dihim/me326_ws/install/gazebo_ros_link_attacher/include/gazebo_ros_link_attacher/srv/detail/attach__traits.hpp
+[9.707s] -- Up-to-date: /home/dihim/me326_ws/install/gazebo_ros_link_attacher/include/gazebo_ros_link_attacher/srv/detail/attach__builder.hpp
+[9.708s] -- Up-to-date: /home/dihim/me326_ws/install/gazebo_ros_link_attacher/include/gazebo_ros_link_attacher/srv/attach.hpp
+[9.708s] -- Up-to-date: /home/dihim/me326_ws/install/gazebo_ros_link_attacher/include/gazebo_ros_link_attacher
+[9.709s] -- Up-to-date: /home/dihim/me326_ws/install/gazebo_ros_link_attacher/include/gazebo_ros_link_attacher/srv
+[9.709s] -- Up-to-date: /home/dihim/me326_ws/install/gazebo_ros_link_attacher/include/gazebo_ros_link_attacher/srv/detail
+[9.709s] -- Up-to-date: /home/dihim/me326_ws/install/gazebo_ros_link_attacher/include/gazebo_ros_link_attacher/srv/detail/attach__rosidl_typesupport_introspection_cpp.hpp
+[9.709s] -- Up-to-date: /home/dihim/me326_ws/install/gazebo_ros_link_attacher/include/gazebo_ros_link_attacher/srv/detail/attach__type_support.cpp
+[9.710s] -- Up-to-date: /home/dihim/me326_ws/install/gazebo_ros_link_attacher/lib/libgazebo_ros_link_attacher__rosidl_typesupport_introspection_cpp.so
+[9.710s] -- Up-to-date: /home/dihim/me326_ws/install/gazebo_ros_link_attacher/lib/libgazebo_ros_link_attacher__rosidl_typesupport_cpp.so
+[9.711s] -- Up-to-date: /home/dihim/me326_ws/install/gazebo_ros_link_attacher/share/gazebo_ros_link_attacher/environment/pythonpath.sh
+[9.711s] -- Up-to-date: /home/dihim/me326_ws/install/gazebo_ros_link_attacher/share/gazebo_ros_link_attacher/environment/pythonpath.dsv
+[9.711s] -- Up-to-date: /home/dihim/me326_ws/install/gazebo_ros_link_attacher/lib/python3.8/site-packages/gazebo_ros_link_attacher/__init__.py
+[9.844s] -- Up-to-date: /home/dihim/me326_ws/install/gazebo_ros_link_attacher/lib/python3.8/site-packages/gazebo_ros_link_attacher/srv
+[9.845s] -- Up-to-date: /home/dihim/me326_ws/install/gazebo_ros_link_attacher/lib/python3.8/site-packages/gazebo_ros_link_attacher/srv/__init__.py
+[9.845s] -- Up-to-date: /home/dihim/me326_ws/install/gazebo_ros_link_attacher/lib/python3.8/site-packages/gazebo_ros_link_attacher/srv/_attach.py
+[9.845s] -- Up-to-date: /home/dihim/me326_ws/install/gazebo_ros_link_attacher/lib/python3.8/site-packages/gazebo_ros_link_attacher/srv/_attach_s.c
+[9.845s] -- Up-to-date: /home/dihim/me326_ws/install/gazebo_ros_link_attacher/lib/python3.8/site-packages/gazebo_ros_link_attacher/gazebo_ros_link_attacher_s__rosidl_typesupport_fastrtps_c.cpython-38-aarch64-linux-gnu.so
+[9.847s] -- Up-to-date: /home/dihim/me326_ws/install/gazebo_ros_link_attacher/lib/python3.8/site-packages/gazebo_ros_link_attacher/gazebo_ros_link_attacher_s__rosidl_typesupport_introspection_c.cpython-38-aarch64-linux-gnu.so
+[9.848s] -- Up-to-date: /home/dihim/me326_ws/install/gazebo_ros_link_attacher/lib/python3.8/site-packages/gazebo_ros_link_attacher/gazebo_ros_link_attacher_s__rosidl_typesupport_c.cpython-38-aarch64-linux-gnu.so
+[9.850s] -- Up-to-date: /home/dihim/me326_ws/install/gazebo_ros_link_attacher/lib/libgazebo_ros_link_attacher__python.so
+[9.850s] -- Up-to-date: /home/dihim/me326_ws/install/gazebo_ros_link_attacher/share/gazebo_ros_link_attacher/srv/Attach.idl
+[9.850s] -- Up-to-date: /home/dihim/me326_ws/install/gazebo_ros_link_attacher/share/gazebo_ros_link_attacher/srv/Attach.srv
+[9.850s] -- Up-to-date: /home/dihim/me326_ws/install/gazebo_ros_link_attacher/share/gazebo_ros_link_attacher/srv/Attach_Request.msg
+[9.850s] -- Up-to-date: /home/dihim/me326_ws/install/gazebo_ros_link_attacher/share/gazebo_ros_link_attacher/srv/Attach_Response.msg
+[9.852s] -- Up-to-date: /home/dihim/me326_ws/install/gazebo_ros_link_attacher/lib/libgazebo_ros_link_attacher_plugin.so
+[9.852s] -- Up-to-date: /home/dihim/me326_ws/install/gazebo_ros_link_attacher/lib/gazebo_ros_link_attacher/demo.py
+[9.852s] -- Up-to-date: /home/dihim/me326_ws/install/gazebo_ros_link_attacher/lib/gazebo_ros_link_attacher/demo_multiple.py
+[9.852s] -- Up-to-date: /home/dihim/me326_ws/install/gazebo_ros_link_attacher/lib/gazebo_ros_link_attacher/spawn_models.py
+[9.852s] -- Up-to-date: /home/dihim/me326_ws/install/gazebo_ros_link_attacher/lib/gazebo_ros_link_attacher/attach.py
+[9.852s] -- Up-to-date: /home/dihim/me326_ws/install/gazebo_ros_link_attacher/lib/gazebo_ros_link_attacher/detach.py
+[9.852s] -- Up-to-date: /home/dihim/me326_ws/install/gazebo_ros_link_attacher/share/gazebo_ros_link_attacher/launch
+[9.852s] -- Up-to-date: /home/dihim/me326_ws/install/gazebo_ros_link_attacher/share/gazebo_ros_link_attacher/launch/test_attacher.py
+[9.852s] -- Up-to-date: /home/dihim/me326_ws/install/gazebo_ros_link_attacher/share/gazebo_ros_link_attacher/worlds
+[9.852s] -- Up-to-date: /home/dihim/me326_ws/install/gazebo_ros_link_attacher/share/gazebo_ros_link_attacher/worlds/test_attacher.world
+[9.852s] -- Up-to-date: /home/dihim/me326_ws/install/gazebo_ros_link_attacher/share/ament_index/resource_index/package_run_dependencies/gazebo_ros_link_attacher
+[9.852s] -- Up-to-date: /home/dihim/me326_ws/install/gazebo_ros_link_attacher/share/ament_index/resource_index/parent_prefix_path/gazebo_ros_link_attacher
+[9.852s] -- Up-to-date: /home/dihim/me326_ws/install/gazebo_ros_link_attacher/share/gazebo_ros_link_attacher/environment/ament_prefix_path.sh
+[9.852s] -- Up-to-date: /home/dihim/me326_ws/install/gazebo_ros_link_attacher/share/gazebo_ros_link_attacher/environment/ament_prefix_path.dsv
+[9.852s] -- Up-to-date: /home/dihim/me326_ws/install/gazebo_ros_link_attacher/share/gazebo_ros_link_attacher/environment/path.sh
+[9.852s] -- Up-to-date: /home/dihim/me326_ws/install/gazebo_ros_link_attacher/share/gazebo_ros_link_attacher/environment/path.dsv
+[9.852s] -- Up-to-date: /home/dihim/me326_ws/install/gazebo_ros_link_attacher/share/gazebo_ros_link_attacher/local_setup.bash
+[9.852s] -- Up-to-date: /home/dihim/me326_ws/install/gazebo_ros_link_attacher/share/gazebo_ros_link_attacher/local_setup.sh
+[9.852s] -- Up-to-date: /home/dihim/me326_ws/install/gazebo_ros_link_attacher/share/gazebo_ros_link_attacher/local_setup.zsh
+[9.852s] -- Up-to-date: /home/dihim/me326_ws/install/gazebo_ros_link_attacher/share/gazebo_ros_link_attacher/local_setup.dsv
+[9.852s] -- Installing: /home/dihim/me326_ws/install/gazebo_ros_link_attacher/share/gazebo_ros_link_attacher/package.dsv
+[9.853s] -- Up-to-date: /home/dihim/me326_ws/install/gazebo_ros_link_attacher/share/ament_index/resource_index/packages/gazebo_ros_link_attacher
+[9.853s] -- Up-to-date: /home/dihim/me326_ws/install/gazebo_ros_link_attacher/share/gazebo_ros_link_attacher/cmake/gazebo_ros_link_attacher__rosidl_generator_cExport.cmake
+[9.853s] -- Up-to-date: /home/dihim/me326_ws/install/gazebo_ros_link_attacher/share/gazebo_ros_link_attacher/cmake/gazebo_ros_link_attacher__rosidl_generator_cExport-noconfig.cmake
+[9.853s] -- Up-to-date: /home/dihim/me326_ws/install/gazebo_ros_link_attacher/share/gazebo_ros_link_attacher/cmake/gazebo_ros_link_attacher__rosidl_typesupport_introspection_cExport.cmake
+[9.853s] -- Up-to-date: /home/dihim/me326_ws/install/gazebo_ros_link_attacher/share/gazebo_ros_link_attacher/cmake/gazebo_ros_link_attacher__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[9.855s] -- Up-to-date: /home/dihim/me326_ws/install/gazebo_ros_link_attacher/share/gazebo_ros_link_attacher/cmake/gazebo_ros_link_attacher__rosidl_typesupport_cExport.cmake
+[9.855s] -- Up-to-date: /home/dihim/me326_ws/install/gazebo_ros_link_attacher/share/gazebo_ros_link_attacher/cmake/gazebo_ros_link_attacher__rosidl_typesupport_cExport-noconfig.cmake
+[9.856s] -- Up-to-date: /home/dihim/me326_ws/install/gazebo_ros_link_attacher/share/gazebo_ros_link_attacher/cmake/gazebo_ros_link_attacher__rosidl_generator_cppExport.cmake
+[9.856s] -- Up-to-date: /home/dihim/me326_ws/install/gazebo_ros_link_attacher/share/gazebo_ros_link_attacher/cmake/gazebo_ros_link_attacher__rosidl_typesupport_introspection_cppExport.cmake
+[9.856s] -- Up-to-date: /home/dihim/me326_ws/install/gazebo_ros_link_attacher/share/gazebo_ros_link_attacher/cmake/gazebo_ros_link_attacher__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[9.857s] -- Up-to-date: /home/dihim/me326_ws/install/gazebo_ros_link_attacher/share/gazebo_ros_link_attacher/cmake/gazebo_ros_link_attacher__rosidl_typesupport_cppExport.cmake
+[9.857s] -- Up-to-date: /home/dihim/me326_ws/install/gazebo_ros_link_attacher/share/gazebo_ros_link_attacher/cmake/gazebo_ros_link_attacher__rosidl_typesupport_cppExport-noconfig.cmake
+[9.857s] -- Up-to-date: /home/dihim/me326_ws/install/gazebo_ros_link_attacher/share/gazebo_ros_link_attacher/cmake/rosidl_cmake-extras.cmake
+[9.857s] -- Up-to-date: /home/dihim/me326_ws/install/gazebo_ros_link_attacher/share/gazebo_ros_link_attacher/cmake/ament_cmake_export_dependencies-extras.cmake
+[9.857s] -- Up-to-date: /home/dihim/me326_ws/install/gazebo_ros_link_attacher/share/gazebo_ros_link_attacher/cmake/ament_cmake_export_libraries-extras.cmake
+[9.857s] -- Up-to-date: /home/dihim/me326_ws/install/gazebo_ros_link_attacher/share/gazebo_ros_link_attacher/cmake/ament_cmake_export_targets-extras.cmake
+[9.857s] -- Up-to-date: /home/dihim/me326_ws/install/gazebo_ros_link_attacher/share/gazebo_ros_link_attacher/cmake/ament_cmake_export_include_directories-extras.cmake
+[9.857s] -- Up-to-date: /home/dihim/me326_ws/install/gazebo_ros_link_attacher/share/gazebo_ros_link_attacher/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[9.857s] -- Up-to-date: /home/dihim/me326_ws/install/gazebo_ros_link_attacher/share/gazebo_ros_link_attacher/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[9.857s] -- Up-to-date: /home/dihim/me326_ws/install/gazebo_ros_link_attacher/share/gazebo_ros_link_attacher/cmake/gazebo_ros_link_attacherConfig.cmake
+[9.857s] -- Up-to-date: /home/dihim/me326_ws/install/gazebo_ros_link_attacher/share/gazebo_ros_link_attacher/cmake/gazebo_ros_link_attacherConfig-version.cmake
+[9.857s] -- Up-to-date: /home/dihim/me326_ws/install/gazebo_ros_link_attacher/share/gazebo_ros_link_attacher/package.xml
+[9.859s] Invoked command in '/home/dihim/me326_ws/build/gazebo_ros_link_attacher' returned '0': CMAKE_PREFIX_PATH=/home/dihim/me326_ws/install/locobot_yicheng:/home/dihim/me326_ws/install/la_msgs:/home/dihim/me326_ws/install/arm_controller:/home/dihim/me326_ws/install/locobot_controller:/home/dihim/interbotix_ws/install/interbotix_xs_modules:/home/dihim/interbotix_ws/install/interbotix_perception_modules:/home/dihim/interbotix_ws/install/interbotix_common_modules:/opt/ros/galactic:/home/dihim/me326_ws/install/gazebo_ros_link_attacher:/home/dihim/interbotix_ws/install/interbotix_moveit_interface:/home/dihim/interbotix_ws/install/arm_controller:/home/dihim/interbotix_ws/install/moveit_visual_tools:/home/dihim/interbotix_ws/install/interbotix_xslocobot_sim:/home/dihim/interbotix_ws/install/interbotix_xslocobot_moveit:/home/dihim/interbotix_ws/install/interbotix_xslocobot_descriptions:/home/dihim/interbotix_ws/install/interbotix_xs_toolbox:/home/dihim/interbotix_ws/install/interbotix_xs_rviz:/home/dihim/interbotix_ws/install/interbotix_xs_ros_control:/home/dihim/interbotix_ws/install/interbotix_perception_toolbox:/home/dihim/interbotix_ws/install/interbotix_perception_pipelines:/home/dihim/interbotix_ws/install/interbotix_xs_msgs:/home/dihim/interbotix_ws/install/interbotix_tf_tools:/home/dihim/interbotix_ws/install/interbotix_perception_msgs:/home/dihim/interbotix_ws/install/interbotix_moveit_interface_msgs:/home/dihim/interbotix_ws/install/interbotix_common_toolbox:/home/dihim/interbotix_ws/install/interbotix_common_sim /usr/bin/cmake --install /home/dihim/me326_ws/build/gazebo_ros_link_attacher

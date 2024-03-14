@@ -1,0 +1,9 @@
+[0.747s] Invoking command in '/home/dihim/me326_ws/build/arm_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dihim/interbotix_ws/install/interbotix_xs_modules:/home/dihim/interbotix_ws/install/interbotix_perception_modules:/home/dihim/interbotix_ws/install/interbotix_common_modules:/opt/ros/galactic /usr/bin/cmake --build /home/dihim/me326_ws/build/arm_controller -- -j4 -l4
+[1.057s] [ 33%] [32mBuilding CXX object CMakeFiles/arm_controller.dir/src/moveit_interface.cpp.o[0m
+[1.433s] [01m[K/home/dihim/me326_ws/src/arm_controller/src/moveit_interface.cpp:10:10:[m[K [01;31m[Kfatal error: [m[Ksrv/attach.hpp: No such file or directory
+[1.433s]    10 | #include [01;31m[K"srv/attach.hpp"[m[K
+[1.433s]       |          [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[1.433s] compilation terminated.
+[1.438s] make[2]: *** [CMakeFiles/arm_controller.dir/build.make:63: CMakeFiles/arm_controller.dir/src/moveit_interface.cpp.o] Error 1
+[1.438s] make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/arm_controller.dir/all] Error 2
+[1.438s] make: *** [Makefile:141: all] Error 2

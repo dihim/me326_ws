@@ -1,0 +1,33 @@
+[0.903s] Invoking command in '/home/dihim/me326_ws/build/arm_controller': CMAKE_PREFIX_PATH=/home/dihim/me326_ws/install/locobot_yicheng:/home/dihim/me326_ws/install/la_msgs:/home/dihim/me326_ws/install/arm_controller:/home/dihim/me326_ws/install/locobot_controller:/home/dihim/interbotix_ws/install/interbotix_xs_modules:/home/dihim/interbotix_ws/install/interbotix_perception_modules:/home/dihim/interbotix_ws/install/interbotix_common_modules:/opt/ros/galactic:/home/dihim/me326_ws/install/gazebo_ros_link_attacher:/home/dihim/interbotix_ws/install/interbotix_moveit_interface:/home/dihim/interbotix_ws/install/arm_controller:/home/dihim/interbotix_ws/install/moveit_visual_tools:/home/dihim/interbotix_ws/install/interbotix_xslocobot_sim:/home/dihim/interbotix_ws/install/interbotix_xslocobot_moveit:/home/dihim/interbotix_ws/install/interbotix_xslocobot_descriptions:/home/dihim/interbotix_ws/install/interbotix_xs_toolbox:/home/dihim/interbotix_ws/install/interbotix_xs_rviz:/home/dihim/interbotix_ws/install/interbotix_xs_ros_control:/home/dihim/interbotix_ws/install/interbotix_perception_toolbox:/home/dihim/interbotix_ws/install/interbotix_perception_pipelines:/home/dihim/interbotix_ws/install/interbotix_xs_msgs:/home/dihim/interbotix_ws/install/interbotix_tf_tools:/home/dihim/interbotix_ws/install/interbotix_perception_msgs:/home/dihim/interbotix_ws/install/interbotix_moveit_interface_msgs:/home/dihim/interbotix_ws/install/interbotix_common_toolbox:/home/dihim/interbotix_ws/install/interbotix_common_sim /usr/bin/cmake --build /home/dihim/me326_ws/build/arm_controller -- -j4 -l4
+[1.265s] [35m[1mScanning dependencies of target arm_controller[0m
+[1.265s] [ 33%] [32mBuilding CXX object CMakeFiles/arm_controller.dir/src/moveit_interface.cpp.o[0m
+[4.136s] [01m[K/home/dihim/me326_ws/src/arm_controller/src/moveit_interface.cpp:[m[K In member function ‘[01m[Kvoid MyNode::pick_callback(geometry_msgs::msg::PoseStamped) const[m[K’:
+[4.136s] [01m[K/home/dihim/me326_ws/src/arm_controller/src/moveit_interface.cpp:67:26:[m[K [01;31m[Kerror: [m[K‘[01m[Knode[m[K’ was not declared in this scope; did you mean ‘[01m[KNode[m[K’?
+[4.136s]    67 |         auto publisher = [01;31m[Knode[m[K->create_publisher<std_msgs::msg::Bool>("pick_block_response", 10);
+[4.136s]       |                          [01;31m[K^~~~[m[K
+[4.136s]       |                          [32m[KNode[m[K
+[4.136s] [01m[K/home/dihim/me326_ws/src/arm_controller/src/moveit_interface.cpp:67:68:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K>[m[K’ token
+[4.136s]    67 |   auto publisher = node->create_publisher<std_msgs::msg::Bool[01;31m[K>[m[K("pick_block_response", 10);
+[4.136s]       |                                                              [01;31m[K^[m[K
+[4.136s] 
+[4.136s] [01m[K/home/dihim/me326_ws/src/arm_controller/src/moveit_interface.cpp:67:70:[m[K [01;35m[Kwarning: [m[Kleft operand of comma operator has no effect [[01;35m[K-Wunused-value[m[K]
+[4.136s]    67 | auto publisher = node->create_publisher<std_msgs::msg::Bool>([01;35m[K"pick_block_response"[m[K, 10);
+[4.136s]       |                                                              [01;35m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[4.136s] 
+[4.138s] [01m[K/home/dihim/me326_ws/src/arm_controller/src/moveit_interface.cpp:[m[K In member function ‘[01m[Kvoid MyNode::drop_callback(geometry_msgs::msg::PoseStamped) const[m[K’:
+[4.138s] [01m[K/home/dihim/me326_ws/src/arm_controller/src/moveit_interface.cpp:87:26:[m[K [01;31m[Kerror: [m[K‘[01m[Knode[m[K’ was not declared in this scope; did you mean ‘[01m[KNode[m[K’?
+[4.138s]    87 |         auto publisher = [01;31m[Knode[m[K->create_publisher<std_msgs::msg::Bool>("drop_block_response", 10);
+[4.138s]       |                          [01;31m[K^~~~[m[K
+[4.138s]       |                          [32m[KNode[m[K
+[4.138s] [01m[K/home/dihim/me326_ws/src/arm_controller/src/moveit_interface.cpp:87:68:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K>[m[K’ token
+[4.138s]    87 |   auto publisher = node->create_publisher<std_msgs::msg::Bool[01;31m[K>[m[K("drop_block_response", 10);
+[4.138s]       |                                                              [01;31m[K^[m[K
+[4.138s] 
+[4.138s] [01m[K/home/dihim/me326_ws/src/arm_controller/src/moveit_interface.cpp:87:70:[m[K [01;35m[Kwarning: [m[Kleft operand of comma operator has no effect [[01;35m[K-Wunused-value[m[K]
+[4.138s]    87 | auto publisher = node->create_publisher<std_msgs::msg::Bool>([01;35m[K"drop_block_response"[m[K, 10);
+[4.138s]       |                                                              [01;35m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[4.138s] 
+[6.414s] make[2]: *** [CMakeFiles/arm_controller.dir/build.make:63: CMakeFiles/arm_controller.dir/src/moveit_interface.cpp.o] Error 1
+[6.414s] make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/arm_controller.dir/all] Error 2
+[6.414s] make: *** [Makefile:141: all] Error 2
+[6.416s] Invoked command in '/home/dihim/me326_ws/build/arm_controller' returned '2': CMAKE_PREFIX_PATH=/home/dihim/me326_ws/install/locobot_yicheng:/home/dihim/me326_ws/install/la_msgs:/home/dihim/me326_ws/install/arm_controller:/home/dihim/me326_ws/install/locobot_controller:/home/dihim/interbotix_ws/install/interbotix_xs_modules:/home/dihim/interbotix_ws/install/interbotix_perception_modules:/home/dihim/interbotix_ws/install/interbotix_common_modules:/opt/ros/galactic:/home/dihim/me326_ws/install/gazebo_ros_link_attacher:/home/dihim/interbotix_ws/install/interbotix_moveit_interface:/home/dihim/interbotix_ws/install/arm_controller:/home/dihim/interbotix_ws/install/moveit_visual_tools:/home/dihim/interbotix_ws/install/interbotix_xslocobot_sim:/home/dihim/interbotix_ws/install/interbotix_xslocobot_moveit:/home/dihim/interbotix_ws/install/interbotix_xslocobot_descriptions:/home/dihim/interbotix_ws/install/interbotix_xs_toolbox:/home/dihim/interbotix_ws/install/interbotix_xs_rviz:/home/dihim/interbotix_ws/install/interbotix_xs_ros_control:/home/dihim/interbotix_ws/install/interbotix_perception_toolbox:/home/dihim/interbotix_ws/install/interbotix_perception_pipelines:/home/dihim/interbotix_ws/install/interbotix_xs_msgs:/home/dihim/interbotix_ws/install/interbotix_tf_tools:/home/dihim/interbotix_ws/install/interbotix_perception_msgs:/home/dihim/interbotix_ws/install/interbotix_moveit_interface_msgs:/home/dihim/interbotix_ws/install/interbotix_common_toolbox:/home/dihim/interbotix_ws/install/interbotix_common_sim /usr/bin/cmake --build /home/dihim/me326_ws/build/arm_controller -- -j4 -l4
