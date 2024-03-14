@@ -20,6 +20,7 @@ from tf_transformations import quaternion_from_euler
 
 import math
 
+from std_msgs.msg import Bool
 
 
 class MoveBaseClient(Node):
@@ -69,7 +70,7 @@ class MoveBaseClient(Node):
 
         self.get_logger().info('MoveBaseClient has been initialized.')
 
-
+        self.reach_location_publisher = self.create_publisher(PoseStamped, 'reached_block', 10); 
 
     def robot_pose_callback(self, msg: Odometry):
 
@@ -212,8 +213,11 @@ class MoveBaseClient(Node):
         result = future.result()._result
 
         if result.done:
-
+            msg = PoseStamped() 
+            msg.Pose.Point = self.robot_position
+            msg.Pose.Orientation = self.robot_orientation 
             self.get_logger().info('Goal reached successfully.')
+            reach_location_publisher.publish(msg)
 
         else:
 
