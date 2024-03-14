@@ -118,8 +118,8 @@ bool InterbotixMoveItInterface::moveit_plan_joint_positions(
 
 bool InterbotixMoveItInterface::moveit_open_gripper(){
   std::vector<double> gripper_goal(2);
-  gripper_goal[0] = 0.03;
-	gripper_goal[1] = -0.03;
+  gripper_goal[0] = 1;
+	gripper_goal[1] = -1;
   gripper_move_group->setJointValueTarget(gripper_goal);
   bool success = (gripper_move_group->plan(saved_plan) == MoveItErrorCode::SUCCESS);
   if (success) {

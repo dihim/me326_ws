@@ -1,0 +1,153 @@
+[2.035s] Invoking command in '/home/dihim/me326_ws/build/la_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dihim/interbotix_ws/install/interbotix_xs_modules:/home/dihim/interbotix_ws/install/interbotix_perception_modules:/home/dihim/interbotix_ws/install/interbotix_common_modules:/opt/ros/galactic /usr/bin/cmake --build /home/dihim/me326_ws/build/la_msgs -- -j4 -l4
+[3.586s] [  2%] Built target la_msgs__cpp
+[3.587s] [ 12%] Built target la_msgs__rosidl_generator_c
+[3.587s] [ 23%] Built target la_msgs__rosidl_typesupport_fastrtps_cpp
+[3.587s] [ 33%] Built target la_msgs__rosidl_typesupport_c
+[3.587s] [ 43%] Built target la_msgs__rosidl_typesupport_introspection_c
+[3.709s] [ 53%] Built target la_msgs__rosidl_typesupport_fastrtps_c
+[3.984s] [ 64%] Built target la_msgs__rosidl_typesupport_introspection_cpp
+[4.169s] [ 74%] Built target la_msgs__rosidl_typesupport_cpp
+[4.318s] [ 74%] Built target la_msgs
+[4.508s] [ 76%] Built target la_msgs__py
+[4.632s] [ 84%] Built target la_msgs__python
+[4.896s] [ 89%] Built target la_msgs__rosidl_typesupport_c__pyext
+[5.235s] [ 94%] Built target la_msgs__rosidl_typesupport_fastrtps_c__pyext
+[5.492s] [100%] Built target la_msgs__rosidl_typesupport_introspection_c__pyext
+[5.941s] Invoked command in '/home/dihim/me326_ws/build/la_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dihim/interbotix_ws/install/interbotix_xs_modules:/home/dihim/interbotix_ws/install/interbotix_perception_modules:/home/dihim/interbotix_ws/install/interbotix_common_modules:/opt/ros/galactic /usr/bin/cmake --build /home/dihim/me326_ws/build/la_msgs -- -j4 -l4
+[6.680s] Invoking command in '/home/dihim/me326_ws/build/la_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dihim/interbotix_ws/install/interbotix_xs_modules:/home/dihim/interbotix_ws/install/interbotix_perception_modules:/home/dihim/interbotix_ws/install/interbotix_common_modules:/opt/ros/galactic /usr/bin/cmake --install /home/dihim/me326_ws/build/la_msgs
+[6.719s] -- Install configuration: ""
+[6.721s] -- Up-to-date: /home/dihim/me326_ws/install/la_msgs/share/ament_index/resource_index/rosidl_interfaces/la_msgs
+[6.723s] -- Up-to-date: /home/dihim/me326_ws/install/la_msgs/include/la_msgs
+[6.724s] -- Up-to-date: /home/dihim/me326_ws/install/la_msgs/include/la_msgs/action
+[6.725s] -- Up-to-date: /home/dihim/me326_ws/install/la_msgs/include/la_msgs/action/move_base.h
+[6.725s] -- Up-to-date: /home/dihim/me326_ws/install/la_msgs/include/la_msgs/action/detail
+[6.727s] -- Up-to-date: /home/dihim/me326_ws/install/la_msgs/include/la_msgs/action/detail/move_base__functions.c
+[6.727s] -- Up-to-date: /home/dihim/me326_ws/install/la_msgs/include/la_msgs/action/detail/move_base__type_support.h
+[6.728s] -- Up-to-date: /home/dihim/me326_ws/install/la_msgs/include/la_msgs/action/detail/move_base__struct.h
+[6.729s] -- Up-to-date: /home/dihim/me326_ws/install/la_msgs/include/la_msgs/action/detail/move_base__functions.h
+[6.729s] -- Up-to-date: /home/dihim/me326_ws/install/la_msgs/include/la_msgs/msg
+[6.730s] -- Up-to-date: /home/dihim/me326_ws/install/la_msgs/include/la_msgs/msg/rosidl_generator_c__visibility_control.h
+[6.730s] -- Up-to-date: /home/dihim/me326_ws/install/la_msgs/include/la_msgs/srv
+[6.731s] -- Up-to-date: /home/dihim/me326_ws/install/la_msgs/include/la_msgs/srv/detail
+[6.731s] -- Up-to-date: /home/dihim/me326_ws/install/la_msgs/include/la_msgs/srv/detail/ptps__type_support.h
+[6.732s] -- Up-to-date: /home/dihim/me326_ws/install/la_msgs/include/la_msgs/srv/detail/ptps__struct.h
+[6.732s] -- Up-to-date: /home/dihim/me326_ws/install/la_msgs/include/la_msgs/srv/detail/ptps__functions.h
+[6.733s] -- Up-to-date: /home/dihim/me326_ws/install/la_msgs/include/la_msgs/srv/detail/ptps__functions.c
+[6.734s] -- Up-to-date: /home/dihim/me326_ws/install/la_msgs/include/la_msgs/srv/ptps.h
+[6.734s] -- Up-to-date: /home/dihim/me326_ws/install/la_msgs/share/la_msgs/environment/library_path.sh
+[6.736s] -- Up-to-date: /home/dihim/me326_ws/install/la_msgs/share/la_msgs/environment/library_path.dsv
+[6.739s] -- Up-to-date: /home/dihim/me326_ws/install/la_msgs/lib/libla_msgs__rosidl_generator_c.so
+[6.740s] -- Up-to-date: /home/dihim/me326_ws/install/la_msgs/include/la_msgs
+[6.740s] -- Up-to-date: /home/dihim/me326_ws/install/la_msgs/include/la_msgs/action
+[6.741s] -- Up-to-date: /home/dihim/me326_ws/install/la_msgs/include/la_msgs/action/detail
+[6.741s] -- Up-to-date: /home/dihim/me326_ws/install/la_msgs/include/la_msgs/action/detail/move_base__rosidl_typesupport_fastrtps_c.h
+[6.742s] -- Up-to-date: /home/dihim/me326_ws/install/la_msgs/include/la_msgs/msg
+[6.743s] -- Up-to-date: /home/dihim/me326_ws/install/la_msgs/include/la_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[6.743s] -- Up-to-date: /home/dihim/me326_ws/install/la_msgs/include/la_msgs/srv
+[6.744s] -- Up-to-date: /home/dihim/me326_ws/install/la_msgs/include/la_msgs/srv/detail
+[6.744s] -- Up-to-date: /home/dihim/me326_ws/install/la_msgs/include/la_msgs/srv/detail/ptps__rosidl_typesupport_fastrtps_c.h
+[6.748s] -- Up-to-date: /home/dihim/me326_ws/install/la_msgs/lib/libla_msgs__rosidl_typesupport_fastrtps_c.so
+[6.750s] -- Up-to-date: /home/dihim/me326_ws/install/la_msgs/include/la_msgs
+[6.751s] -- Up-to-date: /home/dihim/me326_ws/install/la_msgs/include/la_msgs/action
+[6.751s] -- Up-to-date: /home/dihim/me326_ws/install/la_msgs/include/la_msgs/action/detail
+[6.752s] -- Up-to-date: /home/dihim/me326_ws/install/la_msgs/include/la_msgs/action/detail/move_base__rosidl_typesupport_fastrtps_cpp.hpp
+[6.752s] -- Up-to-date: /home/dihim/me326_ws/install/la_msgs/include/la_msgs/action/detail/dds_fastrtps
+[6.753s] -- Up-to-date: /home/dihim/me326_ws/install/la_msgs/include/la_msgs/msg
+[6.753s] -- Up-to-date: /home/dihim/me326_ws/install/la_msgs/include/la_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[6.753s] -- Up-to-date: /home/dihim/me326_ws/install/la_msgs/include/la_msgs/srv
+[6.754s] -- Up-to-date: /home/dihim/me326_ws/install/la_msgs/include/la_msgs/srv/detail
+[6.754s] -- Up-to-date: /home/dihim/me326_ws/install/la_msgs/include/la_msgs/srv/detail/ptps__rosidl_typesupport_fastrtps_cpp.hpp
+[6.754s] -- Up-to-date: /home/dihim/me326_ws/install/la_msgs/include/la_msgs/srv/detail/dds_fastrtps
+[6.758s] -- Up-to-date: /home/dihim/me326_ws/install/la_msgs/lib/libla_msgs__rosidl_typesupport_fastrtps_cpp.so
+[6.758s] -- Up-to-date: /home/dihim/me326_ws/install/la_msgs/include/la_msgs
+[6.758s] -- Up-to-date: /home/dihim/me326_ws/install/la_msgs/include/la_msgs/action
+[6.759s] -- Up-to-date: /home/dihim/me326_ws/install/la_msgs/include/la_msgs/action/detail
+[6.759s] -- Up-to-date: /home/dihim/me326_ws/install/la_msgs/include/la_msgs/action/detail/move_base__type_support.c
+[6.759s] -- Up-to-date: /home/dihim/me326_ws/install/la_msgs/include/la_msgs/action/detail/move_base__rosidl_typesupport_introspection_c.h
+[6.760s] -- Up-to-date: /home/dihim/me326_ws/install/la_msgs/include/la_msgs/msg
+[6.760s] -- Up-to-date: /home/dihim/me326_ws/install/la_msgs/include/la_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[6.760s] -- Up-to-date: /home/dihim/me326_ws/install/la_msgs/include/la_msgs/srv
+[6.760s] -- Up-to-date: /home/dihim/me326_ws/install/la_msgs/include/la_msgs/srv/detail
+[6.761s] -- Up-to-date: /home/dihim/me326_ws/install/la_msgs/include/la_msgs/srv/detail/ptps__rosidl_typesupport_introspection_c.h
+[6.761s] -- Up-to-date: /home/dihim/me326_ws/install/la_msgs/include/la_msgs/srv/detail/ptps__type_support.c
+[6.763s] -- Up-to-date: /home/dihim/me326_ws/install/la_msgs/lib/libla_msgs__rosidl_typesupport_introspection_c.so
+[6.771s] -- Up-to-date: /home/dihim/me326_ws/install/la_msgs/lib/libla_msgs__rosidl_typesupport_c.so
+[6.772s] -- Up-to-date: /home/dihim/me326_ws/install/la_msgs/include/la_msgs
+[6.772s] -- Up-to-date: /home/dihim/me326_ws/install/la_msgs/include/la_msgs/action
+[6.773s] -- Up-to-date: /home/dihim/me326_ws/install/la_msgs/include/la_msgs/action/detail
+[6.773s] -- Up-to-date: /home/dihim/me326_ws/install/la_msgs/include/la_msgs/action/detail/move_base__traits.hpp
+[6.773s] -- Up-to-date: /home/dihim/me326_ws/install/la_msgs/include/la_msgs/action/detail/move_base__builder.hpp
+[6.773s] -- Up-to-date: /home/dihim/me326_ws/install/la_msgs/include/la_msgs/action/detail/move_base__struct.hpp
+[6.773s] -- Up-to-date: /home/dihim/me326_ws/install/la_msgs/include/la_msgs/action/move_base.hpp
+[6.773s] -- Up-to-date: /home/dihim/me326_ws/install/la_msgs/include/la_msgs/srv
+[6.773s] -- Up-to-date: /home/dihim/me326_ws/install/la_msgs/include/la_msgs/srv/detail
+[6.773s] -- Up-to-date: /home/dihim/me326_ws/install/la_msgs/include/la_msgs/srv/detail/ptps__traits.hpp
+[6.773s] -- Up-to-date: /home/dihim/me326_ws/install/la_msgs/include/la_msgs/srv/detail/ptps__builder.hpp
+[6.773s] -- Up-to-date: /home/dihim/me326_ws/install/la_msgs/include/la_msgs/srv/detail/ptps__struct.hpp
+[6.773s] -- Up-to-date: /home/dihim/me326_ws/install/la_msgs/include/la_msgs/srv/ptps.hpp
+[6.773s] -- Up-to-date: /home/dihim/me326_ws/install/la_msgs/include/la_msgs
+[6.774s] -- Up-to-date: /home/dihim/me326_ws/install/la_msgs/include/la_msgs/action
+[6.774s] -- Up-to-date: /home/dihim/me326_ws/install/la_msgs/include/la_msgs/action/detail
+[6.774s] -- Up-to-date: /home/dihim/me326_ws/install/la_msgs/include/la_msgs/action/detail/move_base__rosidl_typesupport_introspection_cpp.hpp
+[6.774s] -- Up-to-date: /home/dihim/me326_ws/install/la_msgs/include/la_msgs/action/detail/move_base__type_support.cpp
+[6.774s] -- Up-to-date: /home/dihim/me326_ws/install/la_msgs/include/la_msgs/srv
+[6.774s] -- Up-to-date: /home/dihim/me326_ws/install/la_msgs/include/la_msgs/srv/detail
+[6.774s] -- Up-to-date: /home/dihim/me326_ws/install/la_msgs/include/la_msgs/srv/detail/ptps__type_support.cpp
+[6.774s] -- Up-to-date: /home/dihim/me326_ws/install/la_msgs/include/la_msgs/srv/detail/ptps__rosidl_typesupport_introspection_cpp.hpp
+[6.777s] -- Up-to-date: /home/dihim/me326_ws/install/la_msgs/lib/libla_msgs__rosidl_typesupport_introspection_cpp.so
+[6.779s] -- Up-to-date: /home/dihim/me326_ws/install/la_msgs/lib/libla_msgs__rosidl_typesupport_cpp.so
+[6.779s] -- Up-to-date: /home/dihim/me326_ws/install/la_msgs/share/la_msgs/environment/pythonpath.sh
+[6.779s] -- Up-to-date: /home/dihim/me326_ws/install/la_msgs/share/la_msgs/environment/pythonpath.dsv
+[6.780s] -- Up-to-date: /home/dihim/me326_ws/install/la_msgs/lib/python3.8/site-packages/la_msgs/__init__.py
+[6.863s] -- Up-to-date: /home/dihim/me326_ws/install/la_msgs/lib/python3.8/site-packages/la_msgs/action
+[6.863s] -- Up-to-date: /home/dihim/me326_ws/install/la_msgs/lib/python3.8/site-packages/la_msgs/action/__init__.py
+[6.863s] -- Up-to-date: /home/dihim/me326_ws/install/la_msgs/lib/python3.8/site-packages/la_msgs/action/_move_base_s.c
+[6.863s] -- Up-to-date: /home/dihim/me326_ws/install/la_msgs/lib/python3.8/site-packages/la_msgs/action/_move_base.py
+[6.863s] -- Up-to-date: /home/dihim/me326_ws/install/la_msgs/lib/python3.8/site-packages/la_msgs/srv
+[6.863s] -- Up-to-date: /home/dihim/me326_ws/install/la_msgs/lib/python3.8/site-packages/la_msgs/srv/__init__.py
+[6.863s] -- Up-to-date: /home/dihim/me326_ws/install/la_msgs/lib/python3.8/site-packages/la_msgs/srv/_ptps.py
+[6.863s] -- Up-to-date: /home/dihim/me326_ws/install/la_msgs/lib/python3.8/site-packages/la_msgs/srv/_ptps_s.c
+[6.865s] -- Up-to-date: /home/dihim/me326_ws/install/la_msgs/lib/python3.8/site-packages/la_msgs/la_msgs_s__rosidl_typesupport_fastrtps_c.cpython-38-aarch64-linux-gnu.so
+[6.866s] -- Up-to-date: /home/dihim/me326_ws/install/la_msgs/lib/python3.8/site-packages/la_msgs/la_msgs_s__rosidl_typesupport_introspection_c.cpython-38-aarch64-linux-gnu.so
+[6.868s] -- Up-to-date: /home/dihim/me326_ws/install/la_msgs/lib/python3.8/site-packages/la_msgs/la_msgs_s__rosidl_typesupport_c.cpython-38-aarch64-linux-gnu.so
+[6.869s] -- Up-to-date: /home/dihim/me326_ws/install/la_msgs/lib/libla_msgs__python.so
+[6.869s] -- Up-to-date: /home/dihim/me326_ws/install/la_msgs/share/la_msgs/action/MoveBase.idl
+[6.869s] -- Up-to-date: /home/dihim/me326_ws/install/la_msgs/share/la_msgs/srv/Ptps.idl
+[6.869s] -- Up-to-date: /home/dihim/me326_ws/install/la_msgs/share/la_msgs/action/MoveBase.action
+[6.869s] -- Up-to-date: /home/dihim/me326_ws/install/la_msgs/share/la_msgs/srv/Ptps.srv
+[6.869s] -- Up-to-date: /home/dihim/me326_ws/install/la_msgs/share/la_msgs/srv/Ptps_Request.msg
+[6.869s] -- Up-to-date: /home/dihim/me326_ws/install/la_msgs/share/la_msgs/srv/Ptps_Response.msg
+[6.869s] -- Up-to-date: /home/dihim/me326_ws/install/la_msgs/share/ament_index/resource_index/package_run_dependencies/la_msgs
+[6.869s] -- Up-to-date: /home/dihim/me326_ws/install/la_msgs/share/ament_index/resource_index/parent_prefix_path/la_msgs
+[6.869s] -- Up-to-date: /home/dihim/me326_ws/install/la_msgs/share/la_msgs/environment/ament_prefix_path.sh
+[6.869s] -- Up-to-date: /home/dihim/me326_ws/install/la_msgs/share/la_msgs/environment/ament_prefix_path.dsv
+[6.869s] -- Up-to-date: /home/dihim/me326_ws/install/la_msgs/share/la_msgs/environment/path.sh
+[6.869s] -- Up-to-date: /home/dihim/me326_ws/install/la_msgs/share/la_msgs/environment/path.dsv
+[6.869s] -- Up-to-date: /home/dihim/me326_ws/install/la_msgs/share/la_msgs/local_setup.bash
+[6.870s] -- Up-to-date: /home/dihim/me326_ws/install/la_msgs/share/la_msgs/local_setup.sh
+[6.870s] -- Up-to-date: /home/dihim/me326_ws/install/la_msgs/share/la_msgs/local_setup.zsh
+[6.870s] -- Up-to-date: /home/dihim/me326_ws/install/la_msgs/share/la_msgs/local_setup.dsv
+[6.870s] -- Installing: /home/dihim/me326_ws/install/la_msgs/share/la_msgs/package.dsv
+[6.873s] -- Up-to-date: /home/dihim/me326_ws/install/la_msgs/share/ament_index/resource_index/packages/la_msgs
+[6.874s] -- Up-to-date: /home/dihim/me326_ws/install/la_msgs/share/la_msgs/cmake/la_msgs__rosidl_generator_cExport.cmake
+[6.874s] -- Up-to-date: /home/dihim/me326_ws/install/la_msgs/share/la_msgs/cmake/la_msgs__rosidl_generator_cExport-noconfig.cmake
+[6.875s] -- Up-to-date: /home/dihim/me326_ws/install/la_msgs/share/la_msgs/cmake/la_msgs__rosidl_typesupport_introspection_cExport.cmake
+[6.875s] -- Up-to-date: /home/dihim/me326_ws/install/la_msgs/share/la_msgs/cmake/la_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[6.876s] -- Up-to-date: /home/dihim/me326_ws/install/la_msgs/share/la_msgs/cmake/la_msgs__rosidl_typesupport_cExport.cmake
+[6.876s] -- Up-to-date: /home/dihim/me326_ws/install/la_msgs/share/la_msgs/cmake/la_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[6.876s] -- Up-to-date: /home/dihim/me326_ws/install/la_msgs/share/la_msgs/cmake/la_msgs__rosidl_generator_cppExport.cmake
+[6.876s] -- Up-to-date: /home/dihim/me326_ws/install/la_msgs/share/la_msgs/cmake/la_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[6.876s] -- Up-to-date: /home/dihim/me326_ws/install/la_msgs/share/la_msgs/cmake/la_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[6.877s] -- Up-to-date: /home/dihim/me326_ws/install/la_msgs/share/la_msgs/cmake/la_msgs__rosidl_typesupport_cppExport.cmake
+[6.877s] -- Up-to-date: /home/dihim/me326_ws/install/la_msgs/share/la_msgs/cmake/la_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[6.877s] -- Up-to-date: /home/dihim/me326_ws/install/la_msgs/share/la_msgs/cmake/rosidl_cmake-extras.cmake
+[6.877s] -- Up-to-date: /home/dihim/me326_ws/install/la_msgs/share/la_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[6.877s] -- Up-to-date: /home/dihim/me326_ws/install/la_msgs/share/la_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[6.877s] -- Up-to-date: /home/dihim/me326_ws/install/la_msgs/share/la_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[6.877s] -- Up-to-date: /home/dihim/me326_ws/install/la_msgs/share/la_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[6.877s] -- Up-to-date: /home/dihim/me326_ws/install/la_msgs/share/la_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[6.877s] -- Up-to-date: /home/dihim/me326_ws/install/la_msgs/share/la_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[6.877s] -- Up-to-date: /home/dihim/me326_ws/install/la_msgs/share/la_msgs/cmake/la_msgsConfig.cmake
+[6.877s] -- Up-to-date: /home/dihim/me326_ws/install/la_msgs/share/la_msgs/cmake/la_msgsConfig-version.cmake
+[6.877s] -- Up-to-date: /home/dihim/me326_ws/install/la_msgs/share/la_msgs/package.xml
+[6.879s] Invoked command in '/home/dihim/me326_ws/build/la_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dihim/interbotix_ws/install/interbotix_xs_modules:/home/dihim/interbotix_ws/install/interbotix_perception_modules:/home/dihim/interbotix_ws/install/interbotix_common_modules:/opt/ros/galactic /usr/bin/cmake --install /home/dihim/me326_ws/build/la_msgs

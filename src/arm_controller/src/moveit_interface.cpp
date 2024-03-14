@@ -10,13 +10,14 @@
 #include "std_msgs/msg/bool.hpp"
 
 
-class MyNode : public rclcpp::Node {
+class MyNode : public rclcpp::Node, public std::enable_shared_from_this<MyNode> {
 public:
     MyNode()
     : Node("interbotix_moveit_node") {
         rclcpp::NodeOptions node_options;
         node_options.automatically_declare_parameters_from_overrides(true);
         auto node = std::make_shared<rclcpp::Node>("interbotix_moveit_node", node_options);
+        moveit_interface_ = std::make_shared<interbotix::InterbotixMoveItInterface>(node);
         geometry_msgs::msg::PoseStamped target_pose;
         target_pose.pose.position.x = 0.451367;
         target_pose.pose.position.y = 0.09671;
